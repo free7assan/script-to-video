@@ -6,11 +6,18 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import {
   ArrowLeft, Wand2, Loader2, Clock, Save, Trash2, Copy, Check, Plus,
-  ChevronUp, ChevronDown, ListOrdered, Play, FileText, BookOpen,
+  ChevronUp, ChevronDown, ListOrdered, Play, FileText, BookOpen, Shield,
 } from "lucide-react";
 import type { Channel, SavedAnalysis, Script } from "@/types";
 
-
+interface UsageInfo {
+  channels: number;
+  channelsLimit: number;
+  videos: number;
+  videosLimit: number;
+  scripts: number;
+  scriptsLimit: number;
+}
 
 export default function NewScriptPage() {
   return (
@@ -43,6 +50,7 @@ function NewScriptForm() {
   const [headings, setHeadings] = useState<{ heading: string; estimated_duration_seconds: number }[]>([]);
   const [scriptType, setScriptType] = useState<"blueprint" | "standard">("blueprint");
   const [includeVisuals, setIncludeVisuals] = useState(false);
+  const [usage, setUsage] = useState<UsageInfo | null>(null);
   const scriptAbortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
@@ -53,6 +61,10 @@ function NewScriptForm() {
     fetch("/api/video/analyses")
       .then((r) => r.json())
       .then((data) => setSavedAnalyses(data.analyses || []))
+      .catch(() => {});
+    fetch("/api/usage")
+      .then((r) => r.json())
+      .then(setUsage)
       .catch(() => {});
   }, []);
 
@@ -335,6 +347,13 @@ function NewScriptForm() {
               </div>
             </div>
             <div className="p-4">
+
+            {usage && usage.scripts >= usage.scriptsLimit && (
+              <div className="mb-4 p-3 rounded-xl border border-orange/20 bg-orange/5 text-sm text-muted-foreground flex items-center gap-2">
+                <Shield className="w-4 h-4 text-orange shrink-0" />
+                <span>Free plan limit reached. <Link href="/pricing" className="text-orange hover:underline">Upgrade</Link> to create more scripts.</span>
+              </div>
+            )}
 
             {/* Script Type Toggle */}
             <div className="flex gap-1.5 mb-4 p-1 rounded-xl bg-black/5 dark:bg-white/[0.04]">

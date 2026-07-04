@@ -233,59 +233,7 @@ async function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-// ─── Local (Ollama) ───────────────────────────────────────────────────────
 
-const LOCAL_BASE_URL = process.env.OLLAMA_BASE_URL || "http://localhost:11434/v1";
-
-function getLocalClient(): OpenAI {
-  return new OpenAI({
-    baseURL: LOCAL_BASE_URL,
-    apiKey: "ollama",
-    maxRetries: 1,
-  });
-}
-
-async function callLocal(
-  systemPrompt: string,
-  userPrompt: string,
-  model: string
-): Promise<unknown | null> {
-  try {
-    const client = getLocalClient();
-    const response = await client.chat.completions.create({
-      model,
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt },
-      ],
-      temperature: 0.3,
-      response_format: { type: "json_object" },
-    });
-
-    const content = response.choices[0]?.message?.content;
-    if (!content) throw new Error("Empty response from local model");
-
-    try {
-      return JSON.parse(content);
-    } catch {
-      return extractJSON(content);
-    }
-  } catch (error: any) {
-    const msg = error?.message || String(error);
-    if (msg.includes("ECONNREFUSED") || msg.includes("fetch failed")) {
-      throw new Error(
-        `Cannot reach local API at ${LOCAL_BASE_URL}. Make sure your local model server is running.`
-      );
-    }
-    if (msg.includes("model") && (msg.includes("not found") || msg.includes("404"))) {
-      throw new Error(
-        `Model "${model}" not found. Make sure it's loaded in your local model server.`
-      );
-    }
-    // Surface all other errors directly
-    throw new Error(`Local model "${model}": ${msg}`);
-  }
-}
 
 // ─── Public API ──────────────────────────────────────────────────────────
 
@@ -318,14 +266,8 @@ export async function callLLM(
         if (result !== null) return result;
         throw new Error(`OpenRouter model "${modelName}" failed`);
       }
-      case "local": {
-        if (!modelName) throw new Error("Local model name is required (e.g. local:llama-3.2-3b-instruct)");
-        const result = await callLocal(systemPrompt, userPrompt, modelName);
-        if (result !== null) return result;
-        throw new Error(`Local model "${modelName}" failed`);
-      }
       default:
-        throw new Error(`Unknown provider "${provider}". Use zen:, gemini:, openrouter:, or local:`);
+        throw new Error(`Unknown provider "${provider}". Use zen:, gemini:, or openrouter:`);
     }
   }
 

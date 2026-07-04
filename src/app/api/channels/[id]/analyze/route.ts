@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSupabaseAdmin } from "@/lib/supabase/client";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { runAnalysisPipeline } from "@/lib/analysis/pipeline";
+import { checkChannelLimit, limitError } from "@/lib/subscription";
 
 export async function POST(
   request: NextRequest,
@@ -24,6 +25,13 @@ export async function POST(
 
   if (user && channel.user_id && channel.user_id !== user.id) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  }
+
+  if (user) {
+    const { allowed } = await checkChannelLimit(user.id);
+    if (!allowed) {
+      return NextResponse.json(limitError("analyses"), { status: 403 });
+    }
   }
 
   let videoLimit = 10;

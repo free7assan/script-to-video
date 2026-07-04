@@ -3,6 +3,7 @@ import { extractYouTubeVideoId } from "@/lib/utils";
 import { analyzeSingleVideo } from "@/lib/analysis/pipeline";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { getSupabaseAdmin } from "@/lib/supabase/client";
+import { checkVideoLimit, limitError } from "@/lib/subscription";
 
 async function getYouTubeTitle(url: string): Promise<string> {
   try {
@@ -37,6 +38,16 @@ export async function POST(request: NextRequest) {
   }
 
   try {
+    const supabase = await createSupabaseServerClient();
+    const { data: { user } } = await supabase.auth.getUser();
+
+    if (user) {
+      const { allowed } = await checkVideoLimit(user.id);
+      if (!allowed) {
+        return NextResponse.json(limitError("analyses"), { status: 403 });
+      }
+    }
+
     const result = await analyzeSingleVideo(videoId, body.url);
     if (!result) {
       return NextResponse.json(
@@ -44,9 +55,6 @@ export async function POST(request: NextRequest) {
         { status: 404 }
       );
     }
-
-    const supabase = await createSupabaseServerClient();
-    const { data: { user } } = await supabase.auth.getUser();
 
     let savedId: string | null = null;
     if (user) {

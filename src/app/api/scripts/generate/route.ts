@@ -4,6 +4,7 @@ import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { callLLM } from "@/lib/analysis/llm";
 import { getVideoTranscript } from "@/lib/youtube/transcript";
 import { google } from "googleapis";
+import { checkScriptLimit, limitError } from "@/lib/subscription";
 import {
   SCRIPT_GENERATION_SYSTEM_PROMPT,
   STANDARD_SCRIPT_SYSTEM_PROMPT,
@@ -41,6 +42,14 @@ export async function POST(request: NextRequest) {
 
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
+
+  // Check script limit when generating full script (not headings-only)
+  if (headings && headings.length > 0 && user) {
+    const { allowed } = await checkScriptLimit(user.id);
+    if (!allowed) {
+      return NextResponse.json(limitError("scripts"), { status: 403 });
+    }
+  }
 
   const visualsBlock = include_visuals ? `\n\n${VISUAL_INSTRUCTION}` : "";
 

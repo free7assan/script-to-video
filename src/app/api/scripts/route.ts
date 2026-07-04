@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createSupabaseServerClient, createSupabaseAdminClient } from "@/lib/supabase/server";
 import type { SaveScriptInput } from "@/types";
+import { checkScriptLimit, limitError } from "@/lib/subscription";
 
 export async function GET() {
   const supabase = await createSupabaseServerClient();
@@ -39,6 +40,11 @@ export async function POST(request: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const { allowed } = await checkScriptLimit(user.id);
+  if (!allowed) {
+    return NextResponse.json(limitError("scripts"), { status: 403 });
   }
 
   const admin = await createSupabaseAdminClient();

@@ -2,10 +2,11 @@ import Link from "next/link";
 import { ChannelCard } from "@/components/ChannelCard";
 import {
   LayoutDashboard, Plus, Video, FileText, Library,
-  ArrowRight, Clock, BarChart3,
+  ArrowRight, Clock, BarChart3, Shield,
 } from "lucide-react";
 import { getDashboardStats, getRecentScripts, getRecentChannels } from "@/lib/db";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { getUsage } from "@/lib/subscription";
 
 export const dynamic = "force-dynamic";
 
@@ -14,10 +15,11 @@ export default async function DashboardPage() {
   const { data: { user } } = await supabase.auth.getUser();
   const userId = user?.id;
 
-  const [stats, recentScripts, channels] = await Promise.all([
+  const [stats, recentScripts, channels, usage] = await Promise.all([
     getDashboardStats(userId).catch(() => ({ channels: 0, videos: 0, scripts: 0, blueprints: 0 })),
     getRecentScripts(5, userId).catch(() => []),
     getRecentChannels(10, userId).catch(() => []),
+    getUsage(userId!).catch(() => null),
   ]);
 
   const statCards = [
@@ -75,6 +77,64 @@ export default async function DashboardPage() {
           </Link>
         ))}
       </div>
+
+      {/* Usage */}
+      {usage && (
+        <div className="rounded-xl border border-border/50 bg-card/50 p-4">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-8 h-8 rounded-lg bg-orange/10 flex items-center justify-center">
+              <Shield className="w-4 h-4 text-orange" />
+            </div>
+            <div className="flex-1">
+              <h3 className="font-display font-semibold text-sm">Free Plan</h3>
+              <p className="text-xs text-muted-foreground">
+                {usage.channels}/{usage.channelsLimit} channels &middot; {usage.videos}/{usage.videosLimit} videos &middot; {usage.scripts}/{usage.scriptsLimit} scripts
+              </p>
+            </div>
+            <Link href="/pricing" className="text-[11px] text-orange hover:text-orange/80 transition-colors shrink-0">
+              Upgrade
+            </Link>
+          </div>
+          <div className="space-y-2">
+            <div>
+              <div className="flex justify-between text-[11px] text-muted-foreground/60 mb-1">
+                <span>Channels</span>
+                <span>{usage.channels} / {usage.channelsLimit}</span>
+              </div>
+              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-orange transition-all"
+                  style={{ width: `${Math.min((usage.channels / usage.channelsLimit) * 100, 100)}%` }}
+                />
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between text-[11px] text-muted-foreground/60 mb-1">
+                <span>Videos</span>
+                <span>{usage.videos} / {usage.videosLimit}</span>
+              </div>
+              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-sky-500 transition-all"
+                  style={{ width: `${Math.min((usage.videos / usage.videosLimit) * 100, 100)}%` }}
+                />
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between text-[11px] text-muted-foreground/60 mb-1">
+                <span>Scripts</span>
+                <span>{usage.scripts} / {usage.scriptsLimit}</span>
+              </div>
+              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-emerald-500 transition-all"
+                  style={{ width: `${Math.min((usage.scripts / usage.scriptsLimit) * 100, 100)}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Recent Scripts + Quick actions */}
       <div className="grid grid-cols-3 gap-4">
