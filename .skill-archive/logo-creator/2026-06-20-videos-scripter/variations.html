@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dot Grid — Refined Variations</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; padding: 40px; }
+  h1 { font-size: 24px; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 32px; }
+  .card { background: #fff; border: 1px solid #e0e0e0; border-radius: 16px; padding: 32px; text-align: center; transition: box-shadow .2s; }
+  .card:hover { box-shadow: 0 6px 24px rgba(0,0,0,.1); }
+  .card .preview { width: 120px; height: 120px; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; background: #f5f5f5; border-radius: 16px; }
+  .card .preview svg { width: 80px; height: 80px; }
+  .card .name { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+  .card .desc { font-size: 12px; color: #888; margin-bottom: 12px; }
+  .dark-preview .preview { background: #0d0d0d; }
+  hr { margin: 40px 0; border: none; border-top: 1px solid #e0e0e0; }
+  .row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 16px; }
+  .row-item { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 12px 16px; }
+  .row-item .icon { width: 32px; height: 32px; }
+  .row-item .icon svg { width: 100%; height: 100%; }
+  label { font-size: 13px; font-weight: 500; }
+  input[type="radio"] { margin-right: 6px; }
+</style>
+</head>
+<body>
+<h1>🎯 Dot Grid — Refined Variations</h1>
+<p>#11 was your pick. Here are 8 refinements with different dot sizes, grid densities, and arrangements.</p>
+
+<div class="grid" id="grid"></div>
+
+<hr>
+
+<h2 style="margin-bottom:16px">How they look with the wordmark</h2>
+<div id="wordmarks"></div>
+
+<script>
+const designs = [
+  {
+    name: "V1 — Original",
+    desc: "4x3 grid, 2 opacity levels, sharp play triangle",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="9" cy="11" r="1.4" fill="#FF7A00"/><circle cx="13" cy="11" r="1.4" fill="#FF7A00"/><circle cx="17" cy="11" r="1.4" fill="#FF7A00"/><circle cx="21" cy="11" r="1.4" fill="#FF7A00"/>
+      <circle cx="9" cy="15" r="1.4" fill="#FF7A00" opacity=".4"/><circle cx="13" cy="15" r="1.4" fill="#FF7A00"/><circle cx="17" cy="15" r="1.4" fill="#FF7A00"/><circle cx="21" cy="15" r="1.4" fill="#FF7A00" opacity=".4"/>
+      <circle cx="9" cy="19" r="1.4" fill="#FF7A00"/><circle cx="13" cy="19" r="1.4" fill="#FF7A00"/><circle cx="17" cy="19" r="1.4" fill="#FF7A00"/><circle cx="21" cy="19" r="1.4" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V2 — Play Triangle Only",
+    desc: "Only the play-shape dots remain, clean minimalist",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="9" cy="11" r="1.4" fill="#FF7A00"/><circle cx="13" cy="11" r="1.4" fill="#FF7A00"/><circle cx="17" cy="11" r="1.4" fill="#FF7A00"/><circle cx="21" cy="11" r="1.4" fill="#FF7A00"/>
+      <circle cx="9" cy="15" r="1.4" fill="#FF7A00" opacity=".4"/><circle cx="13" cy="15" r="1.4" fill="#FF7A00"/><circle cx="17" cy="15" r="1.4" fill="#FF7A00"/>
+      <circle cx="9" cy="19" r="1.4" fill="#FF7A00"/><circle cx="13" cy="19" r="1.4" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V3 — Big Dots",
+    desc: "Larger dots (r=2), chunky bold look",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="9" cy="11" r="2" fill="#FF7A00"/><circle cx="14" cy="11" r="2" fill="#FF7A00"/><circle cx="19" cy="11" r="2" fill="#FF7A00"/><circle cx="24" cy="11" r="2" fill="#FF7A00"/>
+      <circle cx="9" cy="16" r="2" fill="#FF7A00" opacity=".4"/><circle cx="14" cy="16" r="2" fill="#FF7A00"/><circle cx="19" cy="16" r="2" fill="#FF7A00"/><circle cx="24" cy="16" r="2" fill="#FF7A00" opacity=".4"/>
+      <circle cx="9" cy="21" r="2" fill="#FF7A00"/><circle cx="14" cy="21" r="2" fill="#FF7A00"/><circle cx="19" cy="21" r="2" fill="#FF7A00"/><circle cx="24" cy="21" r="2" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V4 — 5x4 Dense",
+    desc: "Denser grid for a more detailed play arrow",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="8" cy="9" r="1.2" fill="#FF7A00"/><circle cx="11" cy="9" r="1.2" fill="#FF7A00"/><circle cx="14" cy="9" r="1.2" fill="#FF7A00"/><circle cx="17" cy="9" r="1.2" fill="#FF7A00"/><circle cx="20" cy="9" r="1.2" fill="#FF7A00"/><circle cx="23" cy="9" r="1.2" fill="#FF7A00"/>
+      <circle cx="8" cy="12" r="1.2" fill="#FF7A00" opacity=".2"/><circle cx="11" cy="12" r="1.2" fill="#FF7A00"/><circle cx="14" cy="12" r="1.2" fill="#FF7A00"/><circle cx="17" cy="12" r="1.2" fill="#FF7A00"/><circle cx="20" cy="12" r="1.2" fill="#FF7A00"/><circle cx="23" cy="12" r="1.2" fill="#FF7A00" opacity=".2"/>
+      <circle cx="8" cy="15" r="1.2" fill="#FF7A00"/><circle cx="11" cy="15" r="1.2" fill="#FF7A00"/><circle cx="14" cy="15" r="1.2" fill="#FF7A00"/><circle cx="17" cy="15" r="1.2" fill="#FF7A00"/><circle cx="20" cy="15" r="1.2" fill="#FF7A00"/><circle cx="23" cy="15" r="1.2" fill="#FF7A00"/>
+      <circle cx="8" cy="18" r="1.2" fill="#FF7A00"/><circle cx="11" cy="18" r="1.2" fill="#FF7A00"/><circle cx="14" cy="18" r="1.2" fill="#FF7A00" opacity=".3"/><circle cx="17" cy="18" r="1.2" fill="#FF7A00"/><circle cx="20" cy="18" r="1.2" fill="#FF7A00"/><circle cx="23" cy="18" r="1.2" fill="#FF7A00"/>
+      <circle cx="8" cy="21" r="1.2" fill="#FF7A00"/><circle cx="11" cy="21" r="1.2" fill="#FF7A00"/><circle cx="14" cy="21" r="1.2" fill="#FF7A00"/><circle cx="17" cy="21" r="1.2" fill="#FF7A00"/><circle cx="20" cy="21" r="1.2" fill="#FF7A00"/><circle cx="23" cy="21" r="1.2" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V5 — Inverted",
+    desc: "Orange bg, dark dots — pops differently",
+    dark: true,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#FF7A00"/>
+      <circle cx="9" cy="11" r="1.4" fill="#0d0d0d"/><circle cx="13" cy="11" r="1.4" fill="#0d0d0d"/><circle cx="17" cy="11" r="1.4" fill="#0d0d0d"/><circle cx="21" cy="11" r="1.4" fill="#0d0d0d"/>
+      <circle cx="9" cy="15" r="1.4" fill="#0d0d0d" opacity=".4"/><circle cx="13" cy="15" r="1.4" fill="#0d0d0d"/><circle cx="17" cy="15" r="1.4" fill="#0d0d0d"/><circle cx="21" cy="15" r="1.4" fill="#0d0d0d" opacity=".4"/>
+      <circle cx="9" cy="19" r="1.4" fill="#0d0d0d"/><circle cx="13" cy="19" r="1.4" fill="#0d0d0d"/><circle cx="17" cy="19" r="1.4" fill="#0d0d0d"/><circle cx="21" cy="19" r="1.4" fill="#0d0d0d"/>
+    </svg>`
+  },
+  {
+    name: "V6 — Sparse",
+    desc: "Wider spacing, 3x3 grid, minimal and airy",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="8" cy="9" r="1.6" fill="#FF7A00"/><circle cx="16" cy="9" r="1.6" fill="#FF7A00"/><circle cx="24" cy="9" r="1.6" fill="#FF7A00"/>
+      <circle cx="8" cy="16" r="1.6" fill="#FF7A00" opacity=".3"/><circle cx="16" cy="16" r="1.6" fill="#FF7A00"/><circle cx="24" cy="16" r="1.6" fill="#FF7A00" opacity=".3"/>
+      <circle cx="8" cy="23" r="1.6" fill="#FF7A00"/><circle cx="16" cy="23" r="1.6" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V7 — Rounded Square Dots",
+    desc: "Same grid but dots are small rounded squares",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <rect x="7.5" y="9.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="12" y="9.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="16.5" y="9.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="21" y="9.5" width="3" height="3" rx=".6" fill="#FF7A00"/>
+      <rect x="7.5" y="14" width="3" height="3" rx=".6" fill="#FF7A00" opacity=".4"/><rect x="12" y="14" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="16.5" y="14" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="21" y="14" width="3" height="3" rx=".6" fill="#FF7A00" opacity=".4"/>
+      <rect x="7.5" y="18.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="12" y="18.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="16.5" y="18.5" width="3" height="3" rx=".6" fill="#FF7A00"/><rect x="21" y="18.5" width="3" height="3" rx=".6" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "V8 — Half Tone",
+    desc: "3 opacity levels create a gradient effect on the play shape",
+    dark: false,
+    svg: `<svg viewBox="0 0 32 32" fill="none"><rect x="1" y="1" width="30" height="30" rx="7" fill="#0d0d0d"/>
+      <circle cx="9" cy="11" r="1.4" fill="#FF7A00"/><circle cx="13" cy="11" r="1.4" fill="#FF7A00"/><circle cx="17" cy="11" r="1.4" fill="#FF7A00"/><circle cx="21" cy="11" r="1.4" fill="#FF7A00"/>
+      <circle cx="9" cy="15" r="1.4" fill="#FF7A00" opacity=".15"/><circle cx="13" cy="15" r="1.4" fill="#FF7A00"/><circle cx="17" cy="15" r="1.4" fill="#FF7A00"/><circle cx="21" cy="15" r="1.4" fill="#FF7A00" opacity=".35"/>
+      <circle cx="9" cy="19" r="1.4" fill="#FF7A00"/><circle cx="13" cy="19" r="1.4" fill="#FF7A00"/><circle cx="17" cy="19" r="1.4" fill="#FF7A00"/><circle cx="21" cy="19" r="1.4" fill="#FF7A00"/>
+    </svg>`
+  }
+];
+
+const grid = document.getElementById('grid');
+designs.forEach((d, i) => {
+  const div = document.createElement('div');
+  div.className = `card ${d.dark ? 'dark-preview' : ''}`;
+  div.innerHTML = `
+    <div class="preview">${d.svg}</div>
+    <div class="name">${d.name}</div>
+    <div class="desc">${d.desc}</div>
+  `;
+  grid.appendChild(div);
+});
+
+const wordmarks = document.getElementById('wordmarks');
+designs.forEach((d, i) => {
+  const div = document.createElement('div');
+  div.className = 'row-item';
+  div.innerHTML = `
+    <div class="icon">${d.svg}</div>
+    <div><label>${d.name}</label><span style="font-size:11px;color:#999;margin-left:8px">${d.desc}</span></div>
+  `;
+  wordmarks.appendChild(div);
+});
+</script>
+</body>
+</html>

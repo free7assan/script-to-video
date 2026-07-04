@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos Scripter - Logo Variations</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; padding: 40px; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  p { color: #666; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+  .card { background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 24px; text-align: center; transition: box-shadow .2s; }
+  .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+  .card .preview { width: 80px; height: 80px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center; }
+  .card .preview svg { width: 100%; height: 100%; }
+  .card .name { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  .card .desc { font-size: 11px; color: #888; }
+  .card .badge { display: inline-block; margin-top: 8px; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .badge-light { background: #f0f0f0; color: #555; }
+  .badge-dark { background: #1a1a1a; color: #fff; }
+  hr { margin: 40px 0; border: none; border-top: 1px solid #e0e0e0; }
+  .logo-pair { display: flex; align-items: center; gap: 16px; background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 20px 24px; }
+  .logo-pair .icon { width: 40px; height: 40px; flex-shrink: 0; }
+  .logo-pair .icon svg { width: 100%; height: 100%; }
+  .logo-pair .wordmark { font-size: 22px; font-weight: 700; letter-spacing: -.3px; }
+  .logo-pair .wordmark span { color: #FF7A00; }
+  .logo-pair .layout { display: flex; align-items: center; gap: 12px; }
+</style>
+</head>
+<body>
+<h1>Videos Scripter — Logo Variations</h1>
+<p>Abstract geometric concepts blending video + script motifs in the brand's orange (#FF7A00) and dark (#0d0d0d) palette.</p>
+
+<div class="grid" id="grid"></div>
+
+<hr>
+
+<h2 style="margin-bottom:16px">With Wordmark (icon + text)</h2>
+<div id="wordmarks" style="display:flex;flex-direction:column;gap:12px;max-width:600px"></div>
+
+<script>
+const svgs = [
+  {
+    name: "V-Script",
+    desc: "Play triangle V intersecting a flowing script stroke",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <polygon points="6,8 18,16 6,24" fill="#FF7A00"/>
+      <path d="M20 9 Q28 9 28 16 Q28 23 20 23" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    </svg>`
+  },
+  {
+    name: "V-Script Alt",
+    desc: "Filled V-polygon with curved script tail",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill={bgColor}/>
+      <path d="M6 6 L18 16 L6 26" stroke="#FF7A00" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M20 8 Q27 12 27 16 Q27 20 24 22" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" fill="none"/>
+    </svg>`
+  },
+  {
+    name: "Diamond Play",
+    desc: "Rotated square (diamond) with centered play triangle",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <rect x="6" y="6" width="20" height="20" rx="4" transform="rotate(45 16 16)" fill="none" stroke="#FF7A00" stroke-width="2"/>
+      <polygon points="12,11 21,16 12,21" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "Frame Lines",
+    desc: "Video frame with horizontal script lines flowing through",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <rect x="5" y="8" width="22" height="16" rx="3" fill="none" stroke="#FF7A00" stroke-width="1.8"/>
+      <line x1="9" y1="13" x2="23" y2="13" stroke="#FF7A00" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="9" y1="16.5" x2="23" y2="16.5" stroke="#FF7A00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <line x1="9" y1="20" x2="18" y2="20" stroke="#FF7A00" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    </svg>`
+  },
+  {
+    name: "The Slash",
+    desc: "Play triangle bisected by a bold diagonal script line",
+    badge: "Dark",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#FF7A00"/>
+      <polygon points="5,6 18,16 5,26" fill="#0d0d0d"/>
+      <line x1="20" y1="7" x2="28" y2="25" stroke="#0d0d0d" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>`
+  },
+  {
+    name: "Hexagon Script",
+    desc: "Hexagonal shape with nested script line accent",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <polygon points="16,4 27,10 27,22 16,28 5,22 5,10" fill="none" stroke="#FF7A00" stroke-width="2"/>
+      <path d="M10 14 Q16 10 22 14" stroke="#FF7A00" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+      <path d="M10 18 Q16 22 22 18" stroke="#FF7A00" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+    </svg>`
+  },
+  {
+    name: "VS Monogram",
+    desc: "Geometric interlocking V and S letters",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <path d="M5 6 L13 16 L5 26" stroke="#FF7A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M17 8 Q24 8 24 14 Q24 20 17 20 Q20 23 24 24" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    </svg>`
+  },
+  {
+    name: "Wave Frame",
+    desc: "Film frame corners with an audio waveform accent",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <path d="M4 8 L8 8 L8 24 L4 24" fill="none" stroke="#FF7A00" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M28 8 L24 8 L24 24 L28 24" fill="none" stroke="#FF7A00" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M10 16 Q12 12 14 16 Q16 20 18 16 Q20 12 22 16" stroke="#FF7A00" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </svg>`
+  },
+  {
+    name: "Slash Diamond",
+    desc: "Diamond shape with angled script slash through center",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <rect x="5" y="5" width="22" height="22" rx="4" transform="rotate(45 16 16)" fill="none" stroke="#FF7A00" stroke-width="2"/>
+      <circle cx="16" cy="16" r="5" fill="#FF7A00"/>
+      <line x1="19" y1="13" x2="22" y2="10" stroke="#0d0d0d" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>`
+  },
+  {
+    name: "Play Script",
+    desc: "Classic play triangle with a script underline",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <polygon points="8,7 22,16 8,25" fill="none" stroke="#FF7A00" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M8 25 Q16 28 24 25" stroke="#FF7A00" stroke-width="2" stroke-linecap="round" fill="none"/>
+    </svg>`
+  },
+  {
+    name: "Dot Grid",
+    desc: "Minimal dot grid forming a play button shape",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <circle cx="10" cy="12" r="1.5" fill="#FF7A00"/>
+      <circle cx="14" cy="12" r="1.5" fill="#FF7A00"/>
+      <circle cx="18" cy="12" r="1.5" fill="#FF7A00"/>
+      <circle cx="22" cy="12" r="1.5" fill="#FF7A00"/>
+      <circle cx="10" cy="16" r="1.5" fill="#FF7A00" opacity="0.5"/>
+      <circle cx="14" cy="16" r="1.5" fill="#FF7A00"/>
+      <circle cx="18" cy="16" r="1.5" fill="#FF7A00"/>
+      <circle cx="22" cy="16" r="1.5" fill="#FF7A00" opacity="0.5"/>
+      <circle cx="10" cy="20" r="1.5" fill="#FF7A00"/>
+      <circle cx="14" cy="20" r="1.5" fill="#FF7A00"/>
+      <circle cx="18" cy="20" r="1.5" fill="#FF7A00"/>
+      <circle cx="22" cy="20" r="1.5" fill="#FF7A00"/>
+    </svg>`
+  },
+  {
+    name: "Fold",
+    desc: "Origami-style folded paper with play accent",
+    badge: "Light",
+    svg: `<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="30" height="30" rx="8" fill="#0d0d0d"/>
+      <path d="M6 6 L20 6 L26 14 L26 26 L6 26 Z" fill="none" stroke="#FF7A00" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M20 6 L20 14 L26 14" fill="#FF7A00" opacity="0.3"/>
+      <polygon points="12,13 18,18 12,23" fill="#FF7A00"/>
+    </svg>`
+  }
+];
+
+const grid = document.getElementById('grid');
+svgs.forEach((s, i) => {
+  const svgWithBg = s.svg.replace('{bgColor}', '#0d0d0d');
+  const div = document.createElement('div');
+  div.className = 'card';
+  div.innerHTML = `
+    <div class="preview">${svgWithBg}</div>
+    <div class="name">#${i+1} — ${s.name}</div>
+    <div class="desc">${s.desc}</div>
+    <span class="badge badge-${s.badge === 'Dark' ? 'dark' : 'light'}">${s.badge} bg</span>
+  `;
+  grid.appendChild(div);
+});
+
+const wordmarks = document.getElementById('wordmarks');
+const previewSvgs = [0, 1, 2, 3, 6, 7, 9, 11];
+previewSvgs.forEach(i => {
+  const s = svgs[i];
+  const svgWithBg = s.svg.replace('{bgColor}', '#0d0d0d');
+  const div = document.createElement('div');
+  div.className = 'logo-pair';
+  div.innerHTML = `
+    <div class="icon">${svgWithBg}</div>
+    <div class="layout">
+      <span class="wordmark">Videos<span>Scripter</span></span>
+      <span style="font-size:11px;color:#999">#${i+1}</span>
+    </div>
+  `;
+  wordmarks.appendChild(div);
+});
+</script>
+</body>
+</html>
