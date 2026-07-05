@@ -10,7 +10,7 @@ const ThemeContext = createContext<{
   toggleTheme: () => void;
 } | null>(null);
 
-const STORAGE_KEY = "videos-scripter-theme";
+const STORAGE_KEY = "goscript-theme";
 
 function getInitialTheme(): Theme {
   if (typeof window === "undefined") return "light";

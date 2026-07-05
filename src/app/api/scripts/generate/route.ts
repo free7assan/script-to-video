@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
 
       // General web: fetch and extract text
       const res = await fetch(url, {
-        headers: { "User-Agent": "Mozilla/5.0 (compatible; VideosScripter/1.0)" },
+        headers: { "User-Agent": "Mozilla/5.0 (compatible; GoScript/1.0)" },
         signal: AbortSignal.timeout(5000),
       });
       const html = await res.text();

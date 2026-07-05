@@ -362,7 +362,7 @@ export default function HomePage() {
 
               <div className="flex items-center justify-center gap-4 mt-8">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange/20 to-orange/5 border border-orange/20 flex items-center justify-center">
-                  <span className="text-sm font-bold text-orange">VS</span>
+                  <span className="text-sm font-bold text-orange">GS</span>
                 </div>
                 <div className="text-left">
                   <p className="text-sm font-medium">Early user</p>
@@ -419,7 +419,7 @@ export default function HomePage() {
         <footer className="relative pt-16 pb-8">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-center gap-4 text-[8px] font-mono text-orange/20 tracking-widest uppercase">
-              <span>VideosScripter</span>
+              <span>GoScript</span>
               <span className="w-px h-3 bg-orange/10" />
               <span>Pattern-Based Script Intelligence</span>
               <span className="w-px h-3 bg-orange/10" />

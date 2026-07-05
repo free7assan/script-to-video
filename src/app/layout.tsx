@@ -18,13 +18,15 @@ const body = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Videos Scripter",
+  title: "GoScript",
   description:
     "Analyze YouTube channels and extract their script methodology blueprints",
   icons: {
     icon: "/icon.svg",
     shortcut: "/favicon.svg",
+    apple: "/apple-icon.svg",
   },
+  themeColor: "#0d0d0d",
 };
 
 export default function RootLayout({
@@ -40,7 +42,7 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
-                  var t = localStorage.getItem("videos-scripter-theme");
+                  var t = localStorage.getItem("goscript-theme");
                   if (!t) {
                     t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
                   }
