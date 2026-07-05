@@ -12,6 +12,9 @@ import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
 
 const links = [
   { href: "/#pipeline", label: "Pipeline" },
+  { href: "/#capabilities", label: "Capabilities" },
+  { href: "/#workflow", label: "Workflow" },
+  { href: "/#pricing", label: "Pricing" },
 ];
 
 export function LandingNav() {

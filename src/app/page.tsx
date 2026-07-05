@@ -196,7 +196,7 @@ export default function HomePage() {
         {/* ════════════════════════════════════════════ */}
         {/* CAPABILITIES */}
         {/* ════════════════════════════════════════════ */}
-        <section className="relative py-32 sm:py-40">
+        <section id="capabilities" className="relative py-32 sm:py-40">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16">
               <div className="flex items-center justify-center gap-4 mb-4">
@@ -271,7 +271,7 @@ export default function HomePage() {
         {/* ════════════════════════════════════════════ */}
         {/* WORKFLOW */}
         {/* ════════════════════════════════════════════ */}
-        <section className="relative py-32 sm:py-40">
+        <section id="workflow" className="relative py-32 sm:py-40">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16">
               <div className="flex items-center justify-center gap-4 mb-4">
@@ -367,6 +367,102 @@ export default function HomePage() {
                 <div className="text-left">
                   <p className="text-sm font-medium">Early user</p>
                   <p className="text-xs text-muted-foreground">Video creator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ════════════════════════════════════════════ */}
+        {/* PRICING */}
+        {/* ════════════════════════════════════════════ */}
+        <section id="pricing" className="relative py-32 sm:py-40">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-2xl mx-auto mb-16">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <span className="w-8 h-px bg-orange/30" />
+                <span className="text-xs sm:text-sm font-mono text-orange/50 tracking-[0.2em] uppercase">Pricing</span>
+                <span className="w-8 h-px bg-orange/30" />
+              </div>
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold tracking-tight mb-3">
+                Start free.
+              </h2>
+              <p className="text-2xl sm:text-3xl lg:text-4xl font-display font-semibold text-orange/70">
+                Scale when you&apos;re ready.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              {/* Free */}
+              <div className="group relative rounded-2xl border border-orange/30 bg-card/40 backdrop-blur-sm overflow-hidden transition-all duration-500 hover:border-orange/40 hover:shadow-xl hover:shadow-orange/5 animate-fade-up">
+                <div className="absolute -inset-20 bg-gradient-radial from-orange/8 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+                <div className="relative p-6 sm:p-8">
+                  <div className="flex items-center justify-between mb-6">
+                    <div>
+                      <h3 className="font-display font-semibold text-lg">Free</h3>
+                      <p className="text-sm text-muted-foreground">For getting started</p>
+                    </div>
+                    <div className="text-right">
+                      <span className="text-3xl font-display font-bold text-orange">$0</span>
+                      <span className="text-sm text-muted-foreground">/mo</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-3 text-sm text-muted-foreground mb-8">
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange shrink-0 ring-2 ring-orange/15" />
+                      5 channels analyzed
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange shrink-0 ring-2 ring-orange/15" />
+                      5 videos analyzed
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange shrink-0 ring-2 ring-orange/15" />
+                      5 generated scripts
+                    </li>
+                  </ul>
+                  <Link
+                    href="/channels/new"
+                    className="inline-flex items-center justify-center gap-2 w-full h-10 rounded-xl bg-orange/10 text-orange text-sm font-semibold hover:bg-orange/20 transition-all"
+                  >
+                    <Plus className="w-3.5 h-3.5" />
+                    Get Started
+                  </Link>
+                </div>
+              </div>
+
+              {/* Pro */}
+              <div className="group relative rounded-2xl border border-border/30 bg-card/40 backdrop-blur-sm overflow-hidden transition-all duration-500 hover:border-orange/20 hover:shadow-xl hover:shadow-orange/5 animate-fade-up opacity-70" style={{ animationDelay: '0.15s' }}>
+                <div className="absolute top-0 right-0 px-3 py-1.5 rounded-bl-2xl bg-gradient-to-bl from-orange/15 to-orange/5 border-b border-l border-orange/20">
+                  <span className="text-[8px] font-mono text-orange/50 tracking-widest uppercase">Coming soon</span>
+                </div>
+                <div className="relative p-6 sm:p-8">
+                  <div className="flex items-center justify-between mb-6">
+                    <div>
+                      <h3 className="font-display font-semibold text-lg">Pro</h3>
+                      <p className="text-sm text-muted-foreground">For power users</p>
+                    </div>
+                    <div className="text-right">
+                      <span className="text-3xl font-display font-bold text-foreground/40">—</span>
+                    </div>
+                  </div>
+                  <ul className="space-y-3 text-sm text-muted-foreground mb-8">
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/30 shrink-0" />
+                      Unlimited analyses
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/30 shrink-0" />
+                      Unlimited scripts
+                    </li>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/30 shrink-0" />
+                      Priority support
+                    </li>
+                  </ul>
+                  <div className="inline-flex items-center justify-center gap-2 w-full h-10 rounded-xl bg-foreground/5 text-muted-foreground/40 text-sm font-medium cursor-default">
+                    Coming Soon
+                  </div>
                 </div>
               </div>
             </div>

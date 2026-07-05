@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#0d0d0d"/>
+  <!-- Dot-matrix G - concentric dots forming the G -->
+  <g fill="#FF7A00">
+    <!-- Left arc dots -->
+    <circle cx="30" cy="25" r="4"/>
+    <circle cx="22" cy="35" r="4"/>
+    <circle cx="18" cy="48" r="4"/>
+    <circle cx="20" cy="60" r="4"/>
+    <circle cx="26" cy="72" r="4"/>
+    <circle cx="36" cy="80" r="4"/>
+    <circle cx="48" cy="75" r="4"/>
+    <circle cx="48" cy="84" r="4"/>
+    <!-- Inner arc dots -->
+    <circle cx="40" cy="30" r="3.5"/>
+    <circle cx="32" cy="42" r="3.5"/>
+    <circle cx="30" cy="55" r="3.5"/>
+    <circle cx="34" cy="67" r="3.5"/>
+    <circle cx="42" cy="74" r="3.5"/>
+    <!-- Crossbar dots -->
+    <circle cx="32" cy="50" r="4"/>
+    <circle cx="42" cy="50" r="4"/>
+    <circle cx="52" cy="50" r="4"/>
+    <circle cx="62" cy="50" r="4"/>
+    <circle cx="72" cy="50" r="4"/>
+    <circle cx="80" cy="50" r="3.5"/>
+    <!-- Feather barbs (smaller dots) -->
+    <circle cx="16" cy="20" r="2.5"/>
+    <circle cx="10" cy="30" r="2.5"/>
+    <circle cx="10" cy="42" r="2.5"/>
+    <circle cx="8" cy="55" r="2.5"/>
+    <circle cx="12" cy="68" r="2.5"/>
+    <!-- Nib dots forming triangle -->
+    <circle cx="46" cy="88" r="3"/>
+    <circle cx="50" cy="94" r="3"/>
+    <circle cx="54" cy="88" r="3"/>
+  </g>
+</svg>

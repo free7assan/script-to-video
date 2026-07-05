@@ -30,6 +30,7 @@ export default function NewScriptPage() {
 function NewScriptForm() {
   const searchParams = useSearchParams();
   const editId = searchParams.get("edit");
+  const ideaParam = searchParams.get("idea");
 
   const [channels, setChannels] = useState<Channel[]>([]);
   const [savedAnalyses, setSavedAnalyses] = useState<SavedAnalysis[]>([]);
@@ -52,6 +53,12 @@ function NewScriptForm() {
   const [includeVisuals, setIncludeVisuals] = useState(false);
   const [usage, setUsage] = useState<UsageInfo | null>(null);
   const scriptAbortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    if (ideaParam && !editId) {
+      setDescription(ideaParam);
+    }
+  }, [ideaParam, editId]);
 
   useEffect(() => {
     fetch("/api/blueprints")

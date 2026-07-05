@@ -17,6 +17,7 @@ import {
   Users,
   Activity,
   Cog,
+  Lightbulb,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
@@ -29,6 +30,7 @@ const links = [
   { href: "/video/analyze", label: "Video Analyzer", icon: Video },
   { href: "/channels/new", label: "Channel Analyzer", icon: ListVideo },
   { href: "/scripts/new", label: "Generator", icon: Wand2 },
+  { href: "/ideas", label: "Ideas", icon: Lightbulb },
   { href: "/scripts", label: "Scripts", icon: FileText },
   { href: "/blueprints", label: "Blueprints", icon: Library },
   { href: "/settings", label: "Settings", icon: Cog },

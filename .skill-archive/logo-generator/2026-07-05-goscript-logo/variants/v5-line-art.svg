@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#0d0d0d"/>
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF5500"/>
+    </linearGradient>
+  </defs>
+  <!-- Elegant thin-line G formed by the quill shaft curving -->
+  <g fill="none" stroke="url(#lineGrad)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The quill shaft curves to form the G -->
+    <path d="M 50 20 
+             C 25 20, 20 35, 20 50 
+             C 20 65, 25 80, 50 80" stroke-width="5"/>
+    <!-- Crossbar -->
+    <path d="M 30 50 L 75 50" stroke-width="5"/>
+    <!-- Feather stem extending below -->
+    <path d="M 50 80 L 50 92" stroke-width="4"/>
+    <!-- Nib -->
+    <path d="M 43 88 L 50 96 L 57 88 Z" fill="url(#lineGrad)" stroke="none"/>
+    <!-- Feather barbs - flowing elegant curves -->
+    <path d="M 35 26 C 28 22, 20 18, 14 12" stroke-width="2.5"/>
+    <path d="M 27 35 C 20 34, 12 34, 6 30" stroke-width="2.5"/>
+    <path d="M 22 48 C 14 48, 8 50, 4 54" stroke-width="2.5"/>
+    <path d="M 24 62 C 16 64, 10 68, 6 74" stroke-width="2.5"/>
+    <path d="M 32 74 C 26 78, 20 84, 16 90" stroke-width="2.5"/>
+    <!-- Nib slit -->
+    <line x1="50" y1="92" x2="50" y2="96" stroke="#0d0d0d" stroke-width="1.5"/>
+  </g>
+</svg>
