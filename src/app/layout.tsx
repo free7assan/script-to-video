@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   description:
     "Analyze YouTube channels and extract their script methodology blueprints",
   icons: {
-    icon: "/icon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/apple-icon.svg",
+    icon: "/icon.png",
+    shortcut: "/favicon.png",
+    apple: "/apple-icon.png",
   },
   themeColor: "#0d0d0d",
 };
