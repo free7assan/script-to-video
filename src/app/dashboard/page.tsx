@@ -238,9 +238,6 @@ export default async function DashboardPage() {
       {/* Empty state when no channels */}
       {channels.length === 0 && (
         <div className="rounded-xl border border-dashed border-border/50 bg-card/50 p-12 text-center">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange/10 to-prussian-blue/10 flex items-center justify-center mx-auto mb-5 ring-1 ring-orange/10">
-            <span className="text-2xl font-display font-bold text-gradient-primary">VS</span>
-          </div>
           <h2 className="text-xl font-display font-semibold mb-2">No channels yet</h2>
           <p className="text-muted-foreground text-sm max-w-sm mx-auto mb-8 leading-relaxed">
             Add a YouTube channel to analyze its video script methodology and generate blueprints

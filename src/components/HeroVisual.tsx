@@ -7,12 +7,9 @@ function det(i: number, offset = 0): number {
 export function HeroVisual() {
   return (
     <div className="relative w-full aspect-[4/3] sm:aspect-[5/4] lg:aspect-[4/5] xl:aspect-[3/4]">
-      {/* Ambient glow */}
-      <div className="absolute inset-0 bg-gradient-radial from-orange/15 via-orange/5 to-transparent blur-[100px] animate-morph-diamond" />
-
       <svg
         viewBox="0 0 500 600"
-        className="w-full h-full relative z-10 drop-shadow-2xl"
+        className="w-full h-full relative z-10"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -21,19 +18,9 @@ export function HeroVisual() {
             <stop offset="0%" stopColor="#F97316" />
             <stop offset="100%" stopColor="#EA580C" />
           </linearGradient>
-          <linearGradient id="g-blue" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#103559" />
-            <stop offset="100%" stopColor="#1B4D6E" />
-          </linearGradient>
-          <linearGradient id="g-glow" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#F97316" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="#F97316" stopOpacity="0.1" />
+          <linearGradient id="g-dim" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#F97316" stopOpacity="0.2" />
             <stop offset="100%" stopColor="#F97316" stopOpacity="0" />
-          </linearGradient>
-          <linearGradient id="g-blue-glow" x1="0" y1="1" x2="0" y2="0">
-            <stop offset="0%" stopColor="#103559" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="#103559" stopOpacity="0.1" />
-            <stop offset="100%" stopColor="#103559" stopOpacity="0" />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="3" result="blur" />
@@ -46,297 +33,239 @@ export function HeroVisual() {
             <feGaussianBlur stdDeviation="6" />
           </filter>
           <filter id="strong-glow">
-            <feGaussianBlur stdDeviation="12" />
+            <feGaussianBlur stdDeviation="14" />
           </filter>
         </defs>
 
-        {/* Background geometry — subtle grid and circles */}
-        <g opacity="0.06" className="text-foreground">
-          <circle cx="250" cy="300" r="220" stroke="currentColor" strokeWidth="0.5" />
-          <circle cx="250" cy="300" r="160" stroke="currentColor" strokeWidth="0.3" />
-          <circle cx="250" cy="300" r="100" stroke="currentColor" strokeWidth="0.2" />
-          <line x1="50" y1="100" x2="450" y2="100" stroke="currentColor" strokeWidth="0.3" />
-          <line x1="50" y1="200" x2="450" y2="200" stroke="currentColor" strokeWidth="0.3" />
-          <line x1="50" y1="300" x2="450" y2="300" stroke="currentColor" strokeWidth="0.3" />
-          <line x1="50" y1="400" x2="450" y2="400" stroke="currentColor" strokeWidth="0.3" />
-          <line x1="50" y1="500" x2="450" y2="500" stroke="currentColor" strokeWidth="0.3" />
+        {/* ═══ PANEL 1: INGEST ═══ */}
+        <g filter="url(#soft-glow)">
+          <rect x="55" y="70" width="170" height="150" rx="14" fill="#0d0d0d" stroke="#F97316" strokeOpacity="0.12" strokeWidth="0.8" />
         </g>
+        <rect x="55" y="70" width="170" height="150" rx="14" fill="url(#g-dim)" fillOpacity="0.05" />
 
-        {/* Helix strand 1 — orange */}
-        <g filter="url(#soft-glow)" opacity="0.3">
-          <path
-            d="M130 80 C130 80, 180 140, 180 200 C180 260, 130 320, 130 380 C130 440, 180 500, 180 540"
-            stroke="url(#g-orange)"
-            strokeWidth="3"
-            className="animate-draw"
-            strokeDasharray="600"
-            strokeDashoffset="600"
-          />
-        </g>
-        <path
-          d="M130 80 C130 80, 180 140, 180 200 C180 260, 130 320, 130 380 C130 440, 180 500, 180 540"
-          stroke="url(#g-orange)"
-          strokeWidth="1.5"
-          strokeDasharray="4 4"
-          opacity="0.6"
-        >
-          <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite" />
-        </path>
+        {/* Panel 1 badge */}
+        <rect x="70" y="83" width="52" height="16" rx="4" fill="#F97316" fillOpacity="0.08" />
+        <text x="96" y="94" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" letterSpacing="1.5" opacity="0.6">STEP 01</text>
 
-        {/* Helix strand 2 — blue */}
-        <g filter="url(#soft-glow)" opacity="0.3">
-          <path
-            d="M320 80 C320 80, 270 140, 270 200 C270 260, 320 320, 320 380 C320 440, 270 500, 270 540"
-            stroke="url(#g-blue)"
-            strokeWidth="3"
-            className="animate-draw"
-            strokeDasharray="600"
-            strokeDashoffset="600"
-          />
-        </g>
-        <path
-          d="M320 80 C320 80, 270 140, 270 200 C270 260, 320 320, 320 380 C320 440, 270 500, 270 540"
-          stroke="url(#g-blue)"
-          strokeWidth="1.5"
-          strokeDasharray="4 4"
-          opacity="0.6"
-        >
-          <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite" />
-        </path>
+        {/* YouTube logo placeholder */}
+        <rect x="80" y="112" width="28" height="20" rx="5" fill="#F97316" fillOpacity="0.1" stroke="#F97316" strokeOpacity="0.15" strokeWidth="0.5" />
+        <polygon points="87,117 87,127 96,122" fill="#F97316" opacity="0.4" />
 
-        {/* Cross-rungs between helixes — the "patterns" */}
-        {[120, 180, 240, 300, 360, 420, 480].map((y, i) => {
-          const x1 = 130 + Math.sin(y * 0.02) * 50;
-          const x2 = 320 + Math.sin(y * 0.02 + Math.PI) * 50;
-          return (
-            <g key={i}>
-              <line
-                x1={x1}
-                y1={y}
-                x2={x2}
-                y2={y}
-                stroke={i % 2 === 0 ? "url(#g-orange)" : "url(#g-blue)"}
-                strokeWidth="0.5"
-                opacity="0.15"
-              />
-              <line
-                x1={x1}
-                y1={y}
-                x2={(x1 + x2) / 2}
-                y2={y}
-                stroke="url(#g-orange)"
-                strokeWidth="1"
-                opacity="0.3"
-              />
-              <line
-                x1={(x1 + x2) / 2}
-                y1={y}
-                x2={x2}
-                y2={y}
-                stroke="url(#g-blue)"
-                strokeWidth="1"
-                opacity="0.3"
-              />
-            </g>
-          );
-        })}
+        <text x="118" y="126" fill="#F97316" fontSize="8" fontFamily="monospace" fontWeight="600" opacity="0.5">YouTube</text>
+        <text x="118" y="138" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.2">Channel URL</text>
 
-        {/* Video nodes on the helixes */}
-        {[100, 160, 220, 280, 340, 400, 460, 520].map((y, i) => {
-          const side = i % 2 === 0;
-          const cx = side ? 130 + Math.sin(y * 0.02) * 50 : 320 + Math.sin(y * 0.02 + Math.PI) * 50;
-          const r = 12 + Math.sin(y * 0.1) * 3;
-          return (
-            <g key={i}>
-              {/* Glow */}
-              <circle cx={cx} cy={y} r={r * 1.8} fill={side ? "#F97316" : "#103559"} opacity="0.08" filter="url(#strong-glow)">
-                <animate attributeName="r" values={`${r * 1.5};${r * 2.2};${r * 1.5}`} dur={`${3 + i * 0.1}s`} repeatCount="indefinite" />
-              </circle>
-              {/* Node */}
-              <circle
-                cx={cx}
-                cy={y}
-                r={r}
-                className={side ? "fill-orange/95" : "fill-prussian-blue/95"}
-                stroke={side ? "#F97316" : "#103559"}
-                strokeWidth="1.5"
-                filter="url(#glow)"
-              >
-                <animate attributeName="r" values={`${r};${r * 1.1};${r}`} dur={`${3 + i * 0.1}s`} repeatCount="indefinite" />
-              </circle>
-              {/* Play icon inside node */}
-              <polygon
-                points={`${cx + 3},${y - 4} ${cx + 3},${y + 4} ${cx + 8},${y}`}
-                fill="white"
-                opacity="0.6"
-              />
-              {/* Rung connection glow */}
-              <line
-                x1={side ? cx : 320 + Math.sin(y * 0.02 + Math.PI) * 50}
-                y1={y}
-                x2={side ? 130 + Math.sin(y * 0.02) * 50 : cx}
-                y2={y}
-                stroke={side ? "#F97316" : "#103559"}
-                strokeWidth="0.5"
-                opacity="0.4"
-              >
-                <animate attributeName="opacity" values="0.2;0.6;0.2" dur={`${2 + i * 0.3}s`} repeatCount="indefinite" />
-              </line>
-            </g>
-          );
-        })}
+        {/* Transcript lines preview */}
+        <rect x="80" y="152" width="130" height="4" rx="2" fill="#F97316" opacity="0.08" />
+        <rect x="80" y="160" width="110" height="4" rx="2" fill="#F97316" opacity="0.06" />
+        <rect x="80" y="168" width="120" height="4" rx="2" fill="#F97316" opacity="0.06" />
+        <rect x="80" y="176" width="95" height="4" rx="2" fill="#F97316" opacity="0.05" />
+        <rect x="80" y="184" width="125" height="4" rx="2" fill="#F97316" opacity="0.06" />
+        <rect x="80" y="192" width="105" height="4" rx="2" fill="#F97316" opacity="0.05" />
 
-        {/* Floating data particles */}
-        {[35, 65, 95, 155, 185, 245, 275, 335, 365, 425, 455, 485, 515].map((y, i) => {
-          const x = 80 + det(i, 0) * 340;
-          const size = 1.5 + det(i, 1) * 2.5;
-          const isOrange = i % 3 !== 0;
-          return (
-            <circle
-              key={i}
-              cx={x}
-              cy={y}
-              r={size}
-              className={isOrange ? "fill-orange" : "fill-prussian-blue"}
-              opacity="0.15"
-            >
-              <animate
-                attributeName="cy"
-                values={`${y - 10};${y + 10};${y - 10}`}
-                dur={`${4 + det(i, 2) * 6}s`}
-                repeatCount="indefinite"
-              />
-              <animate
-                attributeName="opacity"
-                values="0.08;0.25;0.08"
-                dur={`${3 + det(i, 3) * 4}s`}
-                repeatCount="indefinite"
-              />
-            </circle>
-          );
-        })}
+        {/* Panel 1 arrow labels */}
+        <text x="140" y="210" textAnchor="middle" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.12">
+          Videos → Transcripts
+        </text>
 
-        {/* Orbiting data rings */}
-        <g opacity="0.08" className="text-foreground">
-          <ellipse cx="250" cy="300" rx="180" ry="60" stroke="currentColor" strokeWidth="0.5" fill="none" transform="rotate(-15 250 300)">
-            <animateTransform attributeName="transform" type="rotate" from="-15 250 300" to="345 250 300" dur="30s" repeatCount="indefinite" />
-          </ellipse>
-          <ellipse cx="250" cy="300" rx="140" ry="45" stroke="currentColor" strokeWidth="0.3" fill="none" transform="rotate(10 250 300)">
-            <animateTransform attributeName="transform" type="rotate" from="10 250 300" to="370 250 300" dur="25s" repeatCount="indefinite" />
-          </ellipse>
-        </g>
-
-        {/* Central glowing orb */}
-        <circle cx="250" cy="300" r="30" fill="#F97316" opacity="0.04" filter="url(#strong-glow)">
-          <animate attributeName="r" values="25;40;25" dur="6s" repeatCount="indefinite" />
-        </circle>
-        <circle cx="250" cy="300" r="12" fill="#F97316" opacity="0.06" filter="url(#soft-glow)">
-          <animate attributeName="r" values="10;16;10" dur="4s" repeatCount="indefinite" />
-        </circle>
-        <circle cx="250" cy="300" r="4" fill="#F97316" opacity="0.15" filter="url(#glow)">
-          <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" />
+        {/* ═══ ARROW 1 → 2 ═══ */}
+        <path d="M225 145 L245 145" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <path d="M240 140 L248 145 L240 150" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <circle cx="235" cy="145" r="2" fill="#F97316" opacity="0.08">
+          <animate attributeName="cx" values="225;245;225" dur="2.5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.05;0.2;0.05" dur="2.5s" repeatCount="indefinite" />
         </circle>
 
-        {/* Label: Deconstruct */}
-        <g opacity="0.08" className="text-foreground">
-          <text x="250" y="60" textAnchor="middle" fill="currentColor" fontSize="8" fontFamily="monospace" letterSpacing="4">
-            DECONSTRUCT
-          </text>
+        {/* ═══ PANEL 2: ANALYZE ═══ */}
+        <g filter="url(#soft-glow)">
+          <rect x="270" y="70" width="170" height="150" rx="14" fill="#0d0d0d" stroke="#F97316" strokeOpacity="0.12" strokeWidth="0.8" />
         </g>
+        <rect x="270" y="70" width="170" height="150" rx="14" fill="url(#g-dim)" fillOpacity="0.05" />
 
-        {/* Label: Remix */}
-        <g opacity="0.08" className="text-foreground">
-          <text x="250" y="560" textAnchor="middle" fill="currentColor" fontSize="8" fontFamily="monospace" letterSpacing="4">
-            REMIX
-          </text>
-        </g>
+        {/* Panel 2 badge */}
+        <rect x="285" y="83" width="52" height="16" rx="4" fill="#F97316" fillOpacity="0.08" />
+        <text x="311" y="94" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" letterSpacing="1.5" opacity="0.6">STEP 02</text>
 
-        {/* Bottom data stream */}
-        {[0, 1, 2].map((i) => (
-          <g key={i} opacity="0.08">
-            <rect
-              x={100 + i * 140}
-              y={570}
-              width="80"
-              height="3"
-              rx="1.5"
-              className="fill-orange"
-            >
-              <animate
-                attributeName="width"
-                values={`${60 + i * 10};${90 + i * 15};${60 + i * 10}`}
-                dur={`${4 + i * 0.5}s`}
-                repeatCount="indefinite"
-              />
-              <animate
-                attributeName="opacity"
-                values="0.05;0.15;0.05"
-                dur={`${3 + i * 0.3}s`}
-                repeatCount="indefinite"
-              />
+        {/* Magnifying glass */}
+        <circle cx="298" cy="121" r="12" stroke="#F97316" strokeOpacity="0.2" strokeWidth="1" fill="none" />
+        <line x1="307" y1="130" x2="316" y2="139" stroke="#F97316" strokeOpacity="0.15" strokeWidth="1" />
+
+        <text x="320" y="126" fill="#F97316" fontSize="8" fontFamily="monospace" fontWeight="600" opacity="0.5">Analyze</text>
+        <text x="320" y="138" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.2">Patterns</text>
+
+        {/* Radar chart placeholder */}
+        <polygon points="300,155 310,180 295,190 280,180" stroke="#F97316" strokeOpacity="0.06" strokeWidth="0.5" fill="none" />
+        <polygon points="300,160 307,178 296,185 287,178" stroke="#F97316" strokeOpacity="0.1" strokeWidth="0.5" fill="none" />
+        <circle cx="300" cy="172" r="2" fill="#F97316" opacity="0.2">
+          <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite" />
+        </circle>
+
+        {/* Score bars */}
+        {[
+          { label: "HOOK", w: 35 },
+          { label: "STRC", w: 28 },
+          { label: "CTA", w: 22 },
+          { label: "TONE", w: 30 },
+        ].map((item, i) => (
+          <g key={`bar${i}`}>
+            <text x={338} y={152 + i * 14} fill="#F97316" fontSize="5" fontFamily="monospace" opacity="0.15">{item.label}</text>
+            <rect x={374} y={149 + i * 14} width="35" height="3" rx="1.5" fill="#F97316" opacity="0.04" />
+            <rect x={374} y={149 + i * 14} width={item.w} height="3" rx="1.5" fill="#F97316" opacity="0.2">
+              <animate attributeName="width" values={`${item.w * 0.7};${item.w};${item.w * 0.7}`} dur={`${2 + i * 0.5}s`} repeatCount="indefinite" />
             </rect>
           </g>
         ))}
 
-        {/* Energy arcs */}
-        {[0, 1, 2, 3].map((i) => {
-          const angle = (i * 90 * Math.PI) / 180;
-          const startX = 250 + Math.cos(angle) * 80;
-          const startY = 300 + Math.sin(angle) * 80;
-          const endX = 250 + Math.cos(angle + 0.5) * 140;
-          const endY = 300 + Math.sin(angle + 0.5) * 140;
-          const midX = (startX + endX) / 2 + Math.sin(angle) * 30;
-          const midY = (startY + endY) / 2 - Math.cos(angle) * 30;
+        {/* Panel 2 arrow labels */}
+        <text x="355" y="210" textAnchor="middle" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.12">
+          Patterns → DNA
+        </text>
+
+        {/* ═══ VERTICAL ARROW (INGEST down to ANALYZE) ═══ */}
+        <path d="M140 220 L140 245" stroke="#F97316" strokeWidth="0.4" opacity="0.08" />
+        <path d="M135 242 L140 250 L145 242" stroke="#F97316" strokeWidth="0.4" opacity="0.08" />
+
+        {/* ═══ VERTICAL ARROW (monitor side down) ═══ */}
+        <path d="M355 220 L355 245" stroke="#F97316" strokeWidth="0.4" opacity="0.08" />
+        <path d="M350 242 L355 250 L360 242" stroke="#F97316" strokeWidth="0.4" opacity="0.08" />
+
+        {/* ═══ ARROW 2 → 3 (upper) ═══ */}
+        <path d="M225 280 L245 280" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <path d="M240 275 L248 280 L240 285" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <circle cx="235" cy="280" r="2" fill="#F97316" opacity="0.08">
+          <animate attributeName="cx" values="225;245;225" dur="3s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.05;0.2;0.05" dur="3s" repeatCount="indefinite" />
+        </circle>
+
+        {/* ═══ ARROW 3 → 4 (lower) ═══ */}
+        <path d="M225 415 L245 415" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <path d="M240 410 L248 415 L240 420" stroke="#F97316" strokeWidth="0.5" opacity="0.15" />
+        <circle cx="235" cy="415" r="2" fill="#F97316" opacity="0.08">
+          <animate attributeName="cx" values="225;245;225" dur="3.5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.05;0.2;0.05" dur="3.5s" repeatCount="indefinite" />
+        </circle>
+
+        {/* ═══ PANEL 3: OUTLINE ═══ */}
+        <g filter="url(#soft-glow)">
+          <rect x="55" y="270" width="170" height="130" rx="14" fill="#0d0d0d" stroke="#F97316" strokeOpacity="0.12" strokeWidth="0.8" />
+        </g>
+        <rect x="55" y="270" width="170" height="130" rx="14" fill="url(#g-dim)" fillOpacity="0.05" />
+
+        {/* Panel 3 badge */}
+        <rect x="70" y="283" width="52" height="16" rx="4" fill="#F97316" fillOpacity="0.08" />
+        <text x="96" y="294" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" letterSpacing="1.5" opacity="0.6">STEP 03</text>
+
+        <rect x="80" y="312" width="28" height="20" rx="5" fill="#F97316" fillOpacity="0.1" stroke="#F97316" strokeOpacity="0.15" strokeWidth="0.5" />
+        <rect x="84" y="316" width="20" height="4" rx="1" fill="#F97316" opacity="0.15" />
+        <rect x="84" y="322" width="14" height="4" rx="1" fill="#F97316" opacity="0.1" />
+
+        <text x="118" y="326" fill="#F97316" fontSize="8" fontFamily="monospace" fontWeight="600" opacity="0.5">Outline</text>
+        <text x="118" y="338" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.2">Structure</text>
+
+        {/* Outline items */}
+        {["Introduction", "Main Point 1", "Main Point 2", "Conclusion"].map((item, i) => (
+          <g key={`outline${i}`}>
+            <rect x={i === 1 ? 80 : 80} y={350 + i * 14} width={i === 0 ? 100 : i === 1 ? 90 : i === 2 ? 85 : 95} height="3" rx="1.5" fill="#F97316" opacity={i === 0 ? 0.15 : 0.05} />
+            <circle cx={90 + (i === 0 ? 50 : i === 1 ? 45 : i === 2 ? 42 : 47)} cy={358 + i * 14} r="2" fill="#F97316" opacity={0.04 + det(i, 0) * 0.06} />
+            <text x={86} y={350 + i * 14 + 7} fill="#F97316" fontSize="4" fontFamily="monospace" opacity={i === 0 ? 0.25 : 0.08}>
+              {i === 0 ? "● Intro" : i === 1 ? "● Key Point" : i === 2 ? "● Analysis" : "● Summary"}
+            </text>
+          </g>
+        ))}
+
+        {/* ═══ PANEL 4: SCRIPT ═══ */}
+        <g filter="url(#soft-glow)">
+          <rect x="55" y="420" width="170" height="110" rx="14" fill="#0d0d0d" stroke="#F97316" strokeOpacity="0.12" strokeWidth="0.8" />
+        </g>
+        <rect x="55" y="420" width="170" height="110" rx="14" fill="url(#g-dim)" fillOpacity="0.05" />
+
+        {/* Panel 4 badge */}
+        <rect x="70" y="433" width="52" height="16" rx="4" fill="#F97316" fillOpacity="0.08" />
+        <text x="96" y="444" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" letterSpacing="1.5" opacity="0.6">STEP 04</text>
+
+        <text x="82" y="468" fill="#F97316" fontSize="8" fontFamily="monospace" fontWeight="600" opacity="0.5">Script</text>
+        <text x="120" y="468" fill="#F97316" fontSize="6" fontFamily="monospace" opacity="0.2">Full script</text>
+
+        {/* Script body lines */}
+        <rect x="80" y="486" width="130" height="3" rx="1.5" fill="#F97316" opacity="0.08" />
+        <rect x="80" y="494" width="120" height="3" rx="1.5" fill="#F97316" opacity="0.06" />
+        <rect x="80" y="502" width="125" height="3" rx="1.5" fill="#F97316" opacity="0.06" />
+        <rect x="80" y="510" width="100" height="3" rx="1.5" fill="#F97316" opacity="0.05" />
+
+        {/* Cursor */}
+        <rect x="210" y="510" width="6" height="3" rx="1" fill="#F97316" opacity="0.4">
+          <animate attributeName="opacity" values="0.4;0;0.4" dur="1s" repeatCount="indefinite" />
+        </rect>
+
+        {/* Save indicator */}
+        <rect x="164" y="520" width="46" height="8" rx="3" fill="#F97316" fillOpacity="0.06" />
+        <text x="187" y="527" textAnchor="middle" fill="#F97316" fontSize="4.5" fontFamily="monospace" opacity="0.15">SAVED ✓</text>
+
+        {/* ═══ RIGHT SIDE: BLUEPRINT ═══ */}
+        <g filter="url(#soft-glow)">
+          <rect x="270" y="270" width="170" height="260" rx="14" fill="#0d0d0d" stroke="#F97316" strokeOpacity="0.12" strokeWidth="0.8" />
+        </g>
+        <rect x="270" y="270" width="170" height="260" rx="14" fill="url(#g-dim)" fillOpacity="0.05" />
+
+        {/* Panel R badge */}
+        <rect x="285" y="283" width="72" height="16" rx="4" fill="#F97316" fillOpacity="0.08" />
+        <text x="321" y="294" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" letterSpacing="1.5" opacity="0.6">LIBRARY</text>
+
+        {/* Blueprint shelf */}
+        <text x="285" y="320" fill="#F97316" fontSize="7" fontFamily="monospace" fontWeight="600" opacity="0.4">Your Blueprints</text>
+
+        {/* Book spines on shelf */}
+        {Array.from({ length: 5 }).map((_, i) => {
+          const h = 30 + det(i, 0) * 25;
+          const w = 14 + det(i, 1) * 8;
           return (
-            <path
-              key={i}
-              d={`M${startX},${startY} Q${midX},${midY} ${endX},${endY}`}
-              stroke="url(#g-orange)"
-              strokeWidth="0.5"
-              opacity="0.12"
-              fill="none"
-            >
-              <animate
-                attributeName="opacity"
-                values="0.05;0.2;0.05"
-                dur={`${3 + i * 0.4}s`}
-                repeatCount="indefinite"
-              />
-              <animate
-                attributeName="stroke-width"
-                values="0.3;0.8;0.3"
-                dur={`${4 + i * 0.3}s`}
-                repeatCount="indefinite"
-              />
-            </path>
+            <g key={`book${i}`}>
+              <rect
+                x={285 + i * 30}
+                y={370 - h}
+                width={w}
+                height={h}
+                rx="2"
+                fill="#F97316"
+                fillOpacity={0.04 + det(i, 2) * 0.04}
+                stroke="#F97316"
+                strokeOpacity="0.06"
+                strokeWidth="0.3"
+              >
+                <animate attributeName="opacity" values={`${0.03 + det(i, 2) * 0.03};${0.07 + det(i, 3) * 0.06};${0.03 + det(i, 2) * 0.03}`} dur={`${3 + i * 0.6}s`} repeatCount="indefinite" />
+              </rect>
+            </g>
           );
         })}
 
-        {/* Micro dots along arcs */}
-        {[0, 1, 2, 3].map((i) => (
-          <circle
-            key={i}
-            r="1.5"
-            className="fill-orange"
-            opacity="0.2"
-          >
-            <animateMotion
-              dur={`${6 + i * 0.5}s`}
-              repeatCount="indefinite"
-              path={`M${250 + Math.cos((i * 90 * Math.PI) / 180) * 80},${300 + Math.sin((i * 90 * Math.PI) / 180) * 80} Q${250 + Math.cos((i * 90 * Math.PI) / 180) * 110 + Math.sin((i * 90 * Math.PI) / 180) * 30},${300 + Math.sin((i * 90 * Math.PI) / 180) * 110 - Math.cos((i * 90 * Math.PI) / 180) * 30} ${250 + Math.cos(((i * 90 + 60) * Math.PI) / 180) * 140},${300 + Math.sin(((i * 90 + 60) * Math.PI) / 180) * 140}`}
-            />
-          </circle>
-        ))}
-      </svg>
+        {/* Shelf base */}
+        <rect x="280" y="373" width="150" height="2" rx="1" fill="#F97316" opacity="0.08" />
 
-      {/* Bottom decorative label */}
-      <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-3">
-        <div className="w-12 h-px bg-gradient-to-r from-transparent via-orange/30 to-transparent" />
-        <span className="text-[8px] font-mono text-orange/20 tracking-[0.3em] uppercase animate-pulse">
-          DNA
-        </span>
-        <div className="w-12 h-px bg-gradient-to-r from-transparent via-orange/30 to-transparent" />
-      </div>
+        {/* Recent blueprint panel */}
+        <rect x="285" y="388" width="140" height="30" rx="6" stroke="#F97316" strokeOpacity="0.06" strokeWidth="0.3" fill="#F97316" fillOpacity="0.02" />
+        <rect x="293" y="395" width="8" height="8" rx="2" fill="#F97316" opacity="0.12" />
+        <text x="307" y="402" fill="#F97316" fontSize="5.5" fontFamily="monospace" opacity="0.2">MrBeast DNA</text>
+        <text x="307" y="412" fill="#F97316" fontSize="4.5" fontFamily="monospace" opacity="0.08">24 patterns</text>
+
+        <rect x="285" y="424" width="140" height="30" rx="6" stroke="#F97316" strokeOpacity="0.06" strokeWidth="0.3" fill="#F97316" fillOpacity="0.02" />
+        <rect x="293" y="431" width="8" height="8" rx="2" fill="#F97316" opacity="0.08" />
+        <text x="307" y="438" fill="#F97316" fontSize="5.5" fontFamily="monospace" opacity="0.15">Marques · MKBHD</text>
+        <text x="307" y="448" fill="#F97316" fontSize="4.5" fontFamily="monospace" opacity="0.06">18 patterns</text>
+
+        <rect x="285" y="460" width="140" height="30" rx="6" stroke="#F97316" strokeOpacity="0.06" strokeWidth="0.3" fill="#F97316" fillOpacity="0.02" />
+        <rect x="293" y="467" width="8" height="8" rx="2" fill="#F97316" opacity="0.06" />
+        <text x="307" y="474" fill="#F97316" fontSize="5.5" fontFamily="monospace" opacity="0.12">Podcast Patterns</text>
+        <text x="307" y="484" fill="#F97316" fontSize="4.5" fontFamily="monospace" opacity="0.05">12 patterns</text>
+
+        {/* Total count badge */}
+        <rect x="316" y="500" width="78" height="16" rx="6" fill="#F97316" fillOpacity="0.06" stroke="#F97316" strokeOpacity="0.08" strokeWidth="0.3" />
+        <text x="355" y="511" textAnchor="middle" fill="#F97316" fontSize="6.5" fontFamily="monospace" fontWeight="600" opacity="0.3">∞ Blueprints</text>
+
+        {/* Brand watermark */}
+        <text x="250" y="572" textAnchor="middle" fill="#F97316" fontSize="7" fontFamily="monospace" letterSpacing="5" opacity="0.06">
+          DECONSTRUCT · REMIX · PERFORM
+        </text>
+
+      </svg>
     </div>
   );
 }
