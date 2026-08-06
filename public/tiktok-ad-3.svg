@@ -1,0 +1,151 @@
+<svg viewBox="0 0 540 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1a1a20"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </radialGradient>
+    <linearGradient id="orangeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c20"/>
+      <stop offset="100%" stop-color="#121214"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <ellipse cx="270" cy="300" rx="300" ry="300" fill="#f97316" opacity="0.03" filter="url(#softGlow)"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="540" height="2" fill="url(#orangeLine)"/>
+
+  <!-- Logo -->
+  <g transform="translate(40, 36)">
+    <rect x="0" y="0" width="30" height="30" rx="7" fill="url(#cta)"/>
+    <text x="15" y="20" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="15">G</text>
+    <text x="40" y="21" fill="#fff" font-family="system-ui,sans-serif" font-weight="600" font-size="13" letter-spacing="0.8">GoScript</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="270" y="120" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="26" letter-spacing="-0.5">
+    <tspan x="270" dy="0">Your scripts should be</tspan>
+    <tspan x="270" dy="34">backed by data.</tspan>
+    <tspan x="270" dy="34" fill="#f97316">Not guesswork.</tspan>
+  </text>
+
+  <!-- Stats row -->
+  <g transform="translate(40, 200)">
+    <rect x="0" y="0" width="145" height="70" rx="12" fill="#111112" stroke="#f97316" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="72" y="32" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="22">47</text>
+    <text x="72" y="52" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="9" letter-spacing="0.3">Videos analyzed</text>
+
+    <rect x="157" y="0" width="145" height="70" rx="12" fill="#111112" stroke="#f97316" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="229" y="32" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="22">12</text>
+    <text x="229" y="52" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="9" letter-spacing="0.3">Patterns extracted</text>
+
+    <rect x="314" y="0" width="145" height="70" rx="12" fill="#111112" stroke="#f97316" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="386" y="32" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="22">5</text>
+    <text x="386" y="52" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="9" letter-spacing="0.3">Min to script</text>
+  </g>
+
+  <!-- Blueprint analysis card -->
+  <g transform="translate(40, 300)">
+    <rect x="0" y="0" width="460" height="250" rx="16" fill="url(#cardGrad)" stroke="#f97316" stroke-opacity="0.1" stroke-width="1"/>
+    
+    <rect x="0" y="0" width="460" height="42" rx="16" fill="#1c1c20"/>
+    <rect x="0" y="28" width="460" height="14" fill="#1c1c20"/>
+    
+    <circle cx="24" cy="21" r="4" fill="#f97316" opacity="0.4"/>
+    <text x="40" y="25" fill="#d4d4d8" font-family="system-ui,sans-serif" font-weight="600" font-size="11">Channel Blueprint</text>
+    <text x="440" y="25" text-anchor="end" fill="#f97316" font-family="system-ui,sans-serif" font-weight="500" font-size="9">LIVE ANALYSIS</text>
+
+    <!-- Data row 1 -->
+    <g transform="translate(20, 60)">
+      <text x="0" y="0" fill="#f97316" font-family="system-ui,sans-serif" font-weight="600" font-size="10" letter-spacing="0.3">HOOK PATTERNS</text>
+      <rect x="0" y="10" width="420" height="6" rx="3" fill="#fff" fill-opacity="0.04"/>
+      <rect x="0" y="10" width="340" height="6" rx="3" fill="url(#cta)" opacity="0.6"/>
+      <text x="420" y="14" text-anchor="end" fill="#f97316" font-family="system-ui,sans-serif" font-size="9" font-weight="500">81%</text>
+    </g>
+
+    <g transform="translate(20, 95)">
+      <text x="0" y="0" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="10" letter-spacing="0.3">STORYTELLING STRUCTURE</text>
+      <rect x="0" y="10" width="420" height="6" rx="3" fill="#fff" fill-opacity="0.04"/>
+      <rect x="0" y="10" width="370" height="6" rx="3" fill="url(#cta)" opacity="0.5"/>
+      <text x="420" y="14" text-anchor="end" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="9">88%</text>
+    </g>
+
+    <g transform="translate(20, 130)">
+      <text x="0" y="0" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="10" letter-spacing="0.3">ENGAGEMENT METHODS</text>
+      <rect x="0" y="10" width="420" height="6" rx="3" fill="#fff" fill-opacity="0.04"/>
+      <rect x="0" y="10" width="300" height="6" rx="3" fill="url(#cta)" opacity="0.4"/>
+      <text x="420" y="14" text-anchor="end" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="9">71%</text>
+    </g>
+
+    <g transform="translate(20, 165)">
+      <text x="0" y="0" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="10" letter-spacing="0.3">CTA EFFECTIVENESS</text>
+      <rect x="0" y="10" width="420" height="6" rx="3" fill="#fff" fill-opacity="0.04"/>
+      <rect x="0" y="10" width="390" height="6" rx="3" fill="url(#cta)" opacity="0.55"/>
+      <text x="420" y="14" text-anchor="end" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="9">93%</text>
+    </g>
+
+    <line x1="20" y1="196" x2="440" y2="196" stroke="#fff" stroke-opacity="0.04" stroke-width="1"/>
+
+    <text x="20" y="220" fill="#d4d4d8" font-family="system-ui,sans-serif" font-weight="500" font-size="11">Top pattern: Shock + Curiosity gap hybrid</text>
+    <text x="440" y="220" text-anchor="end" fill="#52525b" font-family="system-ui,sans-serif" font-size="9">12 videos matched</text>
+  </g>
+
+  <!-- Trust line -->
+  <text x="270" y="590" text-anchor="middle" fill="#e4e4e7" font-family="system-ui,sans-serif" font-weight="500" font-size="15" letter-spacing="-0.2">
+    Your script, written using proven patterns
+  </text>
+
+  <!-- Feature pills -->
+  <g transform="translate(60, 620)">
+    <rect x="0" y="0" width="200" height="28" rx="14" fill="#f97316" fill-opacity="0.08"/>
+    <text x="100" y="18" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="500" font-size="11">📊 Data-driven structure</text>
+
+    <rect x="212" y="0" width="170" height="28" rx="14" fill="#fff" fill-opacity="0.04"/>
+    <text x="297" y="18" text-anchor="middle" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="11">🎯 Custom voice</text>
+  </g>
+
+  <g transform="translate(100, 658)">
+    <rect x="0" y="0" width="170" height="28" rx="14" fill="#fff" fill-opacity="0.04"/>
+    <text x="85" y="18" text-anchor="middle" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="11">⚡ One-click generation</text>
+
+    <rect x="182" y="0" width="160" height="28" rx="14" fill="#fff" fill-opacity="0.04"/>
+    <text x="262" y="18" text-anchor="middle" fill="#a1a1aa" font-family="system-ui,sans-serif" font-weight="500" font-size="11">📋 Ready to film</text>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(160, 730)">
+    <rect x="0" y="0" width="220" height="52" rx="26" fill="url(#cta)" filter="url(#glow)"/>
+    <text x="110" y="32" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="600" font-size="15" letter-spacing="0.4">Try GoScript Free →</text>
+  </g>
+  <text x="270" y="810" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="10" letter-spacing="0.3">No credit card · 5 channels free</text>
+
+  <!-- Bottom: source trust -->
+  <g transform="translate(120, 860)">
+    <text x="150" y="12" text-anchor="middle" fill="#3f3f46" font-family="system-ui,sans-serif" font-size="9" letter-spacing="0.3">Powered by YouTube Data API · Google Custom Search · Gemini AI</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <g opacity="0.1">
+    <rect x="30" y="250" width="5" height="5" rx="1" fill="#f97316" transform="rotate(45,32,252)"/>
+    <rect x="505" y="550" width="5" height="5" rx="1" fill="#f97316" transform="rotate(45,507,552)"/>
+    <rect x="40" y="700" width="4" height="4" rx="1" fill="#f97316" transform="rotate(45,42,702)"/>
+    <rect x="496" y="380" width="4" height="4" rx="1" fill="#f97316" transform="rotate(45,498,382)"/>
+  </g>
+</svg>

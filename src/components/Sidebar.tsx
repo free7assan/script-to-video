@@ -17,7 +17,7 @@ import {
   Users,
   Activity,
   Cog,
-  Lightbulb,
+  TrendingUp,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
@@ -30,11 +30,12 @@ const links = [
   { href: "/video/analyze", label: "Video Analyzer", icon: Video },
   { href: "/channels/new", label: "Channel Analyzer", icon: ListVideo },
   { href: "/scripts/new", label: "Generator", icon: Wand2 },
-  { href: "/ideas", label: "Ideas", icon: Lightbulb },
   { href: "/scripts", label: "Scripts", icon: FileText },
   { href: "/blueprints", label: "Blueprints", icon: Library },
-  { href: "/settings", label: "Settings", icon: Cog },
 ];
+
+const trendingLink = { href: "/ideas/trending", label: "Trending", icon: TrendingUp };
+const settingsLink = { href: "/settings", label: "Settings", icon: Cog };
 
 const adminLinks = [
   { href: "/admin", label: "Admin Dashboard", icon: Settings },
@@ -53,24 +54,68 @@ export function Sidebar() {
       </div>
 
       <nav className="flex-1 flex flex-col gap-0.5 p-3 overflow-y-auto">
-        {!user?.isAdmin && links.map(({ href, label, icon: Icon }) => {
-          const isActive = pathname === href;
-          return (
-            <Link
-              key={href}
-              href={href}
-              className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-                isActive
-                  ? "bg-orange/10 text-orange"
-                  : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-              }`}
-            >
-              <Icon className="w-4 h-4 shrink-0" />
-              <span>{label}</span>
-              {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
-            </Link>
-          );
-        })}
+        {!user?.isAdmin && (
+          <>
+            {links.map(({ href, label, icon: Icon }) => {
+              const isActive = pathname === href;
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
+                    isActive
+                      ? "bg-orange/10 text-orange"
+                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                  }`}
+                >
+                  <Icon className="w-4 h-4 shrink-0" />
+                  <span>{label}</span>
+                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
+                </Link>
+              );
+            })}
+
+            {/* Trending link */}
+            {(() => {
+              const { href, label, icon: Icon } = trendingLink;
+              const isActive = pathname === href;
+              return (
+                <Link
+                  href={href}
+                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
+                    isActive
+                      ? "bg-orange/10 text-orange"
+                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                  }`}
+                >
+                  <Icon className="w-4 h-4 shrink-0" />
+                  <span>{label}</span>
+                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
+                </Link>
+              );
+            })()}
+
+            {/* Settings link */}
+            {(() => {
+              const { href, label, icon: Icon } = settingsLink;
+              const isActive = pathname === href;
+              return (
+                <Link
+                  href={href}
+                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
+                    isActive
+                      ? "bg-orange/10 text-orange"
+                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                  }`}
+                >
+                  <Icon className="w-4 h-4 shrink-0" />
+                  <span>{label}</span>
+                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
+                </Link>
+              );
+            })()}
+          </>
+        )}
 
         {/* ──── Admin section (only for admins) ──── */}
         {user?.isAdmin && (

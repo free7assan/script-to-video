@@ -1,0 +1,117 @@
+<svg viewBox="0 0 540 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#1a1a1d"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </radialGradient>
+    <linearGradient id="orangeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1e"/>
+      <stop offset="100%" stop-color="#141415"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <ellipse cx="270" cy="400" rx="300" ry="350" fill="#f97316" opacity="0.03" filter="url(#softGlow)"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="540" height="2" fill="url(#orangeLine)"/>
+
+  <!-- Logo -->
+  <g transform="translate(40, 36)">
+    <rect x="0" y="0" width="30" height="30" rx="7" fill="url(#cta)"/>
+    <text x="15" y="20" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="15">G</text>
+    <text x="40" y="21" fill="#fff" font-family="system-ui,sans-serif" font-weight="600" font-size="13" letter-spacing="0.8">GoScript</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="270" y="140" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="700" font-size="30" letter-spacing="-0.6">
+    <tspan x="270" dy="0">Stop guessing what works</tspan>
+    <tspan x="270" dy="38">on YouTube</tspan>
+  </text>
+  <text x="270" y="218" text-anchor="middle" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="13" letter-spacing="0.2">
+    <tspan x="270" dy="0">Top creators follow repeatable script patterns.</tspan>
+    <tspan x="270" dy="20">GoScript finds them for you — automatically.</tspan>
+  </text>
+
+  <!-- Main visual: Split comparison -->
+  <g transform="translate(40, 270)">
+    <!-- Before card -->
+    <rect x="0" y="0" width="215" height="200" rx="14" fill="#111112" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    <rect x="0" y="0" width="215" height="36" rx="14" fill="#1a1a1c"/>
+    <rect x="0" y="22" width="215" height="14" fill="#1a1a1c"/>
+    <text x="107" y="24" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="10" letter-spacing="0.5">BEFORE</text>
+    <text x="16" y="66" fill="#71717a" font-family="system-ui,sans-serif" font-size="10">😰 3 hours writing</text>
+    <text x="16" y="88" fill="#71717a" font-family="system-ui,sans-serif" font-size="10">🤔 No idea if hook works</text>
+    <text x="16" y="110" fill="#71717a" font-family="system-ui,sans-serif" font-size="10">📝 Endless rewrites</text>
+    <text x="16" y="132" fill="#71717a" font-family="system-ui,sans-serif" font-size="10">🎲 Publish and pray</text>
+    <line x1="16" y1="162" x2="199" y2="162" stroke="#f97316" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="107" y="182" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-weight="600" font-size="12">3+ hrs per script</text>
+
+    <!-- Arrow -->
+    <text x="240" y="106" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-size="20" opacity="0.5">→</text>
+
+    <!-- After card -->
+    <rect x="265" y="0" width="215" height="200" rx="14" fill="#0f0f10" stroke="#f97316" stroke-opacity="0.15" stroke-width="1"/>
+    <rect x="265" y="0" width="215" height="36" rx="14" fill="#1c1c1e"/>
+    <rect x="265" y="22" width="215" height="14" fill="#1c1c1e"/>
+    <text x="372" y="24" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="600" font-size="10" letter-spacing="0.5">AFTER</text>
+    <text x="281" y="66" fill="#d4d4d8" font-family="system-ui,sans-serif" font-size="10">⚡ 5 min generation</text>
+    <text x="281" y="88" fill="#d4d4d8" font-family="system-ui,sans-serif" font-size="10">✅ Proven hook formula</text>
+    <text x="281" y="110" fill="#d4d4d8" font-family="system-ui,sans-serif" font-size="10">📋 Done in one pass</text>
+    <text x="281" y="132" fill="#d4d4d8" font-family="system-ui,sans-serif" font-size="10">📈 Data-backed confidence</text>
+    <line x1="281" y1="162" x2="464" y2="162" stroke="#f97316" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="372" y="182" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="600" font-size="12">5 min per script</text>
+  </g>
+
+  <!-- How it works -->
+  <text x="270" y="520" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="600" font-size="16" letter-spacing="-0.3">3 steps to your first script</text>
+
+  <g transform="translate(60, 550)">
+    <circle cx="0" cy="0" r="12" fill="#f97316" opacity="0.15"/>
+    <text x="0" y="5" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="700" size="11">1</text>
+    <text x="22" y="5" fill="#e4e4e7" font-family="system-ui,sans-serif" font-size="13" font-weight="500">Paste a YouTube channel URL</text>
+
+    <line x1="0" y1="24" x2="420" y2="24" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+
+    <circle cx="0" cy="48" r="12" fill="#f97316" opacity="0.15"/>
+    <text x="0" y="53" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="700" size="11">2</text>
+    <text x="22" y="53" fill="#e4e4e7" font-family="system-ui,sans-serif" font-size="13" font-weight="500">Get a full script methodology blueprint</text>
+
+    <line x1="0" y1="72" x2="420" y2="72" stroke="#fff" stroke-opacity="0.03" stroke-width="1"/>
+
+    <circle cx="0" cy="96" r="12" fill="#f97316" opacity="0.15"/>
+    <text x="0" y="101" text-anchor="middle" fill="#f97316" font-family="system-ui,sans-serif" font-weight="700" size="11">3</text>
+    <text x="22" y="101" fill="#e4e4e7" font-family="system-ui,sans-serif" font-size="13" font-weight="500">Generate a ready-to-film script</text>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(160, 710)">
+    <rect x="0" y="0" width="220" height="52" rx="26" fill="url(#cta)" filter="url(#glow)"/>
+    <text x="110" y="32" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="600" font-size="15" letter-spacing="0.4">Try GoScript Free →</text>
+  </g>
+  <text x="270" y="790" text-anchor="middle" fill="#52525b" font-family="system-ui,sans-serif" font-size="10" letter-spacing="0.3">No credit card · 5 channels free</text>
+
+  <!-- Decorative dots -->
+  <g opacity="0.12">
+    <rect x="30" y="400" width="5" height="5" rx="1" fill="#f97316" transform="rotate(45,32,402)"/>
+    <rect x="505" y="500" width="5" height="5" rx="1" fill="#f97316" transform="rotate(45,507,502)"/>
+    <rect x="45" y="780" width="4" height="4" rx="1" fill="#f97316" transform="rotate(45,47,782)"/>
+    <rect x="491" y="350" width="4" height="4" rx="1" fill="#f97316" transform="rotate(45,493,352)"/>
+  </g>
+</svg>
