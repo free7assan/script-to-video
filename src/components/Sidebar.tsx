@@ -18,12 +18,15 @@ import {
   Activity,
   Cog,
   TrendingUp,
+  Lightbulb,
+  Bookmark,
+  ChevronDown,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
 import { useAuth } from "@/components/AuthProvider";
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const links = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
@@ -34,7 +37,10 @@ const links = [
   { href: "/blueprints", label: "Blueprints", icon: Library },
 ];
 
+const ideasLink = { href: "/ideas", label: "Ideas", icon: Lightbulb };
 const trendingLink = { href: "/ideas/trending", label: "Trending", icon: TrendingUp };
+const savedIdeasLink = { href: "/ideas/saved", label: "Saved Ideas", icon: Bookmark };
+const ideasLinks = [ideasLink, trendingLink, savedIdeasLink];
 const settingsLink = { href: "/settings", label: "Settings", icon: Cog };
 
 const adminLinks = [
@@ -46,6 +52,11 @@ const adminLinks = [
 export function Sidebar() {
   const pathname = usePathname();
   const { user } = useAuth();
+  const [ideasOpen, setIdeasOpen] = useState(false);
+
+  useEffect(() => {
+    if (pathname.startsWith("/ideas")) setIdeasOpen(true);
+  }, [pathname]);
 
   return (
     <aside className="fixed left-0 top-0 bottom-0 z-40 w-56 border-r border-border/40 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40 flex flex-col">
@@ -56,64 +67,35 @@ export function Sidebar() {
       <nav className="flex-1 flex flex-col gap-0.5 p-3 overflow-y-auto">
         {!user?.isAdmin && (
           <>
-            {links.map(({ href, label, icon: Icon }) => {
-              const isActive = pathname === href;
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-                    isActive
-                      ? "bg-orange/10 text-orange"
-                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-                  }`}
-                >
-                  <Icon className="w-4 h-4 shrink-0" />
-                  <span>{label}</span>
-                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
-                </Link>
-              );
-            })}
+            {links.map(({ href, label, icon }) => (
+              <NavLink key={href} href={href} label={label} icon={icon} isActive={pathname === href} />
+            ))}
 
-            {/* Trending link */}
-            {(() => {
-              const { href, label, icon: Icon } = trendingLink;
-              const isActive = pathname === href;
-              return (
-                <Link
-                  href={href}
-                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-                    isActive
-                      ? "bg-orange/10 text-orange"
-                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-                  }`}
-                >
-                  <Icon className="w-4 h-4 shrink-0" />
-                  <span>{label}</span>
-                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
-                </Link>
-              );
-            })()}
+            {/* Ideas group */}
+            <div>
+              <button
+                onClick={() => setIdeasOpen(!ideasOpen)}
+                className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all w-full ${
+                  pathname.startsWith("/ideas")
+                    ? "text-orange"
+                    : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                }`}
+              >
+                <Lightbulb className="w-4 h-4 shrink-0" />
+                <span>Ideas</span>
+                <ChevronDown className={`ml-auto w-3.5 h-3.5 shrink-0 transition-transform ${ideasOpen ? "" : "-rotate-90"}`} />
+              </button>
+              {ideasOpen && (
+                <div className="space-y-0.5 ml-3 pl-3 border-l border-border/20">
+                  {ideasLinks.map(({ href, label, icon }) => (
+                    <NavLink key={href} href={href} label={label} icon={icon} isActive={pathname === href} />
+                  ))}
+                </div>
+              )}
+            </div>
 
             {/* Settings link */}
-            {(() => {
-              const { href, label, icon: Icon } = settingsLink;
-              const isActive = pathname === href;
-              return (
-                <Link
-                  href={href}
-                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-                    isActive
-                      ? "bg-orange/10 text-orange"
-                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-                  }`}
-                >
-                  <Icon className="w-4 h-4 shrink-0" />
-                  <span>{label}</span>
-                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
-                </Link>
-              );
-            })()}
+            <NavLink href={settingsLink.href} label={settingsLink.label} icon={settingsLink.icon} isActive={pathname === settingsLink.href} />
           </>
         )}
 
@@ -252,5 +234,22 @@ function SignOutButton() {
         <LogOut className="w-3.5 h-3.5" />
       )}
     </button>
+  );
+}
+
+function NavLink({ href, label, icon: Icon, isActive }: { href: string; label: string; icon: typeof LayoutDashboard; isActive: boolean }) {
+  return (
+    <Link
+      href={href}
+      className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
+        isActive
+          ? "bg-orange/10 text-orange"
+          : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+      }`}
+    >
+      <Icon className="w-4 h-4 shrink-0" />
+      <span>{label}</span>
+      {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
+    </Link>
   );
 }
