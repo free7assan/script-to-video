@@ -110,6 +110,16 @@ import { batch107 } from "./batch-107-analytics";
 import { batch108 } from "./batch-108-analytics";
 import { batch109 } from "./batch-109-analytics";
 import { batch110 } from "./batch-110-analytics";
+import { batch111 } from "./batch-111-community";
+import { batch112 } from "./batch-112-live";
+import { batch113 } from "./batch-113-merch";
+import { batch114 } from "./batch-114-membership";
+import { batch115 } from "./batch-115-youtubeseo";
+import { batch116 } from "./batch-116-collab";
+import { batch117 } from "./batch-117-workflow";
+import { batch118 } from "./batch-118-narrative";
+import { batch119 } from "./batch-119-algorithm";
+import { batch120 } from "./batch-120-mindset";
 
 export const posts: BlogPost[] = [
   ...legacyPosts,
@@ -223,6 +233,16 @@ export const posts: BlogPost[] = [
   ...batch108,
   ...batch109,
   ...batch110,
+  ...batch111,
+  ...batch112,
+  ...batch113,
+  ...batch114,
+  ...batch115,
+  ...batch116,
+  ...batch117,
+  ...batch118,
+  ...batch119,
+  ...batch120,
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
