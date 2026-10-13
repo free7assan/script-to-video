@@ -14,6 +14,7 @@ const links = [
   { href: "/#pipeline", label: "Pipeline" },
   { href: "/#capabilities", label: "Capabilities" },
   { href: "/#workflow", label: "Workflow" },
+  { href: "/blog", label: "Blog" },
   { href: "/#pricing", label: "Pricing" },
 ];
 

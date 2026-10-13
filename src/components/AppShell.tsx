@@ -9,6 +9,7 @@ const authRoutes = new Set(["/login", "/signup", "/admin"]);
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isHome = pathname === "/";
+  const isBlog = pathname === "/blog" || pathname.startsWith("/blog/");
   const isAuth = authRoutes.has(pathname);
 
   // Auth pages — landing nav + centered content, no sidebar
@@ -23,7 +24,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     );
   }
 
-  if (isHome) {
+  if (isHome || isBlog) {
     return (
       <>
         <LandingNav />

@@ -7,9 +7,11 @@ const authApiPrefix = "/api/auth";
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Allow public routes, auth API, and /admin (admin page handles auth itself)
+  // Allow public routes, auth API, /admin (admin page handles auth itself), and the blog
   if (
     publicRoutes.has(pathname) ||
+    pathname === "/blog" ||
+    pathname.startsWith("/blog/") ||
     pathname.startsWith(authApiPrefix) ||
     pathname.startsWith("/admin")
   ) {
