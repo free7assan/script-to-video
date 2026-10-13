@@ -120,6 +120,26 @@ import { batch117 } from "./batch-117-workflow";
 import { batch118 } from "./batch-118-narrative";
 import { batch119 } from "./batch-119-algorithm";
 import { batch120 } from "./batch-120-mindset";
+import { batch121 } from "./batch-121-thumbnails";
+import { batch122 } from "./batch-122-titles";
+import { batch123 } from "./batch-123-scripts";
+import { batch124 } from "./batch-124-interviews";
+import { batch125 } from "./batch-125-research";
+import { batch126 } from "./batch-126-faceless";
+import { batch127 } from "./batch-127-niche";
+import { batch128 } from "./batch-128-repurpose";
+import { batch129 } from "./batch-129-blogbeyond";
+import { batch130 } from "./batch-130-funnel";
+import { batch131 } from "./batch-131-shortmonetize";
+import { batch132 } from "./batch-132-course";
+import { batch133 } from "./batch-133-coaching";
+import { batch134 } from "./batch-134-freelance";
+import { batch135 } from "./batch-135-affiliate";
+import { batch136 } from "./batch-136-legal";
+import { batch137 } from "./batch-137-gear";
+import { batch138 } from "./batch-138-studio";
+import { batch139 } from "./batch-139-accessibility";
+import { batch140 } from "./batch-140-global";
 
 export const posts: BlogPost[] = [
   ...legacyPosts,
@@ -243,6 +263,26 @@ export const posts: BlogPost[] = [
   ...batch118,
   ...batch119,
   ...batch120,
+  ...batch121,
+  ...batch122,
+  ...batch123,
+  ...batch124,
+  ...batch125,
+  ...batch126,
+  ...batch127,
+  ...batch128,
+  ...batch129,
+  ...batch130,
+  ...batch131,
+  ...batch132,
+  ...batch133,
+  ...batch134,
+  ...batch135,
+  ...batch136,
+  ...batch137,
+  ...batch138,
+  ...batch139,
+  ...batch140,
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
