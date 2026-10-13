@@ -140,6 +140,26 @@ import { batch137 } from "./batch-137-gear";
 import { batch138 } from "./batch-138-studio";
 import { batch139 } from "./batch-139-accessibility";
 import { batch140 } from "./batch-140-global";
+import { batch141 } from "./batch-141-mediakit";
+import { batch142 } from "./batch-142-speaking";
+import { batch143 } from "./batch-143-oncamera";
+import { batch144 } from "./batch-144-voice";
+import { batch145 } from "./batch-145-documentary";
+import { batch146 } from "./batch-146-tutorial";
+import { batch147 } from "./batch-147-reviews";
+import { batch148 } from "./batch-148-series";
+import { batch149 } from "./batch-149-humor";
+import { batch150 } from "./batch-150-education";
+import { batch151 } from "./batch-151-mediabusiness";
+import { batch152 } from "./batch-152-team";
+import { batch153 } from "./batch-153-licensing";
+import { batch154 } from "./batch-154-audienceresearch";
+import { batch155 } from "./batch-155-music";
+import { batch156 } from "./batch-156-broll";
+import { batch157 } from "./batch-157-motion";
+import { batch158 } from "./batch-158-camera";
+import { batch159 } from "./batch-159-press";
+import { batch160 } from "./batch-160-evergreen";
 
 export const posts: BlogPost[] = [
   ...legacyPosts,
@@ -283,6 +303,26 @@ export const posts: BlogPost[] = [
   ...batch138,
   ...batch139,
   ...batch140,
+  ...batch141,
+  ...batch142,
+  ...batch143,
+  ...batch144,
+  ...batch145,
+  ...batch146,
+  ...batch147,
+  ...batch148,
+  ...batch149,
+  ...batch150,
+  ...batch151,
+  ...batch152,
+  ...batch153,
+  ...batch154,
+  ...batch155,
+  ...batch156,
+  ...batch157,
+  ...batch158,
+  ...batch159,
+  ...batch160,
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
