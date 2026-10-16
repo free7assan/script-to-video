@@ -80,7 +80,7 @@ export const batch286: BlogPost[] = [
       {
         heading: "Why structure comes first",
         paragraphs: [
-          "Before any pattern extraction begins, the smart move is to sort videos by their structure. A list format and a how-to format use different moves, so comparing them across the board will hide more than it shows. You cannot read a pattern in a pile that mixes styles at random.",
+          "Before any pattern extraction starts, the smart move is to sort videos by their structure. A list format and a how-to format use different moves, so comparing them across the board will hide more than it shows. You cannot read a pattern in a pile that mixes styles at random.",
           "By creating a short list of formats for a channel, each group becomes its own testing ground. This split cuts noise and lets you focus on changes that matter for one specific style. The smaller the sample, the clearer the signal tends to be.",
           "Structure is the frame that holds every smaller move, from the opening line to the final ask. Get the frame right and the details line up on their own."
         ]
@@ -474,7 +474,7 @@ export const batch286: BlogPost[] = [
         heading: "Avoiding test creep",
         paragraphs: [
           "It is tempting to pile on extra changes once testing gets started. Each added change stretches the test and muddies the result you set out to read. Keep the discipline you began with and change just one thing at a time.",
-          "If a test drags on without a clear answer, stop it and note what you have so far. A partial read beats a test that never ends and teaches you nothing along the way. Set a clear end date for each test before you begin, and honor it. A test that never ends is a decision you keep postponing.",
+          "If a test drags on without a clear answer, stop it and note what you have so far. A partial read beats a test that never ends and teaches you nothing along the way. Set a clear end date for each test before you start, and honor it. A test that never ends is a decision you keep postponing.",
           "Write the result down while the details are still fresh in your mind. A conclusion recalled weeks later tends to be softer than the data actually deserved, and you will second-guess yourself for no good reason. A one-line note is enough to keep the memory sharp."
         ]
       },
@@ -689,7 +689,7 @@ export const batch286: BlogPost[] = [
       {
         heading: "Starting simple",
         paragraphs: [
-          "You do not need a complex system to begin applying patterns to script generation. A small library and a handful of rules will carry you a long way. Fancy systems impress nobody if they sit unused. Think of your first version as a sketch, not a blueprint.",
+          "You do not need a complex system to start applying patterns to script generation. A small library and a handful of rules will carry you a long way. Fancy systems impress nobody if they sit unused. Think of your first version as a sketch, not a blueprint.",
           "Start with one format, one type of move, and one metric. Prove the loop works on a narrow slice before you widen it. You can always expand a loop that already runs, and a working small loop beats a broken grand design every time. You will learn more from one running loop than from a month of setup. Let the results, not the wish list, tell you when to expand.",
           "Add complexity only when the simple version starts to limit you. Most channels never need anything heavier than a short list and a clear score. Keep the first version dull and dependable, then improve it once the habit sticks. Simple systems get used, and used systems are the only ones that improve."
         ]

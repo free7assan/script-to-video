@@ -219,7 +219,7 @@ export const batch245: BlogPost[] = [
       {
         heading: "Separate desktop sound from what your audience should hear",
         paragraphs: [
-          "Game audio, browser tabs, and system chimes all arrive through the same default output unless you route them apart, and that is where accidental leaks begin. Point your system at a virtual device, then capture that device as a source in your streaming software. You gain independent control of game volume without touching your own monitoring level.",
+          "Game audio, browser tabs, and system chimes all arrive through the same default output unless you route them apart, and that is where accidental leaks start. Point your system at a virtual device, then capture that device as a source in your streaming software. You gain independent control of game volume without touching your own monitoring level.",
           "Notifications are the classic leak, and a message ping delivered to a live audience sounds unprofessional at best. Mute system sounds before you start, or route them somewhere the broadcast cannot reach. One minute of setup prevents a problem that otherwise repeats every week for months. Your future embarrassment is cheap to avoid today.",
         ],
       },
@@ -271,7 +271,7 @@ export const batch245: BlogPost[] = [
       {
         heading: "Length and timing do most of the work",
         paragraphs: [
-          "A stinger longer than two seconds starts to feel like a commercial break, and viewers begin checking other tabs while they wait. Around one second is usually the sweet spot where the motion registers and then gets out of the way. Set the transition point in the middle of the animation so the scene swaps exactly when the screen is fully covered.",
+          "A stinger longer than two seconds starts to feel like a commercial break, and viewers start checking other tabs while they wait. Around one second is usually the sweet spot where the motion registers and then gets out of the way. Set the transition point in the middle of the animation so the scene swaps exactly when the screen is fully covered.",
           "Audio matters as much as the visual does, because a whoosh that lands half a second late tells the viewer something is off even when they cannot say why. Sync the sound to the exact frame the screen fills, then test the switch three or four times in a row. Small offsets are more noticeable than you would guess.",
         ],
       },
@@ -613,7 +613,7 @@ export const batch245: BlogPost[] = [
         bullets: [
           "Note exactly what fails and when it starts before changing anything.",
           "Check dropped frame counts to separate network loss from encoder loss.",
-          "Close backups, updates, and extra tabs before the session begins.",
+          "Close backups, updates, and extra tabs before the session starts.",
           "Refresh and rescale browser sources before replacing a widget.",
         ],
       },

@@ -341,7 +341,7 @@ export const batch304: BlogPost[] = [
   },
   {
     slug: "ypp-grow-eligibility-honestly",
-    title: "Growing To YouTube Partner Program Eligibility The Honest Way",
+    title: "Growing to YouTube Partner Program Eligibility",
     excerpt:
       "Growing to YouTube Partner Program eligibility does not require shortcuts. Learn the honest habits that build subscribers and watch time you can keep.",
     date: "2043-09-16",
@@ -483,14 +483,14 @@ export const batch304: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Once you join the YouTube Partner Program, ads can start running on your videos and revenue begins to accrue. That is the headline change, but it is not the only one.",
+          "Once you join the YouTube Partner Program, ads can start running on your videos and revenue starts to accrue. That is the headline change, but it is not the only one.",
           "Monetization adds a set of obligations along with the money, and a few of them surprise new partners.",
         ],
       },
       {
         heading: "The money starts slowly",
         paragraphs: [
-          "Revenue builds from the day ads turn on, not from the day you started uploading. Old videos begin earning once they are monetized.",
+          "Revenue builds from the day ads turn on, not from the day you started uploading. Old videos start earning once they are monetized.",
           "You have to clear the payment threshold before AdSense issues a payout. Early balances sit until they cross that bar.",
           "Rates vary by topic, region, and season, so the first report can be smaller than expected. That is normal, not a mistake.",
         ],

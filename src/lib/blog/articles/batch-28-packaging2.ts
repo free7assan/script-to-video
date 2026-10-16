@@ -21,6 +21,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Build a CTR baseline before judging any video.",
+          "Separate traffic sources before comparing.",
+          "Ignore videos under 10,000 impressions.",
+          "Refresh the range every quarter.",
+        ]
+      },
+      {
         heading: "What a baseline actually looks like",
         paragraphs: [
           "My channel's recent range sits between 3.8 and 5.6 percent for videos that clear 50,000 impressions. A new video at 4.1 is unremarkable. A new video at 7.2 is worth studying, and a new video at 2.4 under the same impressions points at the package, not the topic.",
@@ -75,6 +84,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Read impressions and CTR as a pair.",
+          "Under 10,000 impressions, treat CTR as a rough signal.",
+          "Above 100,000 impressions, a small CTR move is meaningful.",
+          "Rising impressions with steady CTR means the algorithm is finding new viewers.",
+        ]
+      },
+      {
         heading: "The two failure modes",
         paragraphs: [
           "Low impressions with a high CTR usually means the algorithm never found your audience, not that your package is bad. A video with a 9 percent CTR on 3,000 impressions may simply have been shown to your most loyal viewers. That number says nothing about strangers.",
@@ -124,6 +142,15 @@ export const batch28: BlogPost[] = [
           "The first three hours of CTR are contaminated by your subscribers, your email list, and your most loyal fans. It is not a random sample of your audience. It is your fan club.",
           "Those people clicked before the video was pushed to cold viewers on browse and suggested. Their behavior is real, but it is not representative. If you decide the thumbnail failed at hour two, you are reading your most forgiving audience and calling it the market.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The first three hours of CTR measure loyalty, not packaging.",
+          "Check at 48 hours for the first honest reading.",
+          "Recheck at seven days for the stable number.",
+          "Give evergreen videos twenty-one days.",
+        ]
       },
       {
         heading: "Who shows up first",
@@ -177,6 +204,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "CTR means three different things by traffic source.",
+          "Read CTR per source in Advanced Mode.",
+          "Compare only like with like.",
+          "A browse-only CTR drop often means the algorithm changed the audience.",
+        ]
+      },
+      {
         heading: "The three sources, briefly",
         paragraphs: [
           "Search traffic converts high because the viewer already knows what they want. A 6 to 12 percent CTR there is common, and it says the title matched the query. It rarely says the thumbnail is brilliant.",
@@ -226,6 +262,15 @@ export const batch28: BlogPost[] = [
           "When you study only your hits, you learn what worked once, not what works. The videos that flopped used the same tricks and got no attention, and you never examine them.",
           "This is survivorship bias, and packaging analysis is full of it. You copy the title shape and red arrow from your best video and quietly forget the eleven other videos that used them and went nowhere.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Survivorship bias skews packaging data.",
+          "Build a spreadsheet of every upload, not just the top five.",
+          "Tag each with thumbnail style and title shape.",
+          "Weight by frequency, not by a single win.",
+        ]
       },
       {
         heading: "The base rate you skip",
@@ -279,6 +324,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Stop swapping title and thumbnail in the same test.",
+          "Change the thumbnail first, hold the title.",
+          "Change the title next, hold the thumbnail.",
+          "Keep a log of which lever you moved.",
+        ]
+      },
+      {
         heading: "Why the combo test fails",
         paragraphs: [
           "You swap both on a video and CTR rises from 4 to 5.2 percent. Did the stronger face do it, or the number in the title? You cannot say, so you cannot repeat it reliably. You are back to guessing, just with more spreadsheets.",
@@ -328,6 +382,15 @@ export const batch28: BlogPost[] = [
           "CTR almost always falls after the first burst of impressions, and that is expected. The speed and shape of the fall tell you more than the starting number.",
           "A video that opens at 9 percent and settles at 4 over a week is behaving normally. The high early number came from loyal viewers, and the settle is the audience arriving. What matters is where and how it flattens.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Decay is normal, but the curve shape is not.",
+          "Log day one, seven, and thirty CTR.",
+          "The floor where the number stops moving is your true packaging performance.",
+          "A falling CTR with steady retention is a smaller problem.",
+        ]
       },
       {
         heading: "Reading three curve shapes",
@@ -382,6 +445,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Split CTR by new and returning viewers.",
+          "High new-viewer CTR with low returning means you are finding fresh audiences.",
+          "High returning CTR with low new means you are preaching to the choir.",
+          "Both high means packaging and content pull the same direction.",
+        ]
+      },
+      {
         heading: "Why the split matters",
         paragraphs: [
           "In YouTube Analytics, the Audience tab separates new and returning viewers. On most channels, returning viewers click at two to four times the rate of new ones. A video with a 5 percent blended CTR might be 9 percent from returning viewers and 3 percent from new ones.",
@@ -433,6 +505,15 @@ export const batch28: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "What counts as good CTR depends on the device.",
+          "Check the device breakdown before judging.",
+          "If mobile lags desktop by two points, the thumbnail is too fine.",
+          "Do not let high TV CTR inflate your read.",
+        ]
+      },
+      {
         heading: "The phone is the real canvas",
         paragraphs: [
           "On a phone, the thumbnail is a thumb-sized square and the title is truncated after a few words. Detail you are proud of disappears, and the first three words of the title carry almost all the weight.",
@@ -482,6 +563,15 @@ export const batch28: BlogPost[] = [
           "Rising impressions with a falling CTR is not automatically bad, and falling impressions with a rising CTR is not automatically good. Neither number decides alone.",
           "The pair describes what the algorithm did and how the audience responded. Together they tell you whether to touch the package, the topic, or nothing at all.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Read reach and CTR together before changing anything.",
+          "Healthy reach with under-baseline CTR for two videos means fix the packaging.",
+          "Low reach with above-baseline CTR means the topic or timing is the issue.",
+          "Low reach and low CTR means change the idea, not the font.",
+        ]
       },
       {
         heading: "The four quadrants",

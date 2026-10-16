@@ -67,7 +67,7 @@ export const batch112: BlogPost[] = [
   {
     slug: "live-stream-setup-gear-guide",
     title: "Live Stream Setup That Works Before You Buy More Gear",
-    excerpt: "A dependable live stream setup begins with clean audio, decent light, and a stable connection. Buy new gear only after all three already work.",
+    excerpt: "A dependable live stream setup starts with clean audio, decent light, and a stable connection. Buy new gear only after all three already work.",
     date: "2027-09-05",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["live", "streaming", "setup"],

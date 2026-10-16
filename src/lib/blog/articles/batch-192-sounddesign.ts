@@ -150,7 +150,7 @@ export const batch192: BlogPost[] = [
         heading: "When to break the rule",
         paragraphs: [
           "Some moments want the room to disappear. A reveal, a memory, or a hard beat can land harder with the tone pulled out for a second. That only works if the tone was there first.",
-          "So record it, use it, and then remove it when the story asks. The tool is only powerful because the baseline is set."
+          "So record it, use it, and then remove it when the story asks. The tool is only effective because the baseline is set."
         ]
       },
       {

@@ -4,8 +4,8 @@ import type { BlogPost } from "../types";
 export const batch357: BlogPost[] = [
   {
     slug: "competitor-research-picking-channels",
-    title: "How to Pick the Right YouTube Channels to Study",
-    excerpt: "Solid competitor research begins by picking channels that match your audience size and goals, not the giants everyone else tells you to watch.",
+    title: "How to Pick the Right Channels for Competitor Research",
+    excerpt: "Solid competitor research starts by picking channels that match your audience size and goals, not the giants everyone else tells you to watch.",
     date: "2048-02-03",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "strategy", "growth"],
@@ -111,7 +111,7 @@ export const batch357: BlogPost[] = [
   {
     slug: "competitor-research-learning-from-format",
     title: "Learning From Rival Formats Without Copying Them",
-    excerpt: "You can borrow the mechanics behind a competitor's format while keeping your own voice, and competitor research shows you which mechanics actually drive retention.",
+    excerpt: "You can borrow the mechanics behind a competitor's format while keeping your own voice, and competitor research shows you which mechanics drive retention.",
     date: "2048-02-07",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "strategy", "growth"],
@@ -323,7 +323,7 @@ export const batch357: BlogPost[] = [
   {
     slug: "competitor-research-numbers-lie",
     title: "What Your Competitor's Numbers Do Not Actually Tell You",
-    excerpt: "View counts and subscriber totals hide more than they reveal. Competitor research works when you read the limits of the numbers as carefully as the numbers themselves.",
+    excerpt: "View counts and subscriber totals hide more than they reveal. Competitor research works when you read the limits of the numbers as closely as the numbers.",
     date: "2048-02-15",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "strategy", "growth"],
@@ -429,7 +429,7 @@ export const batch357: BlogPost[] = [
   {
     slug: "competitor-research-notes-to-plan",
     title: "Turning Competitor Notes Into Your Own Content Plan",
-    excerpt: "Notes about rivals only pay off when they become a calendar. Competitor research converts into a content plan through decisions, deadlines, and honest prioritization.",
+    excerpt: "Notes about rivals only pay off when they become a calendar. Competitor research converts into a content plan through decisions, deadlines, and priorities.",
     date: "2048-02-19",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "strategy", "growth"],

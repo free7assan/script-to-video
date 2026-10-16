@@ -205,7 +205,7 @@ export const batch271: BlogPost[] = [
       {
         heading: "Remote roles need different proof",
         paragraphs: [
-          "A remote employer cannot watch you work, so they buy evidence. Show how you demonstrate writing, async communication, self-direction, and clear documentation before the first call.",
+          "A remote employer cannot watch you work, so they buy evidence. Show how you show writing, async communication, self-direction, and clear documentation before the first call.",
           "Portfolios and short writing samples carry more weight remotely than they do in an office. Explain how you picked yours and what each piece is meant to prove."
         ]
       },

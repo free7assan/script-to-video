@@ -73,7 +73,7 @@ export const batch380: BlogPost[] = [
       {
         heading: "Why drafts sound like everyone else",
         paragraphs: [
-          "Your voice survives AI drafts when the model works from your material instead of its habits. Hand it your points and your stories, then treat what comes back as a rough cut. The draft is a starting position, never a finish line, and treating it as final is how channels begin to sound identical.",
+          "Your voice survives AI drafts when the model works from your material instead of its habits. Hand it your points and your stories, then treat what comes back as a rough cut. The draft is a starting position, never a finish line, and treating it as final is how channels start to sound identical.",
           "Models default to the middle of their training data. That middle has a flat tone, tidy transitions, and a constant habit of hedging every claim. None of it resembles a person who has actually done the thing on camera, and viewers feel the difference long before they could name it.",
           "No clever phrasing in the prompt fixes this on its own. Voice comes from what you feed the model and from what you refuse to keep after it answers. Both of those live in files you maintain, not in a burst of inspiration on a Sunday night."
         ]
@@ -118,7 +118,7 @@ export const batch380: BlogPost[] = [
   },
   {
     slug: "ai-creator-analyze-your-channel-first",
-    title: "Why You Should Analyze Your Channel Before Asking AI For Ideas",
+    title: "Analyze Your Channel Before Asking AI for Ideas",
     excerpt: "Analyzing your channel first turns AI suggestions into targeted moves instead of random guesses. The data tells the model which topics your audience rewards.",
     date: "2050-01-09",
     author: { name: "GoScript Team", role: "Product" },
@@ -285,7 +285,7 @@ export const batch380: BlogPost[] = [
         heading: "Know when to stop editing",
         paragraphs: [
           "At some point more passes make the script worse instead of better. The lines start blurring together and you rewrite a sentence you already fixed twice, which is a sign the work is finished. Read it once more and move on to production.",
-          "Set a hard stop before you begin, such as two passes or forty minutes at most. A deadline on the edit keeps a good draft from turning into a week of tinkering that delays everything behind it. Better to publish a tight draft than to shelve one."
+          "Set a hard stop before you start, such as two passes or forty minutes at most. A deadline on the edit keeps a good draft from turning into a week of tinkering that delays everything behind it. Better to publish a tight draft than to shelve one."
         ]
       },
       {

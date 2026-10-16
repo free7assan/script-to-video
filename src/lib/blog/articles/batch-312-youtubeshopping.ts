@@ -530,7 +530,7 @@ export const batch312: BlogPost[] = [
           "Take the brand deal when the fee beats what you expect from sales",
           "Run affiliate when you expect a product to sell steadily",
           "Prefer affiliate when you want full control of the edit",
-          "Prefer a brand deal when the product is hard to demonstrate",
+          "Prefer a brand deal when the product is hard to show",
           "Combine them only when the deal terms allow affiliate links too",
         ],
       },

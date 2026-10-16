@@ -32,6 +32,15 @@ export const batch01: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A cold open buys attention with tension; context first buys it with clarity.",
+          "Choose based on whether a stranger can feel the stakes with zero setup.",
+          "When context is needed, deliver it as a scene, not a definition.",
+          "Run each draft through the entry-point questions before you record.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "A cold open works when the tension is obvious. Context works when the tension is buried. Swap them and both collapse.",
@@ -91,6 +100,16 @@ export const batch01: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A loop is a promise with a scheduled payoff, not a mystery you never open.",
+          "The gap must be specific enough for the viewer to repeat back.",
+          "State the cost of leaving so the answer matters to them.",
+          "Deliver the payoff where you implied it would arrive.",
+          "Stack loops, but stop before they pile up past tracking.",
+        ]
+      },
+      {
         heading: "The three parts of a working loop",
         paragraphs: [],
         bullets: [
@@ -145,6 +164,15 @@ export const batch01: BlogPost[] = [
           "The curiosity gap is the oldest trick in the book, and it survives because it reflects how attention actually works. You present an incomplete picture, the viewer wants the missing piece, and they watch to get it. Nothing about that is dishonest on its own.",
           "The dishonesty enters later, when the gap implies a payoff the video never provides. That is the line between a hook and clickbait, and it is thinner than most creators admit.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Size the gap so the viewer believes you can close it in this video.",
+          "Make the gap specific enough to write on a sticky note.",
+          "Close the gap in the same video unless you are running a serial.",
+          "Map the gap to a real scene you already planned.",
+        ]
       },
       {
         heading: "Information gap versus intent gap",
@@ -204,6 +232,15 @@ export const batch01: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Naming the outcome beats teasing it, as long as the video delivers.",
+          "Avoid outcomes with no ceiling or no way to show them.",
+          "Do not promise a result you do not control, like going viral.",
+          "Write the promise first, then the proof that honors it.",
+        ]
+      },
+      {
         heading: "What makes a promise credible",
         paragraphs: [
           "Specificity is the currency. One number, one scope, one clear deliverable. 'Everything you need to know about hooks' promises a textbook. 'The one line that fixed my opening' promises an edit you can make tonight.",
@@ -220,7 +257,7 @@ export const batch01: BlogPost[] = [
         paragraphs: [],
         bullets: [
           "Outcomes with no ceiling, like 'master storytelling,' set a bar you cannot clear in one video.",
-          "Outcomes you cannot demonstrate, like 'transform your mindset,' leave the viewer with nothing to point at.",
+          "Outcomes you cannot show, like 'transform your mindset,' leave the viewer with nothing to point at.",
           "Outcomes that depend on the viewer's effort with no path, like 'go viral,' promise a result you do not control.",
           "Outcomes that take a different video to deliver, like 'the full system,' quietly move the goalposts past this upload.",
         ],
@@ -257,6 +294,15 @@ export const batch01: BlogPost[] = [
           "A contrarian hook takes a belief the audience holds and inverts it. 'Posting more often is not slowing your growth. It is the only thing growing you.' Done well, it hits like a small revelation, because it says out loud something the viewer already suspected but had not heard stated.",
           "Done badly, it hits like a personal attack, and the viewer leaves arguing with you instead of watching. The gap between those two outcomes is narrower than the format suggests, and it comes down to which belief you are inverting.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Flip doubts, not identities; do not ask viewers to admit they wasted years.",
+          "Contradict rumors, not results they have experienced firsthand.",
+          "Back every contrarian claim with a proof segment.",
+          "Challenge one practice, not the entire category.",
+        ]
       },
       {
         heading: "Flip doubts, not identities",
@@ -309,6 +355,15 @@ export const batch01: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Start at the highest-stakes beat: a failure, a reveal, or a costly decision.",
+          "Give just enough context to signal what kind of moment this is.",
+          "Rewind inside the script so the setup becomes a mid-video payoff.",
+          "Orient the viewer within ten seconds or the scene reads as random.",
+        ]
+      },
+      {
         heading: "Why chronological openings leak attention",
         paragraphs: [
           "A chronological open asks the viewer to hold a lot of setup with no return. Names, dates, backstory, and a description of the problem, all before a single moment of stakes. Every second of that is a second they could leave, and many do.",
@@ -343,7 +398,7 @@ export const batch01: BlogPost[] = [
     slug: "hook-question-hooks-weak",
     title: "Question Hooks Are Weak. Here Is How to Fix Yours",
     excerpt:
-      "Most question hooks fail because the answer is obviously yes or no. The question only earns attention when the viewer cannot guess the answer and cares about it.",
+      "Most question hooks fail because the answer is an obvious yes or no. A question earns attention only when the viewer cannot guess and genuinely cares.",
     date: "2025-08-11",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["hooks", "openings", "scripting"],
@@ -356,6 +411,15 @@ export const batch01: BlogPost[] = [
           "How many times have you heard a video open with 'have you ever wondered why your videos do not get views?' It is a question, it is technically a hook, and it is almost always weak. The problem is not the format. The problem is that the viewer can answer it themselves and move on.",
           "A question hook only creates tension when the answer is genuinely uncertain and the viewer actually wants it. Most drafts fail both conditions at once.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Replace yes-or-no questions with ones that demand a number or detail.",
+          "Swap generic phrasing for the specific tool, niche, or metric.",
+          "Move the answer closer, but not so close the gap collapses.",
+          "Confirm the viewer cares before you ask the question.",
+        ]
       },
       {
         heading: "Why the obvious question fails",
@@ -405,6 +469,15 @@ export const batch01: BlogPost[] = [
           "The first sentence of your script is arithmetic more than art. It has a length, a reading time, and a cognitive cost, and all three are measurable before you ever hit record. Most creators write it by feel and then wonder why the curve dips in the first fifteen seconds.",
           "I started counting words in openings after noticing that my best hooks were consistently shorter and more concrete than my worst ones. The pattern held across dozens of scripts, so I stopped treating the first line as inspiration and started treating it as a budget.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Track time to first idea: under four seconds is strong, past eight leaks.",
+          "Count words before the point; greetings and housekeeping inflate it.",
+          "Lower comprehension cost by removing every unknown term.",
+          "Compress, then read the opening aloud with a stopwatch.",
+        ]
       },
       {
         heading: "The three numbers in every opening",
@@ -464,6 +537,15 @@ export const batch01: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Write the hook after the body, when you know what actually lands.",
+          "Mark every sentence carrying the core tension or key number.",
+          "Move the one that works cold to the first line.",
+          "Cut what the body no longer needs after the move.",
+        ]
+      },
+      {
         heading: "Why first drafts of hooks fail",
         paragraphs: [
           "A hook written before the body works from the title and the outline, which are approximations. It tends to promise the topic instead of the tension, because the tension does not exist in your head yet. That is why early openings often sound like summaries.",
@@ -517,6 +599,15 @@ export const batch01: BlogPost[] = [
           "I teach hook patterns because they work and because most creators need a starting point. But patterns have a ceiling, and you hit it the moment your regulars can predict your opening before they hear it. The formula stops being a hook and becomes a tell.",
           "Knowing when to break the pattern is a separate skill from knowing the pattern, and it deserves its own checklist. Here are the cases where I deliberately skip the standard opening.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Skip the formula for personal, announcement, reference, and serial content.",
+          "Use it when your audience does not already know you.",
+          "Keep the patterns but lose the default for every upload.",
+          "Let the moment's honesty outweigh a clever tease.",
+        ]
       },
       {
         heading: "When your audience already knows you",

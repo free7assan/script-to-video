@@ -343,7 +343,7 @@ export const batch328: BlogPost[] = [
   {
     slug: "thumbnail-testing-reading-ab-results",
     title: "Reading Thumbnail A/B Results Without Fooling Yourself",
-    excerpt: "Reading A/B results honestly is the hardest part of thumbnail testing. Small samples, short windows, and wishful thinking trick you into seeing wins that are not real.",
+    excerpt: "Reading A/B results honestly is the hardest part of testing. Small samples, short windows, and wishful thinking trick you into seeing wins that are not there.",
     date: "2045-09-14",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["testing", "ctr", "design"],
@@ -453,7 +453,7 @@ export const batch328: BlogPost[] = [
   {
     slug: "thumbnail-testing-visual-consistency",
     title: "Keeping Your Channel Visually Consistent Over Time",
-    excerpt: "Visual consistency tells viewers they are still watching you, even in a busy feed. Thumbnail testing and a light system keep your channel recognizable and fresh.",
+    excerpt: "Visual consistency tells viewers they are watching you, even in a busy feed. Thumbnail testing and a light system keep your channel recognizable and fresh.",
     date: "2045-09-21",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["testing", "ctr", "design"],

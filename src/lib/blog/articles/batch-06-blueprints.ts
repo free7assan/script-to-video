@@ -21,6 +21,15 @@ export const batch06: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A blueprint captures repeatable structure, not surface style.",
+          "Leave out one-off experiments and personality markers.",
+          "A pattern needs repetition before it counts.",
+          "Run the prediction test before you trust a layer.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "Copy a template and you get a generic video. Copy a blueprint and you get the reasoning, which you can apply to any topic.",
@@ -55,7 +64,7 @@ export const batch06: BlogPost[] = [
         heading: "Why this matters for output",
         paragraphs: [
           "A blueprint is a decision-making tool, not a formula to obey. The point is to compress a hundred hours of watching into a page you can argue with. Once the decisions sit on paper, you keep the ones that fit your voice and consciously invert the rest.",
-          "That is where the leverage lives. Most creators do not need more ideas. They need a clearer picture of the mechanics behind the ideas that already work for them.",
+          "That is where the edge lives. Most creators do not need more ideas. They need a clearer picture of the mechanics behind the ideas that already work for them.",
         ],
       },
     ],
@@ -77,6 +86,15 @@ export const batch06: BlogPost[] = [
           "The video that put a channel on the map is almost never the one you should study. It is the one that got lucky. Maybe a large account shared it, maybe the thumbnail landed at exactly the right hour, maybe a trend dragged it along for a week. None of that is repeatable, and none of it tells you what the creator actually does well.",
           "When I want to learn from a channel, I skip the top three uploads and start at number ten. That is where the ordinary, workhorse videos live. The structure that survives at that depth is the structure that keeps the channel alive.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Analyze the catalog, not the hit; outliers lie.",
+          "Sample the last twenty uploads, not the top twenty.",
+          "Drop the extreme highs and lows.",
+          "Track the median, not the average.",
+        ]
       },
       {
         paragraphs: [],
@@ -135,6 +153,15 @@ export const batch06: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Read only the first two lines when extracting hooks.",
+          "Name the formula, not the topic.",
+          "Test the formula before you trust it.",
+          "Keep a running list of what repeats.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "A hook formula is just a sentence with the specifics removed. Learn the sentence, supply your own specifics.",
@@ -190,6 +217,15 @@ export const batch06: BlogPost[] = [
           "Strip away the topic and most strong video bodies are built from the same few parts, rearranged. There is the setup that gives context, the proof that makes a claim believable, the method that shows how to do the thing, and the resolution that closes the loop. Different channels weigh these differently, but the parts recur.",
           "Spotting the archetypes is a skill, and like any skill it improves with repetition. Once you can label sections, you can see why one video drags and another flows, even when both cover the same ground.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Look for five archetypes: context, proof, method, objection, resolution.",
+          "Label a script fast to see the skeleton.",
+          "The order of archetypes tells you what the channel values.",
+          "Reuse archetypes in your own writing.",
+        ]
       },
       {
         paragraphs: [],
@@ -251,6 +287,15 @@ export const batch06: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Turn observations into constraints you can actually use.",
+          "Use hard constraints for the skeleton and soft ones for texture.",
+          "Add inversion constraints to stand apart.",
+          "Keep the list short enough to remember.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "Understanding is passive. A constraint is understanding with a deadline attached.",
@@ -306,6 +351,15 @@ export const batch06: BlogPost[] = [
           "I have watched creators build entire strategies on a pattern that was never real. They saw one video do well with a specific thumbnail style, decided that style was the secret, and spent six months producing nothing else. The video had done well for a different reason, and the strategy quietly drained their channel.",
           "That is the central danger of analysis: mistaking coincidence for structure. A blueprint is only useful if it captures what the channel does consistently, and most of what you notice in a small sample is not consistency at all.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Do not copy noise and call it signal.",
+          "Small samples and survivorship bias fake a pattern.",
+          "Confounded variables make a cause look obvious.",
+          "A style feeling causal is not the same as being causal.",
+        ]
       },
       {
         paragraphs: [],
@@ -365,6 +419,15 @@ export const batch06: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Borrow while you are learning, then build your own.",
+          "Stop borrowing when the voice starts overriding yours.",
+          "Do not copy a close competitor's blueprint.",
+          "Graduate, or you never find what only your channel can do.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "Borrow the structure to learn the craft. Build the custom blueprint to find your voice.",
@@ -420,6 +483,15 @@ export const batch06: BlogPost[] = [
           "The moment you hire a writer, your personal blueprint becomes a liability. Everything you do by instinct is invisible to them, so they either guess or ask you about every line, and both options kill your output. A formula that only lives in your head cannot scale past one person.",
           "Handing it over is harder than it sounds. Most of what makes a script work is tacit, learned through hundreds of small corrections. The job of teaching is turning that tacit knowledge into something explicit enough to be practiced and argued with.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Write the formula down, then teach with annotated examples.",
+          "Give the team a rubric, not a rulebook.",
+          "Show before-and-after edits so rules become visible.",
+          "Let the formula change as the channel does.",
+        ]
       },
       {
         paragraphs: [],
@@ -480,6 +552,15 @@ export const batch06: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Match the model to the job: mechanical, labeling, or judgment.",
+          "Benchmark on your own data, not a public leaderboard.",
+          "Beware the consistency trap.",
+          "Spend where the quality compounds.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "The right model is the smallest one that still gets the classification right on a hundred transcripts.",
@@ -537,6 +618,15 @@ export const batch06: BlogPost[] = [
           "The most common failure in the blueprint workflow is not analysis and it is not writing. It is the gap between them. You finish a clean blueprint, feel productive, and then the next writing session starts from a blank page anyway. The blueprint never touched the draft.",
           "Closing that gap takes one dedicated session, done the same way every time. The goal is simple: walk in with a blueprint and a topic, walk out with an outline you could hand to a stranger.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Fill the skeleton in one focused sitting.",
+          "One point per section; two points means two sections.",
+          "Add the hook last by compressing the strongest moment.",
+          "Mark the transitions; that is the step everyone skips.",
+        ]
       },
       {
         paragraphs: [],

@@ -266,7 +266,7 @@ export const batch166: BlogPost[] = [
       {
         heading: "Front load the phrase",
         paragraphs: [
-          "Put the words people search for at the start. If the clip answers how to fix a leaking faucet, the title should begin with that idea, not with a brand or a clever hook.",
+          "Put the words people search for at the start. If the clip answers how to fix a leaking faucet, the title should start with that idea, not with a brand or a clever hook.",
           "Avoid stacking keywords until the title reads like spam. One clear phrase beats three vague ones, and Google can tell the difference."
         ],
       },

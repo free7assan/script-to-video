@@ -485,7 +485,7 @@ export const batch38: BlogPost[] = [
       {
         paragraphs: [
           "Offer something small and useful, and be upfront about it. A copy of your notes, a short summary of what you learned, or a modest gift card covers most cases. The incentive should thank the person for their time, not buy a particular answer.",
-          "The moment an incentive gets large, the research changes. People start telling you what they think you want in order to earn the reward. A twenty dollar card is gratitude. A two hundred dollar card is a job interview, and the answers will sound like one.",
+          "The moment an incentive gets large, the research changes. People start telling you what they think you want to earn the reward. A twenty dollar card is gratitude. A two hundred dollar card is a job interview, and the answers will sound like one.",
         ],
       },
       {

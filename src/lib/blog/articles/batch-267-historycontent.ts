@@ -217,7 +217,7 @@ export const batch267: BlogPost[] = [
       {
         heading: "Popular stories are not always true",
         paragraphs: [
-          "Avoiding myths and hype begins with admitting that the best story is sometimes false. Legends survive because they are memorable, not because they are accurate. Your first job is to check, not to repeat.",
+          "Avoiding myths and hype starts with admitting that the best story is sometimes false. Legends survive because they are memorable, not because they are accurate. Your first job is to check, not to repeat.",
           "Treat a familiar anecdote as a claim to test. If it collapses under a source check, that collapse can itself become part of the episode.",
         ],
       },
@@ -316,7 +316,7 @@ export const batch267: BlogPost[] = [
         heading: "Build a master timeline first",
         paragraphs: [
           "Before writing, lay out every event you might include on one page. Then choose the spine of the story and set the rest aside. This keeps you from chasing tangents that do not serve the question.",
-          "The master timeline also shows gaps. If a crucial stretch has no sources, you will see it early and can plan how to handle the silence.",
+          "The master timeline also shows gaps. If an important stretch has no sources, you will see it early and can plan how to handle the silence.",
         ],
       },
       {
@@ -406,7 +406,7 @@ export const batch267: BlogPost[] = [
       {
         heading: "Start from who is affected",
         paragraphs: [
-          "Handling sensitive history with care begins with asking who still lives with its consequences. Genocide, slavery, famine, and war are not distant topics for many viewers. Their experience should shape how you tell the story.",
+          "Handling sensitive history with care starts with asking who still lives with its consequences. Genocide, slavery, famine, and war are not distant topics for many viewers. Their experience should shape how you tell the story.",
           "Ask whether the people you are describing would recognize your account as fair. If you cannot answer that, do more reading before you record.",
         ],
       },

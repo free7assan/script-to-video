@@ -64,7 +64,7 @@ export const batch255: BlogPost[] = [
       heading: "Package the video so the promise is visible",
       paragraphs: [
         "Your title and thumbnail should state the answer, not tease it forever. If the video explains why a zone defense collapsed, put that in plain language on the thumbnail. Curiosity opens the door, but a clear promise keeps viewers from leaving in the first minute.",
-        "Write three title options and pick the one a stranger could understand without context. Test the thumbnail at phone size before you upload it. If the key element vanishes when shrunken, redesign it, because most of your audience will never see it any larger.",
+        "Write three title options and pick the one a stranger could understand without context. Test the thumbnail at phone size before you upload it. If the main element vanishes when shrunken, redesign it, because most of your audience will never see it any larger.",
         "Pin a comment with timestamps and the core question. Viewers who see structure right away watch past the half minute mark more often, and that mark is where most breakdowns quietly lose the room."
       ]
     }
@@ -422,7 +422,7 @@ export const batch255: BlogPost[] = [
     {
       heading: "Offer a reason beyond another soundbite",
       paragraphs: [
-        "Athlete interviews begin with a clear exchange of value. Tell the athlete or their team exactly what the conversation covers and why it serves them. A defined angle gets a yes far more often than a vague request for some time.",
+        "Athlete interviews start with a clear exchange of value. Tell the athlete or their team exactly what the conversation covers and why it serves them. A defined angle gets a yes far more often than a vague request for some time.",
         "Start with people who are not yet famous. College players, retired pros, and local competitors have stories and few outlets asking. Building relationships early means you are not fighting for access once they break out.",
         "Research the athlete before you reach out and mention something specific you want to discuss. A targeted pitch shows respect and proves you are not blasting the same email to fifty people."
       ]

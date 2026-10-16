@@ -548,7 +548,7 @@ export const batch126: BlogPost[] = [
       {
         heading: "Ignoring the first ten seconds",
         paragraphs: [
-          "Slow intros and long logos lose people before the video begins. Start with the payoff or the promise.",
+          "Slow intros and long logos lose people before the video starts. Start with the payoff or the promise.",
           "Cut anything that does not earn its place in the opening, including your own intro animation."
         ]
       },

@@ -472,7 +472,7 @@ export const batch208: BlogPost[] = [
       {
         heading: "The clap and the roll",
         paragraphs: [
-          "Start every take with a clear clap in frame and in range of both microphones. Then pause a beat before the performance begins. That pause is a gift in the edit, because it gives you clean room tone and a visual gap you can slide around.",
+          "Start every take with a clear clap in frame and in range of both microphones. Then pause a beat before the performance starts. That pause is a gift in the edit, because it gives you clean room tone and a visual gap you can slide around.",
           "Keep the audio rolling past the end. Overlapping audio and video gives your editor handles to trim, and it means a slightly late camera start does not cost you the first word of the take.",
         ],
       },

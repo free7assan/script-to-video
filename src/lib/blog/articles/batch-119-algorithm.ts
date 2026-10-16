@@ -547,7 +547,7 @@ export const batch119: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "A realistic growth timeline for a new channel is longer and quieter than the success stories suggest. Most channels spend months making videos almost no one sees before the numbers begin to climb. That early stretch is not failure. It is the system learning who your videos are for.",
+          "A realistic growth timeline for a new channel is longer and quieter than the success stories suggest. Most channels spend months making videos almost no one sees before the numbers start to climb. That early stretch is not failure. It is the system learning who your videos are for.",
           "The channels that seem to explode overnight usually uploaded for a year before the breakout. When the spike arrived, there was already a library for new viewers to fall into, which is why the growth held instead of fading.",
         ],
       },

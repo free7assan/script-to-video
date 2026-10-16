@@ -21,6 +21,15 @@ export const batch16: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Long-form needs a cold open, not a slow intro.",
+          "Start on the sharpest concrete detail you have.",
+          "Withhold context on purpose and keep it under thirty seconds.",
+          "State the long promise right after the open lands.",
+        ]
+      },
+      {
         heading: "Why standard intros fail on long videos",
         paragraphs: [
           "The template most creators inherit goes: logo, greeting, 'in this video we will cover,' subscribe reminder, then the actual content. On a four-minute video that template costs ten percent of the runtime. On a twenty-minute video it still costs the same thirty seconds, but it costs you at the exact decision point. You spend your highest-attention window on housekeeping.",
@@ -34,7 +43,7 @@ export const batch16: BlogPost[] = [
         heading: "What a cold open actually does",
         paragraphs: [
           "A cold open drops the viewer into a situation that is already moving. It can be a scene, a number, a contradiction, or a question you plant and refuse to answer right away. The one requirement is that something is at stake before you have explained any context.",
-          "Think of it as borrowing tension from later in the script. The best cold open is often the most surprising beat of the whole video, moved to the front. You show the shadow of the payoff, then rewind and build to the real thing.",
+          "Treat it as borrowing tension from later in the script. The best cold open is often the most surprising beat of the whole video, moved to the front. You show the shadow of the payoff, then rewind and build to the real thing.",
         ],
       },
       {
@@ -82,6 +91,15 @@ export const batch16: BlogPost[] = [
           "A thirty-minute video needs a spine the viewer can feel, and the simplest reliable spine is three acts. Promise in act one, complication in act two, resolution in act three. The length is not the problem. The absence of a turn is.",
           "I plan the acts in minutes, not percentages. A thirty-minute cut usually breaks into six, eighteen, and six. That middle act carries the weight, so it has to be built to survive on its own, not treated as the space between the good parts.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Write the turn first, then build both directions from it.",
+          "If act one runs past eight minutes, the promise is buried.",
+          "Budget act two in three-to-four-minute blocks.",
+          "Give act three no more than a quarter of the runtime.",
+        ]
       },
       {
         heading: "Act one: make one promise and make it specific",
@@ -140,6 +158,15 @@ export const batch16: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Diagnose the sag before you treat it.",
+          "A recap gets cut; a tangent moves to its own video.",
+          "Replace a restatement with a consequence.",
+          "The structural fix beats the cosmetic one.",
+        ]
+      },
+      {
         heading: "Diagnose before you treat",
         paragraphs: [
           "Pull the retention graph and find the flat stretch. Then read the script at that timestamp. Nine times out of ten you will find one of four things: a recap, a tangent, a list, or a restatement of a point you already made.",
@@ -191,6 +218,15 @@ export const batch16: BlogPost[] = [
           "Chapters help long-form retention when they make the video look navigable and interesting, and hurt it when they read like a table of contents for a textbook. The same information can do either job depending on how you name and place the breaks.",
           "The viewer uses chapters to answer one question: is the part I want coming soon? If the answer is yes, they stay. If the chapters read as a wall of sameness, they start scrubbing.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Name chapters like a promise, not a label.",
+          "Use six or fewer on a twenty-minute video.",
+          "Cut filler chapters named after the intro or outro.",
+          "Make each chapter title stand alone.",
+        ]
       },
       {
         heading: "Name chapters like a promise, not a label",
@@ -249,6 +285,15 @@ export const batch16: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Turn recaps into steps, not summaries.",
+          "Place re-orientation right after a chapter break.",
+          "Recap just before any reference to earlier material.",
+          "Never recap at the very start.",
+        ]
+      },
+      {
         heading: "Why viewers lose the thread",
         paragraphs: [
           "Two things break continuity in a long video. The first is time: a viewer may have started the video days ago, or paused in the middle to make dinner. The second is attention load: after fifteen minutes, they are tracking fewer threads than you think.",
@@ -303,6 +348,15 @@ export const batch16: BlogPost[] = [
           "A running thread is a small question you plant early and answer late. It gives the viewer a reason to stay past the midpoint even if the current section is slow, because they are still waiting on something they remember you promised.",
           "Forty-minute videos live or die on threads. One main question is not enough to hold that long. You need two or three smaller questions, staggered so a new one opens around the time the last one closes.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Plant two or three threads and leave them alone.",
+          "Advance each in the background at one line per beat.",
+          "Pay off every thread at the moment of maximum attention.",
+          "Reveal the payoff in the same words you planted.",
+        ]
       },
       {
         heading: "Plant it small, then leave it alone",
@@ -361,6 +415,15 @@ export const batch16: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Order beats by stakes, not chronology.",
+          "Give the viewer small wins between high rungs.",
+          "Mark the two or three biggest rungs as act turns.",
+          "Cut any beat that scores lower than the one before it.",
+        ]
+      },
+      {
         heading: "Order by stakes, not by chronology",
         paragraphs: [
           "The instinct is to tell events in the order they happened. That order is often wrong for retention, because real events do not escalate on schedule. Put the biggest moment last even if it happened in the middle.",
@@ -414,6 +477,15 @@ export const batch16: BlogPost[] = [
           "A breather beat is a deliberate pause in tension, and long videos need them. Viewers cannot stay at high alert for twenty minutes. Without release, they stop feeling the peaks, and a video that never lets up becomes background noise.",
           "I plan breathers the same way I plan turns. They are not leftovers. They are part of the pacing, and they have a job: make the next rise land.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A breather is thirty to sixty seconds, no longer.",
+          "Use two or three per twenty-minute video.",
+          "Always follow a peak; never precede one.",
+          "Keep the same topic in view so it feels like rest.",
+        ]
       },
       {
         heading: "What a breather is not",
@@ -472,6 +544,15 @@ export const batch16: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Set the total runtime, then cut it into segments.",
+          "Keep the opening under ten percent of runtime.",
+          "Split act two into three-to-four-minute blocks.",
+          "Cap act three at a quarter of the runtime.",
+        ]
+      },
+      {
         heading: "Set the total, then cut it up",
         paragraphs: [
           "Decide the target runtime first. Say twenty-four minutes. Then allocate every minute before you write a word. Opening gets two, act one gets five, act two gets twelve, act three gets five.",
@@ -527,6 +608,15 @@ export const batch16: BlogPost[] = [
           "The endgame of a long video is two beats: pay off the promise you opened with, then send the viewer somewhere with a reason to go. Most creators do one and forget the other, which is why long videos lose their last-minute audience and their next click at the same time.",
           "The promise payoff has to be explicit. Name the question from your cold open and answer it in plain language. If the viewer has to assemble the answer themselves, the loop never fully closes.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Do not dilute the payoff with new questions.",
+          "Restate the answer in one sentence before nuance.",
+          "Leave exactly one thread pointing to a specific next topic.",
+          "Practice the final minute like any other beat.",
+        ]
       },
       {
         heading: "Do not dilute the payoff",

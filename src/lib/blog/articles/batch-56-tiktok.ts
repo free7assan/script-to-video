@@ -299,7 +299,7 @@ export const batch56: BlogPost[] = [
       {
         heading: "Why two days is usually the ceiling",
         paragraphs: [
-          "Trends move through phases fast. The first creators set the tone, the next wave copies it, and a final wave parodies it. By the time a sound crosses into your feed from three directions, you are already watching the second or third phase begin.",
+          "Trends move through phases fast. The first creators set the tone, the next wave copies it, and a final wave parodies it. By the time a sound crosses into your feed from three directions, you are already watching the second or third phase start.",
           "A video that takes three days to shoot lands after the peak, into an audience that has heard the joke. Two days keeps you close enough to the tip that your twist still reads as part of the moment rather than a footnote to it.",
         ],
       },

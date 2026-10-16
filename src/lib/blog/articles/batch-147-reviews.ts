@@ -15,7 +15,7 @@ export const batch147: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Trust in a review is built by showing your work and being willing to say a product is bad. Audiences believe the creator who demonstrates a test, shows the ugly parts, and admits when a purchase was a mistake.",
+          "Trust in a review is built by showing your work and being willing to say a product is bad. Audiences believe the creator who shows a test, shows the ugly parts, and admits when a purchase was a mistake.",
           "There is no shortcut here. You cannot fake a reputation for honesty, because one sponsor deal that hides a flaw can undo years of careful work."
         ]
       },
@@ -49,7 +49,7 @@ export const batch147: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Trust grows from demonstrated testing plus admitted mistakes, not from confident scores.",
+          "Trust grows from proven testing plus admitted mistakes, not from confident scores.",
           "Viewers judge your honesty in the first minutes, so keep early sections exploratory.",
           "A repeatable method turns an opinion into evidence people can check.",
           "Public corrections strengthen credibility instead of weakening it.",

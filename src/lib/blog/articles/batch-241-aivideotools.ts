@@ -331,7 +331,7 @@ export const batch241: BlogPost[] = [
           "AI video tools produce usable captions on the first pass for clear speech in a quiet room. Accuracy on ordinary conversation is high enough that editing beats typing from scratch. The failures cluster around names, jargon, accents, and overlapping speech, and they repeat in the same places every time.",
           "That predictability is the useful part. You are not checking every word. You are reviewing the categories the model gets wrong, which turns a long proofread into a short targeted pass.",
           "Captioning is also the highest value use of AI in most editing rooms, because it feeds accessibility, repurposing, and search all at once from a single generated file.",
-          "That leverage is why review discipline matters. A clean transcript powers subtitles, clips, blog posts, and descriptions, so ten extra minutes fixing names pays back across every piece of content that follows."
+          "That advantage is why review discipline matters. A clean transcript powers subtitles, clips, blog posts, and descriptions, so ten extra minutes fixing names pays back across every piece of content that follows."
         ]
       },
       {
@@ -533,7 +533,7 @@ export const batch241: BlogPost[] = [
           "Keep records of what you generated, with which tool, and what you supplied as reference. When a client asks for proof of provenance, a clear log is the difference between a calm answer and a rebuild.",
           "Spokespeople and public figures need extra care. A generated version of a recognizable face carries implications a generic stock model never would, and the permission you need is usually explicit rather than implied.",
           "Training data is the murkier question. You rarely know what a model learned from, so the honest position is to avoid claims you cannot support and to keep records of what you supplied yourself.",
-          "Put the rules in the contract, not just in a document nobody reads. A client who agrees to disclosure terms before work begins will not fight you about a label three weeks later, and that agreement protects the relationship as much as the video.",
+          "Put the rules in the contract, not just in a document nobody reads. A client who agrees to disclosure terms before work starts will not fight you about a label three weeks later, and that agreement protects the relationship as much as the video.",
           "Build the review into the schedule. When disclosure and consent are checked during preproduction, they cost almost nothing, and when they are discovered at the end they turn into a rush that nobody wants to pay for."
         ]
       },

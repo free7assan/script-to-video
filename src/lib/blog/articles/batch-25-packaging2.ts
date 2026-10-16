@@ -32,6 +32,15 @@ export const batch25: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Define the win before you write any variant.",
+          "Run a fixed loop: draft, expose, read, record.",
+          "Compare variants to your baseline, not to each other in a vacuum.",
+          "Keep the system small enough to actually run.",
+        ]
+      },
+      {
         heading: "Define the win before you write",
         paragraphs: [
           "Most creators test titles without deciding what a win means. They pick the variant with the highest click-through rate, then quietly ignore that the impressions came from a different audience at a different hour. That is not a test, it is a horse race with no finish line.",
@@ -88,6 +97,15 @@ export const batch25: BlogPost[] = [
           "YouTube now runs A/B tests on titles and thumbnails for you, and a framework just means knowing what to hand the tool and how to read what it gives back. Upload two or three variants, let them run, and treat the result as one data point instead of a verdict.",
           "I use the built-in tester on almost every long-form upload. The framework below is what keeps those tests from becoming decoration.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Frame the hypothesis first.",
+          "Keep variants to two or three, differing in phrasing only.",
+          "Give the test enough runway before reading it.",
+          "Keep the honest variant in the set and stack tests across a quarter.",
+        ]
       },
       {
         heading: "Frame the hypothesis first",
@@ -152,6 +170,15 @@ export const batch25: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Small samples lie; know your thresholds.",
+          "Under 500 impressions per variant is a hunch, not a finding.",
+          "Effect size matters more than sample size.",
+          "Compare variants run over similar windows.",
+        ]
+      },
+      {
         heading: "Why small samples lie",
         paragraphs: [
           "Click-through rate is an average, and averages wobble when the sample is small. A title can post a nine percent CTR on forty impressions and a two percent CTR on four thousand. The first number is not a hidden insight. It is a tiny denominator.",
@@ -211,6 +238,15 @@ export const batch25: BlogPost[] = [
           "Titles and thumbnails do not compete for attention, they combine. The pairing decides whether someone clicks. So the useful test is the pair, not the title alone, and not the thumbnail alone.",
           "I learned this the hard way after a thumbnail change lifted CTR while a simultaneous title change quietly cancelled it. Testing them apart made both results unreadable.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The title-thumbnail pair is the real unit.",
+          "Use four pairs: control, new title, new thumbnail, both.",
+          "Read combinations, not averages.",
+          "Build a pairing habit instead of one-off tests.",
+        ]
       },
       {
         heading: "Why the pair is the real unit",
@@ -277,6 +313,15 @@ export const batch25: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The first 48 hours are not yours to judge.",
+          "Read CTR against baseline on days three to five.",
+          "Hold a second title for at least a week.",
+          "Stop swapping once the curve flattens.",
+        ]
+      },
+      {
         heading: "The first forty-eight hours are not yours",
         paragraphs: [
           "YouTube shows a new upload to a test audience, then widens delivery based on how they respond. Changing the title inside that window resets the test. The system has to re-learn the video, and the early impressions you spent are gone.",
@@ -336,6 +381,15 @@ export const batch25: BlogPost[] = [
           "A panel test puts your title in front of a small group of real people before you publish. You collect their clicks or rankings, then use that signal to pick the strongest variant. It is a preview of the algorithm using humans.",
           "Panels are not a replacement for platform data. They are a way to avoid spending your first impressions on the clearly weaker option.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Run the panel like a test, not a poll.",
+          "Show variants as plain text in random order.",
+          "Ask one question: which would you click, and why.",
+          "Hide the thumbnail and cap responses at fifteen.",
+        ]
       },
       {
         heading: "Who belongs on the panel",
@@ -399,6 +453,15 @@ export const batch25: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Build the baseline from your own history first.",
+          "Set red, neutral, and green bands around it.",
+          "Compare variants to the baseline, not just to each other.",
+          "Recalibrate every quarter.",
+        ]
+      },
+      {
         heading: "Build the baseline from your own history",
         paragraphs: [
           "Pull the last twenty long-form uploads and record impressions, views, and CTR. Trim the outliers, the one video that went viral and the one that got buried, then average the middle. That average is your baseline.",
@@ -458,6 +521,15 @@ export const batch25: BlogPost[] = [
           "Benchmarking competitor titles means collecting the headlines that win in your niche, grouping them by structure, then turning those patterns into your own test hypotheses. You are mining ideas, not copying text.",
           "I keep a swipe file of every title that made me click in my niche. After a few months, the same handful of structures show up again and again. Those structures become the variables I test.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Collect competitor patterns, do not copy them.",
+          "Turn a repeated structure into a hypothesis.",
+          "Test the borrowed structure against your default.",
+          "Keep your own baseline first.",
+        ]
       },
       {
         heading: "Collect, do not copy",
@@ -521,6 +593,15 @@ export const batch25: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Every variant must describe the same video.",
+          "Score watch time and comments, not just CTR.",
+          "Ban exaggerations you cannot deliver.",
+          "Reread the title after the edit; shrink the title, not the edit.",
+        ]
+      },
+      {
         heading: "How drift starts",
         paragraphs: [
           "It starts with one test. A restrained title loses to a dramatic one, so you adopt the winner because the data said so. The next test adds a little more drama, and again the drama wins. Nobody decides to become clickbait. They just keep shipping the variant that scored higher.",
@@ -580,6 +661,15 @@ export const batch25: BlogPost[] = [
           "A title experiment log is a single file where every test lives: the variants, the hypothesis, the numbers, and the outcome. Without one, each test is an isolated event and the lessons evaporate by the next upload.",
           "I ran mine as a messy spreadsheet for a year before it became the most useful document I own. It is not pretty. It is the reason my titles improved faster than my editing did.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Log every test, including the failures.",
+          "Record the video each test ran on.",
+          "Look for patterns, not single winners.",
+          "Keep the log light enough to maintain.",
+        ]
       },
       {
         heading: "What goes in the log",

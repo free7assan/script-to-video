@@ -263,7 +263,7 @@ export const batch225: BlogPost[] = [
       {
         heading: "Find the natural seams",
         paragraphs: [
-          "Watch your own video and mark where one section ends and the next begins. Those seams are your best ad spots. A story that moves from setup to payoff, or a tutorial that moves from theory to practice, both offer clean pauses.",
+          "Watch your own video and mark where one section ends and the next starts. Those seams are your best ad spots. A story that moves from setup to payoff, or a tutorial that moves from theory to practice, both offer clean pauses.",
           "Write the seams into the script before you record. When the pause is planned, the ad fits, and the flow survives.",
           "Avoid cutting in the middle of a sentence or a tense moment. The viewer is leaning in, and an ad there feels like a betrayal. The same ad ten seconds later lands with far less friction.",
           "Intro music and chapter cards are honest signals of a pause. An ad near either one feels expected rather than forced. Watch where your editing already creates a beat and let the ad use it."
@@ -544,7 +544,7 @@ export const batch225: BlogPost[] = [
   {
     slug: "ad-revenue-realistic-earnings",
     title: "Realistic Earnings Expectations for New Creators",
-    excerpt: "Realistic earnings expectations matter more than any tip when you start. Most channels earn little at first, and knowing the range keeps you from quitting too soon.",
+    excerpt: "Realistic expectations matter more than any tip when you start. Most channels earn little at first, and knowing the range keeps you from quitting too soon.",
     date: "2037-02-26",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["monetization", "platform", "income"],

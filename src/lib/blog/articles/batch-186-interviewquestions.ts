@@ -158,7 +158,7 @@ export const batch186: BlogPost[] = [
   {
     slug: "interview-questions-follow-up",
     title: "Follow-up interview questions that matter",
-    excerpt: "The follow-up is where a planned list ends and a real interview begins, and asking the right follow-up question can uncover a story no one prepared for.",
+    excerpt: "The follow-up is where a planned list ends and a real interview starts, and asking the right follow-up question can uncover a story no one prepared for.",
     date: "2033-11-04",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["interviews", "research", "preparation"],

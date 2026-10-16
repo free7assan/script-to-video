@@ -84,7 +84,7 @@ export const batch157: BlogPost[] = [
         paragraphs: [
           "A name should arrive in under half a second. Any longer and the entrance competes with the first words the person says.",
           "Slide, fade, or wipe, but pick one. Mixing three moves into a single reveal reads as a studio test rather than a considered choice.",
-          "The exit matters just as much. A slow crawl off screen leaves a ghost in the corner of the frame while the next shot begins.",
+          "The exit matters just as much. A slow crawl off screen leaves a ghost in the corner of the frame while the next shot starts.",
         ],
       },
       {

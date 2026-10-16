@@ -39,7 +39,7 @@ export const batch63: BlogPost[] = [
         heading: "Capture and label before anything else",
         paragraphs: [
           "Start at the moment of recording. Name your session, your tracks, and your takes while the memory is fresh, because an unnamed file at eleven at night is a small tax you pay again during the edit. A consistent naming scheme means you never have to guess which take had the good energy.",
-          "Record a short slate at the top of every session: date, episode number, and who is on the mic. It takes four seconds and saves you from scrubbing through an hour of audio to find where the intro actually begins.",
+          "Record a short slate at the top of every session: date, episode number, and who is on the mic. It takes four seconds and saves you from scrubbing through an hour of audio to find where the intro actually starts.",
         ],
       },
       {
@@ -175,7 +175,7 @@ export const batch63: BlogPost[] = [
           "Pass one removes whole segments, tangents, and false starts.",
           "Pass two tightens the remaining conversation at the sentence level.",
           "Do not touch breaths, ums, or room tone during either pass.",
-          "Only when the structure holds do you begin the fine edit.",
+          "Only when the structure holds do you start the fine edit.",
         ],
         paragraphs: [
           "Separating structure from detail keeps you from making fine cuts on material headed for the bin. It also protects your ear, because deciding what to keep and deciding how clean it sounds are different kinds of attention.",

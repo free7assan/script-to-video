@@ -55,7 +55,7 @@ export const batch153: BlogPost[] = [
       {
         heading: "Where to start",
         paragraphs: [
-          "Begin with one file and one plain summary. Name what the buyer can do, for how long, and where. Add the fee and the payment date. That single page opens a real conversation and stops a bad one before it wastes your week.",
+          "Start with one file and one plain summary. Name what the buyer can do, for how long, and where. Add the fee and the payment date. That single page opens a real conversation and stops a bad one before it wastes your week.",
           "If a buyer refuses to put the grant in writing, treat that as your answer. Honest deals survive a signed page. The ones that fall apart over paperwork were never going to pay you cleanly anyway."
         ]
       },

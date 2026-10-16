@@ -34,7 +34,7 @@ export const batch239: BlogPost[] = [
         heading: "Hype fades while reliability compounds",
         paragraphs: [
           "Chasing whatever is trending can bring a burst of new faces, but bursts do not build loyalty. A person who arrives for a single trend and finds nothing else has no reason to come back. The trend gave them a reason to click once, and clicking once is not the same as trusting you.",
-          "The channels people stick with are predictable in the best way. You know what you will get when you press play, and you know it will respect your time. That certainty is boring to describe and powerful to experience, which is why it keeps working long after a trend has moved on."
+          "The channels people stick with are predictable in the best way. You know what you will get when you press play, and you know it will respect your time. That certainty is boring to describe and moving to experience, which is why it keeps working long after a trend has moved on."
         ]
       },
       {
@@ -75,7 +75,7 @@ export const batch239: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Keeping promises to viewers is the most direct way to earn audience loyalty, and it is also the easiest habit to break under pressure. A promise is any expectation your title, thumbnail, or intro creates before the video really begins. If the content pays off that expectation, people learn that clicking on you is safe.",
+          "Keeping promises to viewers is the most direct way to earn audience loyalty, and it is also the easiest habit to break under pressure. A promise is any expectation your title, thumbnail, or intro creates before the video really starts. If the content pays off that expectation, people learn that clicking on you is safe.",
           "That feeling of safety is what turns a casual viewer into someone who checks your channel on purpose. They are not chasing a single video, they are relying on a pattern they have learned to expect.",
           "Viewers do this math on every upload, and the total they keep is your reputation. A channel with a positive balance gets forgiven for an off week, while a channel in debt gets punished for a small one."
         ]

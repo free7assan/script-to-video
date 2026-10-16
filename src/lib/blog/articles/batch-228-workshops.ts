@@ -148,7 +148,7 @@ export const batch228: BlogPost[] = [
       {
         heading: "An outline is a route",
         paragraphs: [
-          "An outline is the route your session takes from a confused start to a clear finish. Think of it as the order of stops and the time each one gets, not as lines to read aloud. Good outlines keep you from rambling and keep the room oriented. Without one, a friendly chat can eat the whole hour.",
+          "An outline is the route your session takes from a confused start to a clear finish. Treat it as the order of stops and the time each one gets, not as lines to read aloud. Good outlines keep you from rambling and keep the room oriented. Without one, a friendly chat can eat the whole hour.",
           "Write the endpoint first. Decide what every attendee can do by the final minute, then work backward to the steps that get them there. That single habit fixes most outlines before you add a single slide or a single example."
         ]
       },
@@ -296,7 +296,7 @@ export const batch228: BlogPost[] = [
         heading: "Rehearse the whole flow",
         paragraphs: [
           "Run the entire sequence once as if a buyer were doing it. Click the buy button, open the confirmation, join the room, share your screen, and end the call. Every break in that chain is a seat you might lose. Fix the breaks while nobody is watching and the live night runs quiet.",
-          "Test on the device your audience uses, including a phone. A join link that fails on mobile can wipe out half your signups. Rehearse with a friend on a different network so you catch problems before the real session begins."
+          "Test on the device your audience uses, including a phone. A join link that fails on mobile can wipe out half your signups. Rehearse with a friend on a different network so you catch problems before the real session starts."
         ]
       },
       {
@@ -392,7 +392,7 @@ export const batch228: BlogPost[] = [
   {
     slug: "workshops-handling-q-and-a",
     title: "Handling Q and A Without Letting It Derail Your Workshop",
-    excerpt: "A well-run Q and A session can rescue a live workshop and calm the room. Collect questions early, group them, and keep answers short so the whole room stays with you.",
+    excerpt: "A well-run Q and A session can rescue a live workshop and calm the room. Collect questions early, group them, and keep answers short so the room stays with you.",
     date: "2037-05-17",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["teaching", "services", "business"],
@@ -467,7 +467,7 @@ export const batch228: BlogPost[] = [
       {
         heading: "Capture the session cleanly",
         paragraphs: [
-          "A recording starts with a clean setup rather than a last-minute click. Decide what to capture before the session begins. Your screen and voice are the basics, and you show faces only with permission. Test the record button while people are still joining.",
+          "A recording starts with a clean setup rather than a last-minute click. Decide what to capture before the session starts. Your screen and voice are the basics, and you show faces only with permission. Test the record button while people are still joining.",
           "Separate your audio from the call audio if you can. A clean voice track makes the replay easy to follow and simple to edit. Bad audio ruins a good workshop faster than a plain screen ever will."
         ]
       },

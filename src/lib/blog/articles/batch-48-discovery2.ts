@@ -406,7 +406,7 @@ export const batch48: BlogPost[] = [
         ],
       },
       {
-        quote: "Chasing rank without watching behavior is like cheering a starting position before the race begins.",
+        quote: "Chasing rank without watching behavior is like cheering a starting position before the race starts.",
       },
       {
         heading: "When to stop tracking a query",

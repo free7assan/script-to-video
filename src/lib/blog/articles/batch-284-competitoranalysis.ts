@@ -27,13 +27,14 @@ export const batch284: BlogPost[] = [
           "Pay attention to upload consistency and topic focus over time. Channels that stick to a defined set of topics are easier to study because their audience expectations stay stable. Those patterns help you predict what works without guessing."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: study channels at your level for usable ideas",
-          "Focus on engagement, not only subscriber counts",
-          "Prioritize consistent topics for clearer patterns",
-          "Skip channels that shift topics too often",
-          "Keep your shortlist to five or fewer channels"
+          "Study channels at your level for usable ideas.",
+          "Focus on engagement, not only subscriber counts.",
+          "Prioritize consistent topics for clearer patterns.",
+          "Skip channels that shift topics too often.",
+          "Keep your shortlist to five or fewer channels.",
         ]
       },
       {
@@ -70,13 +71,14 @@ export const batch284: BlogPost[] = [
           "Also note upload timing patterns across channels. Some niches favor a specific day or time when viewers are most likely to watch. Seeing that across multiple channels gives more weight to the pattern than one channel alone."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: compare like with like for fair results",
-          "Shared hooks reveal audience expectations",
-          "Video length often settles within a narrow range",
-          "Upload timing can repeat across a niche",
-          "Focus on patterns, not one-off hits"
+          "Compare like with like for fair results.",
+          "Shared hooks reveal audience expectations.",
+          "Video length often settles within a narrow range.",
+          "Upload timing can repeat across a niche.",
+          "Focus on patterns, not one-off hits.",
         ]
       },
       {
@@ -116,13 +118,14 @@ export const batch284: BlogPost[] = [
           "Studying realistic formats keeps you moving forward. It also helps you spot gaps where a simpler approach could stand out. Smaller teams often win by doing less with more focus."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: group by video intent before comparing metrics",
-          "Use retention and watch time over views for format tests",
-          "Compare against formats you can actually produce",
-          "Note editing effort for each format type",
-          "Favor simple formats that fit your setup"
+          "Group by video intent before comparing metrics.",
+          "Use retention and watch time over views for format tests.",
+          "Compare against formats you can actually produce.",
+          "Note editing effort for each format type.",
+          "Favor simple formats that fit your setup.",
         ]
       },
       {
@@ -162,13 +165,14 @@ export const batch284: BlogPost[] = [
           "Do not assume flops mean the topic is bad. Often the topic is fine but the angle, timing, or length missed the mark. Fixing that angle can turn a weak idea into a strong one."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: use watch time to spot true hits",
-          "Note the viewer problem behind each hit",
-          "Study retention dips to find weak points",
-          "Check impressions versus clicks for hook issues",
-          "Look for fixable angles in flop videos"
+          "Use watch time to spot true hits.",
+          "Note the viewer problem behind each hit.",
+          "Study retention dips to find weak points.",
+          "Check impressions versus clicks for hook issues.",
+          "Look for fixable angles in flop videos.",
         ]
       },
       {
@@ -205,13 +209,14 @@ export const batch284: BlogPost[] = [
           "Also note how long videos take to gain views after upload. Some formats peak in hours, others over days. Knowing that helps you judge early performance without rushing to conclusions."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: log timing for videos that actually gained traction",
-          "Use your viewer's time zone for accuracy",
-          "Look for clusters across competitors",
-          "Note peak speed after upload by format",
-          "Test one window at a time for clear results"
+          "Log timing for videos that actually gained traction.",
+          "Use your viewer's time zone for accuracy.",
+          "Look for clusters across competitors.",
+          "Note peak speed after upload by format.",
+          "Test one window at a time for clear results.",
         ]
       },
       {
@@ -248,13 +253,14 @@ export const batch284: BlogPost[] = [
           "Compare those phrases to existing videos on your shortlist. If few videos address that exact phrasing, you may have found a usable gap. Focus on gaps you can answer clearly with your knowledge."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: scan comments for repeated questions",
-          "Look for community post suggestions",
-          "Find narrow problems over broad topics",
-          "Check if existing videos actually answer the question",
-          "Pick gaps that match your skills"
+          "Scan comments for repeated questions.",
+          "Look for community post suggestions.",
+          "Find narrow problems over broad topics.",
+          "Check if existing videos actually answer the question.",
+          "Pick gaps that match your skills.",
         ]
       },
       {
@@ -294,13 +300,14 @@ export const batch284: BlogPost[] = [
           "Also use your own visuals, titles, and thumbnails ideas as starting points only. Change enough elements that viewers would not confuse your video with another. Focus on what makes your take unique."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: adapt structure, rewrite scripts in your voice",
-          "Use original examples and case studies",
-          "Change titles, hooks, and phrasing",
-          "Understand the reason behind borrowed ideas",
-          "Focus on your unique angle for each topic"
+          "Adapt structure, then rewrite scripts in your voice.",
+          "Use original examples and case studies.",
+          "Change titles, hooks, and phrasing.",
+          "Understand the reason behind a borrowed idea.",
+          "Focus on your unique angle for each topic.",
         ]
       },
       {
@@ -337,13 +344,14 @@ export const batch284: BlogPost[] = [
           "Tag entries by format or topic to filter quickly. If you know you are writing a tutorial, pull tutorial-specific ideas first. This prevents digging through irrelevant items."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: save ideas and effects, not full scripts",
-          "Group by action for fast use",
-          "Tag by format or niche topic",
-          "Add notes on why each item worked",
-          "Keep only items you would actually try"
+          "Save ideas and effects, not full scripts.",
+          "Group by action for fast use.",
+          "Tag by format or niche topic.",
+          "Add notes on why each item worked.",
+          "Keep only items you would actually try.",
         ]
       },
       {
@@ -383,13 +391,14 @@ export const batch284: BlogPost[] = [
           "Add your own experience or results where possible. Personal details make the content unique and build trust with viewers. They are hard for others to replicate."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: start with a viewer problem, not a copied idea",
-          "Blend multiple sources for new angles",
-          "Add personal experience when relevant",
-          "Outline before scripting for focus",
-          "Test your angle against existing videos"
+          "Start with a viewer problem, not a copied idea.",
+          "Blend multiple sources for new angles.",
+          "Add personal experience when relevant.",
+          "Outline before scripting for focus.",
+          "Test your angle against existing videos.",
         ]
       },
       {
@@ -426,13 +435,14 @@ export const batch284: BlogPost[] = [
           "If you reference a specific video, do so to explain a pattern, not to copy its content. Keep references general enough to teach a lesson rather than reproduce a moment."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: rely only on public information",
-          "Do not copy scripts or unique assets",
-          "Transform ideas instead of reproducing them",
-          "Avoid scraping private data",
-          "Stay honest about sources of inspiration"
+          "Rely only on public information.",
+          "Do not copy scripts or unique assets.",
+          "Transform ideas instead of reproducing them.",
+          "Avoid scraping private data.",
+          "Stay honest about sources of inspiration.",
         ]
       },
       {
@@ -472,13 +482,14 @@ export const batch284: BlogPost[] = [
           "Use tools that fit your workflow to log metrics and notes in one place. With GoScript, you can keep your research tied to your script planning, so insights flow directly to your next video."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways: schedule fixed research check-ins",
-          "Track only your core shortlist",
-          "Log actions, not just observations",
-          "Tie insights to specific video ideas",
-          "Prune inactive channels regularly"
+          "Schedule fixed research check-ins.",
+          "Track only your core shortlist.",
+          "Log actions, not just observations.",
+          "Tie insights to specific video ideas.",
+          "Prune inactive channels regularly.",
         ]
       },
       {

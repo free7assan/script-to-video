@@ -257,7 +257,7 @@ export const batch27: BlogPost[] = [
       "Playlist ordering is packaging you control without new creative work. Order for momentum and the set holds more viewers past the first video.",
     date: "2025-03-22",
     author: { name: "GoScript Team", role: "Design" },
-    tags: ["packaging"],
+    tags: ["packaging", "retention"],
     readTime: "5 min read",
     accent: "#f97316",
     icon: Film,
@@ -273,7 +273,7 @@ export const batch27: BlogPost[] = [
         heading: "Order for momentum, not chronology",
         paragraphs: [
           "The first video in a playlist has to prove the set is worth staying for. Put your strongest, most self-contained entry point first, even if it is not the one you published first.",
-          "After that, alternate weight. A dense or demanding video should be followed by something lighter, or viewers who feel tired will leave at the natural pause. Think of it as pacing a long conversation.",
+          "After that, alternate weight. A dense or demanding video should be followed by something lighter, or viewers who feel tired will leave at the natural pause. Treat it as pacing a long conversation.",
         ],
         bullets: [
           "Lead with the most compelling standalone video, not the oldest upload.",
@@ -361,7 +361,7 @@ export const batch27: BlogPost[] = [
       },
       {
         paragraphs: [
-          "Limited series are easier to package than open-ended ones because they have a shape. Use that shape. The ending is the strongest reason a new viewer has to begin.",
+          "Limited series are easier to package than open-ended ones because they have a shape. Use that shape. The ending is the strongest reason a new viewer has to start.",
         ],
       },
     ],
@@ -431,7 +431,7 @@ export const batch27: BlogPost[] = [
       "Playlist descriptions and tags rarely get attention but they get playlists found. Write the first line to sell the set and the tags to match real searches.",
     date: "2026-01-26",
     author: { name: "GoScript Team", role: "Design" },
-    tags: ["packaging"],
+    tags: ["packaging", "seo"],
     readTime: "5 min read",
     accent: "#f97316",
     icon: Tag,
@@ -451,7 +451,7 @@ export const batch27: BlogPost[] = [
         ],
         bullets: [
           "Lead with the payoff and the intended viewer.",
-          "Explain the order so people know where to begin.",
+          "Explain the order so people know where to start.",
           "State the scope so the commitment is clear.",
           "Name the series or format the videos belong to.",
         ],
@@ -547,7 +547,7 @@ export const batch27: BlogPost[] = [
       "Seasons reset the felt size of a long series. Give each one a theme, shift the palette, and keep the newest season a complete entry point for newcomers.",
     date: "2026-09-21",
     author: { name: "GoScript Team", role: "Design" },
-    tags: ["packaging"],
+    tags: ["packaging", "structure"],
     readTime: "6 min read",
     accent: "#f97316",
     icon: Map,
@@ -579,7 +579,7 @@ export const batch27: BlogPost[] = [
         heading: "Keep the entry point current",
         paragraphs: [
           "New viewers should be able to start at the current season without feeling they missed too much. Write the episode titles so they work within the season, and let the description handle the optional backstory.",
-          "Point people to earlier seasons only as an invitation, never as required reading. The best series structure lets a viewer begin anywhere and still feel oriented.",
+          "Point people to earlier seasons only as an invitation, never as required reading. The best series structure lets a viewer start anywhere and still feel oriented.",
         ],
       },
       {

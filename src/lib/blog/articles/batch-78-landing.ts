@@ -384,7 +384,7 @@ export const batch78: BlogPost[] = [
         paragraphs: [
           "There are hero sections where video is clearly right. A product whose value is motion, a place, or a transformation cannot be shown well in a still. When the clip is the proof, the cost is a trade worth making.",
           "For everything else, a strong still image and a crisp headline will usually win. Readers never see your clever production. They only feel whether the page loaded and whether they understood it.",
-          "The safest path is to build the static hero first and add motion later as an optimization. That order stops the video from papering over a headline or an offer that was never strong to begin with.",
+          "The safest path is to build the static hero first and add motion later as an optimization. That order stops the video from papering over a headline or an offer that was never strong to start with.",
         ],
       },
       {
@@ -620,7 +620,7 @@ export const batch78: BlogPost[] = [
         paragraphs: [
           "Test one meaningful change at a time and let the result tell you which direction to go next. Most hero tests fail because someone swaps the headline, the image, and the button color in a single pass.",
           "When everything changes at once, you cannot say which change caused the lift or the drop. The hero is a good place to test because it is seen by everyone and influences everything below it.",
-          "A headline that lands changes how the whole page is read, so small wins here compound across the rest of the funnel. That leverage is why the fold rewards careful testing more than any other section.",
+          "A headline that lands changes how the whole page is read, so small wins here compound across the rest of the funnel. That advantage is why the fold rewards careful testing more than any other section.",
         ],
       },
       {

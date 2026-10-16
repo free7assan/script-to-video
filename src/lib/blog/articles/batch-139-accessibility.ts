@@ -69,7 +69,7 @@ export const batch139: BlogPost[] = [
       {
         heading: "Start from a transcript",
         paragraphs: [
-          "Accurate captions begin with a transcript you can correct before timing anything. Run your audio through a tool, then read the whole text once with a pen in hand. Machine transcription gets you close, but it drops names and mangles anything said quickly.",
+          "Accurate captions start with a transcript you can correct before timing anything. Run your audio through a tool, then read the whole text once with a pen in hand. Machine transcription gets you close, but it drops names and mangles anything said quickly.",
           "Read for meaning, not just spelling. If a sentence confused you on the page, it will confuse a viewer reading along at speed, so fix the sentence in your script notes too. The transcript is evidence of what you said, and a clean one makes every later step faster."
         ]
       },
@@ -287,7 +287,7 @@ export const batch139: BlogPost[] = [
       {
         heading: "What audio description does",
         paragraphs: [
-          "Audio description narrates the action that unfolds on screen during the quiet gaps between dialogue. It tells a blind or low vision viewer what they cannot see without talking over the parts they can already hear. Think of it as the visual half of your story, spoken aloud.",
+          "Audio description narrates the action that unfolds on screen during the quiet gaps between dialogue. It tells a blind or low vision viewer what they cannot see without talking over the parts they can already hear. Treat it as the visual half of your story, spoken aloud.",
           "Different platforms treat it differently. Some offer a separate track a viewer can switch on, while others expect the description to live inside the main mix. Know which one your audience meets before you plan the recording."
         ]
       },
@@ -528,7 +528,7 @@ export const batch139: BlogPost[] = [
         ]
       },
       {
-        heading: "Where to begin this week",
+        heading: "Where to start this week",
         paragraphs: [
           "Pick your three most watched videos and caption them properly. Then set one rule you will keep on every new upload, such as a readable text size or a contrast check before publishing.",
           "One rule followed beats a long plan abandoned. Each small habit spreads across your whole library, and the audience that could never fully join finally can."

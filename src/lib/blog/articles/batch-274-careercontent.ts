@@ -329,7 +329,7 @@ export const batch274: BlogPost[] = [
         heading: "Choose a representative day",
         paragraphs: [
           "Pick a day that shows the shape of the role without the outliers. A launch day is dramatic, but it teaches less than a normal Tuesday. The ordinary day is the one a viewer will actually face on the job.",
-          "Name the constraints up front. Say the team size, the deadline, and the tools before the day begins, so the decisions you make later have context and the viewer understands why you chose what you chose.",
+          "Name the constraints up front. Say the team size, the deadline, and the tools before the day starts, so the decisions you make later have context and the viewer understands why you chose what you chose.",
           "Show the calendar as it fills. A calendar is a quiet document of how a role really spends its hours, and it answers the question every viewer is asking about workload."
         ]
       },
@@ -506,7 +506,7 @@ export const batch274: BlogPost[] = [
         heading: "Show the thinking",
         paragraphs: [
           "A finished file does not reveal how you work. Add a short note on the brief, the constraint, and the choice you made under it. That reasoning is what separates a portfolio from a gallery.",
-          "Show one tradeoff you accepted. Saying what you gave up to hit the deadline proves judgment, and judgment is the thing a portfolio is really there to demonstrate.",
+          "Show one tradeoff you accepted. Saying what you gave up to hit the deadline proves judgment, and judgment is the thing a portfolio is really there to show.",
           "Include the version you threw away when it helps. Showing the route you rejected proves you considered options, and reviewers trust a decision more when they can see the alternative."
         ]
       },

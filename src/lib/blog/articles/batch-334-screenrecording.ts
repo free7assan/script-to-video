@@ -34,8 +34,8 @@ export const batch334: BlogPost[] = [
       {
         heading: "Hide anything that blinks",
         paragraphs: [
-          "Menu bar clocks, notification dots, and update prompts all compete with your steps. Turn on do not disturb, hide the dock if the app allows it, and set your phone face down on the desk. A single popup in the corner can pull attention away from a keyboard shortcut you are about to demonstrate.",
-          "Check your screen at fifty percent zoom before you begin. Small clutter that looks fine on a large monitor can turn into noise on a laptop screen or a phone. What reads as tidy at full size often looks crowded once the video is scaled down in a feed."
+          "Menu bar clocks, notification dots, and update prompts all compete with your steps. Turn on do not disturb, hide the dock if the app allows it, and set your phone face down on the desk. A single popup in the corner can pull attention away from a keyboard shortcut you are about to show.",
+          "Check your screen at fifty percent zoom before you start. Small clutter that looks fine on a large monitor can turn into noise on a laptop screen or a phone. What reads as tidy at full size often looks crowded once the video is scaled down in a feed."
         ]
       },
       {
@@ -277,7 +277,7 @@ export const batch334: BlogPost[] = [
       {
         heading: "Cut on the action, not the word",
         paragraphs: [
-          "Trim so the cut lands right as the next click or key press begins. When you leave a full second of quiet before each action, the tutorial feels padded even if every line is useful. Tight cuts keep the viewer leaning forward instead of waiting.",
+          "Trim so the cut lands right as the next click or key press starts. When you leave a full second of quiet before each action, the tutorial feels padded even if every line is useful. Tight cuts keep the viewer leaning forward instead of waiting.",
           "Leave a short beat after a result appears so the viewer can read it. The rule is simple. Fast into the action, brief hold on the result, then move on. That pattern removes dead air without making the video feel frantic."
         ]
       },

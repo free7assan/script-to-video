@@ -22,6 +22,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Give every episode a job.",
+          "Measure pacing by what you withhold, not by speed.",
+          "Let each part change the question or raise the cost.",
+          "Review the whole series in one sitting.",
+        ]
+      },
+      {
         quote: "An episode is a promise with a deadline. If the deadline passes empty, the audience stops believing the promise.",
       },
       {
@@ -89,6 +98,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Change the question, not the volume.",
+          "Use four shapes: reversal, missing piece, deferred cost, witness.",
+          "Do not stack cliffhangers on top of each other.",
+          "Test the cliffhanger with the sound off.",
+        ]
+      },
+      {
         quote: "A good cliffhanger is a question the viewer did not know they were holding until you asked it.",
       },
       {
@@ -151,6 +169,15 @@ export const batch20: BlogPost[] = [
           "The advantage is depth. A single video has to compress every turn into a few minutes. A series can let a consequence land in one episode and be felt in the next. The trap is that the middle act, stretched across parts, can lose its forward motion entirely.",
           "I treat each episode as a chapter with a local arc, then arrange those chapters so the whole thing still reads as one story climbing a single slope.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Map three acts across the parts.",
+          "Give each middle part a self-contained problem.",
+          "Raise the cost of the original goal every part.",
+          "Alternate high-tension and reflective parts.",
+        ]
       },
       {
         quote: "A series is not one long video cut into pieces. It is several stories that happen to share a spine.",
@@ -219,6 +246,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The midpoint has to turn, not repeat.",
+          "Build the turn by reversing or by raising cost.",
+          "Rebuild from the turn outward.",
+          "Watch the three parts together to catch sag.",
+        ]
+      },
+      {
         quote: "The midpoint is not a plot event. It is the moment the viewer's understanding of the story gets rewritten.",
       },
       {
@@ -281,6 +317,15 @@ export const batch20: BlogPost[] = [
           "The two rhythms reward opposite choices. Binge audiences forgive a slow opening because they are already two clicks deep. Weekly viewers need a reason in the first minute or they drift before the next upload.",
           "I build the same story differently for each. A weekly series gets a stronger re-entry and a clearer self-contained arc per part. A binge series gets a slower burn and more cross-episode callbacks.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Binge and weekly run on different rhythms.",
+          "Weekly parts front-load the best beat and end on a question.",
+          "Binge parts can be quieter and plant longer threads.",
+          "Test pacing with a simulated gap.",
+        ]
       },
       {
         quote: "Weekly pacing has to win the viewer again every week. Binge pacing only has to keep them from stopping once.",
@@ -347,6 +392,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Write the cold open last.",
+          "Match the recap style to how the last part ended.",
+          "Use segment length as a pacing dial.",
+          "Keep a house style across the series.",
+        ]
+      },
+      {
         quote: "A recap is not a summary. It is an angle on what already happened, chosen to set up what comes next.",
       },
       {
@@ -408,6 +462,15 @@ export const batch20: BlogPost[] = [
           "The strongest series treat information like currency and spend it on a schedule. Each part pays out something the viewer was waiting for, then takes on a new debt by opening a fresh question.",
           "I keep a reveal ledger for every series. One column lists the questions the audience is carrying. The next lists which part answers each. That ledger has saved more than one ending from arriving empty.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Sort reveals by weight.",
+          "Withhold facts, never motives.",
+          "Give one small answer for every big one you defer.",
+          "Recheck the reveal ledger before the finale.",
+        ]
       },
       {
         quote: "Every answer you give should cost you a question. That trade is what keeps a series leaning forward.",
@@ -474,6 +537,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A breather episode still has to do a job.",
+          "Place breathers after big costs and before the final act.",
+          "Use them to break a repeating rhythm.",
+          "Signal the change and do not apologize for the slowdown.",
+        ]
+      },
+      {
         quote: "A breather is not a pause in the story. It is the story changing pace so the next turn has somewhere to rise from.",
       },
       {
@@ -538,6 +610,15 @@ export const batch20: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Decide what must close and what may stay open.",
+          "Never open the finale with a long recap.",
+          "Give the biggest beat room to land.",
+          "Do not end on a cliffhanger you did not promise.",
+        ]
+      },
+      {
         quote: "A finale is not where the story stops. It is where the story becomes the shape the audience remembers.",
       },
       {
@@ -600,6 +681,15 @@ export const batch20: BlogPost[] = [
           "Real escalation is not the same as more danger. It is the audience caring more about what is at risk. A quiet episode can escalate by making the audience love a character enough that an old threat suddenly matters.",
           "I plot escalation as a curve, not a ladder. It rises, holds, sometimes dips on purpose, and then rises past the earlier peak so the final part feels like a genuine summit.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Intensity is not the same as stakes.",
+          "Build a stakes curve and hold a level before you raise it.",
+          "Raise stakes by shrinking options, not by louder obstacles.",
+          "Let one part lower the stakes so the final rise is steeper.",
+        ]
       },
       {
         quote: "Escalation is the same thing mattering more than it did a part ago.",

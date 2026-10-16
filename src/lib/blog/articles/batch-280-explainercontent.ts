@@ -411,7 +411,7 @@ export const batch280: BlogPost[] = [
         heading: "Find what actually aged",
         paragraphs: [
           "Watch the old video and list every claim with a date attached. Interfaces change, prices move, and best practices shift. Those are your edit targets.",
-          "Leave the framing alone unless it was weak to begin with. The structure that earned the views is still doing its job even if a screenshot is out of date.",
+          "Leave the framing alone unless it was weak to start with. The structure that earned the views is still doing its job even if a screenshot is out of date.",
         ],
       },
       {

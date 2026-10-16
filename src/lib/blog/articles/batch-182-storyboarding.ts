@@ -27,7 +27,7 @@ export const batch182: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "A storyboard is a rough visual plan of what the camera will see in each shot, drawn before anyone records a frame. Its job is to catch weak ideas while changing them is still cheap. Think of it as a rehearsal that costs nothing but a pencil.",
+          "A storyboard is a rough visual plan of what the camera will see in each shot, drawn before anyone records a frame. Its job is to catch weak ideas while changing them is still cheap. Treat it as a rehearsal that costs nothing but a pencil.",
           "Most creators skip it because they picture film studios and animation teams. A talking head video with three cutaways does not need a Hollywood board. It does need ten minutes of thinking put down where you can see it.",
         ],
       },
@@ -524,7 +524,7 @@ export const batch182: BlogPost[] = [
     slug: "storyboarding-digital-board-tools",
     title: "Choosing Tools for Digital Storyboards That Last",
     excerpt:
-      "Digital storyboard tools let you duplicate, reorder, and share frames, but the software never plans the video for you. The plan still has to come from your head.",
+      "Digital storyboard tools let you duplicate, reorder, and share frames, but the software never plans the video for you. The plan has to come from your head.",
     date: "2033-07-25",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["tools", "digital-boards", "workflow"],

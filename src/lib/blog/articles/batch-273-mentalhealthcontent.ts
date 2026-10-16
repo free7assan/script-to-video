@@ -16,7 +16,7 @@ export const batch273: BlogPost[] = [
       {
         heading: "Why safety comes first",
         paragraphs: [
-          "Safe mental health video content starts with clear boundaries before any recording begins. Creators can speak about their own lives without sharing private details that put them or others at risk. These choices help to reduce stigma without adding harm to sensitive topics.",
+          "Safe mental health video content starts with clear boundaries before any recording starts. Creators can speak about their own lives without sharing private details that put them or others at risk. These choices help to reduce stigma without adding harm to sensitive topics.",
           "Taking time to plan what to share allows for honest stories that still protect personal safety. A planned outline gives room to pause and reflect on each point before it reaches viewers. This approach keeps the focus on support rather than unplanned exposure.",
         ],
       },
@@ -125,7 +125,7 @@ export const batch273: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Pay attention to energy, focus, and mood before each recording.",
-          "Speak with a trusted contact when warning signs begin to grow.",
+          "Speak with a trusted contact when warning signs start to grow.",
           "Plan upload breaks and tell viewers about them in clear words.",
           "Adjust your pace by changing script length or topic load.",
           "Seek support from peers or care services when burnout feels heavy.",
@@ -333,7 +333,7 @@ export const batch273: BlogPost[] = [
   },
   {
     slug: "mental-health-content-boundary-setting",
-    title: "Setting Personal Boundaries for Mental Health Content Creators",
+    title: "Setting Boundaries for Mental Health Creators",
     excerpt: "Mental health creators need clear boundaries to protect their time, privacy, and energy while still offering support to viewers in a safe way.",
     date: "2041-02-08",
     author: { name: "GoScript Team", role: "Editorial" },

@@ -63,7 +63,7 @@ export const batch214: BlogPost[] = [
   {
     slug: "ctr-testing-thumbnails-against-titles",
     title: "Testing Thumbnails Against Titles the Right Way",
-    excerpt: "Testing thumbnails against titles is really testing two halves of one promise. Run cleaner experiments and stop guessing which change moved the click through rate.",
+    excerpt: "Testing thumbnails against titles is testing two halves of one promise. Run cleaner experiments and stop guessing which change moved the click through rate.",
     date: "2036-03-05",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "thumbnails", "titles"],
@@ -393,7 +393,7 @@ export const batch214: BlogPost[] = [
   {
     slug: "ctr-on-older-videos",
     title: "Click Through Rate on Older Videos Still Matters",
-    excerpt: "Click through rate on older videos still matters because library content keeps earning impressions. Learn how to find and refresh the uploads that still get shown.",
+    excerpt: "Click through rate on older videos still matters because library content keeps earning impressions. Learn to find and refresh the uploads still getting shown.",
     date: "2036-03-23",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "thumbnails", "titles"],
@@ -448,7 +448,7 @@ export const batch214: BlogPost[] = [
   {
     slug: "ctr-by-traffic-source",
     title: "Reading Click Through Rate by Each Traffic Source",
-    excerpt: "Click through rate by traffic source splits one headline number into several different audiences. Learn what each source does and how to aim your packaging work.",
+    excerpt: "Click through rate by traffic source splits one headline number into several audiences. Learn what each source does and how to aim your packaging work.",
     date: "2036-03-26",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "thumbnails", "titles"],
@@ -504,7 +504,7 @@ export const batch214: BlogPost[] = [
   {
     slug: "ctr-experiments-worth-running",
     title: "Ten Click Through Rate Experiments Worth Running",
-    excerpt: "Click through rate experiments worth running start with a question you cannot answer from memory. Learn the tests that teach the most and how to keep them readable.",
+    excerpt: "Click through rate experiments worth running start with a question you cannot answer from memory. Learn the tests that teach the most and how to keep them fair.",
     date: "2036-03-29",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "thumbnails", "titles"],
@@ -550,7 +550,7 @@ export const batch214: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Start every test with a question you cannot answer from memory.",
-          "Change one thing and set the run length before you begin.",
+          "Change one thing and set the run length before you start.",
           "Give each test at least a week and enough impressions to count.",
           "Keep a simple log and repeat the tests that keep working."
         ]

@@ -166,7 +166,7 @@ export const batch347: BlogPost[] = [
         heading: "Signals that your balance is off",
         bullets: [
           "One pillar takes every top-performing slot while the others sit at half the views; the weak pillars may be mislabeled or underpackaged.",
-          "You feel relief when a pillar week arrives and dread for the others; that pillar probably was not yours to begin with.",
+          "You feel relief when a pillar week arrives and dread for the others; that pillar probably was not yours to start with.",
           "Comments keep asking about a subject you covered once; the imbalance may run the other direction.",
           "Every thumbnail starts looking the same; rotation in the schedule is not showing up in the packaging.",
         ],
@@ -250,7 +250,7 @@ export const batch347: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Audience pillars acquire strangers; taste pillars retain the viewers you have.",
+          "Audience pillars attract strangers; taste pillars retain the viewers you have.",
           "Sort pillars by where subscribers came from, not by raw views.",
           "Weight the mix by channel stage and change the dial only at quarterly reviews.",
           "Taste pillars pay off late, through loyalty and skills that leak into growth videos.",
@@ -479,7 +479,7 @@ export const batch347: BlogPost[] = [
       {
         paragraphs: [
           "Content pillars simplify idea generation because they convert creation into classification. Instead of asking 'what should I make', you ask 'which pillar needs a video this month', and then you only generate ideas inside that lane. The blank page shrinks from infinite to a fenced field.",
-          "This is the single highest-leverage effect of a pillar system, and most creators underrate it because the relief never shows up in analytics.",
+          "This is the single highest-value effect of a pillar system, and most creators underrate it because the relief never shows up in analytics.",
         ],
       },
       {

@@ -152,7 +152,7 @@ export const batch256: BlogPost[] = [
         heading: "One skill per episode, always",
         paragraphs: [
           "Training content fails when creators try to cover a full curriculum in a single video. Viewers come with one goal, such as teaching a recall or cutting leash pulling, and they leave when the video wanders.",
-          "Pick one skill, name it in the title, and close the episode once the skill is demonstrated. The rest of the series exists for the next goal, and that discipline is what makes a library feel trustworthy instead of bloated.",
+          "Pick one skill, name it in the title, and close the episode once the skill is showed. The rest of the series exists for the next goal, and that discipline is what makes a library feel trustworthy instead of bloated.",
           "Write the skill as a plain sentence before you film anything. If you cannot state the goal in one line, the episode is already too broad, and no amount of good editing will rescue a video that is trying to teach five things at once."
         ]
       },

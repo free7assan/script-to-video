@@ -522,7 +522,7 @@ export const batch47: BlogPost[] = [
         paragraphs: [
           "If a video is part of a series, say so early and often. A line at the top of the description, a card in the middle, and an end screen that points to the playlist cover the whole funnel.",
           "Do not rely on a viewer to find the playlist on their own. They came for one answer and will leave once they have it unless you hand them the next thing.",
-          "The end screen is the highest leverage spot. It plays right when the viewer is satisfied, which is the exact moment they are open to the next step. Miss that window and the same person who would have watched three more videos closes the app and forgets you.",
+          "The end screen is the highest-value spot. It plays right when the viewer is satisfied, which is the exact moment they are open to the next step. Miss that window and the same person who would have watched three more videos closes the app and forgets you.",
         ],
       },
       {

@@ -267,7 +267,7 @@ export const batch148: BlogPost[] = [
         heading: "Point every episode at the next one",
         paragraphs: [
           "End each episode with a spoken nudge toward the next in the series. A single line like the next one covers the part nobody expects is enough to send a curious viewer forward instead of back to the feed.",
-          "Link the playlist in every description and pin a comment that tells newcomers where to begin. First episodes always need the most help, because the audience has the least context.",
+          "Link the playlist in every description and pin a comment that tells newcomers where to start. First episodes always need the most help, because the audience has the least context.",
         ],
       },
       {
@@ -413,7 +413,7 @@ export const batch148: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Number your episodes so a stranger can tell where to begin and a regular can tell what they missed. Numbers are navigation, not decoration, and the moment they confuse instead of guide, they are hurting the series.",
+          "Number your episodes so a stranger can tell where to start and a regular can tell what they missed. Numbers are navigation, not decoration, and the moment they confuse instead of guide, they are hurting the series.",
           "The simplest scheme wins. Season plus episode, written plainly, beats any clever counting system you have to explain in the description.",
         ],
       },

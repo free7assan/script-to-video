@@ -335,7 +335,7 @@ export const batch355: BlogPost[] = [
     slug: "content-research-turning-research-into-a-script",
     title: "How to Turn Raw Research Into a Finished Script",
     excerpt:
-      "Turning research into a script is where most creators stall. The fix is a repeatable path from collected notes to a draft you can read out loud without cringing.",
+      "Turning research into a script is where most creators stall. The fix is a repeatable path from notes to a draft you can read out loud without cringing.",
     date: "2047-12-15",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "ideas", "strategy"],
@@ -398,7 +398,7 @@ export const batch355: BlogPost[] = [
     slug: "content-research-analyze-a-channel-with-goscript",
     title: "Analyze a Competitor Channel With GoScript First",
     excerpt:
-      "Analyze a channel before you plan your next upload and the guesswork shrinks fast. GoScript turns a competitor backlog into patterns you can actually learn from.",
+      "Analyze a channel before you plan your next upload and the guesswork shrinks fast. GoScript turns a competitor backlog into patterns you can learn from.",
     date: "2047-12-18",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["research", "ideas", "strategy"],
@@ -521,7 +521,7 @@ export const batch355: BlogPost[] = [
     ],
   },
   {
-    slug: "content-research-researching-a-topic-you-think-you-know",
+    slug: "content-research-topic-you-think-you-know",
     title: "Researching a Topic You Think You Already Know",
     excerpt:
       "Researching a topic you already know feels redundant until your first draft proves you wrong. A light check keeps confident creators from sounding stale.",

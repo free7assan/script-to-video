@@ -81,9 +81,18 @@ export const batch45: BlogPost[] = [
       {
         heading: "Start from your one real subject",
         paragraphs: [
-          "A cluster map begins with the narrow subject your channel can actually own. Not \"fitness\" and not \"tech,\" but the intersection you keep returning to, like strength training for people over forty or budget audio for solo creators.",
+          "A cluster map starts with the narrow subject your channel can actually own. Not \"fitness\" and not \"tech,\" but the intersection you keep returning to, like strength training for people over forty or budget audio for solo creators.",
           "Write that subject at the top of a page. Everything else on the map has to justify its connection to that line. If a cluster needs three hops of logic to fit, it belongs on someone else's channel.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start from your one real subject.",
+          "Sort the questions people ask into clusters.",
+          "Classify clusters as entry, bridge, deep, or orphan.",
+          "Keep the map alive as you learn.",
+        ]
       },
       {
         heading: "List the questions people ask",
@@ -208,6 +217,15 @@ export const batch45: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Intent is the real unit of a cluster.",
+          "Sort into four buckets: learn, compare, copy, fix.",
+          "Format is itself an intent signal.",
+          "Mixed intent kills a cluster.",
+        ]
+      },
+      {
         heading: "The four buckets in practice",
         paragraphs: [
           "Learn queries want understanding, and they reward clear structure and good pacing. Compare queries want a decision, so they reward direct verdicts and side-by-side footage. Copy queries want to reproduce a result, so they reward files and screen recordings. Fix queries want the problem gone, so they reward the answer in the first thirty seconds.",
@@ -265,6 +283,15 @@ export const batch45: BlogPost[] = [
           "SERP overlap is the share of results that appear for two different searches. When YouTube shows the same clips for two queries, it is telling you those queries mean the same thing to the audience, and one video can serve both.",
           "This is the fastest clustering signal available and almost nobody uses it. You do not need a tool. You type two phrases into YouTube and look at whether the top results are the same videos.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Let the results page do the sorting.",
+          "High overlap means fewer, stronger videos.",
+          "Low overlap is a gift that separates topics.",
+          "Fold overlap into your cluster map.",
+        ]
       },
       {
         heading: "Reading overlap by hand",
@@ -389,6 +416,15 @@ export const batch45: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A playlist is a cluster you control.",
+          "Name it for the cluster, not the folder.",
+          "Order by dependency, opening with the strongest entry.",
+          "Do not overstuff; keep the promise tight.",
+        ]
+      },
+      {
         heading: "Naming for the cluster, not the folder",
         paragraphs: [
           "Playlist titles rank and get surfaced, so name them like a pillar video. \"Beginner Audio Setup, Start to Finish\" beats \"Audio Stuff.\" The title should describe the whole cluster the way a good pillar title would.",
@@ -448,6 +484,15 @@ export const batch45: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Bet on both evergreen and trending clusters.",
+          "Evergreen is the floor; trending is the ceiling.",
+          "Ship trends within the window; speed beats polish.",
+          "Fold lasting trend questions into evergreen clusters.",
+        ]
+      },
+      {
         heading: "Why evergreen clusters are the floor",
         paragraphs: [
           "Evergreen clusters are the floor of your channel. They bring steady search traffic that does not care what month it is, and they build a library a new viewer can binge. Without them, every month starts from zero.",
@@ -505,6 +550,15 @@ export const batch45: BlogPost[] = [
           "A single video can be a dud while its cluster is healthy, and a single video can spike while its cluster is hollow. To know what is real, add up the cluster and read the group.",
           "Pull the group of videos that share a cluster and look at them together. Total views matter less than whether the cluster feeds itself and whether it keeps a flat traffic line over months.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Measure the cluster, not the single video.",
+          "Read search terms and internal click-through.",
+          "Check retention on the entry video.",
+          "Flat traffic over time signals a healthy cluster.",
+        ]
       },
       {
         heading: "The numbers that actually mean something",

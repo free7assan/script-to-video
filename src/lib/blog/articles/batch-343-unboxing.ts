@@ -5,7 +5,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-make-it-watchable",
     title: "How To Make An Unboxing Video People Actually Watch",
-    excerpt: "An unboxing only works when the product shows up fast. Learn how to cut the filler, time the reveal, and make every second of your product video earn real attention.",
+    excerpt: "An unboxing only works when the product shows up fast. Learn how to cut the filler, time the reveal, and make every second of your product video earn attention.",
     date: "2046-12-01",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],
@@ -63,7 +63,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-camera-angles-product-shots",
     title: "Camera Angles That Make Product Shots Look Expensive",
-    excerpt: "Camera angles carry more weight than any editing trick in an unboxing. Place the lens so even a cheap item looks worth its full price tag, and get the framing right once.",
+    excerpt: "Camera angles carry more weight than editing tricks in an unboxing. Place the lens so even a cheap item looks worth its price, and get the framing right once.",
     date: "2046-12-02",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],
@@ -121,7 +121,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-lighting-small-product",
     title: "Lighting A Small Product Without A Full Studio",
-    excerpt: "You do not need a studio to light a small product in an unboxing. Two lamps, a sheet of paper, and patience will get you a clean look at home for almost nothing.",
+    excerpt: "You do not need a studio to light a small product in an unboxing. Two lamps, a sheet of paper, and patience get you a clean look at home for almost nothing.",
     date: "2046-12-03",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],
@@ -179,7 +179,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-review-helps-buyer-decide",
     title: "Writing A Review That Helps The Buyer Decide",
-    excerpt: "An unboxing review earns trust when it helps someone decide, not when it praises everything. Learn to write a verdict a real buyer can act on without wasting their time.",
+    excerpt: "An unboxing review earns trust when it helps someone decide, not when it praises everything. Write a verdict a real buyer can act on without wasting their time.",
     date: "2046-12-04",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],
@@ -237,7 +237,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-disclose-sponsorships-honestly",
     title: "Disclosing Sponsorships Without Losing Viewer Trust",
-    excerpt: "An unboxing with a hidden sponsorship is the fastest way to lose an audience. Here is how to disclose a paid deal clearly and keep people watching and trusting you.",
+    excerpt: "An unboxing with a hidden sponsorship is the fastest way to lose an audience. How to disclose a paid deal clearly and keep people watching and trusting you.",
     date: "2046-12-05",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],
@@ -295,7 +295,7 @@ export const batch343: BlogPost[] = [
   {
     slug: "unboxing-get-products-review-early",
     title: "Getting Products To Review Before Everyone Else",
-    excerpt: "Getting early review products is a skill you can build for an unboxing channel. Learn how creators land units before launch and turn access into an ongoing pipeline.",
+    excerpt: "Getting early review products is a skill you can build for an unboxing channel. Learn how creators land units before launch and turn access into a pipeline.",
     date: "2046-12-06",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["format", "reviews", "product"],

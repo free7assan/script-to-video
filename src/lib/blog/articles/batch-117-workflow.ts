@@ -31,7 +31,7 @@ export const batch117: BlogPost[] = [
       {
         heading: "Keep energy steady between takes",
         paragraphs: [
-          "Long sessions can flatten your voice and your face. Take a short break between videos, drink water, and reset your posture before the next take begins.",
+          "Long sessions can flatten your voice and your face. Take a short break between videos, drink water, and reset your posture before the next take starts.",
           "It also helps to change the topic or the outfit between blocks. Small changes tell your brain that the next video is fresh work rather than a repeat of the last one. That tiny signal keeps you present."
         ]
       },

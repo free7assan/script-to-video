@@ -13,6 +13,12 @@
       "skillPath": "skills/composio/SKILL.md",
       "computedHash": "11b975f122ecbf455b437e4e42ebf8f30fad84220894c3d52549eefea92a7795"
     },
+    "content-writer": {
+      "source": "aaron-he-zhu/aaron-marketing-skills",
+      "sourceType": "github",
+      "skillPath": "seo-geo/implement/content-writer/SKILL.md",
+      "computedHash": "fc0ba0ae5029182b1292d8f655ca86018dee6a81b72a48bbbd425963c5966f21"
+    },
     "human-writing": {
       "source": "factory-ai/factory-plugins",
       "sourceType": "github",

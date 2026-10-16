@@ -89,7 +89,7 @@ export const batch200: BlogPost[] = [
       {
         heading: "The handoff problem",
         paragraphs: [
-          "Every video has a moment where the hook ends and the body begins. That handoff is where attention leaks. The viewer has spent their initial curiosity and wants to know what they get for staying.",
+          "Every video has a moment where the hook ends and the body starts. That handoff is where attention leaks. The viewer has spent their initial curiosity and wants to know what they get for staying.",
           "Name the payoff at the handoff. Tell them what they will be able to do, decide, or see by the end. A clear destination keeps feet in the room.",
         ],
       },
@@ -116,7 +116,7 @@ export const batch200: BlogPost[] = [
         bullets: [
           "Treat the end of the intro as a second opening with its own promise.",
           "State the payoff at the handoff so the viewer knows what staying buys.",
-          "Keep one open loop running at all times and close it where the next begins.",
+          "Keep one open loop running at all times and close it where the next starts.",
           "Change the visual format when a section risks going flat.",
           "Attention is renewed in small doses, not saved up in the first ten seconds.",
         ],
@@ -376,7 +376,7 @@ export const batch200: BlogPost[] = [
         heading: "Write for the ear, not the page",
         paragraphs: [
           "Read every line out loud. Sentences that look fine on paper often tangle in the mouth, and if you stumble the viewer will too.",
-          "Spoken language runs on short clauses. Break long sentences at the commas and let each clause land before the next begins.",
+          "Spoken language runs on short clauses. Break long sentences at the commas and let each clause land before the next starts.",
         ],
       },
       {
@@ -402,7 +402,7 @@ export const batch200: BlogPost[] = [
     slug: "long-form-video-energy-consistency",
     title: "Keeping Energy Consistent Across a Long Video",
     excerpt:
-      "A long-form video needs steady energy, not a sprint that fades after ten minutes. Here is how to stay present and engaged from the first minute to the very last.",
+      "A long-form video needs steady energy, not a sprint that fades after ten minutes. How to stay present and engaged from the first minute to the very last.",
     date: "2035-01-24",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["delivery", "retention", "production"],
@@ -541,7 +541,7 @@ export const batch200: BlogPost[] = [
         heading: "The cost of going long",
         paragraphs: [
           "Long videos cost more to research, shoot, and edit than shorts do. They also take longer to find an audience, so go in expecting a slow build instead of a spike.",
-          "That cost is fine when the topic justifies it. It is a bad trade when the idea was thin to begin with, because you spend the most effort on a video that cannot hold.",
+          "That cost is fine when the topic justifies it. It is a bad trade when the idea was thin to start with, because you spend the most effort on a video that cannot hold.",
         ],
       },
       {

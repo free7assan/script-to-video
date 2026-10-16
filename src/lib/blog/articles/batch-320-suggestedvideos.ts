@@ -33,7 +33,7 @@ export const batch320: BlogPost[] = [
       {
         heading: "Session rides start with intent",
         paragraphs: [
-          "The strongest ride begins on a clear intent. Someone wants to learn a skill, solve a problem, or see a result. Map every entry video to one of those intents, then place the follow-up where the intent is still warm.",
+          "The strongest ride starts on a clear intent. Someone wants to learn a skill, solve a problem, or see a result. Map every entry video to one of those intents, then place the follow-up where the intent is still warm.",
           "Watch the audience retention report to find where people leave. The exit point often marks a missing next step. If half the viewers stop at the ten minute mark, your handoff belongs before that mark, not after."
         ]
       },

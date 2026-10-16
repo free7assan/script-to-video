@@ -150,7 +150,7 @@ export const batch170: BlogPost[] = [
       {
         heading: "Styling starts with the food",
         paragraphs: [
-          "Food styling basics begin with ingredients that already look good. A dish made from fresh, well-cut produce needs far less fixing than one that sat out too long. Great styling hides technique behind simple quality.",
+          "Food styling basics start with ingredients that already look good. A dish made from fresh, well-cut produce needs far less fixing than one that sat out too long. Great styling hides technique behind simple quality.",
           "Buy more than you need. Extra herbs and a second fillet give you options when the first plate looks flat. Styling is mostly the art of having a backup.",
           "Prep the plate before the food. Warm a bowl, chill a glass, and set the sauce nearby. Small readiness details stop the dish from dying while you hunt for a spoon."
         ]

@@ -249,7 +249,7 @@ export const batch287: BlogPost[] = [
         paragraphs: [
           "Lay out everything the night before the shoot: outfit, cards, batteries, script, shot list. Ten minutes of prep the night before saves twenty minutes of panic the morning of, and panic on a shoot day shows up on camera.",
           "Charge every battery, even the ones you think are full. Check that the card has space. Read the shot list once so the first take is not also a planning meeting.",
-          "A calm start changes the whole day. When the setup is waiting and nothing is missing, you begin with the work instead of a scramble, and the first few takes are usually the ones that make the video.",
+          "A calm start changes the whole day. When the setup is waiting and nothing is missing, you start with the work instead of a scramble, and the first few takes are usually the ones that make the video.",
         ],
       },
       {
@@ -567,7 +567,7 @@ export const batch287: BlogPost[] = [
       {
         heading: "Keep a simple log",
         paragraphs: [
-          "A running note of what slowed you down each week makes the monthly review almost effortless. Write one line when something drags, and stop. You are collecting evidence, not writing a report.",
+          "A running note of what slowed you down each week makes the monthly review almost painless. Write one line when something drags, and stop. You are collecting evidence, not writing a report.",
           "By the end of the month, the log shows patterns you would have forgotten. The same stage appears three times, or the same wait keeps recurring, and the pattern is easier to trust than a memory.",
           "Keep the log open where you will actually see it. A log hidden in a folder becomes another thing you forget, and a forgotten log means you rebuild the same insights from scratch every month.",
         ],

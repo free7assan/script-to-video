@@ -174,7 +174,7 @@ export const batch50: BlogPost[] = [
         bullets: [
           "Put a dark outline or shadow behind light text. Bare text over footage disappears against light backgrounds.",
           "Use one highlight color for the word that carries the line. Multiple colors turn a caption into wallpaper.",
-          "Avoid thin fonts. Strokes that look elegant at full size vanish at phone resolution.",
+          "Avoid thin fonts. Strokes that look refined at full size vanish at phone resolution.",
           "Test against your brightest and busiest scene, not your calmest one.",
           "Keep the active word and the rest of the line at different weights so the eye knows where to land.",
         ],
@@ -316,7 +316,7 @@ export const batch50: BlogPost[] = [
           "The lazy move is to drop horizontal footage into a vertical canvas and crop the sides. That centers the shot and ignores where the subject actually sits. The better move is to reframe: scale and nudge so the subject lands in the central band.",
           "For talking-head footage, I anchor the eyes in the upper third of the safe zone and let the empty space fall below the chin where the caption block will sit anyway. For action footage, I track the movement and keep the point of interest inside the band as it moves.",
           "The extra minute of reframing is what makes a vertical short look composed rather than converted. Cropping is a decision not to decide.",
-          "For footage I shoot myself, I frame vertically from the start and keep the subject centered high. That removes most reframing work, and it means the raw clip already respects the safe zones. Shooting for the crop is a habit worth building before the edit ever begins.",
+          "For footage I shoot myself, I frame vertically from the start and keep the subject centered high. That removes most reframing work, and it means the raw clip already respects the safe zones. Shooting for the crop is a habit worth building before the edit ever starts.",
         ],
       },
       {
@@ -375,7 +375,7 @@ export const batch50: BlogPost[] = [
       {
         heading: "What to cut from the front",
         paragraphs: [
-          "The biggest offender is the setup breath. Most takes begin with an inhale and a small throat clear. Trim that and the short starts on the actual first word, which can feel abrupt in the editor and correct in the feed.",
+          "The biggest offender is the setup breath. Most takes start with an inhale and a small throat clear. Trim that and the short starts on the actual first word, which can feel abrupt in the editor and correct in the feed.",
           "The second offender is context. If the first line explains the video instead of delivering it, move that line later or delete it. The viewer does not need to know what kind of short they are watching before they have a reason to care.",
           "I keep a rule for myself: if the first two seconds could be removed without changing anything, they have already failed. Every frame up front should be doing work that the rest of the short cannot do.",
           "I also check the first sound separately from the first image. Sometimes the strongest frame and the strongest word do not arrive together, and a trim of two or three frames can sync them. When they line up, the opening feels intentional instead of lucky.",
@@ -568,7 +568,7 @@ export const batch50: BlogPost[] = [
         heading: "Placement and rhythm",
         paragraphs: [
           "Text has to respect the same safe zones as everything else. I keep it in the central band, away from the caption block and the interaction buttons, and I avoid letting it collide with the platform's own caption line.",
-          "Rhythm matters too. A card that changes on every beat feels frantic, and one that sits for ten seconds feels abandoned. I time text changes to the ideas in the short, so each card appears as a new thought begins and leaves when the next one arrives.",
+          "Rhythm matters too. A card that changes on every beat feels frantic, and one that sits for ten seconds feels abandoned. I time text changes to the ideas in the short, so each card appears as a new thought starts and leaves when the next one arrives.",
           "I test the text pass by watching the short muted on a phone. If I can follow the whole thing and still feel the ending, the text is doing its job. If I need the audio to make sense of it, the visible layer is not finished.",
         ],
       },

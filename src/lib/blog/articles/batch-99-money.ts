@@ -21,6 +21,15 @@ export const batch99: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with a floor and a ceiling.",
+          "Design the middle tier on purpose.",
+          "Give each tier a one-sentence promise.",
+          "Cut any tier that does not sell in sixty days.",
+        ]
+      },
+      {
         heading: "Design the middle tier on purpose",
         paragraphs: [
           "The middle offer should solve the main problem without forcing an upsell conversation. If your audience wants a finished script, give them the finished script there, not a template with an email thread attached. Keep the deliverable list short enough to explain in one sentence.",
@@ -73,6 +82,15 @@ export const batch99: BlogPost[] = [
         paragraphs: [
           "An anchor is any nearby number that tells the buyer what to expect before they see your price. A crossed-out original, a premium bundle, or the cost of a worse alternative all work. Without a reference, any price feels arbitrary, and arbitrary prices invite haggling.",
           "I list the full project rate, then show what the smaller slice costs. The big number makes the small one feel reachable, and it also reminds people that the smaller slice is a deal rather than a shortcut."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Give the number somewhere to land.",
+          "Use honest anchors, not fake ones.",
+          "Stack the comparison so value is obvious.",
+          "Measure the effect of each anchor.",
         ]
       },
       {
@@ -130,9 +148,18 @@ export const batch99: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Bundle things that already sell.",
+          "Price below the sum, not below cost.",
+          "Name the bundle like a product.",
+          "Retire bundles that stall.",
+        ]
+      },
+      {
         heading: "Price the bundle below the sum, not below cost",
         paragraphs: [
-          "A bundle should look cheaper than buying the parts, because it is one purchase and one download. Fifteen to twenty percent off the total is enough. Deeper discounts signal that the pieces were not worth their list prices to begin with.",
+          "A bundle should look cheaper than buying the parts, because it is one purchase and one download. Fifteen to twenty percent off the total is enough. Deeper discounts signal that the pieces were not worth their list prices to start with.",
           "Work out the floor before you announce anything. Add your costs, add the time to support the bundle, and make sure the total still clears that floor. A popular bundle that loses money is a hobby with extra steps."
         ]
       },
@@ -182,6 +209,15 @@ export const batch99: BlogPost[] = [
         paragraphs: [
           "When you cut a price, you are telling the audience that the next sale will come. Do it often enough and nobody pays full price again. I learned this the hard way after running a monthly coupon for a season and watching full-price sales dry up between them.",
           "The real cost of a discount is not the money off. It is the buyer who now waits, and the trust you spend when they buy early and see it cheaper a week later."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Every discount sets an expectation.",
+          "Discount the reason, not the habit.",
+          "Guard the full-price buyer.",
+          "Track full-price sales, not just sale volume.",
         ]
       },
       {
@@ -240,6 +276,15 @@ export const batch99: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Free is a doorway, not a room.",
+          "Pick free items that cost you little.",
+          "Cap and schedule free time.",
+          "Every free item needs a next step.",
+        ]
+      },
+      {
         heading: "Pick free items that cost you little",
         paragraphs: [
           "The best free item is cheap for you to deliver and expensive for the buyer to recreate. A template you already use costs you an upload. A single chapter of a guide costs you nothing extra once it is written. Avoid free one-on-one time, because it does not scale and it eats your week.",
@@ -292,6 +337,15 @@ export const batch99: BlogPost[] = [
         paragraphs: [
           "The worst way to raise a price is to change it quietly and let a customer find out at checkout. A short note two weeks ahead removes the surprise and gives loyal buyers a window to buy at the old rate. Most of them take it, and the goodwill is worth the small delay.",
           "I sent one paragraph to my list before my last increase. It said what was changing, when, and why. Two people replied, both with questions I could answer in a sentence."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Tell people before it happens.",
+          "Tie the why to the buyer.",
+          "Grandfather the right people.",
+          "Read the churn honestly.",
         ]
       },
       {
@@ -350,6 +404,15 @@ export const batch99: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Charge for what repeats.",
+          "Set a renewal rhythm members can plan around.",
+          "Make renewal feel earned.",
+          "Cut any plan that survives only on forgotten charges.",
+        ]
+      },
+      {
         heading: "Set the renewal rhythm",
         paragraphs: [
           "Monthly is easier to start and easier to cancel. Annual upfront is better for cash and better retention. Offer both if you can, and let the annual plan carry a clear saving so the choice is obvious.",
@@ -402,6 +465,15 @@ export const batch99: BlogPost[] = [
         paragraphs: [
           "Ask what the work is worth once it is done. A script that lands a launch can pull in far more than the hours it took to write. Anchoring the fee to that outcome pays for skill rather than for time on a clock.",
           "I stopped quoting by the hour for one client after I noticed a fast, clean script was worth more to them, not less. Faster work should not cost less when the result is the same or better."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start from the outcome the client tracks.",
+          "Find a number both sides can see.",
+          "Charge for the transformation, not the hours.",
+          "Explain the number simply.",
         ]
       },
       {
@@ -460,6 +532,15 @@ export const batch99: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Make the deadline true.",
+          "Pick a clock you can keep.",
+          "Add value instead of subtracting it.",
+          "Close the loop when it ends.",
+        ]
+      },
+      {
         heading: "Pick a clock you can keep",
         paragraphs: [
           "Short windows create pressure, but only if you can honor them. A three-day sale is fine if you actually end it. A countdown that resets is a lie with a timer.",
@@ -512,6 +593,15 @@ export const batch99: BlogPost[] = [
         paragraphs: [
           "Most buyers do not want to build a custom order. They want to pick a package and move on. Three clear options with named outcomes beat a price list where every line needs a quote.",
           "I replaced a long menu on one offer with two packages. Sales went up, support questions went down, and I spent less time explaining what each item cost."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Fewer choices means a faster yes.",
+          "Name packages by outcome.",
+          "Build one obvious default.",
+          "Remove the option that has not sold in ninety days.",
         ]
       },
       {

@@ -4,7 +4,7 @@ import type { BlogPost } from "../types";
 export const batch24: BlogPost[] = [
   {
     slug: "packaging2-thumbnail-design-system",
-    title: "Thumbnail Design Systems That Actually Scale Across a Channel",
+    title: "Thumbnail Design Systems That Scale Across a Channel",
     excerpt:
       "A thumbnail design system is the difference between one good cover and fifty consistent ones. Here is how to build one that scales with your channel.",
     date: "2024-02-01",
@@ -19,6 +19,15 @@ export const batch24: BlogPost[] = [
           "A thumbnail design system is a small set of locked decisions that every cover follows, so you stop redesigning from zero. The system covers type, color, layout rules, and a file structure. You still make creative choices, but you make them inside a frame instead of on a blank canvas.",
           "I built my first real system after my fiftieth thumbnail, when I noticed I had used nine different fonts and four shades of red. Nothing looked like it came from the same channel. The covers were fine on their own and incoherent together, which is exactly what a system prevents.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A design system locks down the pieces you reuse.",
+          "Keep one display font and a four-color palette.",
+          "Fix a safe area so UI never crops your text.",
+          "Work from one master file with a naming convention.",
+        ]
       },
       {
         quote: "A design system does not make every thumbnail the same. It makes every thumbnail recognizably yours.",
@@ -73,6 +82,15 @@ export const batch24: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Build a grid that survives repeated use.",
+          "One subject per zone and keep text off the subject.",
+          "Keep the accent zone small.",
+          "Name variants by use case and version the master file.",
+        ]
+      },
+      {
         quote: "The grid is the boring part you build once so the fun part stays fun.",
       },
       {
@@ -125,6 +143,15 @@ export const batch24: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Choose colors that survive the feed.",
+          "Use one background, one accent, one text color, and one warning color.",
+          "Test contrast at 320 pixels before you commit.",
+          "A plain palette used for years beats a beautiful one you swap monthly.",
+        ]
+      },
+      {
         quote: "People will not remember your font. They will remember that your covers are the ones with the orange stripe.",
       },
       {
@@ -160,7 +187,7 @@ export const batch24: BlogPost[] = [
   },
   {
     slug: "packaging2-thumbnail-typography-rules",
-    title: "Thumbnail Typography Rules for Small Screens and Crowded Feeds",
+    title: "Thumbnail Rules for Small Screens and Crowded Feeds",
     excerpt:
       "Thumbnail typography lives or dies at 320 pixels wide. These font, weight, and spacing rules keep your covers readable when they shrink in the feed.",
     date: "2024-12-27",
@@ -175,6 +202,15 @@ export const batch24: BlogPost[] = [
           "Thumbnail typography has one hard constraint: it has to work at 320 pixels wide, where most feeds render it. That rules out thin weights, tight spacing, and any font that needs concentration to decode. Big, heavy, and simple wins.",
           "I stopped using more than one display font per cover years ago. The covers did not get worse. They got faster to make and easier to read, because every choice was already made.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "One heavy weight, high contrast, six words maximum.",
+          "Break lines instead of using font tricks.",
+          "Add a subtle shadow to separate letters from busy backgrounds.",
+          "Use sentence case or all caps, never a mix.",
+        ]
       },
       {
         heading: "The rules that matter at feed size",
@@ -229,6 +265,15 @@ export const batch24: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Batch ten covers in one sitting, drafts first.",
+          "Timebox covers that fight you.",
+          "Keep the template open so you never rebuild from memory.",
+          "Stop when the batch is done, not when it is perfect.",
+        ]
+      },
+      {
         heading: "The batch session, step by step",
         paragraphs: [
           "Before you open the design file, gather every asset you need: ten subject shots, ten working titles, and the grid. Missing assets are what turn a batch into a scavenger hunt. Assemble everything in one folder first, even if it takes twenty minutes.",
@@ -279,6 +324,15 @@ export const batch24: BlogPost[] = [
           "Thumbnail versioning is the practice of keeping every cover you publish, named and dated, so you can trace what changed and why. Most creators overwrite the final file and lose the history. That history is the cheapest research you will ever own.",
           "I learned this the hard way after swapping a thumbnail, watching impressions climb, and realizing I no longer had the original to compare. Without the before, the after means nothing.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Use a naming scheme that survives a year.",
+          "Log the title, first-week CTR, and 30-second retention.",
+          "Write one line on why you made each cover.",
+          "Keep the rejected variant; it may fit a later video.",
+        ]
       },
       {
         heading: "A naming scheme that survives",
@@ -333,6 +387,15 @@ export const batch24: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Share one core system across channels.",
+          "Give each channel its own accent hue and imagery style.",
+          "Let tone differ while both stay specific.",
+          "Add a small mark so channels feel related, not identical.",
+        ]
+      },
+      {
         heading: "The shared core",
         paragraphs: [
           "Below the surface, every channel uses the same master grid, the same two fonts, and the same safe margins. Those decisions are about legibility, and legibility does not change from niche to niche. Keeping them common means your second channel is as readable as your first on day one.",
@@ -383,6 +446,15 @@ export const batch24: BlogPost[] = [
           "Click-through rate is the first number people check on a thumbnail and rarely the most useful one alone. Impressions, returning viewers, and the retention curve tell you whether the cover attracted the right people or just more people. Read them together or you will misread all of them.",
           "A cover can double your CTR and still be a downgrade if the new clicks bounce in fifteen seconds. The metric that catches that is not on the thumbnail report by default. You have to go looking.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "CTR alone is not enough.",
+          "Read impressions before trusting a CTR.",
+          "Watch average view duration for overselling.",
+          "A slow rise in returning viewers beats a viral spike.",
+        ]
       },
       {
         heading: "The numbers worth watching",
@@ -437,6 +509,15 @@ export const batch24: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A real brief includes the master file and locked fonts.",
+          "Give the exact headline already trimmed to six words.",
+          "Show three reference covers that worked.",
+          "Add a banned list to stop the stock-photo reflex.",
+        ]
+      },
+      {
         heading: "What a real brief contains",
         bullets: [
           "The master template file, with layers labeled and guides left in place. No designer should rebuild your layout from a screenshot.",
@@ -487,6 +568,15 @@ export const batch24: BlogPost[] = [
           "Thumbnail contrast and accessibility are not charity work. A cover that fails on contrast fails for a viewer in bright sunlight, on an old phone, or with low vision. Strong separation between subject, background, and text helps everyone who will ever scroll past.",
           "About one in twelve men has some form of color vision deficiency. Design that leans on red versus green to carry meaning excludes a real slice of your audience. It also looks muddy to everyone once the platform compresses it.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Contrast is a structure, not a filter.",
+          "Squint and greyscale to test whether the subject reads.",
+          "Check that text is not the only signal; pair color with shape.",
+          "Keep accent brightness consistent across covers.",
+        ]
       },
       {
         heading: "Contrast is a structure, not a filter",

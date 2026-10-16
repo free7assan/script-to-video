@@ -504,7 +504,7 @@ export const batch150: BlogPost[] = [
       },
       {
         quote:
-          "An objective the learner cannot demonstrate is a hope wearing a suit. Write the action you can see.",
+          "An objective the learner cannot show is a hope wearing a suit. Write the action you can see.",
       },
       {
         heading: "Share them, then use them",

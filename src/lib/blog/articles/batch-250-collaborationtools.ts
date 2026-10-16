@@ -234,7 +234,7 @@ export const batch250: BlogPost[] = [
       heading: "Choose the right review mode",
       paragraphs: [
         "Async versus live review affects how feedback is given. For simple fixes, async notes work well and let editors act on their own schedule. For complex calls that need back and forth, a short live review can settle many notes at once. Picking the right mode saves energy for both sides.",
-        "Assigning tasks to editors from those notes makes them stick. If a note needs action, turn it into a task before ending the review. That habit ensures the list of edits leaves the review session as actual work."
+        "Assigning tasks to editors from those notes makes them stick. If a note needs action, turn it into a task before ending the review. That habit makes sure the list of edits leaves the review session as actual work."
       ]
     },
     {
@@ -455,7 +455,7 @@ export const batch250: BlogPost[] = [
 {
   slug: "collaboration-tools-one-place-chat",
   title: "Keeping Communication In One Place Cuts Lost Messages",
-  excerpt: "Keeping communication in one place links every decision to the file or task it affects so small teams stop hunting through chats and keep a useful project record.",
+  excerpt: "Keeping communication in one place links every decision to the file or task it affects, so small teams stop hunting through chats and keep a useful record.",
   date: "2039-03-26",
   author: {
     name: "GoScript Team",

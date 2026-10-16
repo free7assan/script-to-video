@@ -129,7 +129,7 @@ export const batch374: BlogPost[] = [
         heading: "Native uploads play differently",
         paragraphs: [
           "Native video uploads on X often autoplay in feeds and keep the viewer inside the platform experience. That immediate playback can increase watch time on the clip itself and make the post feel more integrated with scrolling behavior.",
-          "The video player stays in-context, which reduces friction compared to clicking away. For short clips designed to deliver one idea quickly, that seamless playback can help capture attention before the viewer swipes past."
+          "The video player stays in-context, which reduces friction compared to clicking away. For short clips designed to deliver one idea quickly, that smooth playback can help capture attention before the viewer swipes past."
         ]
       },
       {
@@ -285,7 +285,7 @@ export const batch374: BlogPost[] = [
   {
     slug: "twitter-video-timing-posts-reach",
     title: "Timing Posts For Reach When Sharing Video On X Daily",
-    excerpt: "Posting video on X at consistent times that match audience activity can improve initial reach when paired with clips that deliver value in the first few seconds.",
+    excerpt: "Posting video on X at consistent times that match audience activity can improve initial reach when paired with clips that deliver value in the first seconds.",
     date: "2049-07-13",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["twitter", "platform", "growth"],
@@ -397,7 +397,7 @@ export const batch374: BlogPost[] = [
   {
     slug: "twitter-video-viral-to-growth",
     title: "Turning A Viral Post Into Channel Growth On X Over Time",
-    excerpt: "A viral clip can spark growth when you capture interest with related content, pin a clear next step, and build a path from the post to the channel's core topics.",
+    excerpt: "A viral clip can spark growth when you capture interest with related content, pin a next step, and build a path from the post to the channel's core topics.",
     date: "2049-07-17",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["twitter", "platform", "growth"],
@@ -509,7 +509,7 @@ export const batch374: BlogPost[] = [
   {
     slug: "twitter-video-routine-one-platform",
     title: "Building A Routine That Fits Video Posting To X Daily",
-    excerpt: "A sustainable routine for posting video on X breaks work into small steps, reuses clips from existing videos, and sets a cadence that fits alongside other channel tasks.",
+    excerpt: "A sustainable routine for posting video on X breaks work into small steps, reuses clips from existing videos, and sets a cadence that fits your other channels.",
     date: "2049-07-22",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["twitter", "platform", "growth"],
@@ -565,7 +565,7 @@ export const batch374: BlogPost[] = [
   {
     slug: "twitter-video-scripting-clips",
     title: "Scripting Clips For X That Fit A Channel's Video Voice",
-    excerpt: "Planning clip moments in the script phase helps produce short slices that read clearly, match channel tone, and pair well with X posts without reworking after upload.",
+    excerpt: "Planning clip moments in the script phase helps produce short slices that read clearly, match your channel tone, and pair with X posts without later edits.",
     date: "2049-07-28",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["twitter", "platform", "growth"],
@@ -577,7 +577,7 @@ export const batch374: BlogPost[] = [
         heading: "Identify clipable moments early",
         paragraphs: [
           "Scripting with clips in mind means marking potential moments during the writing phase. Flag lines or sections that deliver a complete thought in a short span and can stand alone as value for X viewers.",
-          "This early identification saves editing time and keeps the final video structured so clips flow naturally. It also ensures the moment fits the narrative without feeling cut awkwardly."
+          "This early identification saves editing time and keeps the final video structured so clips flow naturally. It also makes sure the moment fits the narrative without feeling cut awkwardly."
         ]
       },
       {

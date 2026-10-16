@@ -427,7 +427,7 @@ export const batch149: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Improvising on camera looks effortless and is mostly preparation. The freedom comes from rules that keep a scene from spinning into nothing.",
+          "Improvising on camera looks easy and is mostly preparation. The freedom comes from rules that keep a scene from spinning into nothing.",
           "A good improv beat follows the other performer, accepts what they offer, and adds one new thing. That loop is what keeps a scene alive.",
           "These habits make filmed improv funny instead of frantic.",
         ],
@@ -553,7 +553,7 @@ export const batch149: BlogPost[] = [
         heading: "Separate the bit from the belief",
         paragraphs: [
           "A character can hold views you do not share, but the audience needs to know where you actually stand. Blur that line and a joke starts to read as a real opinion.",
-          "Signal the shift when a bit begins and when it ends. A small tell, a look, or a change in framing keeps the audience oriented.",
+          "Signal the shift when a bit starts and when it ends. A small tell, a look, or a change in framing keeps the audience oriented.",
         ],
       },
       {

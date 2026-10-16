@@ -119,7 +119,7 @@ export const batch111: BlogPost[] = [
         heading: "Reward the regulars",
         paragraphs: [
           "You will notice the same few people under every video. They are your community, and they cost you nothing to keep. Quote them sometimes. Ask their opinion on a poll. Mention them in a reply so everyone sees that loyalty gets seen.",
-          "Rewards do not have to be perks or badges. The most powerful reward is attention. A creator who remembers your name and your last comment is doing something most channels never bother to do.",
+          "Rewards do not have to be perks or badges. The most effective reward is attention. A creator who remembers your name and your last comment is doing something most channels never bother to do.",
           "Over time these regulars become moderators, greeters, and the people who welcome newcomers before you even open the app. That is the compounding return on a comment strategy done with intent.",
         ],
       },

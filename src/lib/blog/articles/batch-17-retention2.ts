@@ -21,6 +21,15 @@ export const batch17: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Relative retention shows what absolute numbers hide.",
+          "A dip in the opening means your pacing bounces niche viewers.",
+          "Sections above the benchmark are heat worth extending.",
+          "A slow bleed below 1.00 points to structure, not one moment.",
+        ]
+      },
+      {
         heading: "How the relative curve is built",
         paragraphs: [
           "Relative retention indexes your absolute percentage against a benchmark curve for videos in your length bucket. A value of 1.00 means you match the platform expectation for that second. A value of 1.20 means you hold twenty percent better than a typical video of the same length. When your line sits above 1.00 for the whole run, you have a genuinely strong piece.",
@@ -60,7 +69,7 @@ export const batch17: BlogPost[] = [
     slug: "retention2-last-minute-drop",
     title: "Retention Drop in the Last Minute: Why Viewers Bail",
     excerpt:
-      "Retention in your final minute is the cheapest fix you can make. Diagnose the closing stretch that nudges viewers out and plug the leak without touching your payoff.",
+      "Retention in your final minute is the cheapest fix you can make. Diagnose the closing stretch that nudges viewers out and plug the leak before your payoff.",
     date: "2024-05-20",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["retention", "structure"],
@@ -73,6 +82,15 @@ export const batch17: BlogPost[] = [
           "Every retention graph takes its biggest visible hit somewhere in the final minute, and most creators never look at that part because they are busy panicking about the first thirty seconds. The end of the video is where the people who already watched seven minutes of you decide whether to forgive you or not. A real share of those exits is preventable.",
           "I started tracking my own tail drop the week I realized my average view duration was being held hostage by closing minutes I never rewrote.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The recap ending gives viewers permission to leave.",
+          "A bare subscribe ask works the algorithm in your head.",
+          "Outro card stacks visually signal the end.",
+          "Move the subscribe ask into the wind-down with a reason.",
+        ]
       },
       {
         heading: "The three endings that leak",
@@ -96,7 +114,7 @@ export const batch17: BlogPost[] = [
       {
         heading: "Slope within the ending",
         paragraphs: [
-          "When the slide begins exactly at the moment your last idea starts, your ending is a timing problem, not a content problem. The viewer felt the climax, got the reward, and read the leftover minute as padding. Shorten the whole tail by fifteen seconds and watch the line firm up.",
+          "When the slide starts exactly at the moment your last idea starts, your ending is a timing problem, not a content problem. The viewer felt the climax, got the reward, and read the leftover minute as padding. Shorten the whole tail by fifteen seconds and watch the line firm up.",
           "Do the math out loud. If your last-minute retention is 58 percent and your penultimate minute sits at 71 percent, you are carrying thirteen points of audience you are paying to produce. Reclaim half of it and your completion rate moves without shooting a single new frame.",
         ],
       },
@@ -113,7 +131,7 @@ export const batch17: BlogPost[] = [
   },
   {
     slug: "retention2-first-30-second-cliff",
-    title: "First 30 Second Cliff: Diagnosing Your Earliest Retention Drop",
+    title: "First 30 Second Cliff: Diagnosing Retention Drops",
     excerpt:
       "Your first thirty seconds of retention show a cliff when the promise broke. Diagnose the gap between your title and cold open before you rewrite the hook.",
     date: "2024-09-12",
@@ -184,6 +202,15 @@ export const batch17: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Pin the second, then the context, before you rewrite.",
+          "Audio spikes and transition wipes cause cliffs.",
+          "A deferred answer is a leaked viewer.",
+          "Reorder the dying segment and see if the cliff moves.",
+        ]
+      },
+      {
         heading: "Pin the second, then the context",
         paragraphs: [
           "Studio lets you hover over the curve to get second-by-second values. When you spot a steep drop, record the exact second and go to that frame in your export. Look at the shot, the audio, and the on-screen text together, because the cause can hide in any of them.",
@@ -242,7 +269,7 @@ export const batch17: BlogPost[] = [
       {
         heading: "Find the first minute of sag",
         paragraphs: [
-          "Look for the minute where a slow slide begins. The moment the line angles down and stays down until near the end, you have found the start of the sag. Open the script at that point and read two sections behind it. The boring almost always announces itself a minute early.",
+          "Look for the minute where a slow slide starts. The moment the line angles down and stays down until near the end, you have found the start of the sag. Open the script at that point and read two sections behind it. The boring almost always announces itself a minute early.",
           "Twice I have traced a sag to two adjacent sections doing the same job. Twice more it was one segment repeating its own idea three times with three different examples. Both times the graph looked identical, which is why you read the curve but then read the words.",
         ],
       },
@@ -296,6 +323,15 @@ export const batch17: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Name each spike by second and by the line on screen.",
+          "Separate content spikes from style spikes.",
+          "Cut style spikes that carry no other job.",
+          "Build around the second watch.",
+        ]
+      },
+      {
         heading: "What causes an upward trace",
         paragraphs: [
           "A jump backward shows up as a bump upward because the platform counts that second again as viewing time. A viewer who rewinds forty seconds to catch a phone number inflates those seconds. A viewer who replays a gag does the same thing, and the two rewinds are not equal in value.",
@@ -335,7 +371,7 @@ export const batch17: BlogPost[] = [
     slug: "retention2-flatline-plateau",
     title: "The Flatline Plateau: Boredom Before the Retention Cliff",
     excerpt:
-      "A flat plateau in retention is a pre-cliff, not a steady middle. Viewers are gone long before the graph shows it. Diagnose the level line and stop mistaking boredom for stability.",
+      "A flat plateau is a pre-cliff, not a steady middle. Viewers leave before the graph shows it. Diagnose the level line and stop mistaking boredom for stability.",
     date: "2026-02-14",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["retention", "pacing"],
@@ -405,6 +441,15 @@ export const batch17: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Read retention at three scales: shape, minute, and second.",
+          "Whole-video shape finds structural problems.",
+          "Minute bands find section problems.",
+          "Second by second finds the edit or the missed promise.",
+        ]
+      },
+      {
         heading: "Three scales, three questions",
         bullets: [
           "Whole-video shape: which third or chapter of the video wins? This finds structural problems.",
@@ -455,6 +500,15 @@ export const batch17: BlogPost[] = [
           "A low, flat retention line is the most misdiagnosed curve on the platform. Creators read it as a content failure and rewrite the video, when the graph is actually describing a promotion failure: the title and thumbnail pulled in people who wanted a different video entirely. Viewers who arrive by accident do not stay, and they do not stay politely.",
           "A video aimed at beginner editors that reaches a crowd of motion designers keeps a perfectly even low line, even though nothing in the edit is wrong. The line is honest. The audience is not.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Read the level, not the shape, for a steady low curve.",
+          "Pull traffic sources to see who actually clicked.",
+          "Mismatched search terms mean the packaging promised the wrong thing.",
+          "Every 'I thought this was about X' comment is a queued fix.",
+        ]
       },
       {
         heading: "Read the level, not the shape",
@@ -509,6 +563,15 @@ export const batch17: BlogPost[] = [
           "Inside a series, your best retention map is the other episodes. A single episode's curve tells you whether one video worked; a stack of episode curves tells you which of your recurring section shapes actually carry people. That comparison is a creative asset nobody exports and everybody should.",
           "I run a three-episode stack whenever a series finishes a cycle: graphs open, episode lengths normalized, x-axes matched by percentage of runtime. Divergences become obvious fast, and so do the patterns shared across all three.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Normalize before you compare episodes.",
+          "A recurring cliff at the same percentage points to a habit section.",
+          "One episode beating others at a section gives you a template.",
+          "Watch whether the arc rises across the series.",
+        ]
       },
       {
         heading: "Normalize before you compare",

@@ -216,7 +216,7 @@ export const batch62: BlogPost[] = [
     slug: "podcast-guest-booking-outreach",
     title: "Booking Podcast Guests Without Begging or Spamming",
     excerpt:
-      "Guest booking is a numbers game only if you respect the other person's time. A short, specific podcast interview pitch beats a long one that asks for everything.",
+      "Guest booking is a numbers game only if you respect the other person's time. A short, specific podcast pitch beats a long one that asks for everything.",
     date: "2024-12-14",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["podcast", "interview"],
@@ -281,7 +281,7 @@ export const batch62: BlogPost[] = [
     slug: "podcast-active-listening-interviews",
     title: "Active Listening Is the Skill Podcast Hosts Skip",
     excerpt:
-      "Active listening is what separates a podcast interview from a list of questions read aloud. The host who listens well will always out-book the host who talks well.",
+      "Active listening is what separates a podcast interview from a list of questions read aloud. The host who listens well will out-book the host who talks well.",
     date: "2025-03-09",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["podcast", "interview"],
@@ -346,7 +346,7 @@ export const batch62: BlogPost[] = [
     slug: "podcast-editing-interviews-for-clips",
     title: "Editing Podcast Interviews Into Clips Worth Sharing",
     excerpt:
-      "Turning a podcast interview into clips is a selection problem before it is an editing problem. Find the one clean moment per clip and cut everything that delays it.",
+      "Turning a podcast interview into clips is a selection problem before an editing problem. Find the one clean moment per clip and cut everything that delays it.",
     date: "2025-06-21",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["podcast", "audio", "interview"],
@@ -357,7 +357,7 @@ export const batch62: BlogPost[] = [
       {
         paragraphs: [
           "A good interview clip is one idea, spoken clearly, with nothing in front of it. That sounds obvious until you watch clips that spend six seconds clearing their throat before the guest reaches the point. Viewers scroll away during the wind-up.",
-          "Start from the strongest sentence and work backward. If the guest lands something sharp, the clip begins a second before that sentence and ends a second after it. The setup the guest needed in the full episode is usually dead weight in a short.",
+          "Start from the strongest sentence and work backward. If the guest lands something sharp, the clip starts a second before that sentence and ends a second after it. The setup the guest needed in the full episode is usually dead weight in a short.",
         ],
       },
       {
@@ -411,7 +411,7 @@ export const batch62: BlogPost[] = [
     slug: "podcast-follow-up-questions",
     title: "Follow-Up Questions That Keep an Interview Moving",
     excerpt:
-      "The follow-up question is where a podcast interview gets its depth. Ask once and you get the surface answer. Ask well and you get the part the guest did not plan.",
+      "The follow-up question is where a podcast interview gets its depth. Ask once and you get the answer. Ask well and you get the part the guest did not plan.",
     date: "2025-09-27",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["podcast", "interview"],
@@ -660,7 +660,7 @@ export const batch62: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Mark standalone ideas in the transcript before editing begins.",
+          "Mark standalone ideas in the transcript before editing starts.",
           "Reshape each idea for the platform instead of duplicating clips.",
           "Never post the identical clip on every app in the same week.",
           "Keep a backlog of unused moments for slow weeks.",

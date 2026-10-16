@@ -15,7 +15,7 @@ import type { BlogPost } from "../types";
 export const batch94: BlogPost[] = [
   {
     slug: "audio-cleanup-noise-reduction-basics",
-    title: "Audio Cleanup Basics: Cutting Noise Without Killing the Voice",
+    title: "Audio Cleanup: Cutting Noise Without Killing the Voice",
     excerpt:
       "Noise reduction works in small doses. Push it hard and the voice turns metallic. Here is how to clean a rough track without wrecking the take.",
     date: "2024-02-07",
@@ -320,7 +320,7 @@ export const batch94: BlogPost[] = [
       {
         heading: "Ratio and threshold decide the feel",
         paragraphs: [
-          "A ratio near 2 to 1 or 3 to 1 is plenty for spoken word. The threshold sets where compression begins, and for a voice you want it low enough to catch the loud syllables without clamping down on every breath.",
+          "A ratio near 2 to 1 or 3 to 1 is plenty for spoken word. The threshold sets where compression starts, and for a voice you want it low enough to catch the loud syllables without clamping down on every breath.",
           "Watch the gain reduction meter and aim for peaks of three to five decibels on the hottest lines. If it never moves, the compressor is asleep. If it never rests, you are crushing the life out of the read.",
         ],
       },
@@ -444,7 +444,7 @@ export const batch94: BlogPost[] = [
       {
         heading: "Set the timing carefully",
         paragraphs: [
-          "Ducking should begin just before the voice, not after it, so the first syllable does not poke through at full music level. A short attack of maybe 50 to 100 milliseconds feels natural, and a slower release of a few hundred milliseconds avoids a pumping effect.",
+          "Ducking should start just before the voice, not after it, so the first syllable does not poke through at full music level. A short attack of maybe 50 to 100 milliseconds feels natural, and a slower release of a few hundred milliseconds avoids a pumping effect.",
           "Release that is too fast makes the bed jump between phrases, which is more distracting than a steady level. Stretch the release until the music breathes back gradually and the motion stops drawing attention.",
         ],
       },
@@ -538,7 +538,7 @@ export const batch94: BlogPost[] = [
       {
         paragraphs: [
           "Plosives are the bursts of air that hit the microphone on hard P and B sounds, and clicks are the tiny snaps from a dry mouth. Both are common in voice work, and both can usually be fixed by editing rather than by reaching for a plugin that might damage the rest of the line.",
-          "The instinct is to run the whole take through a repair tool. The better move is to deal with each event where it happens, because state-of-the-art processing applied across an entire file always leaves a mark somewhere.",
+          "The instinct is to run the whole take through a repair tool. The better move is to deal with each event where it happens, because the latest processing applied across an entire file always leaves a mark somewhere.",
         ],
       },
       {

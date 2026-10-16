@@ -148,7 +148,7 @@ export const batch371: BlogPost[] = [
       {
         heading: "Cut straight to motion and sound",
         paragraphs: [
-          "Dead air at the start kills more videos than weak topics. Begin on movement, a face mid expression, or a line of dialogue already in progress. The viewer should feel like they walked into something happening, not something warming up.",
+          "Dead air at the start kills more videos than weak topics. Start on movement, a face mid expression, or a line of dialogue already in progress. The viewer should feel like they walked into something happening, not something warming up.",
           "Sound matters here too. A clear voice in the first beat beats a slow musical intro. If the words are the point, let the words land first and bring the music in behind them.",
         ],
       },

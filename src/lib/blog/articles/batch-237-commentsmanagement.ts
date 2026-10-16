@@ -130,7 +130,7 @@ export const batch237: BlogPost[] = [
     slug: "comments-management-writing-a-comment-policy",
     title: "How to Write a Comment Policy Your Audience Respects",
     excerpt:
-      "A comment policy sets the tone before trouble arrives. Keep it short, fair, and visible, and it does more to protect your section than any single deletion ever can.",
+      "A comment policy sets the tone before trouble arrives. Keep it short, fair, and visible, and it protects your section more than any single deletion ever can.",
     date: "2038-02-08",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["community", "engagement", "moderation"],

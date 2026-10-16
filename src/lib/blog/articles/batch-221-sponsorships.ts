@@ -216,7 +216,7 @@ export const batch221: BlogPost[] = [
         paragraphs: [
           "Read every sponsorship contract for four things: what you must deliver, when you get paid, what rights the brand keeps, and how you can end the deal. Everything else is detail.",
           "If a clause makes you uneasy, ask about it in writing. A brand that will not explain a term is telling you something about the partnership.",
-          "A contract with no exit is a contract with no leverage. Even a simple clause that lets either side leave with notice is worth asking for."
+          "A contract with no exit is a contract with no advantage. Even a simple clause that lets either side leave with notice is worth asking for."
         ]
       },
       {
@@ -244,7 +244,7 @@ export const batch221: BlogPost[] = [
         ]
       },
       {
-        quote: "The clause you skim past is the one that shows up in an argument six months later. Read it now while you still have leverage."
+        quote: "The clause you skim past is the one that shows up in an argument six months later. Read it now while you still have the upper hand."
       },
       {
         heading: "Key takeaways",
@@ -656,7 +656,7 @@ export const batch221: BlogPost[] = [
         heading: "Turn proof into price",
         paragraphs: [
           "When you can show that a sponsor made money, the next conversation is about scale, not discounts. Bring the report to every renewal.",
-          "Numbers you collected last quarter are leverage this quarter. That is why tracking is the quiet foundation of every better deal.",
+          "Numbers you collected last quarter are your edge this quarter. That is why tracking is the quiet foundation of every better deal.",
           "Review the reports once a quarter and look for patterns. The metric that keeps winning is the one you should sell next."
         ]
       }

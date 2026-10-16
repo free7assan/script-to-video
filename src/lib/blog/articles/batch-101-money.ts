@@ -20,6 +20,15 @@ export const batch101: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Separate fixed costs from flexible ones.",
+          "Pay yourself a steady number.",
+          "When a month comes in low, pause discretionary costs first.",
+          "Review the plan every quarter.",
+        ]
+      },
+      {
         heading: "Separate fixed costs from flexible ones",
         paragraphs: [
           "Fixed costs are rent, insurance, software, and loan payments. They arrive whether you post or not. Flexible costs are gear, travel, contractors, and eating out. You can cut those quickly when a month lands thin.",
@@ -128,6 +137,15 @@ export const batch101: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Set aside money the moment it arrives.",
+          "Make quarterly payments to stay current.",
+          "Track deductions worth the paperwork.",
+          "Build the record while it is fresh.",
+        ]
+      },
+      {
         heading: "Set aside the moment money arrives",
         paragraphs: [
           "Open a second savings account and label it for taxes. When a payout or sponsor payment clears, move 25 to 30 percent there immediately.",
@@ -178,6 +196,15 @@ export const batch101: BlogPost[] = [
         paragraphs: [
           "An emergency fund is the difference between a bad month and a crisis. For creators it matters more than for salaried workers, because income can drop without warning and platforms change rules overnight.",
           "The target is simple even if it feels far away: enough cash to cover three to six months of essential spending, held somewhere you can reach in a day."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with a starter buffer.",
+          "Keep it somewhere you will not spend it.",
+          "Define what counts as an emergency.",
+          "Replenish it after you use it.",
         ]
       },
       {
@@ -234,6 +261,15 @@ export const batch101: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Reinvest from profit, not gross.",
+          "Put money where it pays back fastest: audio and help.",
+          "Set a ceiling per quarter.",
+          "Know when to pause reinvestment.",
+        ]
+      },
+      {
         heading: "Reinvest from profit, not gross",
         paragraphs: [
           "Gross is every dollar that came in. Profit is what is left after costs and your own pay. Reinvesting from gross is how creators run out of cash while looking busy.",
@@ -284,6 +320,15 @@ export const batch101: BlogPost[] = [
         paragraphs: [
           "When business and personal money share one account, you lose the ability to tell whether the channel is actually profitable. Every dollar looks the same, so every decision turns into a guess.",
           "Separating them is not bureaucracy. It is the cheapest way to see clearly, and it takes a single afternoon to set up."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Open dedicated accounts.",
+          "Separation makes tax filing and profit visible.",
+          "Handle the grey areas with one rule.",
+          "Make the transfer routine automatic.",
         ]
       },
       {
@@ -340,6 +385,15 @@ export const batch101: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Set a target monthly pay.",
+          "Move surplus out of checking immediately.",
+          "Never raise your salary off a single strong month.",
+          "Keep taxes separate from the smoothing buffer.",
+        ]
+      },
+      {
         heading: "Set a target monthly pay",
         paragraphs: [
           "Look at your last twelve months and pick a pay number you can hit in a below average month. That is your salary. Everything above it during a strong month goes into the buffer.",
@@ -390,6 +444,15 @@ export const batch101: BlogPost[] = [
         paragraphs: [
           "Financial goals for creators break when they assume a fixed paycheck. Saying you will save 1000 dollars a month fails the moment a platform payout lands late, and then you quit the goal entirely.",
           "The fix is to set goals by percentage and by floor, so they survive the swings instead of collapsing on the first bad month."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Use percentages, not fixed amounts.",
+          "Pick goals at short, medium, and long horizons.",
+          "Track one number per goal.",
+          "Adjust without quitting.",
         ]
       },
       {
@@ -446,6 +509,15 @@ export const batch101: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "List money in and money out by week.",
+          "Flag weeks that run negative.",
+          "Note the cause of each gap.",
+          "Update actuals against the forecast weekly.",
+        ]
+      },
+      {
         heading: "List money in",
         paragraphs: [
           "Start with what you actually expect, not your best case. Ad income, known sponsor payments, affiliate totals, and product sales each get a date.",
@@ -496,6 +568,15 @@ export const batch101: BlogPost[] = [
         paragraphs: [
           "A salary is how you turn a channel into a job you can plan around. It is a fixed amount you pay yourself on a schedule, regardless of what the platform or sponsors did that month.",
           "Without a salary, every payment feels like a windfall and every slow week feels like failure. A set number ends that emotional loop."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Find your number from real months.",
+          "Pay on a fixed date.",
+          "Decide where the surplus goes: taxes, buffer, reinvestment, savings.",
+          "Review it twice a year.",
         ]
       },
       {

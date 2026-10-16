@@ -115,7 +115,7 @@ export const batch134: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with warm contacts who already know your work",
+          "Start with warm contacts who already know your work",
           "Send one sample that mirrors the client's exact problem",
           "Answer community questions well before you pitch",
           "Follow up twice with something useful, then stop",
@@ -249,7 +249,7 @@ export const batch134: BlogPost[] = [
   {
     slug: "freelance-contracts-and-scope",
     title: "Contracts And Scope For Your Freelance Video Work",
-    excerpt: "A short contract and a tight scope protect both sides. Name the deliverables, the revision limit, the payment terms, and who owns the files before work begins.",
+    excerpt: "A short contract and a tight scope protect both sides. Name the deliverables, the revision limit, the payment terms, and who owns the files before work starts.",
     date: "2029-07-15",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["freelance", "clients", "business"],
@@ -277,7 +277,7 @@ export const batch134: BlogPost[] = [
       {
         heading: "Set payment terms that protect you",
         paragraphs: [
-          "Ask for a deposit before you start and the balance before you hand over the final file. This order keeps leverage on your side if the client goes quiet. A fifty-fifty split is common and simple to explain.",
+          "Ask for a deposit before you start and the balance before you hand over the final file. This order keeps the advantage on your side if the client goes quiet. A fifty-fifty split is common and simple to explain.",
           "Add a late fee, even a small one. A clear line about overdue invoices gives you standing to follow up and discourages the slowest payers. Most clients never trigger it, but the ones who might tend to pay on time once they see it."
         ]
       },

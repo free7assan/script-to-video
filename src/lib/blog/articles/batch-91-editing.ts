@@ -178,7 +178,7 @@ export const batch91: BlogPost[] = [
         ],
       },
       {
-        heading: "Begin with position and opacity",
+        heading: "Start with position and opacity",
         paragraphs: [
           "Two properties cover most early work: where an element sits and how visible it is. Animating position and opacity with clean easing gets you surprisingly far.",
           "Add scale and rotation only when they serve the idea. A number that pops bigger as it counts up feels alive; one that spins for no reason feels noisy.",

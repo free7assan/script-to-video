@@ -31,6 +31,15 @@ export const batch29: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Write down thirty real names and message them one by one.",
+          "Post where your people already gather before you link anything.",
+          "Track which single source produced the most subscribers.",
+          "Resist buying ads until the manual version works once.",
+        ]
+      },
+      {
         quote:
           "The algorithm does not discover you. It amplifies a signal you create somewhere else first.",
       },
@@ -90,6 +99,15 @@ export const batch29: BlogPost[] = [
           "A niche is not a permanent identity you pick on day one. It is the narrowest lane you can test fast, then widen once one topic keeps outperforming the rest. Most new creators freeze at this step and never publish.",
           "I froze for two months on a channel name I eventually changed anyway. The naming was not the bottleneck. Publishing was.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start narrower than feels comfortable.",
+          "Test three lanes, two weeks each.",
+          "Watch for follow-up questions, DMs, and evergreen views as signals.",
+          "Name the audience, not the topic.",
+        ]
       },
       {
         quote:
@@ -153,6 +171,15 @@ export const batch29: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Consistency beats perfection; ship volume.",
+          "Set a pace you can hold on a bad week.",
+          "Build a buffer, not a backlog.",
+          "Template the intro and outro so they cost minutes, not hours.",
+        ]
+      },
+      {
         heading: "The cost of a blank calendar",
         paragraphs: [
           "A missed upload does not just lose one video's views. It breaks the feedback loop. You need a steady stream of uploads to learn which titles and topics your audience responds to.",
@@ -212,6 +239,15 @@ export const batch29: BlogPost[] = [
           "Borrowing an audience means appearing in front of viewers who already trust someone else. A guest spot, a joint video, or a shout-out from a peer can do in a day what solo uploads take a month to manage. The catch is that you have to bring something real to the trade.",
           "I got my first real jump from a creator with 800 subscribers. Same size as me. No gatekeeper involved, just two people swapping an audience.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Aim sideways, not upward, for collaborations.",
+          "Bring a specific offer, not a vague idea.",
+          "Use formats that work at small scale.",
+          "Do the work first, then convert the borrowed attention.",
+        ]
       },
       {
         heading: "Aim sideways, not upward",
@@ -275,6 +311,15 @@ export const batch29: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Recommendations are closed early for a new channel.",
+          "Find queries with room and title videos to match.",
+          "Link related videos so search traffic spills into your catalog.",
+          "Let search performers guide your next topics.",
+        ]
+      },
+      {
         heading: "Why recommendations are closed early",
         paragraphs: [
           "The recommendation system needs data about who watches you and when. With five videos and no watch history, it has almost nothing to work with, so your uploads get shown to a small, random test group.",
@@ -334,6 +379,15 @@ export const batch29: BlogPost[] = [
           "A thousand true fans is not a slogan, it is arithmetic. If 1,000 people each spend $50 a year on your work, that is $50,000 before platform cuts. You get there by serving a small group intensely, not by chasing reach.",
           "I know creators with 300,000 subscribers who cannot cover their costs and creators with 4,000 who can. The difference is whether the audience trusts them enough to pay attention.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Define what a true fan looks like for you.",
+          "Serve them like they are the whole audience.",
+          "Measure fans by comments, signups, and replies, not subs.",
+          "Turn attention into income slowly.",
+        ]
       },
       {
         heading: "What a true fan looks like",
@@ -398,6 +452,15 @@ export const batch29: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Reply like the channel is a conversation.",
+          "Turn comments into a content calendar.",
+          "Give the audience a role, not just a vote.",
+          "Do not chase the wrong metric.",
+        ]
+      },
+      {
         heading: "Reply like the channel is a conversation",
         paragraphs: [
           "When you have fifty comments, reply to all of them. Not with a heart, with a sentence. Answer the question, ask one back. People return to channels where they were spoken to.",
@@ -458,6 +521,15 @@ export const batch29: BlogPost[] = [
           "A schedule you can keep is worth more than an ambitious one you abandon. Pick an upload rate you can hit even during a bad week, then protect the time you set aside to make it happen.",
           "Every creator I know who quit blamed motivation. Every one who lasted had a routine they could run while unmotivated. The routine, not the mood, held the channel together.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pick the worst-week pace and build a buffer first.",
+          "Block the time, not the goal.",
+          "Reduce the cost per video with templates and batching.",
+          "Review the schedule monthly and adjust before it cracks.",
+        ]
       },
       {
         heading: "Pick the worst-week pace",
@@ -522,6 +594,15 @@ export const batch29: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Find where the conversation already lives.",
+          "Give before you link.",
+          "Pick two communities and go deep.",
+          "Become a regular, not a drive-by promoter.",
+        ]
+      },
+      {
         heading: "Find where the conversation lives",
         paragraphs: [
           "Search your topic plus 'forum' or 'discord' and see what surfaces. Look for spaces with steady activity and specific problems, not the biggest server you can find. A smaller space where people ask real questions beats a huge one full of noise.",
@@ -582,6 +663,15 @@ export const batch29: BlogPost[] = [
           "Most early channels measure the wrong thing. Total views feel good and mean little. The numbers worth watching at the start are average view duration and search impressions. Those point to whether the channel is building something.",
           "I wasted a year refreshing a subscriber count that barely moved. The metric that would have helped me was retention, and I ignored it because the number was small and unfriendly.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Measure watch behavior, not just views.",
+          "Watch the returning-viewers share.",
+          "Track search impressions and the queries behind them.",
+          "Ignore one-off vanity spikes.",
+        ]
       },
       {
         heading: "Views versus watch behavior",

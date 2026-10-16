@@ -18,7 +18,7 @@ export const batch145: BlogPost[] = [
         paragraphs: [
           "A documentary story is a person, a place, or a routine that carries a change worth watching. You find one by paying close attention to ordinary days rather than by hunting for something dramatic. The material is already in front of you, waiting for someone to slow down and notice it.",
           "Most people assume a subject has to be extraordinary before it earns a camera. The opposite is closer to the truth, and the evidence sits in every small film you have ever loved. Audiences connect with specific lives because they recognize their own days inside them, and that recognition keeps a viewer leaning forward instead of scrolling away.",
-          "The work is mostly patience, which is the part nobody warns you about. You return to the same corner, the same kitchen, the same bus stop until the ordinary begins to show its seams. That is the moment a story stops being scenery and starts to feel like something you could follow for ten unhurried minutes.",
+          "The work is mostly patience, which is the part nobody warns you about. You return to the same corner, the same kitchen, the same bus stop until the ordinary starts to show its seams. That is the moment a story stops being scenery and starts to feel like something you could follow for ten unhurried minutes.",
         ],
       },
       {
@@ -51,7 +51,7 @@ export const batch145: BlogPost[] = [
       {
         heading: "Keep returning to the same place",
         paragraphs: [
-          "A phone in your pocket is enough to begin, so do not let missing gear stop you from starting. Bring it everywhere for a week and film short fragments of whatever catches your eye, then look at what you actually collected.",
+          "A phone in your pocket is enough to start, so do not let missing gear stop you from starting. Bring it everywhere for a week and film short fragments of whatever catches your eye, then look at what you actually collected.",
           "Patterns surface in the footage that you missed in the moment, which is why the second watch matters so much. Trust the pile over your memory, since memory quietly edits out the boring stretches that keep a scene honest and give it its weight.",
           "Once one face or one place keeps appearing in your clips, commit to it and stop spreading yourself thin. Go back three more times and let the growing relationship do the storytelling work, because familiarity is what turns a stranger into a character.",
         ],
@@ -315,7 +315,7 @@ export const batch145: BlogPost[] = [
       {
         heading: "Protect the moment in the edit",
         paragraphs: [
-          "In post, give an honest beat room to breathe instead of tightening it out of habit. Cutting a real pause short to save a few seconds often costs you the very reason the scene mattered to begin with.",
+          "In post, give an honest beat room to breathe instead of tightening it out of habit. Cutting a real pause short to save a few seconds often costs you the very reason the scene mattered to start with.",
           "Back up your most precious clips before you do anything experimental with the timeline. It is uniquely painful to lose a fragile moment to a software crash the night before a deadline.",
           "Let the camera wobble stay if the emotion underneath it is real. Over-stabilized footage can sand off the exact texture you were chasing when you picked up the camera in the first place.",
         ],
@@ -347,7 +347,7 @@ export const batch145: BlogPost[] = [
       {
         paragraphs: [
           "A long vlog sags when it has no internal clock, and no amount of nice footage can cover for that. Give it a handful of clear movements, each with its own small arc, and the whole thing stays alive from start to finish.",
-          "Think of a day, a trip, or a project as three or four chapters instead of one long stream. Each chapter opens a thread and closes it before the next one begins, which gives the viewer a small feeling of progress.",
+          "Think of a day, a trip, or a project as three or four chapters instead of one long stream. Each chapter opens a thread and closes it before the next one starts, which gives the viewer a small feeling of progress.",
           "Structure is what lets a viewer relax and actually enjoy the trip. When they trust that something will resolve, they stop scanning for the exit and start paying attention to the details you worked to capture.",
         ],
       },

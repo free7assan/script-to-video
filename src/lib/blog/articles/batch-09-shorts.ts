@@ -21,6 +21,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Framing decides the script before you write a word.",
+          "Open on the result, then rewind.",
+          "Give the viewer something new to look at every two to three seconds.",
+          "Write the last line first so the clip has a target.",
+        ]
+      },
+      {
         heading: "Framing decides your script before you write a word",
         paragraphs: [
           "A vertical frame holds one subject well and crowds anything else. Two people talking means one of them is half out of frame. A wide establishing shot becomes a strip of sky above a road. That constraint is a gift during scripting: it tells you to write around faces, hands, and objects you can hold up to the lens.",
@@ -65,7 +74,7 @@ export const batch09: BlogPost[] = [
     slug: "shorts-one-second-hook",
     title: "The One-Second Hook That Decides if They Watch",
     excerpt:
-      "Vertical viewers judge a clip before they ever agree to watch it. The first second has room for about eight words, and most scripts spend them on the wrong thing.",
+      "Vertical viewers judge a clip before they agree to watch it. The first second holds room for about eight words, and most scripts spend them on the wrong thing.",
     date: "2024-05-02",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["shorts", "format"],
@@ -78,6 +87,15 @@ export const batch09: BlogPost[] = [
           "Pull up your last Short and pause it at the one-second mark. That single frame is the entire pitch. On a vertical feed, the app shows a stranger a moving thumbnail before they have agreed to watch anything, and their finger makes the call in less time than it takes to read this sentence.",
           "Long-form hooks get five to fifteen seconds to set a scene. Vertical gets roughly one second and about eight spoken words. That is the whole budget, and most scripts spend it on the wrong thing.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Lead with the most interesting frame you own.",
+          "Say something only this video could say.",
+          "Put a specific noun or number in the first spoken line.",
+          "Rewrite the opening instead of rationalizing it.",
+        ]
       },
       {
         paragraphs: [],
@@ -139,6 +157,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Hunt for self-contained tension in the long video.",
+          "Rebuild the opening for people who never saw the source.",
+          "Twenty to fifty seconds is a safe default for talking-head clips.",
+          "Cut the greeting and the sign-off; they buy nothing.",
+        ]
+      },
+      {
         heading: "Hunt for self-contained tension",
         paragraphs: [
           "A clip needs a question and an answer inside its own borders. I scrub the transcript and mark every place where someone changes their mind, admits a mistake, or states a number that surprises even them. Those are the seams.",
@@ -196,6 +223,15 @@ export const batch09: BlogPost[] = [
           "A loop happens when the last frame of a Short flows into the first frame so smoothly that the viewer does not notice the restart. They watch again, often on purpose, sometimes without realizing it. Rewatches are free watch time, and on vertical platforms watch time is most of the game.",
           "Most creators treat the ending as a place to say goodbye. The loopable ones treat it as a second opening.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Match the last beat to the first to invite a rewatch.",
+          "Cut the part where you say goodbye.",
+          "Carry motion across the cut so the seam disappears.",
+          "Test the loop by playing it three times yourself.",
+        ]
       },
       {
         heading: "Match the last beat to the first",
@@ -256,6 +292,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Shorts funnel only when the audiences overlap.",
+          "Entertainment Shorts and technical long-form rarely convert each other.",
+          "Faceless reposts give a viewer nothing to follow.",
+          "Decide which job Shorts are doing before you make them.",
+        ]
+      },
+      {
         heading: "When the funnel works",
         paragraphs: [
           "Shorts feed long-form best when the short is a genuine sample of the long. A 40-second clip of a build teases the full build. A single tip from a 15-minute tutorial makes the tutorial feel necessary. The viewer already wants the thing; the short just proves you have it.",
@@ -314,6 +359,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Captions are part of the script, not the edit.",
+          "Keep captions in the lower-middle third, clear of UI.",
+          "Break lines every two to four words.",
+          "Testing with the mute on is not optional.",
+        ]
+      },
+      {
         heading: "Captions are part of the script, not the edit",
         paragraphs: [
           "If you write captions by auto-transcribing whatever you said, you get the ums and the run-ons. I write the on-screen text as its own track: short lines, no filler, placed where the eye already is. Then the spoken audio can breathe.",
@@ -370,6 +424,15 @@ export const batch09: BlogPost[] = [
           "One viral Short is a lottery ticket. A series is a business. When viewers know that every Tuesday brings another installment of the same thing, they start looking for it instead of stumbling onto it, and that changes the numbers in a way a single hit never does.",
           "The catch is that a series is a promise. Break it twice and the audience stops trusting the pattern.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pick a frame you can repeat fifty times.",
+          "Keep episode length inside a narrow band.",
+          "Title each part with the promise, not just the number.",
+          "Pin a playlist so a new viewer can start at part one.",
+        ]
       },
       {
         heading: "Pick a frame you can repeat 50 times",
@@ -431,6 +494,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A clip must answer a question it raises.",
+          "Name its own subject in the first second.",
+          "Define or cut every piece of jargon.",
+          "Cut for the stranger, not the fan.",
+        ]
+      },
+      {
         heading: "It answers a question it raises",
         paragraphs: [
           "A standalone clip creates a small question in the first few seconds and answers it before the end. Not a cliffhanger. A complete thought. The viewer should feel the clip closed a loop, even a small one.",
@@ -489,6 +561,15 @@ export const batch09: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Know what each format is good at before splitting your time.",
+          "The crossover problem is the whole game.",
+          "Track which Shorts actually send long-form viewers.",
+          "Kill any series that runs two months without moving the number.",
+        ]
+      },
+      {
         heading: "What each format is good at",
         paragraphs: [
           "Shorts are good at reach and at testing ideas cheaply. A single clip can find an audience of thousands overnight. Long-form is good at depth and at revenue. A 15-minute video is where someone decides you are worth an hour of their week, and where ad revenue and sponsorships actually add up.",
@@ -545,6 +626,15 @@ export const batch09: BlogPost[] = [
           "Views tell you almost nothing about a Short. A clip can rack up 500k views and still be a failure if everyone leaves in two seconds. What you want is a small set of numbers read together, not one big number read alone.",
           "I keep four on a dashboard and ignore the rest: average view duration, the retention curve, shares per thousand views, and profile visits per thousand views. Each one answers a different question.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Average view duration and the first second matter most.",
+          "Shares tell you if the clip is worth passing on.",
+          "Likes and comments can rise while retention falls.",
+          "Read the numbers weekly, not daily.",
+        ]
       },
       {
         heading: "Average view duration and the first second",

@@ -19,6 +19,15 @@ export const batch96: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with one paid tier.",
+          "Price by the value of access, not by features.",
+          "Keep the tiers that members actually touch.",
+          "Cut anything nobody uses.",
+        ]
+      },
+      {
         heading: "Start with one paid tier",
         paragraphs: [
           "The instinct is to launch three levels at once so everyone finds a fit. I have watched that approach stall more often than it works. A single paid tier forces a clear promise: for this price each month, you get this specific thing. Once ten people pay and stay for two months, you have enough signal to split it later.",
@@ -70,6 +79,15 @@ export const batch96: BlogPost[] = [
       {
         paragraphs: [
           "Digital products pay you after the work is done, which is why creators rush to build one. The rush is the problem. A single file that solves one clear problem outsells a giant bundle nobody finishes. Start small, sell it, and let buyers tell you what to build next."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pick a problem you already solve.",
+          "Keep the first version small.",
+          "Sell to your email list before anyone else.",
+          "Iterate from real buyer feedback.",
         ]
       },
       {
@@ -133,6 +151,15 @@ export const batch96: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Match the product to the moment.",
+          "Say who it is for and who it is not for.",
+          "Mention the one downside you noticed.",
+          "Keep the disclosure short and in your own words.",
+        ]
+      },
+      {
         heading: "Match the product to the moment",
         paragraphs: [
           "Think about what the viewer wants right after they finish the video. A lighting tutorial leaves them shopping for a cheap softbox. A scriptwriting walkthrough leaves them looking for an outlining tool. The link belongs next to the need, not in a random footer.",
@@ -183,6 +210,15 @@ export const batch96: BlogPost[] = [
       {
         paragraphs: [
           "A sponsorship rate card is a sheet that answers the price question before it gets awkward. Without one, you quote a random number on a call and either leave money on the table or scare the brand away. Build the card once, update it twice a year, and send it before anyone asks."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Price from solid inputs, not a guess.",
+          "Structure the offer clearly.",
+          "Protect the read by keeping it in your voice.",
+          "Follow up like a business.",
         ]
       },
       {
@@ -239,6 +275,15 @@ export const batch96: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Find a recurring angle worth paying for.",
+          "Pick a rhythm you can keep.",
+          "Make the paid tier worth it with archives and questions.",
+          "Grow without chasing numbers.",
+        ]
+      },
+      {
         heading: "Find the recurring angle",
         paragraphs: [
           "A paid newsletter needs a reason to show up every week. That reason is usually a beat: one topic you follow closely and update often. If your videos cover camera gear, the newsletter tracks prices, releases, and how tools perform in real use. The topic should be narrow enough that you never run dry and broad enough to stay interesting.",
@@ -289,6 +334,15 @@ export const batch96: BlogPost[] = [
       {
         paragraphs: [
           "Live events bring in ticket money and deepen loyalty at the same time, which few other revenue streams manage. A small room of paying fans beats a huge crowd that came for free drinks. The key is to keep the format tight, price it fairly, and film it so the night keeps paying after everyone goes home."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start smaller than feels safe.",
+          "Price for the room, not the ego.",
+          "Film it for later sales.",
+          "Turn one night into a series.",
         ]
       },
       {
@@ -345,6 +399,15 @@ export const batch96: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Know what buyers actually want.",
+          "Price by usage, not by clip.",
+          "Set terms that protect your right to reuse.",
+          "Get payment before you send the master file.",
+        ]
+      },
+      {
         heading: "What buyers actually want",
         paragraphs: [
           "Brands, educators, and news teams look for footage that is hard to shoot and easy to clear. Establishing shots, process close ups, and niche b roll top the list. They want to know you own it, that people in the frame agreed to appear, and that no music or logo is baked into the file.",
@@ -395,6 +458,15 @@ export const batch96: BlogPost[] = [
       {
         paragraphs: [
           "Merch only works when the design says something your audience already repeats. A random logo on a shirt sells to you and your mom. A phrase from a running joke sells to everyone who gets it. Run one small drop, measure how fast it moves, and skip the warehouse gamble until the demand is proven."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Design from the inside joke.",
+          "Start with print on demand.",
+          "Set the drop up with a clear open and close.",
+          "Handle the boring parts: sizing and photos.",
         ]
       },
       {
@@ -451,6 +523,15 @@ export const batch96: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Write the promise in one line.",
+          "Sell before you build it all.",
+          "Run the pre-sale in the open.",
+          "Deliver and keep the promise.",
+        ]
+      },
+      {
         heading: "Write the promise in one line",
         paragraphs: [
           "If you cannot describe the course in one sentence, you are not ready to sell it. The line should name who it is for and what changes for them. A plan that gets your first ten videos published beats a vague title about mastering content.",
@@ -501,6 +582,15 @@ export const batch96: BlogPost[] = [
       {
         paragraphs: [
           "A revenue mix built on one source breaks the month it dips. A single sponsor pulling out or a bad ad month can wipe out income you counted on. Spread the money across a few streams that fail at different times, and a slow month becomes survivable instead of fatal."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Map where money comes from now.",
+          "Pick streams that fail apart, not together.",
+          "Build in order of effort.",
+          "Review the mix every quarter.",
         ]
       },
       {

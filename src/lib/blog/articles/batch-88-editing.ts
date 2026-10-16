@@ -59,7 +59,7 @@ export const batch88: BlogPost[] = [
         paragraphs: [
           "Drop only the clips that clearly belong, in rough order. Do not fuss over placement yet. Watch it once from start to finish, then move the pieces that feel wrong.",
           "Resist adjusting effects while the structure is still wet. Fix the shape first. Effects are the final layer and they hide problems you still need to see.",
-          "When the sequence plays through without making you wince, you have an assembly. That is the point where real editing begins, not where it ends.",
+          "When the sequence plays through without making you wince, you have an assembly. That is the point where real editing starts, not where it ends.",
         ],
       },
       {

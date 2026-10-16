@@ -220,7 +220,7 @@ export const batch95: BlogPost[] = [
   },
   {
     slug: "audio-mastering-tips",
-    title: "Simple Audio Mastering Tips",
+    title: "Simple Audio Mastering Tips for Creators",
     excerpt: "Audio mastering polishes a finished mix for release by balancing loudness, tone, and spacing so it holds up across streaming and playback devices.",
     date: "2025-03-01",
     author: { name: "GoScript Team", role: "Design" },
@@ -382,7 +382,7 @@ export const batch95: BlogPost[] = [
   },
   {
     slug: "audio-eq-strategies",
-    title: "Smart EQ Strategies For Audio",
+    title: "Smart EQ Strategies for Cleaner Audio",
     excerpt: "Audio EQ helps shape tone by cutting problem ranges and boosting only where needed, keeping voices clear without making the mix sound harsh.",
     date: "2025-09-01",
     author: { name: "GoScript Team", role: "Design" },

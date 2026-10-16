@@ -90,7 +90,7 @@ export const batch358: BlogPost[] = [
       {
         heading: "The direct answer",
         paragraphs: [
-          "Begin with the subjects you can speak about without notes, then run keyword research to find the exact phrasing viewers use inside that territory. Starting the other way around, with tool output you have no feel for, produces videos you cannot carry for eight minutes.",
+          "Start with the subjects you can speak about without notes, then run keyword research to find the exact phrasing viewers use inside that territory. Starting the other way around, with tool output you have no feel for, produces videos you cannot carry for eight minutes.",
           "Owning a topic is not arrogance. It means you already know the follow-up questions, the common mistakes, and the vocabulary the audience uses. That knowledge is what keeps watch time high, and watch time is what makes a chosen phrase winnable.",
         ],
       },
@@ -408,7 +408,7 @@ export const batch358: BlogPost[] = [
       {
         heading: "Why mixed videos stall",
         paragraphs: [
-          "Every topic change resets attention. The viewer who came for the second topic sits through the first, leaves early, and drags your retention curve down at a moment that matters for ranking. The viewer who came for the first topic leaves once the detour begins.",
+          "Every topic change resets attention. The viewer who came for the second topic sits through the first, leaves early, and drags your retention curve down at a moment that matters for ranking. The viewer who came for the first topic leaves once the detour starts.",
           "I have killed several videos over this. Each time the script had two ideas I liked equally, and each time the retention graph showed the audience making the same choice I refused to make. The video that commits to one idea outperforms the ambitious compilation nearly every time.",
           "The confusion spreads to your channel page as well. Viewers who arrive for one thing and get another are less likely to browse your other uploads, because they cannot tell what your channel is about. Clear single-idea videos teach the audience what to expect next time.",
         ],

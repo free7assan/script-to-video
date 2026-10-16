@@ -420,7 +420,7 @@ export const batch315: BlogPost[] = [
   {
     slug: "creator-taxes-working-with-accountant",
     title: "Working With an Accountant Who Understands Creators",
-    excerpt: "Working with an accountant who knows creators can find deductions you missed and keep penalties away. Here is how to choose one and what to bring to the first meeting.",
+    excerpt: "Working with an accountant who knows creators can find deductions you missed and keep penalties away. How to choose one and what to bring to the first meeting.",
     date: "2044-08-18",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["business", "finance", "legal"],
@@ -470,7 +470,7 @@ export const batch315: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Hire someone who already works with creators.",
-          "Start the relationship before tax season begins.",
+          "Start the relationship before tax season starts.",
           "Bring clean profit and loss numbers and receipts.",
           "Review every return before you sign it.",
         ],

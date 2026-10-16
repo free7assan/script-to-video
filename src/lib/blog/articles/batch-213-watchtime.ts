@@ -17,7 +17,7 @@ export const batch213: BlogPost[] = [
     slug: "watch-time-why-it-matters",
     title: "Why Watch Time Matters More Than Clicks Alone",
     excerpt:
-      "Watch time is the clearest signal of viewer interest, and it carries far more weight than a single click when platforms decide what to recommend to other viewers.",
+      "Watch time is the clearest signal of viewer interest, and it carries far more weight than a single click when platforms decide what to recommend to others.",
     date: "2036-02-01",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "retention", "growth"],
@@ -161,7 +161,7 @@ export const batch213: BlogPost[] = [
     slug: "watch-time-finding-drop-off-point",
     title: "Finding the Exact Drop-Off Point in Your Video",
     excerpt:
-      "Locating the exact drop-off point lets you fix one line or one section instead of rewriting an entire video, saving time while raising watch time with small edits.",
+      "Locating the exact drop-off point lets you fix one line or section instead of rewriting a whole video, saving time while raising watch time with small edits.",
     date: "2036-02-04",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "retention", "growth"],
@@ -353,7 +353,7 @@ export const batch213: BlogPost[] = [
     slug: "watch-time-misleading-numbers",
     title: "Misleading Watch Time Numbers to Avoid",
     excerpt:
-      "Some watch time numbers look good on the surface but hide real problems, so learning to spot misleading figures helps you make edits that actually improve growth.",
+      "Some watch time numbers look good on the surface but hide real problems, so learning to spot misleading figures helps you make edits that improve growth.",
     date: "2036-02-15",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "retention", "growth"],
@@ -449,7 +449,7 @@ export const batch213: BlogPost[] = [
     slug: "watch-time-goals-that-make-sense",
     title: "Setting Watch Time Goals That Make Sense",
     excerpt:
-      "A useful watch time goal fits your format, topic, and audience, and it focuses on controllable actions rather than chasing a number pulled from someone else's channel.",
+      "A useful watch time goal fits your format, topic, and audience, and it focuses on actions you control rather than a number from someone else's channel.",
     date: "2036-02-25",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["analytics", "retention", "growth"],

@@ -327,7 +327,7 @@ export const batch71: BlogPost[] = [
         paragraphs: [
           "Phrases like 'In today's world' or 'It goes without saying' are throat clearing. They delay the point and teach the reader to skim before the first real idea. Warm up on your own time, not theirs.",
           "Start at the first interesting sentence and delete everything before it. Nine times out of ten the ad gets better and shorter at the same time. Cutting is the fastest edit you can make.",
-          "Openers that begin with 'We' are usually about the writer. Openers that begin with 'You' are usually about the reader. Choose the pronoun that matches your goal.",
+          "Openers that start with 'We' are usually about the writer. Openers that start with 'You' are usually about the reader. Choose the pronoun that matches your goal.",
         ],
       },
       {
@@ -539,7 +539,7 @@ export const batch71: BlogPost[] = [
         heading: "Log what you learn",
         paragraphs: [
           "Keep a file with the hypothesis, the winner, and the date. Over time it becomes a private playbook that no agency can hand you. Your own results beat borrowed advice. Notes from three months ago often answer a question you just asked.",
-          "You will stop retesting the same idea every quarter, and you will spot the patterns that repeat across campaigns and audiences. Patterns are where leverage hides.",
+          "You will stop retesting the same idea every quarter, and you will spot the patterns that repeat across campaigns and audiences. Patterns are where the edge hides.",
           "Written learning survives staff changes and short memory, which are two of the main reasons teams repeat old mistakes. A shared file is a shared memory.",
         ],
       },

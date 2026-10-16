@@ -6,7 +6,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-niche-without-boxing-in",
     title: "Pick a Niche Without Locking Yourself In Forever",
     excerpt:
-      "Most niche advice is half right. A channel with no center is forgettable, but a channel welded to a single keyword is fragile. Here is how to choose a lane wide enough to last.",
+      "Most niche advice is half right. A channel with no center is forgettable, but one welded to a single keyword is fragile. Choose a lane wide enough to last.",
     date: "2024-02-14",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["strategy", "positioning"],
@@ -19,6 +19,15 @@ export const batch05: BlogPost[] = [
           "Most niche advice reads like a wedding vow. Pick one topic, forsake all others, and repeat it until the algorithm notices. That advice is half right. A channel with no center is forgettable, but a channel welded to a single keyword is fragile. The goal is a lane wide enough to drive in for five years.",
           "The creators who get stuck are rarely the ones who started too broad. They are the ones who picked a topic so narrow that forty videos in, they had nothing honest left to say. A channel about one specific barbell program runs dry faster than a channel about getting strong in a cramped home garage.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Think in audiences, not topics.",
+          "Set guardrails, not walls.",
+          "Test before you commit, and keep an exit ramp.",
+          "Choose a lane you will still care about in year four.",
+        ]
       },
       {
         paragraphs: [],
@@ -65,7 +74,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-content-pillars-that-constrain",
     title: "Content Pillars Should Constrain You, Not Decorate You",
     excerpt:
-      "Most pillar lists are just categories you never revisit. Real pillars make decisions for you, so you stop starting every week from a blank page and a fresh argument with yourself.",
+      "Most pillar lists are just categories you never revisit. Real pillars make decisions for you, so you stop starting from a blank page and a fresh argument.",
     date: "2024-06-03",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["strategy", "consistency"],
@@ -78,6 +87,15 @@ export const batch05: BlogPost[] = [
           "A content pillar is only useful if it says no to something. If your pillars are tutorials, vlogs, and thoughts, you have not built a strategy, you have built a mood board. A pillar earns its name when it settles an argument you would otherwise have with yourself at 11pm.",
           "Pillars exist to reduce decisions. The fewer fresh choices you make per video, the more energy lands on the parts that matter: the script, the hook, the edit. That is the whole trade. You give up some freedom to buy consistency.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pillars should constrain your choices, not decorate them.",
+          "Build four: teach, prove, respond, reflect.",
+          "Let cadence live inside the pillars.",
+          "Retire pillars out loud when they stop working.",
+        ]
       },
       {
         heading: "The four-pillar sanity check",
@@ -123,7 +141,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-cadence-versus-quality",
     title: "Publishing Cadence vs Quality: Pick Your Tradeoff",
     excerpt:
-      "Uploading more often and making each video better are not the same goal. The right choice depends on where your channel is stuck right now, and most creators guess wrong.",
+      "Uploading more often and making each video better are not the same goal. The choice depends on where your channel is stuck now, and most creators guess wrong.",
     date: "2024-10-21",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["consistency", "growth"],
@@ -136,6 +154,15 @@ export const batch05: BlogPost[] = [
           "Every channel eventually hits the same fork. Upload more often, or make each one better. You cannot max both at once, and pretending otherwise is how creators end up exhausted and mediocre in the same month.",
           "The honest answer is that it depends on where the bottleneck is. A channel with three videos and no data does not need a better video. It needs more videos so it has something to learn from. A channel with two hundred videos and flat retention does not need a fourth upload this week. It needs to figure out why people leave at ninety seconds.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pick a cadence you can hold on your worst week.",
+          "Batch the expensive parts so filming is not the bottleneck.",
+          "Give every upload one clear experiment and log the result.",
+          "Cut the format before you cut your sleep.",
+        ]
       },
       {
         heading: "The information argument for volume",
@@ -196,6 +223,15 @@ export const batch05: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A series compounds when it has a repeatable premise.",
+          "Give it a visible throughline and a growing payoff.",
+          "Name it so viewers and the algorithm can file it.",
+          "Know when a series is done.",
+        ]
+      },
+      {
         heading: "What makes a series compound",
         paragraphs: [
           "A series compounds when each entry adds standalone value and also deepens a world. The viewer should be able to watch in any order and, after two or three, feel like they are getting to know a place, a method, or a person.",
@@ -236,7 +272,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-surviving-growth-plateau",
     title: "How to Survive a Growth Plateau Without Quitting",
     excerpt:
-      "Every channel flatlines eventually. The creators who make it through treat a plateau as information instead of a verdict, and they keep shipping while they diagnose it.",
+      "Every channel flatlines eventually. The creators who make it through treat a plateau as information, not a verdict, and keep shipping while they diagnose it.",
     date: "2025-05-27",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["growth", "consistency"],
@@ -249,6 +285,15 @@ export const batch05: BlogPost[] = [
           "The plateau arrives quietly. Views stop climbing. The last ten videos all look about the same. You refresh the dashboard like it might change if you look hard enough. Nothing is broken, which is somehow worse than if something were.",
           "Almost every channel hits this. The ones that survive treat it as a diagnostic, not a death sentence. A plateau is your data going flat, and flat data is boring, but it is also readable.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Separate the plateau from the panic.",
+          "Look at packaging, retention curve, topic spread, and audience mix.",
+          "Change one thing per upload.",
+          "Protect the machine while you diagnose.",
+        ]
       },
       {
         heading: "Separate the plateau from the panic",
@@ -308,6 +353,15 @@ export const batch05: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Persist when the signal is improving.",
+          "Pivot when the audience and the promise disagree.",
+          "Make the call on a scheduled review date.",
+          "A good pivot changes the promise, not just the topic.",
+        ]
+      },
+      {
         heading: "Persist when the signal is improving",
         paragraphs: [
           "Persist if your trend lines are up even when the absolute numbers are small. A channel going from forty views to four hundred over a quarter is working, even if four hundred feels tiny. Doubling is doubling.",
@@ -350,7 +404,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-channel-identity",
     title: "Defining Your Channel's Identity Before the Algorithm Does",
     excerpt:
-      "Identity is what viewers say about you when you are not in the room. If you have not chosen it deliberately, the comments and the recommendation feed will choose it for you.",
+      "Identity is what viewers say about you when you are not in the room. If you do not choose it deliberately, comments and the recommendation feed choose it.",
     date: "2026-01-22",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["positioning", "strategy"],
@@ -363,6 +417,15 @@ export const batch05: BlogPost[] = [
           "Your channel's identity is the sentence a fan uses to recommend you. They make the calm woodworking videos. She is the one who explains finance without the hype. If you cannot finish that sentence, the audience is finishing it for you, and you may not like their version.",
           "Identity is not your logo or your color palette. It is the felt consistency across everything you publish: the topics, the tone, the pacing, the way you treat the viewer. It is texture, and texture is remembered long after a topic is forgotten.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Identity is built from repeated choices, not a slogan.",
+          "Write it down, then obey it.",
+          "Let the audience shape the edges.",
+          "Test identity by what you consistently refuse to do.",
+        ]
       },
       {
         heading: "Identity is built from repeated choices",
@@ -407,7 +470,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-differentiate-saturated-niche",
     title: "How to Differentiate When Your Niche Is Already Saturated",
     excerpt:
-      "You will not win a crowded niche by being slightly better at the same thing. You win by picking a dimension the crowd is ignoring and taking it further than feels reasonable.",
+      "You will not win a crowded niche by being better at the same thing. You win by picking a dimension the crowd ignores and taking it further than is reasonable.",
     date: "2026-04-11",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["positioning", "growth"],
@@ -420,6 +483,15 @@ export const batch05: BlogPost[] = [
           "Every niche is saturated. That sentence is either the reason you quit or the reason you get specific. Saturation means the demand is proven, and proven demand is a gift, not a warning.",
           "You cannot out-volume a channel with a team and a decade of uploads. You can out-angle them. The crowd is usually identical on most dimensions, which means the open lanes are hiding in plain sight.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Pick a dimension and go extreme.",
+          "Turn your constraints into the angle.",
+          "Say the thing nobody in the niche says.",
+          "Prove the difference in the packaging.",
+        ]
       },
       {
         heading: "Pick a dimension and go extreme",
@@ -466,7 +538,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-backlog-question",
     title: "The Backlog Question: Save Ideas or Ship Them",
     excerpt:
-      "A backlog can be a safety net or a graveyard. The difference is whether you treat your idea file as a queue to work through or a museum you visit to feel productive.",
+      "A backlog can be a safety net or a graveyard. The difference is whether you treat your idea file as a queue to work through or a museum you visit for comfort.",
     date: "2026-07-08",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["consistency", "strategy"],
@@ -479,6 +551,15 @@ export const batch05: BlogPost[] = [
           "Somewhere in your notes is a list of ideas you have never made. Maybe it has sixty entries. Maybe it has one, written on a napkin. The question is whether that backlog is helping you publish or giving you a comfortable place to avoid it.",
           "A backlog has two failure modes. Too small, and you panic every time you sit down to plan. Too large, and you collect ideas faster than you could ever film them, which turns the list into proof of how much you are not doing.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A backlog is for deciding, not hoarding.",
+          "Delete anything you would not film this month.",
+          "Merge duplicates and move someday ideas to their own file.",
+          "Mark the top five and stop scrolling past them.",
+        ]
       },
       {
         heading: "What a backlog is actually for",
@@ -523,7 +604,7 @@ export const batch05: BlogPost[] = [
     slug: "strategy-saying-no-to-good-ideas",
     title: "The Hardest Strategy Skill: Saying No to Good Ideas",
     excerpt:
-      "Saying no to bad ideas is easy. Saying no to good ideas that do not belong to your plan is what separates a focused channel from a scattered one that never adds up.",
+      "Saying no to bad ideas is easy. Saying no to good ideas that do not fit your plan is what separates a focused channel from a scattered one that never adds up.",
     date: "2026-09-24",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["strategy", "consistency"],
@@ -536,6 +617,15 @@ export const batch05: BlogPost[] = [
           "Bad ideas are easy to reject. They are obviously off. The ideas that wreck channels are the good ones: interesting, on-brand-ish, and just wrong enough that pursuing them spends the focus you needed for the thing that actually grows.",
           "Every yes is a no in disguise. An hour on that clever side project is an hour not spent on the video that was supposed to carry the quarter. Good ideas are expensive precisely because they are hard to turn down.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Judge ideas by strategy, not by quality.",
+          "Count the context-switching cost nobody tallies.",
+          "Make no the default and let yes earn its place.",
+          "Be ruthless with the idea, generous with the person.",
+        ]
       },
       {
         heading: "Judge by strategy, not quality",

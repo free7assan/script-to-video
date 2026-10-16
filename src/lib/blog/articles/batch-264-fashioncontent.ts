@@ -24,7 +24,7 @@ export const batch264: BlogPost[] = [
       {
         heading: "Shoot the fit at more than one distance",
         paragraphs: [
-          "Begin wide so the full shape is visible. Move to a medium frame that shows how the pieces sit together, then come close for the details that decide a purchase. Fine details only read when the camera is near.",
+          "Start wide so the full shape is visible. Move to a medium frame that shows how the pieces sit together, then come close for the details that decide a purchase. Fine details only read when the camera is near.",
           "A plain product shot can lean on personality, but personality cannot rescue a styling video that never lets the camera rest on the clothes. Give each garment one calm beat where nothing else competes for the eye.",
           "Keep your hands busy enough to move the fabric and slow enough that the camera can follow. A quick tug at a collar or a turn at the wrist tells a viewer more than a paragraph of description.",
         ],
@@ -267,7 +267,7 @@ export const batch264: BlogPost[] = [
     slug: "fashion-content-thrift-and-sustainable-style",
     title: "Thrift And Sustainable Style Content Without Guilt",
     excerpt:
-      "Thrift and sustainable style content lands better without a lecture. Show the hunt, the price, and the second life of a piece so viewers want to try it themselves.",
+      "Thrift and sustainable style content lands better without a lecture. Show the hunt, the price, and the second life of a piece so viewers want to try it.",
     date: "2040-05-15",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["fashion", "thrift", "creative"],
@@ -332,7 +332,7 @@ export const batch264: BlogPost[] = [
     slug: "fashion-content-seasonal-trends-without-hype",
     title: "Seasonal Trend Videos Without The Yearly Hype Cycle",
     excerpt:
-      "Seasonal trend videos age fast when they chase every flash. Cover the few changes that matter, explain why they last, and give viewers a way to wear them for years.",
+      "Seasonal trend videos age fast when they chase every flash. Cover the few changes that matter, explain why they last, and give viewers a way to wear longer.",
     date: "2040-05-18",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["fashion", "trends", "creative"],
@@ -462,7 +462,7 @@ export const batch264: BlogPost[] = [
     slug: "fashion-content-building-a-style-brand",
     title: "Building A Style Brand That People Recognize Fast",
     excerpt:
-      "A style brand grows from a repeatable point of view, not a logo. Decide what you always stand for, then let every styling video and caption carry the same signal.",
+      "A style brand grows from a repeatable point of view, not a logo. Decide what you always stand for, then let every styling video and caption carry the signal.",
     date: "2040-05-24",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["fashion", "brand", "creative"],
@@ -592,7 +592,7 @@ export const batch264: BlogPost[] = [
     slug: "fashion-content-mixing-fashion-and-education",
     title: "Mixing Fashion And Education In One Video Series",
     excerpt:
-      "Fashion and education mix well when the lesson is the hook and the outfit is the proof. Teach one idea per video and let the clothes show it working in real life.",
+      "Fashion and education mix well when the lesson is the hook and the outfit is the proof. Teach one idea per video and let the clothing show it at work.",
     date: "2040-05-30",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["fashion", "education", "creative"],

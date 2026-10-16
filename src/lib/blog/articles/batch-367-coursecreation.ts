@@ -478,7 +478,7 @@ export const batch367: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Deliver a course without overwhelming students by cutting the lesson count roughly in half and giving every lesson one action they can finish in a sitting. Fewer and clearer beats comprehensive and abandoned.",
+          "Deliver a course without overwhelming students by cutting the lesson count roughly in half and giving every lesson one action they can finish in a sitting. Fewer and clearer beats complete and abandoned.",
           "Students do not quit because the material is hard. They quit because they cannot tell what to do next, or because the pile of unfinished lessons starts to feel like a debt.",
           "Your job in delivery is subtraction. Every lesson you remove makes the remaining ones more likely to be watched, and completion is the metric that leads to testimonials, upgrades, and word of mouth.",
         ],

@@ -361,7 +361,7 @@ export const batch360: BlogPost[] = [
         heading: "What to do about scope creep in the middle",
         paragraphs: [
           "When a client adds requests after the deposit clears, quote the add-on before doing the work. A short addendum with a price and a revised delivery date keeps the relationship intact and your evenings yours.",
-          "Deliver final files only after the last invoice clears. This is standard in creative industries, it is not hostile, and stating it upfront prevents the awkward conversation later. Hold the leverage early and you rarely need to use it."
+          "Deliver final files only after the last invoice clears. This is standard in creative industries, it is not hostile, and stating it upfront prevents the awkward conversation later. Hold the advantage early and you rarely need to use it."
         ]
       }
     ]

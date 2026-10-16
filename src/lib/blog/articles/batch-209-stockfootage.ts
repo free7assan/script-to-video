@@ -5,7 +5,7 @@ export const batch209: BlogPost[] = [
   {
     slug: "stock-footage-when-fine",
     title: "When Stock Footage Is Perfectly Fine to Use in Edits",
-    excerpt: "Stock footage is fine when a shot would cost too much or slow you down. Here is how to tell the difference between a smart shortcut and a lazy one every time you edit the frame.",
+    excerpt: "Stock footage is fine when a shot would cost too much or slow you down. Learn to tell a smart shortcut from a lazy one every time you sit down to edit.",
     date: "2035-10-01",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["footage", "production", "sources"],
@@ -297,7 +297,7 @@ export const batch209: BlogPost[] = [
         heading: "Save the queries that work",
         paragraphs: [
           "Keep a note of the keyword strings that returned strong results. Reusing them saves time on the next project and builds a personal map of how each library tags its footage.",
-          "A short saved list beats rethinking your wording every time a new edit begins."
+          "A short saved list beats rethinking your wording every time a new edit starts."
         ]
       },
       {
@@ -452,7 +452,7 @@ export const batch209: BlogPost[] = [
       {
         heading: "Match the grade across sources",
         paragraphs: [
-          "Apply your own look to the stock clip so both sources pass through the same process. A common grade node or layer ties the footage together and hides where one ends and the other begins.",
+          "Apply your own look to the stock clip so both sources pass through the same process. A common grade node or layer ties the footage together and hides where one ends and the other starts.",
           "If your footage is warm and the clip is cold, the cut will read as a mistake. Pull the clip toward your palette before you place it."
         ]
       },

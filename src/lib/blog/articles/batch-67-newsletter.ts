@@ -166,7 +166,7 @@ export const batch67: BlogPost[] = [
           "People share a newsletter because it makes them look good to the friend they send it to. Design the share around that, and the reward becomes a bonus.",
       },
       {
-        heading: "Make the ask effortless",
+        heading: "Make the ask easy",
         paragraphs: [
           "The share link has to be one tap. If a reader has to copy a URL, remember it, and paste it into a message, most will not bother. Give them a forward button, a ready-made message, and a clear reason to use it.",
           "Put the ask inside the issue where the value is obvious. After a strong piece, a single line inviting a forward outperforms a permanent banner nobody notices.",

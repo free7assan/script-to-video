@@ -79,7 +79,7 @@ export const batch362: BlogPost[] = [
       {
         heading: "Start with who needs your footage",
         paragraphs: [
-          "Finding licensing opportunities begins with a simple question: who already buys the kind of video you make? If you film cooking, look at food apps, ad agencies, and cooking schools. If you review gear, look at retailers and trade publications. Buyers cluster, and you can find the cluster without a cold list.",
+          "Finding licensing opportunities starts with a simple question: who already buys the kind of video you make? If you film cooking, look at food apps, ad agencies, and cooking schools. If you review gear, look at retailers and trade publications. Buyers cluster, and you can find the cluster without a cold list.",
           "Most creators wait to be discovered and then wonder why it rarely happens. Discovery is a lottery. Prospecting is a job. The people who license often spend an hour a week looking for buyers instead of hoping one lands in the inbox."
         ]
       },
@@ -321,7 +321,7 @@ export const batch362: BlogPost[] = [
     ]
   },
   {
-    slug: "licensing-deals-when-to-sign-and-when-to-wait",
+    slug: "licensing-deals-when-to-sign-and-wait",
     title: "When to Sign a Licensing Deal and When to Wait",
     excerpt: "Knowing when to sign a licensing deal and when to wait is a judgment call. Sign for fair terms and a clear use, and wait when the offer is vague or rushed.",
     date: "2048-07-17",

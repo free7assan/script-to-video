@@ -22,14 +22,14 @@ export const batch203: BlogPost[] = [
       {
         heading: "Give the move a destination",
         paragraphs: [
-          "A purpose driven pan begins on one subject and lands on another that matters. If a viewer cannot name what changed between the first frame and the last, the move was decoration.",
+          "A purpose driven pan starts on one subject and lands on another that matters. If a viewer cannot name what changed between the first frame and the last, the move was decoration.",
           "Start on a face, end on the hands. Start on a closed door, end on the figure who opens it. The move is a sentence, and the landing is the point of it."
         ]
       },
       {
         heading: "Control the speed and the stop",
         paragraphs: [
-          "Begin slowly, hold a steady middle, then ease out over several frames. A move that travels at one constant rate from start to finish feels like a machine, and a hard stop yanks attention away from your subject.",
+          "Start slowly, hold a steady middle, then ease out over several frames. A move that travels at one constant rate from start to finish feels like a machine, and a hard stop yanks attention away from your subject.",
           "Practice matching the pace of the move to the pace of the scene. A tense reveal wants a slow crawl, while a chase wants speed that carries momentum through the frame."
         ]
       },
@@ -60,7 +60,7 @@ export const batch203: BlogPost[] = [
   {
     slug: "camera-movement-dolly-and-slider-moves",
     title: "Dolly and Slider Moves That Create Real Depth",
-    excerpt: "Dolly and slider moves change how a scene feels by adding parallax. Here is how camera movement on rails and tracks builds three dimensional depth in your shots.",
+    excerpt: "Dolly and slider moves change how a scene feels by adding parallax. How camera movement on rails and tracks builds three dimensional depth in your shots.",
     date: "2035-04-04",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["cinematography", "techniques", "visuals"],
@@ -139,7 +139,7 @@ export const batch203: BlogPost[] = [
       {
         heading: "Brace and breathe",
         paragraphs: [
-          "Tuck your elbows in and hold the rig against your chest for stability. Exhale as you begin the move, since a held breath tightens your muscles and shows up as a tremor.",
+          "Tuck your elbows in and hold the rig against your chest for stability. Exhale as you start the move, since a held breath tightens your muscles and shows up as a tremor.",
           "For walking shots, bend your knees slightly and let them absorb each step. The camera should float along your path rather than bounce with your heels."
         ]
       },
@@ -407,7 +407,7 @@ export const batch203: BlogPost[] = [
       {
         heading: "Stillness puts weight on performance",
         paragraphs: [
-          "When the camera does not move, the eye has nowhere else to go but the subject. That pressure can turn a quiet moment into a powerful one.",
+          "When the camera does not move, the eye has nowhere else to go but the subject. That pressure can turn a quiet moment into a forceful one.",
           "This is why so many strong scenes end on a held frame. The camera refuses to look away, and the audience feels the same refusal."
         ]
       },

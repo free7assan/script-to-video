@@ -22,6 +22,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The eye reads before the brain does.",
+          "One subject, one added idea, and one clear reason to care.",
+          "The instant is shorter than you think.",
+          "Audit your last five thumbnails at phone scale.",
+        ]
+      },
+      {
         heading: "What the eye reads before the brain does",
         paragraphs: [
           "The first thing a viewer processes is the overall shape of the image. A face, a bold object, a hard split between two colors. If the silhouette does not separate from the background, the thumbnail turns into texture and the eye slides past it.",
@@ -86,6 +95,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Title and thumbnail divide the labor and must agree.",
+          "Watch for tone clashes and subject drift.",
+          "Mismatched stakes make the video look like neither idea.",
+          "Design the pair together, not in sequence.",
+        ]
+      },
+      {
         heading: "The division of labor",
         paragraphs: [
           "The thumbnail sets the tone and the subject. The title sets the claim and the stakes. If the thumbnail shows a surprised face, the title should explain what caused the surprise. If the title is a quiet analysis, a screaming face fights the promise.",
@@ -143,6 +161,15 @@ export const batch26: BlogPost[] = [
           "Each surface runs a different test. Browse rewards visual pull against total strangers. Suggested rewards relevance to the exact topic already on screen. Search rewards a precise match to a phrase. The same package that wins one can flop on the next.",
           "Most channels obsess over browse because the numbers look the biggest. That is often the wrong lever, and I learned it the slow way.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Browse, suggested, and search route different viewers.",
+          "Low CTR on browse means fix thumbnails first.",
+          "Heavy suggested traffic means sharpen titles toward what the audience already watches.",
+          "Track the three surfaces separately.",
+        ]
       },
       {
         heading: "Browse: the cold audition",
@@ -207,6 +234,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Your subscribers are a free click; design for strangers.",
+          "Cut inside jokes and series numbers with no topic words.",
+          "Design the doorway, not the living room.",
+          "Run a stranger test on your current covers.",
+        ]
+      },
+      {
         heading: "The subscriber is a free click",
         paragraphs: [
           "Your subscriber was going to watch anyway if the topic interested them. Their click tells you about topic interest, not about packaging. The stranger's click is the only one that reveals whether your packaging travels.",
@@ -264,6 +300,15 @@ export const batch26: BlogPost[] = [
           "The default workflow does the opposite. You build on a big monitor, add detail you can only see up close, then export and hope it survives the shrink. It rarely does. The detail evaporates and the parts you ignored become the whole impression.",
           "I keep a 320-pixel-wide preview open the entire time I work. If it does not read there, the full-size version is a nice painting and nothing more.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Design for the phone screen first.",
+          "Put load-bearing words in the first 40 characters.",
+          "Do not spend prime space on your channel name or a greeting.",
+          "Use a concrete noun early and test in the real feed.",
+        ]
       },
       {
         heading: "What survives the shrink",
@@ -325,6 +370,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Contrast is relative, not absolute.",
+          "Use value, color, shape, and density contrast.",
+          "Do not confuse contrast with clutter.",
+          "Run a quick contrast drill before publishing.",
+        ]
+      },
+      {
         heading: "Contrast is relative, not absolute",
         paragraphs: [
           "A bright thumbnail is not inherently strong. It is strong next to dull ones. The same image that pops in one feed disappears in another. That is why you check your thumbnail against your competitors' thumbnails, not against your own last upload.",
@@ -382,6 +436,15 @@ export const batch26: BlogPost[] = [
           "That reframes packaging. A misleading title can win a click today and teach the feed to send your future videos to an audience that will not watch them. The debt shows up on someone else's video, three weeks later, in a lower CTR you cannot explain.",
           "I stopped treating each upload as an island. The packaging on this video shapes the audience the feed assumes I make videos for.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The feed builds an audience profile from every click and skip.",
+          "High CTR with a bad graph usually means the title overpromised.",
+          "A wrong tone attracts a mood the video did not deliver.",
+          "Read your own data as feedback to the feed.",
+        ]
       },
       {
         heading: "The audience the feed builds for you",
@@ -443,6 +506,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Decay is often invisible until the feed stops testing you.",
+          "Change one variable at a time.",
+          "Low CTR with fine retention points to the thumbnail.",
+          "Do not swap during the first few hours.",
+        ]
+      },
+      {
         heading: "The decay you cannot see",
         paragraphs: [
           "Impressions do not fall off a cliff. They fade, and the fade is quiet. By the time the graph looks obviously bad, the feed has already spent most of its test budget on your first packaging attempt.",
@@ -502,6 +574,15 @@ export const batch26: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The first frame is not the thumbnail.",
+          "Lead with a visual change, not a logo or title card.",
+          "Keep the subject centered away from UI overlays.",
+          "Aim for a frame that reads in a second with sound off.",
+        ]
+      },
+      {
         heading: "The first frame is not the same as the thumbnail",
         paragraphs: [
           "If the autoplay frame simply repeats your thumbnail, you have spent an impression to say the same thing twice. Viewers who were not moved by the thumbnail will not be moved by a still of it.",
@@ -559,6 +640,15 @@ export const batch26: BlogPost[] = [
           "I think of packaging debt the way I think of sleep debt. One bad night is recoverable. Months of it changes how you function. Channels do not usually collapse from one bad video. They drift down on a habit of unremarkable first impressions.",
           "The good news is that the debt is visible before it is fatal. You just have to look at the right numbers.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A slow first impression compounds into a debt.",
+          "Rising browse impressions over several uploads is the feed re-testing you.",
+          "Growing returning viewers means packaging and payoff agree.",
+          "A title shape working twice is a pattern you can reuse.",
+        ]
       },
       {
         heading: "How the loss compounds",

@@ -16,7 +16,7 @@ export const batch169: BlogPost[] = [
       {
         heading: "The first step",
         paragraphs: [
-          "Starting a gaming channel begins with a clear goal for the type of videos you want to make. Instead of buying every piece of gear at once, focus on the one thing that stops you from recording: a working setup that can capture your screen.",
+          "Starting a gaming channel starts with a clear goal for the type of videos you want to make. Instead of buying every piece of gear at once, focus on the one thing that stops you from recording: a working setup that can capture your screen.",
           "Most new creators spend too much at the start and burn out before uploading their first few videos. By limiting your spending and setting a small upload goal, you can test your ideas without risking your savings."
         ]
       },

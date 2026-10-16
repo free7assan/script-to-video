@@ -31,7 +31,7 @@ export const batch138: BlogPost[] = [
         heading: "Desk position and camera distance",
         paragraphs: [
           "Push the desk a little off the wall so you can get the camera far enough back for a flattering lens. In tiny rooms this means using a wider lens and accepting some distortion, or shooting slightly off-angle to buy space.",
-          "The distance between you and the camera matters more than the camera itself. Two meters gives a natural look, while one meter makes noses grow and shoulders crowd the edges. Mark your spot with tape on the floor, because consistency begins with knowing exactly where you belong in the frame.",
+          "The distance between you and the camera matters more than the camera itself. Two meters gives a natural look, while one meter makes noses grow and shoulders crowd the edges. Mark your spot with tape on the floor, because consistency starts with knowing exactly where you belong in the frame.",
         ],
       },
       { quote: "The room is the first piece of gear you own, so treat it like one." },
@@ -375,7 +375,7 @@ export const batch138: BlogPost[] = [
   },
   {
     slug: "studio-camera-angles-small-space",
-    title: "Camera Angles in a Small Room",
+    title: "Best Camera Angles in a Small Room",
     excerpt: "Camera angles in a small room are limited only by how you use height and distance. A few deliberate positions will keep your videos from looking identical.",
     date: "2029-11-08",
     author: { name: "GoScript Team", role: "Design" },
@@ -387,7 +387,7 @@ export const batch138: BlogPost[] = [
       {
         heading: "Height changes everything",
         paragraphs: [
-          "Camera angles in a small room depend more on height than on how far back you can stand. Raising or lowering the lens changes how powerful or how intimate you look.",
+          "Camera angles in a small room depend more on height than on how far back you can stand. Raising or lowering the lens changes how imposing or how intimate you look.",
           "A lens at eye level reads as neutral, while a slightly high angle softens the room and a low angle adds authority. Try all three before you decide on a default.",
         ],
       },
@@ -477,7 +477,7 @@ export const batch138: BlogPost[] = [
   },
   {
     slug: "studio-portable-kit",
-    title: "Build a Portable Studio Kit",
+    title: "How to Build a Portable Studio Kit",
     excerpt: "A portable studio kit lets you shoot anywhere without losing your look. Pack light, prioritize light and sound, and rebuild your home setup in minutes.",
     date: "2029-11-10",
     author: { name: "GoScript Team", role: "Design" },

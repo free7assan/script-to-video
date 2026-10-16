@@ -24,8 +24,8 @@ export const batch260: BlogPost[] = [
       {
         heading: "Pick the right starting point",
         paragraphs: [
-          "Ask what the viewer already knows and start one step past it. If you begin below their level, they get bored. If you begin above it, they get lost, and losing someone in the first minute is hard to recover from. Calibrate for the curious beginner rather than the expert who will forgive you anyway.",
-          "The sweet spot is a familiar experience they can picture. Compare the new idea to something in daily life, then replace the comparison piece by piece with the real mechanism until nothing borrowed is left. The viewer barely notices the swap, and by the end they own the accurate version. This slow substitution is why a good analogy feels effortless.",
+          "Ask what the viewer already knows and start one step past it. If you start below their level, they get bored. If you start above it, they get lost, and losing someone in the first minute is hard to recover from. Calibrate for the curious beginner rather than the expert who will forgive you anyway.",
+          "The sweet spot is a familiar experience they can picture. Compare the new idea to something in daily life, then replace the comparison piece by piece with the real mechanism until nothing borrowed is left. The viewer barely notices the swap, and by the end they own the accurate version. This slow substitution is why a good analogy feels easy.",
           "Analogies are scaffolding, not the building. Say clearly where the comparison breaks down so the viewer does not carry a wrong picture into your next video or into a conversation with a friend. Naming the limit is what separates a helpful analogy from a misleading one. It also teaches the viewer how to think, not just what to believe."
         ]
       },
@@ -108,7 +108,7 @@ export const batch260: BlogPost[] = [
       {
         heading: "Design for the small screen",
         paragraphs: [
-          "Most viewers watch on a phone, so thin lines and tiny labels vanish. Keep the key element large and let secondary details fall away when space runs out. Design for the smallest screen you expect, not the monitor in front of you. What reads well at your desk may be invisible on the bus.",
+          "Most viewers watch on a phone, so thin lines and tiny labels vanish. Keep the main element large and let secondary details fall away when space runs out. Design for the smallest screen you expect, not the monitor in front of you. What reads well at your desk may be invisible on the bus.",
           "Add text sparingly and hold it long enough to read at normal viewing speed. A label that flashes for half a second may as well not exist at all. Time your text to the slowest reader you expect, not the fastest. Generous holds cost nothing and save the whole shot.",
           "Check the animation on the smallest screen you expect and at the pace people actually watch. If you cannot follow it while slightly distracted, neither can they. Real viewing happens in noisy rooms with half attention. Build for that reality rather than the ideal one."
         ]
@@ -220,7 +220,7 @@ export const batch260: BlogPost[] = [
         heading: "Spot the hype tells",
         paragraphs: [
           "Words like breakthrough and cure appear in a video far more often than in the paper it cites. When a claim outruns its source, that gap is the hype. Read the paper and the video side by side. The distance between them tells you everything.",
-          "Another tell is a result shown without its scale. A ten percent effect sounds huge until you learn the baseline was tiny to begin with. Always ask what the absolute change is, not just the relative one. The baseline is where the honesty lives.",
+          "Another tell is a result shown without its scale. A ten percent effect sounds huge until you learn the baseline was tiny to start with. Always ask what the absolute change is, not just the relative one. The baseline is where the honesty lives.",
           "A third sign is missing context. If the video never mentions prior work or the size of the sample, it is probably protecting a thin claim. Context is the first casualty of a rushed script. Put it back before you publish."
         ]
       },
@@ -451,7 +451,7 @@ export const batch260: BlogPost[] = [
         bullets: [
           "Explain why the myth feels true before correcting it.",
           "Find the kernel of truth and show it.",
-          "Demonstrate the test instead of only stating the verdict.",
+          "Show the test instead of only stating the verdict.",
           "Correct the claim without mocking the person."
         ]
       }

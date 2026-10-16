@@ -297,7 +297,7 @@ export const batch184: BlogPost[] = [
       {
         heading: "Outlines for long videos",
         paragraphs: [
-          "Long videos need visible acts. Mark where each section begins, how long it should run, and what the viewer gains by staying. Without those markers, a thirty-minute video turns into three loosely related videos stitched together, and drop off compounds.",
+          "Long videos need visible acts. Mark where each section starts, how long it should run, and what the viewer gains by staying. Without those markers, a thirty-minute video turns into three loosely related videos stitched together, and drop off compounds.",
           "Give each act a job and a rough time budget. When one act runs double its slot, you catch it on paper instead of after four hours of filming. The outline becomes a schedule as much as a plan.",
         ],
       },

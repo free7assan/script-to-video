@@ -564,7 +564,7 @@ export const batch257: BlogPost[] = [
           "One question answered fully beats ten questions answered in passing."
       },
       {
-        heading: "Demonstrate instead of explain",
+        heading: "Show instead of explain",
         paragraphs: [
           "Whenever possible, show the answer happening. Water a pot until it drains to explain root rot. Hold a stretched seedling next to a compact one to explain light. The demonstration is the answer, and narration just labels it.",
           "Keep the language plain. Skip the jargon unless you define it in the same sentence. A beginner who understands you will return; one who feels talked down to will not.",

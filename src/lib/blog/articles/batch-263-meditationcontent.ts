@@ -76,7 +76,7 @@ export const batch263: BlogPost[] = [
       {
         heading: "Matching speech to breathing",
         paragraphs: [
-          "The tone of a guided meditation video sets the pace for the viewer before any breath begins. Speaking slightly slower than normal conversation helps signal a shift away from other tasks. This shift does not require a whisper, but it does require restraint from rushing between phrases.",
+          "The tone of a guided meditation video sets the pace for the viewer before any breath starts. Speaking slightly slower than normal conversation helps signal a shift away from other tasks. This shift does not require a whisper, but it does require restraint from rushing between phrases.",
           "A steady pace gives viewers time to process each cue as they breathe. By matching short phrases to natural breaths, the narration can follow the same rhythm that the practice is asking for. This alignment is one of the most direct ways to keep a practice calm."
         ]
       },

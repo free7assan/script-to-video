@@ -417,7 +417,7 @@ export const batch32: BlogPost[] = [
       {
         paragraphs: [
           "Publish seasonal content too early and it dies before the audience arrives. Publish too late and you miss the wave entirely. The window is narrower than most creators think, and it opens earlier than the holiday itself.",
-          "People search for seasonal topics before the season starts. They plan trips weeks ahead and shop for gifts in advance. Your video needs to be waiting on the shelf when that search begins, not uploaded the morning of the event.",
+          "People search for seasonal topics before the season starts. They plan trips weeks ahead and shop for gifts in advance. Your video needs to be waiting on the shelf when that search starts, not uploaded the morning of the event.",
         ],
       },
       {

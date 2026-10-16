@@ -17,7 +17,7 @@ export const batch175: BlogPost[] = [
     slug: "kids-content-starting-a-family-channel",
     title: "Starting a Family Channel Without Burning Out Your Kids",
     excerpt:
-      "Starting a family channel takes a clear boundary, a cheap setup, and a rule for when the camera stays off. Here is how to begin without burning out your kids.",
+      "Starting a family channel takes a clear boundary, a cheap setup, and a rule for when the camera stays off. Here is how to start without burning out your kids.",
     date: "2032-12-02",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["kids", "family", "safety"],
@@ -320,7 +320,7 @@ export const batch175: BlogPost[] = [
   },
   {
     slug: "kids-content-educational-videos",
-    title: "Educational Videos for Young Viewers That Kids Actually Finish",
+    title: "Educational Videos Young Kids Actually Finish",
     excerpt:
       "Educational videos for young viewers hold attention when the idea is small, the pace is calm, and every scene invites a response. Here is how to structure them.",
     date: "2032-12-17",
@@ -381,7 +381,7 @@ export const batch175: BlogPost[] = [
   },
   {
     slug: "kids-content-simple-animation-tools",
-    title: "Simple Animation Tools for Family Videos You Can Learn Tonight",
+    title: "Animation Tools for Family Videos You Can Learn Tonight",
     excerpt:
       "Simple animation tools let a family channel add motion without a studio. Pick one app, learn a few tricks, and keep the drawings rough and friendly.",
     date: "2032-12-20",
@@ -505,7 +505,7 @@ export const batch175: BlogPost[] = [
     slug: "kids-content-moderating-kids-comments",
     title: "Moderating Comments on Kids Content Without Losing Your Mind",
     excerpt:
-      "Moderating comments on kids content means setting filters, holding a firm line, and protecting your family first. Here is a routine that keeps the section clean.",
+      "Moderating comments on kids content means setting filters, holding a firm line, and protecting your family first. A routine that keeps the section clean.",
     date: "2032-12-26",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["kids", "family", "safety"],

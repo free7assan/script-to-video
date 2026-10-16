@@ -15,7 +15,7 @@ export const batch151: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Treating content as a real business begins with one shift. You stop grading each video by how good it felt to make and start asking whether the work paid for itself. The moment money in, money out, and hours spent sit on the same page, the decisions get easier.",
+          "Treating content as a real business starts with one shift. You stop grading each video by how good it felt to make and start asking whether the work paid for itself. The moment money in, money out, and hours spent sit on the same page, the decisions get easier.",
           "None of this requires a finance degree. It requires a habit of looking at the same four or five numbers every week and letting them argue with your gut instead of the other way around."
         ]
       },
@@ -296,7 +296,7 @@ export const batch151: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Take a deposit before you begin any project.",
+          "Take a deposit before you start any project.",
           "Write payment terms and a late fee into the deal.",
           "Send the invoice the same day you deliver.",
           "Follow up within a day of the due date.",

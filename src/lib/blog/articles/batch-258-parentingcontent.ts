@@ -297,7 +297,7 @@ export const batch258: BlogPost[] = [
         heading: "Shoot routines so they never drag",
         paragraphs: [
           "Cut the dead time. A twenty five minute morning becomes ninety seconds when you film the six moments that matter and let your narration carry the rest. The camera does not need to run for the whole event. Select and compress.",
-          "Use a fixed camera position and a wide shot so you never stop to reframe. Routines reward consistency, and viewers begin to recognize your kitchen like a familiar set. A recognizable set builds a habit in the viewer. That habit is your return rate.",
+          "Use a fixed camera position and a wide shot so you never stop to reframe. Routines reward consistency, and viewers start to recognize your kitchen like a familiar set. A recognizable set builds a habit in the viewer. That habit is your return rate.",
           "Show the failure sometimes. The morning the lunchbox hits the floor earns more comments than ten clean ones, and it proves the routine survives real life. Resist the urge to stage a perfect morning. A viewer can smell a setup.",
         ],
       },
@@ -536,7 +536,7 @@ export const batch258: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Reply to the first fifty comments yourself, then build spaces where parents answer each other. A community starts the moment strangers in your comments begin helping one another. That shift is the whole game. The day two strangers solve a problem without you, the channel has something durable.",
+          "Reply to the first fifty comments yourself, then build spaces where parents answer each other. A community starts the moment strangers in your comments start helping one another. That shift is the whole game. The day two strangers solve a problem without you, the channel has something durable.",
           "Numbers describe reach. A community describes what happens when you skip a week of posting and people still show up to talk to each other anyway. Reach is rented from the algorithm. A community is yours.",
           "The practices below cover prompts, rituals, and the moderation line that keeps a parent group useful instead of exhausting. The tools are free. What costs effort is the habit of showing up as a person rather than a brand.",
         ],

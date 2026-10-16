@@ -139,7 +139,7 @@ export const batch275: BlogPost[] = [
         heading: "Build the routine in plain sight",
         paragraphs: [
           "Walk through the moves you make before a deep session. The water you pour and the phone you carry to another room both count. Keep the order intact, because the order is what makes the habit repeatable.",
-          "Resist the urge to make it look effortless. A slight stumble, like forgetting a charger, tells viewers the routine is real. Real routines bend without breaking."
+          "Resist the urge to make it look easy. A slight stumble, like forgetting a charger, tells viewers the routine is real. Real routines bend without breaking."
         ]
       },
       {
@@ -155,7 +155,7 @@ export const batch275: BlogPost[] = [
       {
         heading: "End on purpose",
         paragraphs: [
-          "Stop the session with a note about where to begin next time. That note is what turns one focus block into a rhythm you can keep. Film the note being written so viewers can copy the habit.",
+          "Stop the session with a note about where to start next time. That note is what turns one focus block into a rhythm you can keep. Film the note being written so viewers can copy the habit.",
           "A routine that ends cleanly is easier to restart tomorrow. Show the close, not only the grind."
         ]
       },
@@ -171,7 +171,7 @@ export const batch275: BlogPost[] = [
         bullets: [
           "Show the distraction before you show the fix.",
           "Keep the order of your pre-focus moves intact.",
-          "Demonstrate how you recover from an interruption.",
+          "Show how you recover from an interruption.",
           "End each session with a note for next time.",
           "Test the routine for a week before teaching it."
         ]
@@ -199,7 +199,7 @@ export const batch275: BlogPost[] = [
       {
         heading: "Start from fixed points",
         paragraphs: [
-          "Begin with the things that cannot move, such as shoots, calls, and the upload day. Fixed points give the week its skeleton, and everything else fits around them. Say out loud why each point is locked.",
+          "Start with the things that cannot move, such as shoots, calls, and the upload day. Fixed points give the week its skeleton, and everything else fits around them. Say out loud why each point is locked.",
           "Once the skeleton is set, the open hours become obvious. Viewers learn to spot their own fixed points instead of planning in a vacuum."
         ]
       },
@@ -399,7 +399,7 @@ export const batch275: BlogPost[] = [
       {
         heading: "Protect sleep and food",
         paragraphs: [
-          "No routine survives bad sleep and skipped meals. Mention the basics you guard, like a consistent bedtime and a real lunch. These are less exciting than a new app but far more powerful.",
+          "No routine survives bad sleep and skipped meals. Mention the basics you guard, like a consistent bedtime and a real lunch. These are less exciting than a new app but far more effective.",
           "Show one habit that protects your energy and explain what happens when you drop it. The fallout is the proof."
         ]
       },

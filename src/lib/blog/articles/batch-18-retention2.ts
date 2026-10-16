@@ -83,6 +83,15 @@ export const batch18: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A goodbye tells the viewer the session is over.",
+          "Turn the outro into a hinge to one specific next video.",
+          "Pair any subscribe ask with a reason tied to this video.",
+          "Reserve the last spoken line for the next promise.",
+        ]
+      },
+      {
         heading: "What a goodbye actually does",
         paragraphs: [
           "The default outro does three damaging things at once. It signals the end, it asks for something, and it offers no direction. The viewer hears the wind-down music, sees the subscribe animation, and reaches for their phone.",
@@ -143,6 +152,15 @@ export const batch18: BlogPost[] = [
           "The retention graph almost always dips in the final thirty seconds, and creators read that dip as normal. It is not. That tail is where viewers decide whether to click the next video or open a different app, and most endings are quiet defeats.",
           "Watch your own last half minute. If it is a recap, a wind-down, or a string of clipped sentences that never quite land, the video does not end. It runs out.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Endings trail off when they only restate.",
+          "End on a beat, then stop.",
+          "Cut recap verbs like 'to sum up' from the tail.",
+          "Make the final line and the end screen point at the same video.",
+        ]
       },
       {
         heading: "Why endings trail off",
@@ -207,6 +225,15 @@ export const batch18: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "One primary ask per video.",
+          "Match the ask to the emotion, not your growth goals.",
+          "Put the low-cost ask early and the big ask at the end.",
+          "If two asks coexist, split them by two minutes.",
+        ]
+      },
+      {
         heading: "Why stacks fail",
         paragraphs: [
           "Each ask has a cost. Asking for a comment pulls attention to the comment box. Asking for a subscribe pulls it to the button. When both happen in the same breath, they cancel and the viewer does neither.",
@@ -268,6 +295,15 @@ export const batch18: BlogPost[] = [
           "Session watch time is the metric most creators ignore and the one that decides how far the algorithm pushes a channel. It counts how long a viewer stays on YouTube after your video ends. The outro is where that session is either extended or closed.",
           "A playlist can suggest the next video, but it cannot give a reason. The outro is the only place you can explain why the next video matters to the person who just watched this one.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Design a chain, not a catalog.",
+          "End each video by naming the specific next video.",
+          "Keep the link to one sentence, after the payoff.",
+          "Order the playlist to match the chain, not the upload dates.",
+        ]
       },
       {
         heading: "The chain, not the catalog",
@@ -334,6 +370,15 @@ export const batch18: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "List every question the first minute promises.",
+          "Mark each one closed, deferred with a destination, or forgotten.",
+          "Fix the intro loop first; it is the loudest promise.",
+          "Cut any tease you have no plan to pay off.",
+        ]
+      },
+      {
         heading: "The loop ledger",
         paragraphs: [
           "Before you record, list every question the script raises. Then mark each one as closed, deferred, or forgotten. A deferred loop is fine if you say when it closes and then close it. A forgotten loop is the one that costs you.",
@@ -395,6 +440,15 @@ export const batch18: BlogPost[] = [
           "End at the peak, or one line past it. The recap you were taught to include is where attention drains fastest, because nothing new is happening and the viewer already knows the answer.",
           "I used to think the recap made the video feel finished. What it actually did was give the viewer a soft place to stop paying attention.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Summaries are for the writer, not the viewer.",
+          "Cut to the peak instead of recapping it.",
+          "If the energy drops before the words stop, you ran past the peak.",
+          "Do not let the end screen follow two sentences after the best moment.",
+        ]
       },
       {
         heading: "Summaries are for the writer",
@@ -459,6 +513,15 @@ export const batch18: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The end is too late to ask for a subscribe.",
+          "Place the ask within a few seconds of a clear payoff.",
+          "Use one sentence and name the benefit to the viewer.",
+          "Treat any end-screen ask as a reminder, not the main request.",
+        ]
+      },
+      {
         heading: "Why the end fails",
         paragraphs: [
           "By the final seconds, the viewer has already decided whether they will stay. The subscribe prompt cannot change a decision that was made a minute earlier. It can only confirm it.",
@@ -520,6 +583,15 @@ export const batch18: BlogPost[] = [
           "The card has one job: make the next click feel obvious. Every word that does not do that job is taking attention from the words that do.",
           "Watch a video you have published and try to read your own end card at normal speed. Most creators cannot, and they wrote it.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Write end card copy for the glance.",
+          "Front-load the outcome in the first two words.",
+          "Cap the card at six words and one idea.",
+          "Use the same phrasing in narration and on the card.",
+        ]
       },
       {
         heading: "Write for the glance",

@@ -509,7 +509,7 @@ export const batch377: BlogPost[] = [
       {
         heading: "Captions baked into the script",
         paragraphs: [
-          "GoScript marks caption lines directly in each script, so you record with the on-screen text already planned. The writing and the captions stop being separate jobs, and your mute-first clips stay coherent from the first draft. You also stop improvising wording in the edit, which is where most caption bloat begins.",
+          "GoScript marks caption lines directly in each script, so you record with the on-screen text already planned. The writing and the captions stop being separate jobs, and your mute-first clips stay coherent from the first draft. You also stop improvising wording in the edit, which is where most caption bloat starts.",
         ],
       },
     ],

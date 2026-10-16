@@ -73,7 +73,7 @@ export const batch173: BlogPost[] = [
       {
         heading: "Open with the finished look, then rewind",
         paragraphs: [
-          "Filming a makeup tutorial that people finish starts with showing the result in the first ten seconds. When viewers know where the steps lead, they stay for the route. Flash the finished face, name what makes it different, then cut back to a bare face and begin.",
+          "Filming a makeup tutorial that people finish starts with showing the result in the first ten seconds. When viewers know where the steps lead, they stay for the route. Flash the finished face, name what makes it different, then cut back to a bare face and start.",
           "The order you film is rarely the order you publish. Shoot the end result while the makeup is fresh, then capture the steps afterward so the final footage reads cleanly from start to finish."
         ]
       },
@@ -205,7 +205,7 @@ export const batch173: BlogPost[] = [
         ],
         bullets: [
           "Place eyes near the top third of the frame.",
-          "Lock focus on the working area before you begin.",
+          "Lock focus on the working area before you start.",
           "Keep the camera still with a tripod or a steady prop.",
           "Use a higher frame rate for fast hand movements."
         ]

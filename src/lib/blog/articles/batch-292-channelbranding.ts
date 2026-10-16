@@ -254,7 +254,7 @@ export const batch292: BlogPost[] = [
       {
         heading: "Define two or three habits",
         paragraphs: [
-          "Start with simple habits. For example, speak to the viewer as 'you', keep sentences short, or avoid filler words. Pick no more than three habits to begin. These limits are easy to check when you write quickly for an upload.",
+          "Start with simple habits. For example, speak to the viewer as 'you', keep sentences short, or avoid filler words. Pick no more than three habits to start. These limits are easy to check when you write quickly for an upload.",
           "Write down these habits in plain language. A short note is enough to keep them in mind, especially if you write scripts with a tool like GoScript and need to stay on track."
         ]
       },
@@ -460,7 +460,7 @@ export const batch292: BlogPost[] = [
   },
   {
     slug: "channel-branding-keeping-branding-subtle",
-    title: "Keeping Channel Branding Subtle for a Cleaner Viewer Experience",
+    title: "Keeping Channel Branding Subtle for Viewers",
     excerpt: "Keeping channel branding subtle helps focus viewer attention on the video content while still giving enough cues for easy channel recognition.",
     date: "2042-09-09",
     author: {

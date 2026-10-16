@@ -60,7 +60,7 @@ export const batch128: BlogPost[] = [
       {
         heading: "Where this quietly breaks down",
         paragraphs: [
-          "Repurposing fails when the source idea was thin to begin with. No format can rescue a video that never said anything, and spreading a vague point across five channels only spreads the fog further.",
+          "Repurposing fails when the source idea was thin to start with. No format can rescue a video that never said anything, and spreading a vague point across five channels only spreads the fog further.",
           "A strong source is the real input. Everything else is distribution, and distribution multiplies whatever quality you started with, for better and for worse.",
         ],
       },
@@ -75,7 +75,7 @@ export const batch128: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "The transcript, not the timeline, is where repurposing actually begins.",
+          "The transcript, not the timeline, is where repurposing actually starts.",
           "Each asset should carry exactly one idea from the source video.",
           "Exporting more clips is not the goal, a clearer message per clip is.",
           "Reusing footage is fine, reusing a muddled point is not.",
@@ -569,7 +569,7 @@ export const batch128: BlogPost[] = [
       {
         heading: "Rewrite instead of duplicating",
         paragraphs: [
-          "The stronger move is to rewrite the piece for each home rather than copy the file. Different openings, different examples, and a different angle make the versions genuinely distinct, which removes the question entirely. A rewrite also forces you to notice which parts were never clear to begin with.",
+          "The stronger move is to rewrite the piece for each home rather than copy the file. Different openings, different examples, and a different angle make the versions genuinely distinct, which removes the question entirely. A rewrite also forces you to notice which parts were never clear to start with.",
           "This is also better for readers. A version written for a community site should sound like a community post, not like a corporate page with the logo swapped. Readers notice the difference immediately.",
         ],
       },

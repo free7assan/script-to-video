@@ -149,7 +149,7 @@ export const batch110: BlogPost[] = [
         heading: "Consider updates before removal",
         paragraphs: [
           "Some videos fail because of a small fix. Check the title for clarity, the first 30 seconds for a slow start, or the topic fit for a current query before retiring it.",
-          "Only attempt one update. If that update does not move the chosen traffic source after seven days, retire the video. Do not spend a week rewriting a clip that had no signal to begin with."
+          "Only attempt one update. If that update does not move the chosen traffic source after seven days, retire the video. Do not spend a week rewriting a clip that had no signal to start with."
         ]
       },
       {

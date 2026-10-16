@@ -291,7 +291,7 @@ export const batch60: BlogPost[] = [
         bullets: [
           "Judge growth by the slope, not the spike.",
           "Mark viral posts so you can see the real trend line.",
-          "Watch what you posted after a hit, because that is where churn begins.",
+          "Watch what you posted after a hit, because that is where churn starts.",
           "Regular formats keep new followers from drifting away.",
           "Views convert to followers only when the next video delivers.",
         ],
@@ -301,7 +301,7 @@ export const batch60: BlogPost[] = [
         paragraphs: [
           "Pick one day a month to review growth and nothing else. Look at the slope, the churn, and the videos that landed between checkpoints. Resist the urge to check the count every morning. The morning number is noise with a number attached.",
           "Daily checking makes you reactive. You start chasing the video that spiked instead of the format that converts. A monthly rhythm keeps your attention on the trend rather than the noise.",
-          "When you find a month that beat the last one, ask which video kept new followers around. That follow through is the thing to repeat. Growth is what stays after the spike fades. Jot the pattern down before the next month begins.",
+          "When you find a month that beat the last one, ask which video kept new followers around. That follow through is the thing to repeat. Growth is what stays after the spike fades. Jot the pattern down before the next month starts.",
         ],
       },
     ],
@@ -474,7 +474,7 @@ export const batch60: BlogPost[] = [
       {
         heading: "What a tag can and cannot do",
         paragraphs: [
-          "A tag cannot make a weak video travel. It can help a strong one reach a slightly better matched crowd. Think of it as a label, not a lever.",
+          "A tag cannot make a weak video travel. It can help a strong one reach a slightly better matched crowd. Treat it as a label, not a lever.",
           "Descriptive tags tied to your actual topic tend to help. Vague giant tags drown your video in a sea of everything and tell the feed almost nothing.",
           "You will see creators swear by odd tag combinations. Usually they had a good video that week. The tags got the credit that the hook actually earned. The hook did the work and the tag took the bow.",
         ],

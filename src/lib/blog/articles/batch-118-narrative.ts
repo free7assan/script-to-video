@@ -533,7 +533,7 @@ export const batch118: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "A narrative arc across a series is a story that begins in one video and resolves in another. It turns a set of episodes into a journey, so viewers who finish one have a reason to press play on the next.",
+          "A narrative arc across a series is a story that starts in one video and resolves in another. It turns a set of episodes into a journey, so viewers who finish one have a reason to press play on the next.",
           "Most series collections are just topics stacked in a folder. An arc gives them a spine, a question that grows with each entry and pays off somewhere down the line.",
           "Here is how to plan a multi-episode arc without making any single video feel incomplete.",
         ],

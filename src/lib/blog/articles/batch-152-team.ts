@@ -87,7 +87,7 @@ export const batch152: BlogPost[] = [
         ]
       },
       {
-        heading: "Order the roles by pain and leverage",
+        heading: "Order the roles by pain and impact",
         paragraphs: [
           "Rank your weekly tasks by two questions. Which ones drain you the most, and which ones sit closest to revenue. The overlap is your shortlist.",
           "For most creators, editing lands first because it swallows whole evenings. Thumbnail design comes next because it affects whether anyone clicks. Research and topic planning often stay with you longer because they depend on taste you have not learned to write down yet.",
@@ -408,7 +408,7 @@ export const batch152: BlogPost[] = [
         bullets: [
           "Prepare a welcome pack with access, file locations, and working rules before day one.",
           "Explain the reason behind each rule so your teammate can apply judgment.",
-          "Begin with a small real assignment and review it quickly and closely.",
+          "Start with a small real assignment and review it quickly and closely.",
           "Keep a short weekly check in for the first two months, then ease off.",
           "Record early decisions so questions do not repeat once they are answered."
         ]

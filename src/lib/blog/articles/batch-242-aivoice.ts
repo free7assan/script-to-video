@@ -35,7 +35,7 @@ export const batch242: BlogPost[] = [
         heading: "Where a synthetic voice wins",
         paragraphs: [
           "Any series with a fixed format benefits from a voice that never tires, never catches a cold, and never drifts in tone between episodes. If your channel runs on facts, lists, or walkthroughs, a synthetic reader delivers the same experience every time the intro plays. Viewers learn the sound and stop noticing it, which is exactly what a workhorse narrator should do.",
-          "Volume work is the other clear case. When you need ninety product descriptions by Friday, a synthetic reader scales in a way a human throat cannot, and the viewer was never attached to your voice on that footage to begin with. Hiring a narrator for work nobody will remember is a waste of money and time.",
+          "Volume work is the other clear case. When you need ninety product descriptions by Friday, a synthetic reader scales in a way a human throat cannot, and the viewer was never attached to your voice on that footage to start with. Hiring a narrator for work nobody will remember is a waste of money and time.",
         ],
       },
       {
@@ -76,7 +76,7 @@ export const batch242: BlogPost[] = [
   },
   {
     slug: "ai-voice-cloning-your-own-voice",
-    title: "Cloning Your Own Voice for Narration: What It Can and Cannot Do",
+    title: "Voice Cloning for Narration: What It Can and Cannot Do",
     excerpt:
       "Voice cloning lets you narrate without a microphone, but it inherits every flaw in your source recordings. Here is how to feed it really well.",
     date: "2038-07-05",
@@ -191,7 +191,7 @@ export const batch242: BlogPost[] = [
   },
   {
     slug: "ai-voice-fixing-mispronunciations",
-    title: "Fixing Mispronunciations in Text to Speech Before You Publish",
+    title: "Fixing Mispronunciations in Text to Speech",
     excerpt:
       "Names, acronyms, and units break text to speech in predictable ways. A short pronunciation pass saves you a re-upload and one angry comment.",
     date: "2038-07-11",
@@ -353,7 +353,7 @@ export const batch242: BlogPost[] = [
   },
   {
     slug: "ai-voice-multilingual-dubbing",
-    title: "Multilingual Dubbing with AI Voice Without Losing Your Identity",
+    title: "Multilingual AI Dubbing Without Losing Your Identity",
     excerpt:
       "Dubbing a channel into new languages once meant new voice actors. AI voice makes it cheap enough to test, which changes what you dub and why.",
     date: "2038-07-20",
@@ -515,7 +515,7 @@ export const batch242: BlogPost[] = [
   },
   {
     slug: "ai-voice-tts-workflow",
-    title: "Building a Repeatable Text to Speech Workflow for Weekly Video",
+    title: "Building a Repeatable Text to Speech Workflow",
     excerpt:
       "A text to speech workflow saves you from re-deciding every upload. Lock the steps once and the weekly narration becomes nearly automatic.",
     date: "2038-07-29",

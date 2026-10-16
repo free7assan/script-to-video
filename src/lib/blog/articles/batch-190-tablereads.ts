@@ -457,7 +457,7 @@ export const batch190: BlogPost[] = [
         heading: "Rehearsing with a stopping rule",
         paragraphs: [
           "Pick a number of passes before you start and commit to it. Two or three full runs are enough for most scripts. Once you can get through the whole thing without a stumble, you are done, and further reps are likely to cost more than they give.",
-          "Rehearse for structure, not for perfection. Your goal is to know where each section begins and ends and how the whole thing flows, not to deliver every sentence with flawless polish.",
+          "Rehearse for structure, not for perfection. Your goal is to know where each section starts and ends and how the whole thing flows, not to deliver every sentence with flawless polish.",
           "If you must run it again, run it with a purpose. Read once for pacing, once for emphasis, once for the hard lines. Aimless repetition is what wears a script out.",
         ],
       },

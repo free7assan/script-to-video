@@ -165,7 +165,7 @@ export const batch238: BlogPost[] = [
         heading: "Give access, not ownership",
         paragraphs: [
           "Access means they see things first, get answered first, or get asked first. Ownership means they think they are owed a say in every decision you make. The first builds loyalty. The second builds a tiny parliament that votes on your life.",
-          "Early supporters usually want to feel close, not powerful. A name in the credits or an early link does more than a permanent veto ever could.",
+          "Early supporters usually want to feel close, not important. A name in the credits or an early link does more than a permanent veto ever could.",
           "When in doubt, ask what the fan actually asked for. Almost nobody requests authority. They request to be seen, and seeing them is cheap.",
           "A useful test is to imagine the perk in two years. If it still feels earned then, it is probably a good reward. If it will feel like an obligation by then, you have designed a trap instead of a thank-you.",
           "Names matter more than you think when it comes to early supporters. Saying someone's handle once, correctly, in front of everyone can carry more weight than a discount code they will forget. People remember being seen far longer than they remember saving money.",

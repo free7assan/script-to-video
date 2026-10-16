@@ -63,7 +63,7 @@ export const batch39: BlogPost[] = [
         heading: "The reply that keeps them",
         paragraphs: [
           "Onboarding does not end when the welcome message sends. It ends when a real person answers what the new member wrote. A template cannot do this part. Someone has to read the intro and respond to something specific in it, by name.",
-          "This is the work nobody budgets for, and it is the highest-leverage hour you can spend on a young community. A reply from the owner in the first day tells a new person that this place is watched and that adding to it is safe.",
+          "This is the work nobody budgets for, and it is the highest-value hour you can spend on a young community. A reply from the owner in the first day tells a new person that this place is watched and that adding to it is safe.",
         ],
       },
       {
@@ -98,7 +98,7 @@ export const batch39: BlogPost[] = [
       {
         heading: "Write behavior, not vibe",
         paragraphs: [
-          "Be respectful is the most common rule and the least useful one. Nobody knows where respect ends and disagreement begins, so every enforcement call turns into an argument about feelings.",
+          "Be respectful is the most common rule and the least useful one. Nobody knows where respect ends and disagreement starts, so every enforcement call turns into an argument about feelings.",
           "Replace it with something a moderator can observe. No insults aimed at a person; attack the argument instead. That line gives you a clear test. Someone calls another member an idiot, you act. Someone says an idea is weak, you leave it alone.",
         ],
       },
@@ -149,7 +149,7 @@ export const batch39: BlogPost[] = [
       "Channel structure decides how easy your community is to read. Most servers open too many rooms early and wonder why nobody can find the conversation.",
     date: "2024-07-22",
     author: { name: "GoScript Team", role: "Research" },
-    tags: ["community"],
+    tags: ["community", "structure"],
     readTime: "6 min read",
     accent: "#f97316",
     icon: Layers,

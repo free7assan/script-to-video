@@ -152,7 +152,7 @@ export const batch234: BlogPost[] = [
         ],
       },
       {
-        heading: "Begin at the moment before change",
+        heading: "Start at the moment before change",
         paragraphs: [
           "Open close to the point where something shifted. Skip the childhood summary and drop the viewer into the day the ordinary routine broke, because that break is where attention lives.",
           "A tight opening earns trust because it already carries motion. The audience can feel that something is about to happen, so they lean in instead of scrolling past.",
@@ -164,7 +164,7 @@ export const batch234: BlogPost[] = [
         paragraphs: [
           "Every personal story turns on a want. It might be a job, a person, a repair, or a version of yourself you could not reach. Say it plainly so the stakes become visible.",
           "When the want is vague, the story drifts and the audience loses the thread. When it is specific, every later beat can be measured against it, and the piece holds together on its own.",
-          "Let the audience understand the gap between where you were and where you wanted to be. That gap is the engine of the whole piece, and it should be clear before the middle begins.",
+          "Let the audience understand the gap between where you were and where you wanted to be. That gap is the engine of the whole piece, and it should be clear before the middle starts.",
         ],
       },
       {
@@ -422,7 +422,7 @@ export const batch234: BlogPost[] = [
       {
         heading: "Silence is part of the score",
         paragraphs: [
-          "Removing music can be more powerful than adding it. The moment a track drops, the room changes and the audience notices that something is about to matter.",
+          "Removing music can be more effective than adding it. The moment a track drops, the room changes and the audience notices that something is about to matter.",
           "Pair a hard beat with silence to let a single line carry the weight alone. The absence of sound makes the words louder without raising the volume.",
           "Think of silence as a color rather than an absence. It is one of your loudest tools, and most creators never reach for it.",
         ],

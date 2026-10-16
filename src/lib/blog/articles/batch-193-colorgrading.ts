@@ -27,7 +27,7 @@ export const batch193: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Correction is the boring half of color grading, and it decides whether the other half works. You set exposure and neutralize the white balance, then get every shot into a sane place before you think about mood. Skip it and every creative choice afterward fights footage that was never stable to begin with.",
+          "Correction is the boring half of color grading, and it decides whether the other half works. You set exposure and neutralize the white balance, then get every shot into a sane place before you think about mood. Skip it and every creative choice afterward fights footage that was never stable to start with.",
           "I learned this the hard way on a travel series where I graded before I corrected. The look felt great on the hero shot and fell apart on the next twelve. Rebuilding from a corrected base took less time than patching the style had cost me.",
         ],
       },
@@ -128,7 +128,7 @@ export const batch193: BlogPost[] = [
     slug: "color-grading-scopes-and-waveforms",
     title: "Reading Scopes and Waveforms in Color Grading",
     excerpt:
-      "Scopes turn color grading from guesswork into measurement. Learn what the waveform, the vectorscope, and the parade are telling you before you touch a single wheel.",
+      "Scopes turn color grading from guesswork into measurement. Learn what the waveform, vectorscope, and parade tell you before you touch a single color wheel.",
     date: "2034-06-05",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["editing", "visuals", "post"],
@@ -410,7 +410,7 @@ export const batch193: BlogPost[] = [
     slug: "color-grading-consistency-across-channel",
     title: "Consistency Across a Channel in Color Grading",
     excerpt:
-      "Consistency across a channel is what makes color grading feel like a brand. Reuse a tested look and every new upload feels like it belongs to the same body of work.",
+      "Consistency across a channel is what makes color grading feel like a brand. Reuse a tested look and every new upload feels like part of the same body of work.",
     date: "2034-06-20",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["editing", "visuals", "post"],

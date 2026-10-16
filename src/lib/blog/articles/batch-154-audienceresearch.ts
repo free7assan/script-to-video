@@ -16,7 +16,7 @@ export const batch154: BlogPost[] = [
       {
         heading: "Start with what you already know",
         paragraphs: [
-          "An audience profile is a short written sketch of the people who watch your videos. It captures who they are, what they want, and what makes them leave. You do not need a research budget to write one. Your comments, analytics, and instincts are enough to begin.",
+          "An audience profile is a short written sketch of the people who watch your videos. It captures who they are, what they want, and what makes them leave. You do not need a research budget to write one. Your comments, analytics, and instincts are enough to start.",
           "Most creators skip this step and write for an imaginary viewer. The profile forces you to name that viewer, and naming them changes how you pick topics and open a script."
         ]
       },

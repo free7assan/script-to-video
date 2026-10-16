@@ -197,8 +197,8 @@ export const batch321: BlogPost[] = [
       {
         heading: "The cold start",
         paragraphs: [
-          "Every new subscriber begins with a blank slate. The system does not know if they subscribed on impulse or if they intend to return.",
-          "So the first few uploads act as a test. Watch a couple and the alerts begin. Ignore them and the alerts may never start."
+          "Every new subscriber starts with a blank slate. The system does not know if they subscribed on impulse or if they intend to return.",
+          "So the first few uploads act as a test. Watch a couple and the alerts start. Ignore them and the alerts may never start."
         ]
       },
       {
@@ -311,7 +311,7 @@ export const batch321: BlogPost[] = [
       {
         heading: "The slice you can see",
         paragraphs: [
-          "Alerts feel powerful because the first spike is visible. You watch a burst of views and assume the notification did the work.",
+          "Alerts feel convincing because the first spike is visible. You watch a burst of views and assume the notification did the work.",
           "But that burst is small next to the total. Most views on a healthy channel come from people who never saw a notification for it."
         ]
       },

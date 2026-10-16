@@ -144,7 +144,7 @@ export const batch232: BlogPost[] = [
       {
         heading: "Where to place a reset",
         paragraphs: [
-          "The best spots are transitions in meaning, not just transitions in scenery. When one idea finishes and the next begins, that seam is where attention is most likely to slip.",
+          "The best spots are transitions in meaning, not just transitions in scenery. When one idea finishes and the next starts, that seam is where attention is most likely to slip.",
           "Put a small opening at each seam. A preview of the next idea works, and so does a quick callback to something the viewer already cares about.",
           "Do not reset constantly. Too many resets reads as noise, and the viewer stops trusting that any single beat will be allowed to land."
         ]

@@ -410,7 +410,7 @@ export const batch369: BlogPost[] = [
       {
         paragraphs: [
           "Pay one editor for one real video, brief it exactly like a client job, and judge the result against the brief rather than against your private taste. Testing outsourcing editing on a single upload limits the damage and tells you more than a portfolio ever will.",
-          "Portfolios show best cases with directions you supplied yourself. A test shows how someone handles your footage, your notes, and your deadline, which is the only combination that matters once the work begins.",
+          "Portfolios show best cases with directions you supplied yourself. A test shows how someone handles your footage, your notes, and your deadline, which is the only combination that matters once the work starts.",
         ],
       },
       {

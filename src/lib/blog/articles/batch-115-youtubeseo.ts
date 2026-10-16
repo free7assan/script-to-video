@@ -304,7 +304,7 @@ export const batch115: BlogPost[] = [
   },
   {
     slug: "youtube-seo-chapters-for-search",
-    title: "Using chapters to aid search",
+    title: "Using Chapters to Aid YouTube Search",
     excerpt: "Chapters help viewers skip to needed parts, and clear time labels with plain names can improve how each section relates to specific search goals.",
     date: "2027-12-06",
     author: { name: "GoScript Team", role: "Product" },
@@ -391,7 +391,7 @@ export const batch115: BlogPost[] = [
         heading: "Uploading transcripts",
         paragraphs: [
           "Some workflows benefit from a full transcript file. A clean transcript can help with fixes and can be reused for other content later.",
-          "If you upload a transcript, ensure it matches the final audio. Timing mismatches can confuse viewers using captions."
+          "If you upload a transcript, make sure it matches the final audio. Timing mismatches can confuse viewers using captions."
         ]
       },
       {
@@ -415,7 +415,7 @@ export const batch115: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Review and correct automatic captions for key terms.",
-          "Ensure transcripts match the final audio when uploaded.",
+          "Make sure transcripts match the final audio when uploaded.",
           "Fix names and specific terms that may be searched.",
           "Treat captions as a viewer aid first, with added search value."
         ]

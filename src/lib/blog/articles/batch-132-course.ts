@@ -197,7 +197,7 @@ export const batch132: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Build modules around outcomes a student can demonstrate, not around topics.",
+          "Build modules around outcomes a student can show, not around topics.",
           "Start from the finish line and work backward to the first lesson.",
           "Give each module one job and a name that states it plainly.",
           "Cut any lesson that does not change what a student can do.",
@@ -256,7 +256,7 @@ export const batch132: BlogPost[] = [
       {
         heading: "Show, do not just tell",
         paragraphs: [
-          "When you demonstrate a step, slow down. The pace that feels boring to you is often correct for a student seeing it for the first time. Speed that feels lively to you reads as a blur to them.",
+          "When you show a step, slow down. The pace that feels boring to you is often correct for a student seeing it for the first time. Speed that feels lively to you reads as a blur to them.",
           "Point at what matters on screen and say the action out loud. Narrating the move keeps a viewer oriented when they look away to try it themselves. Assume they are following along at their own desk.",
           "Add captions if you can. Many students watch without sound, and captions make your lessons usable in more places and by more people. Accessibility is also reach. The few minutes it takes to caption a lesson pay back every time someone watches in a quiet room.",
         ],

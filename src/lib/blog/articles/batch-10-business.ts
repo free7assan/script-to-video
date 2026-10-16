@@ -5,7 +5,7 @@ export const batch10: BlogPost[] = [
   {
     slug: "business-adsense-alternatives",
     title: "Monetization beyond AdSense for small creators",
-    excerpt: "AdSense can cover small bills, but for most channels it falls short once production costs rise. Affiliate links, digital files, and services offer clearer paths to steady cash flow.",
+    excerpt: "AdSense can cover small bills, but it falls short once production costs rise. Affiliate links, files, and services offer clearer paths to steady income.",
     date: "2024-02-01",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["business", "monetization", "craft"],
@@ -18,6 +18,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "I ran a test for a friend with 45,000 monthly views on a hobby channel last year. After YouTube took its cut and after currency conversion, the payout came to about $82. That covers one plugin renewal, but not a mic upgrade. For most small channels, $0.001 to $0.005 per view is the real range, not the roundup numbers you see on forums. When your videos cost three or four hours to script and edit, that math gets tight fast.",
           "The first fix is to stop counting gross views as income. Count net after fees, and count net after your real time cost. If a 12-minute video takes six hours to make and earns $6 from AdSense, you are working for a dollar an hour. That number is not a moral failing, but it is a sign to look for other income streams that do not scale only with RPMs."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Count what AdSense actually brings before replacing it.",
+          "Match one affiliate product to one clear fit.",
+          "Sell a template that solves one problem.",
+          "Offer one fixed service package, capped in count.",
         ]
       },
       {
@@ -58,7 +67,7 @@ export const batch10: BlogPost[] = [
   {
     slug: "business-sponsorship-trust",
     title: "Sponsorship scripts that keep viewer trust",
-    excerpt: "Viewers can tell when a read sounds forced. A small change in phrasing and timing lets you disclose a paid slot without losing the tone that built your audience.",
+    excerpt: "Viewers can tell when a read sounds forced. A change in phrasing and timing lets you disclose a paid slot without losing the tone that built your audience.",
     date: "2024-03-15",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["business", "sponsorships", "craft"],
@@ -71,6 +80,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "The safe legal line is a clear disclosure. The useful line is one that sounds like you wrote it on your voice recorder, not in a legal doc. I have tried reading a sponsor's exact script and had to re-record it twice. Viewers did not mind the disclosure once it used the same words I use when I say 'I tested this for a week'. They minded when I sped up and dropped my natural pauses.",
           "Keep the core facts: who paid, what it is, and that it is a paid slot. You do not need to list every detail. You do need to say it before or at the moment of pitch, not buried at the end."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Say the paid line in your own words.",
+          "Place the pitch where it fits the video's flow.",
+          "Script the boundary and test the read on a real person.",
+          "One read, no untested claims or superlatives.",
         ]
       },
       {
@@ -115,7 +133,7 @@ export const batch10: BlogPost[] = [
   {
     slug: "business-pricing-without-underselling",
     title: "Pricing your work without underselling",
-    excerpt: "A low price may get replies, but it pulls you into scope creep and blocks time for your own channel. Price by scope and by time saved, not by guessing a market low.",
+    excerpt: "A low price may get replies, but it pulls you into scope creep and blocks time for your channel. Price by scope and by time saved, not by guessing a market low.",
     date: "2024-05-02",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["business", "monetization", "craft"],
@@ -128,6 +146,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "The first number I ever quoted for a script was $40. The client replied yes in ten minutes, then asked for four revisions, VO notes, and a cut list. I ended up at $6 an hour. That mistake taught me to price by a fixed package with a cap. Write down how many hours a task takes when you do it for your own video, then multiply by a floor rate you can live with.",
           "Pick one floor. For writing a tight VO script in your niche, set a floor that covers your time plus a small buffer. If your floor is $175 for 90 seconds, do not drop below it for new clients. Your old channel time is not free."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Stop pricing by vibes; price by scope.",
+          "Use a simple quote formula and a written floor rate.",
+          "Keep a canned reply for rate questions.",
+          "Log your hours for a month to verify the price.",
         ]
       },
       {
@@ -170,7 +197,7 @@ export const batch10: BlogPost[] = [
   {
     slug: "business-batching-energy",
     title: "Batching production without flattening your voice",
-    excerpt: "Shooting and scripting in blocks saves setup time, but do it wrong and every video sounds like it came off the same conveyor belt. The trick is batching the boring parts.",
+    excerpt: "Shooting and scripting in blocks saves setup time, but do it wrong and every video sounds like it came off a conveyor belt. The trick is batching boring parts.",
     date: "2025-01-14",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["business", "craft", "monetization"],
@@ -183,6 +210,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "I tried batching a full month of uploads in two days once. It worked for scheduling and destroyed my enthusiasm by week three. The videos were technically fine and completely interchangeable. What I got wrong was batching the part that needs to feel fresh. Ideas and hooks should stay one at a time, brainstormed the week you need them.",
           "Batch the repeatable labor instead. Setting up lights, importing footage, cutting the same intro animation, writing descriptions. Those steps have no creative voice in them, so doing them in a single pass costs nothing and saves hours of context switching."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Batch the plumbing, not the ideas.",
+          "Keep a schedule that survives a bad week.",
+          "Read every batched script aloud before publishing.",
+          "Cap a batch at three or four until it feels normal.",
         ]
       },
       {
@@ -224,6 +260,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "Never hand a stranger your week of uploads and hope. Give a single short video and pay the full rate even if you do not use it. How they handle a tight brief tells you more than a portfolio. I learned to ask for the raw project file back so I could see how they structured tracks, labels, and cuts.",
           "One editor I tested sent back a beautiful edit with every clip renamed after a burger. Funny, and impossible for anyone else to touch. The rename habit became a question I now ask up front: what are your file conventions?"
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with one paid test edit.",
+          "Write a style guide, not a wish list.",
+          "Give notes in one timecoded pass.",
+          "Pay on the agreed date, every time.",
         ]
       },
       {
@@ -269,6 +314,15 @@ export const batch10: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Design your output for your worst week.",
+          "A big backlog has a hidden cost.",
+          "Rest does not need a reason.",
+          "Track energy, not just upload count.",
+        ]
+      },
+      {
         heading: "The hidden cost of a backlog",
         paragraphs: [
           "A backlog feels safe until you notice you are filming video twelve while your audience is watching video four. When the topic moves, your backlog is worthless evidence of what people wanted. I now keep at most two videos ahead and leave the rest as ideas.",
@@ -308,6 +362,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "I have watched trend-chasing accounts blow up for two weeks and vanish. The trick worked because it was new, and newness is the one thing you cannot repeat on schedule. A skill like writing a clean hook or reading a retention graph still pays three years later.",
           "That does not mean ignore trends. It means do not build your identity on them. Use a trend as a test for a skill you are already practicing."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Hacks expire; skills compound.",
+          "Measure the boring metric with a rolling average.",
+          "Practice one skill on purpose each quarter.",
+          "Use trends to test skills, not replace them.",
         ]
       },
       {
@@ -353,6 +416,15 @@ export const batch10: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Price the integration, not the video.",
+          "Ask about usage rights, whitelisting, and duration early.",
+          "Take a deposit before filming.",
+          "Say no on fit, not on money.",
+        ]
+      },
+      {
         heading: "Ask about usage rights early",
         paragraphs: [
           "The fee is often not the expensive part. If the brand wants to run your video as a paid ad for six months on their own channels, that is a separate license and should be priced as one. Ask about paid usage, whitelisting, and territory before you agree on the number.",
@@ -395,6 +467,15 @@ export const batch10: BlogPost[] = [
         ]
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with two income streams, not five.",
+          "Match the stream to how your viewers behave.",
+          "Review income by source every quarter.",
+          "Cut the worst stress-to-dollar ratio.",
+        ]
+      },
+      {
         heading: "Match the stream to your traffic",
         paragraphs: [
           "High-view, low-engagement channels rarely make good communities, and small tight channels rarely make good ad businesses. Look at where your viewers already spend money and meet them there. If your comments are full of questions about gear, a gear guide pays before merch ever will.",
@@ -434,6 +515,15 @@ export const batch10: BlogPost[] = [
         paragraphs: [
           "A channel with 8,000 subscribers and 3,000 views a video can still clear a few hundred dollars a month between ads, affiliates, and one template sale. That is not a salary, but it is also not nothing, and it may cover the tools that made it possible.",
           "Write down your monthly costs: software, music, storage, any contractor time. Subtract that from your income. The first time I did this I found two subscriptions I never used, which is a free raise."
+        ]
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Run the real numbers once.",
+          "Small can be efficient; keep overhead low on purpose.",
+          "Name the one metric that moves income most.",
+          "Count unpaid early hours as tuition, not loss.",
         ]
       },
       {

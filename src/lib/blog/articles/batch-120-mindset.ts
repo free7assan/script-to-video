@@ -229,7 +229,7 @@ export const batch120: BlogPost[] = [
         heading: "Building a wall between the two",
         paragraphs: [
           "Separation is a practice, not a single decision. You build it with small habits that keep your identity from living inside the analytics tab. These are the ones that help most.",
-          "The most powerful habit is variety. When your week also contains things that have nothing to do with your channel, a slow video becomes one event in a full life instead of the whole story of your day."
+          "The strongest habit is variety. When your week also contains things that have nothing to do with your channel, a slow video becomes one event in a full life instead of the whole story of your day."
         ],
         bullets: [
           "Write down two reasons you make videos that have nothing to do with numbers.",

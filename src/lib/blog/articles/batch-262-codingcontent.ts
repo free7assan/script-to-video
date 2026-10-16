@@ -98,7 +98,7 @@ export const batch262: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with the problem the concept solves.",
+          "Start with the problem the concept solves.",
           "Change one thing per step and run it.",
           "Summarize each step in plain language.",
           "Let viewers predict outcomes before you run the code."

@@ -314,7 +314,7 @@ export const batch136: BlogPost[] = [
       {
         heading: "Practical habits",
         paragraphs: [
-          "Prefer your own images, licensed stock with releases, or clearly editorial contexts. Keep a record of any consent you obtain.",
+          "Prefer your own images, licensed stock with releases, or clearly editorial contexts. Keep a record of any consent you get.",
           "When a face drives your ad, get the release in writing. This is general information, not legal advice, and a professional can review your specific use.",
         ],
       },

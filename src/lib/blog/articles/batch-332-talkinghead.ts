@@ -356,7 +356,7 @@ export const batch332: BlogPost[] = [
       {
         heading: "Cut the throat clearing",
         paragraphs: [
-          "Most first drafts begin with a warm up sentence that does nothing. Delete lines like a long greeting or a restatement of the title. Start on the first useful sentence.",
+          "Most first drafts start with a warm up sentence that does nothing. Delete lines like a long greeting or a restatement of the title. Start on the first useful sentence.",
           "Read the script one last time and remove any line that only exists to connect two others. A talking head gets better as it gets leaner."
         ]
       }

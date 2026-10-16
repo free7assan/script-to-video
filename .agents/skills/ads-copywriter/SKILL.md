@@ -35,7 +35,6 @@ languages:
 
 related_skills:
   - tiktok-marketing
-  - content-writer
   - landing-page
 ---
 

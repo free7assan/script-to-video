@@ -595,7 +595,7 @@ export const batch270: BlogPost[] = [
     {
       heading: "Start with a question",
       paragraphs: [
-        "An idea driven video begins with a question the viewer already feels. Why do we reread old favorites, or what makes a character feel real? The book then becomes the tool you use to answer. That order gives the talk a purpose beyond a summary.",
+        "An idea driven video starts with a question the viewer already feels. Why do we reread old favorites, or what makes a character feel real? The book then becomes the tool you use to answer. That order gives the talk a purpose beyond a summary.",
         "Avoid opening with a thesis and a stack of terms. Plain questions reach more people. Save the abstract language for the middle once the viewer trusts where you are going."
       ]
     },

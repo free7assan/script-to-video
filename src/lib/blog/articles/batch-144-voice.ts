@@ -131,7 +131,7 @@ export const batch144: BlogPost[] = [
       {
         heading: "Slowing down on purpose",
         paragraphs: [
-          "Most new narrators speak faster under pressure from a mic or a timer. Taking a breath before starting and reading at a slightly slower pace can prevent that common shift once recording begins.",
+          "Most new narrators speak faster under pressure from a mic or a timer. Taking a breath before starting and reading at a slightly slower pace can prevent that common shift once recording starts.",
           "Slowing down also gives you time to form clear sounds. This extra time often sounds more natural to listeners than rushing to fit a target word count."
         ]
       },

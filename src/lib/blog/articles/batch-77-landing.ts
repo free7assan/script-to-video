@@ -329,7 +329,7 @@ export const batch77: BlogPost[] = [
         heading: "Design the small screen first",
         paragraphs: [
           "Start with the narrowest layout and decide what deserves the top of the page. Constraints force honest choices about what matters.",
-          "When you begin on desktop, small screens inherit whatever was left over. That leftover is usually a mess of squeezed columns and tiny text.",
+          "When you start on desktop, small screens inherit whatever was left over. That leftover is usually a mess of squeezed columns and tiny text.",
         ],
       },
       {

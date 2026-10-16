@@ -5,7 +5,7 @@ export const batch313: BlogPost[] = [
   {
     slug: "shorts-monetization-shorts-fund-basics",
     title: "How The Shorts Fund Shapes Early Monetization Gains",
-    excerpt: "Shorts monetization can begin small, and the YouTube Shorts Fund offers a starting pool of money for eligible creators with growing view counts.",
+    excerpt: "Shorts monetization can start small, and the YouTube Shorts Fund offers a starting pool of money for eligible creators with growing view counts.",
     date: "2044-06-01",
     author: {
       name: "GoScript Team",

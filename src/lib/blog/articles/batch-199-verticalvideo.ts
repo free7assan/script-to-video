@@ -23,7 +23,7 @@ export const batch199: BlogPost[] = [
       {
         heading: "Start from the thumb, not the timeline",
         paragraphs: [
-          "Most editors begin with the timeline and try to squeeze a widescreen cut into a vertical export. That order is backwards. Before I write a line, I picture the phone in a hand, the screen lit, a notification banner about to slide down from the top. The script has to survive that room.",
+          "Most editors start with the timeline and try to squeeze a widescreen cut into a vertical export. That order is backwards. Before I write a line, I picture the phone in a hand, the screen lit, a notification banner about to slide down from the top. The script has to survive that room.",
           "A viewer on a phone is often standing in line, riding a bus, or pretending to listen to someone. Their attention is rented by the second. Every block of text competes with a dozen apps sitting behind it.",
         ],
       },

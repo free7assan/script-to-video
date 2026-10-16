@@ -181,7 +181,7 @@ export const batch291: BlogPost[] = [
       {
         heading: "The short answer",
         paragraphs: [
-          "Build your niche around skills you can already demonstrate, then let the topic grow from there. A channel puts your ability on display, and viewers subscribe when they can see you know something they do not.",
+          "Build your niche around skills you can already show, then let the topic grow from there. A channel puts your ability on display, and viewers subscribe when they can see you know something they do not.",
           "Choosing a topic you must learn from zero slows every video and hides the reason anyone should trust you."
         ]
       },
@@ -214,7 +214,7 @@ export const batch291: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Anchor the niche in skills you can already demonstrate.",
+          "Anchor the niche in skills you can already show.",
           "Notice what people already ask you for help with.",
           "A rare combination beats a rare single skill.",
           "Use strong skills you dislike as a bridge to work you enjoy."

@@ -117,7 +117,7 @@ export const batch129: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with the transcript so you edit instead of invent.",
+          "Start with the transcript so you edit instead of invent.",
           "Cut filler first, then polish the sentences that remain.",
           "Structure for scanners with short sections and early answers.",
           "Add links and detail the camera never showed."

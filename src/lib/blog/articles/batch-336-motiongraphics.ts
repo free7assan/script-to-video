@@ -480,7 +480,7 @@ export const batch336: BlogPost[] = [
         heading: "Keep the break on brand",
         paragraphs: [
           "Section cards are seen many times in one video, so they set the visual rhythm for the whole piece. Use the same layout and motion every time, and only the words change.",
-          "A consistent card also helps returning viewers. They recognize the moment a new part begins and settle in for it instead of wondering where they are. Familiar cues lower the effort of watching.",
+          "A consistent card also helps returning viewers. They recognize the moment a new part starts and settle in for it instead of wondering where they are. Familiar cues lower the effort of watching.",
           "Keep the card short on screen. Its job is to signal a change, not to hold the viewer while your best animation plays and the pacing stalls. Get in, make the point, and get out.",
         ],
       },

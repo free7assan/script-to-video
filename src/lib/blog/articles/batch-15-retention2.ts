@@ -82,7 +82,7 @@ export const batch15: BlogPost[] = [
       {
         heading: "Why the ear leads the eye",
         paragraphs: [
-          "We process sound faster than we process a new image. Give the viewer the next line a beat early and they are already listening when the picture changes. Give it late and there is a half-second of nothing while their eye adjusts, and that half-second is where a scroll begins.",
+          "We process sound faster than we process a new image. Give the viewer the next line a beat early and they are already listening when the picture changes. Give it late and there is a half-second of nothing while their eye adjusts, and that half-second is where a scroll starts.",
           "I build offsets in two places: at the start of a new section, and right after a payoff. After a payoff the viewer is deciding whether to stay, so the next line should start before the frame does. They hear where the video is going before they see it.",
           "The effect is subtle by design. Nobody watches a J-cut and thinks about it. They just feel that the video keeps moving, even when the picture is standing still.",
         ],
@@ -278,7 +278,7 @@ export const batch15: BlogPost[] = [
           "Hold one music bed per section; change it at story beats only.",
           "Duck under narration by six to nine decibels so words never fight the track.",
           "Use sound effects only when they carry meaning the picture cannot.",
-          "Pull the music for a crucial line; silence makes attention return.",
+          "Pull the music for an important line; silence makes attention return.",
           "Crossfade between beds instead of a hard stop to avoid a jolt.",
         ],
       },
@@ -307,7 +307,7 @@ export const batch15: BlogPost[] = [
       {
         paragraphs: [
           "Drag is usually filler, not a shortage of content. Time compression is the edit that removes the waiting and keeps the meaning, and it changes watch time more than almost any other cut. The trick is knowing what to skip and what to keep.",
-          "I think of it as preserving the causal chain and discarding the travel between links. The viewer needs to see the setup, the turn, and the result. They do not need the four minutes where nothing moved from one to the next.",
+          "I treat it as preserving the causal chain and discarding the travel between links. The viewer needs to see the setup, the turn, and the result. They do not need the four minutes where nothing moved from one to the next.",
           "Most creators cut the wrong end. They trim the payoff to save seconds and leave the three-minute setup untouched. The empty setup is what loses viewers, not the payoff that finally rewards them.",
         ],
       },
@@ -432,7 +432,7 @@ export const batch15: BlogPost[] = [
         paragraphs: [
           "Type should land a fraction before the word it names. If it arrives after, the viewer has already moved on and the overlay feels late. If it arrives too early, it spoils the line. A quarter of a beat of lead is the sweet spot.",
           "The same rule as b-roll applies here: audio carries the idea, the visual confirms. Type that confirms is satisfying. Type that explains is work, and work is what makes people leave.",
-          "Trim the exit too. Keep the overlay on screen for a beat after the word is spoken, then take it away. A card that lingers while the next sentence begins keeps the eye on the past.",
+          "Trim the exit too. Keep the overlay on screen for a beat after the word is spoken, then take it away. A card that lingers while the next sentence starts keeps the eye on the past.",
         ],
       },
       {

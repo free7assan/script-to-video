@@ -336,7 +336,7 @@ export const batch181: BlogPost[] = [
   {
     slug: "scriptwriting-handling-jargon",
     title: "Handling Jargon in a Video Script Without Dumbing It Down",
-    excerpt: "Jargon can lose your audience in a single sentence. Learn how to translate technical terms in a video script without insulting the viewers who already know them.",
+    excerpt: "Jargon can lose your audience in a single sentence. Learn how to translate technical terms in a script without insulting the viewers who already know them.",
     date: "2033-06-16",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["writing", "scripts", "clarity"],
@@ -415,7 +415,7 @@ export const batch181: BlogPost[] = [
         paragraphs: [
           "Pacing is the speed at which you hand out information. Too slow and the viewer gets bored before the payoff. Too fast and they lose the thread and leave confused.",
           "You control pacing on the page through sentence length, section length, and the placement of pauses. A script that reads at one steady speed will feel flat no matter how good the content is.",
-          "Think of it as music. You need fast passages and rests. A song at one tempo for ten minutes is not a song. It is a drill."
+          "Treat it as music. You need fast passages and rests. A song at one tempo for ten minutes is not a song. It is a drill."
         ]
       },
       {

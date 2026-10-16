@@ -17,7 +17,7 @@ export const batch285: BlogPost[] = [
     slug: "reverse-engineering-the-hook",
     title: "Reverse Engineering the Hook Before the Rest Lands",
     excerpt:
-      "Reverse engineering a hit video begins at the hook, because nothing else in the script matters if the first three seconds fail to hold a viewer.",
+      "Reverse engineering a hit video starts at the hook, because nothing else in the script matters if the first three seconds fail to hold a viewer.",
     date: "2042-02-01",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["strategy", "analysis", "patterns"],
@@ -286,7 +286,7 @@ export const batch285: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Reading the title and thumbnail as one unit reveals the promise a video makes before playback begins. The two pieces should not repeat each other. They should combine into a single idea the viewer cannot fully resolve from the feed alone.",
+          "Reading the title and thumbnail as one unit reveals the promise a video makes before playback starts. The two pieces should not repeat each other. They should combine into a single idea the viewer cannot fully resolve from the feed alone.",
           "A title that says everything and a thumbnail that says the same thing wastes half your packaging. The best pairs leave one question open and let the other half answer a different one.",
           "I sketch the pair before I ever look at the video. If I can predict the whole content from the packaging, the packaging has done its job, because a click needs a reason, not a summary.",
         ],

@@ -162,7 +162,7 @@ export const batch254: BlogPost[] = [
       heading: "Give the edit three speeds",
       paragraphs: [
         "Technique gets real time, repetition gets double speed, and long waits get a hard cut. That pattern hands the viewer a rhythm to follow. When every clip runs at the same pace, the middle of a build drags badly.",
-        "Speed ramps work best at the start and end of a run. Begin slow so the motion is clear, then let it accelerate as the action repeats. Cut away before the ramp turns into a waiting room.",
+        "Speed ramps work best at the start and end of a run. Start slow so the motion is clear, then let it accelerate as the action repeats. Cut away before the ramp turns into a waiting room.",
         "Label the clips by speed before you place them. Sorting faster and slower material into separate bins makes the edit a matter of order rather than guesswork."
       ]
     },
@@ -384,7 +384,7 @@ export const batch254: BlogPost[] = [
       heading: "Show the tool before it bites",
       paragraphs: [
         "Introduce a dangerous tool on camera before you use it. Say its name, show the switch, and point out the guard. That pause prepares the viewer for the sound and the risk. Surprises are fine in storytelling, not in a workshop.",
-        "Demonstrate the tool on scrap first. A short test cut shows how the machine behaves before the real piece goes near it. Viewers learn the feel of the tool without any risk to the project. It also proves the setup is sound.",
+        "Show the tool on scrap first. A short test cut shows how the machine behaves before the real piece goes near it. Viewers learn the feel of the tool without any risk to the project. It also proves the setup is sound.",
         "Turn the tool off and wait for it to stop before you talk to camera. Talking over a spinning blade is the exact moment a hand drifts. Stillness is the safest habit and the easiest one to film."
       ]
     },
@@ -453,7 +453,7 @@ export const batch254: BlogPost[] = [
       paragraphs: [
         "Time is a cost most build videos ignore and viewers quietly care about. Say how many hours the project took, split between prep, assembly, and finish. A weekend build and a month long build look identical on screen without that note. Honest hours prevent disappointment.",
         "Include the time you spent fixing mistakes as well. Hiding rework makes the project look faster than it was and sets false expectations. A viewer who plans for setbacks finishes their build instead of abandoning it halfway.",
-        "Offer a shortcut when one exists. A quicker method that saves an afternoon is worth filming, even if it looks less elegant. Practical answers build more loyalty than clever ones."
+        "Offer a shortcut when one exists. A quicker method that saves an afternoon is worth filming, even if it looks less polished. Practical answers build more loyalty than clever ones."
       ]
     },
     {

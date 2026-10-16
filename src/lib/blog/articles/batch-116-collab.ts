@@ -98,7 +98,7 @@ export const batch116: BlogPost[] = [
         heading: "What to leave out",
         paragraphs: [
           "Do not attach a full contract to a first message. Save the legal details for after they show interest.",
-          "Avoid guilt or flattery as leverage. Neither gets a real answer, and both make a second pitch harder."
+          "Avoid guilt or flattery as a lever. Neither gets a real answer, and both make a second pitch harder."
         ]
       },
       {

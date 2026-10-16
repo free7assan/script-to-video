@@ -92,7 +92,7 @@ export const batch226: BlogPost[] = [
         ]
       },
       {
-        quote: "A goal is not a wish. It is the bill you must be able to pay before the work begins."
+        quote: "A goal is not a wish. It is the bill you must be able to pay before the work starts."
       },
       {
         heading: "Leave room to grow",

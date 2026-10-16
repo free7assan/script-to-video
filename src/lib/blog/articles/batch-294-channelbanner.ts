@@ -27,13 +27,13 @@ export const batch294: BlogPost[] = [
           "Use guides in a free design tool to mark the safe area at the start. Position your background shapes or images outside that center zone so they fill edges on large screens without crowding the text. This keeps the banner simple and helps with readability."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Use a 1546x423 center safe area for 2560x1440 channel banners.",
           "Place all essential text inside the safe area for mobile readability.",
           "Mark safe zone guides before adding graphics.",
-          "Test your banner on different devices before publishing."
+          "Test your banner on different devices before publishing.",
         ]
       },
       {
@@ -50,7 +50,7 @@ export const batch294: BlogPost[] = [
   },
   {
     slug: "channel-banner-text-size",
-    title: "Choosing Channel Banner Text Size That Reads on Small Screens",
+    title: "Channel Banner Text Size That Reads on Small Screens",
     excerpt: "Choosing the right channel banner text size helps your channel name stay readable on mobile devices while fitting cleanly in the banner's safe viewing area.",
     date: "2042-11-02",
     author: { name: "GoScript Team", role: "Design" },
@@ -73,13 +73,13 @@ export const batch294: BlogPost[] = [
           "Limit your banner to two or three lines of text total. More lines increase the chance of overlap with parts that get cropped on different devices. Focusing on one main message makes the banner stronger."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Use 60 to 90 point font for main titles at 2560x1440.",
           "Use 36 to 48 point font for short supporting text.",
           "Choose bold, simple fonts for better readability.",
-          "Limit to two or three short text lines."
+          "Limit to two or three short text lines.",
         ]
       },
       {
@@ -96,7 +96,7 @@ export const batch294: BlogPost[] = [
   },
   {
     slug: "channel-banner-upload-schedule",
-    title: "Adding an Upload Schedule to Your Channel Banner Without Clutter",
+    title: "Adding an Upload Schedule to Your Channel Banner",
     excerpt: "Adding an upload schedule to your channel banner can set viewer expectations if placed clearly in the safe area with minimal text for easy reading.",
     date: "2042-11-03",
     author: { name: "GoScript Team", role: "Design" },
@@ -119,13 +119,13 @@ export const batch294: BlogPost[] = [
           "Choose a font size around 40 points for the schedule text when designing at 2560x1440. Use the same font family as your title for consistency, but a lighter weight if needed. This keeps banner and avatar consistency across your channel art."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
-          "Keep upload schedule to one short line like 'New videos every Friday.'",
+          "Keep the upload schedule to one short line.",
           "Place it in the safe area with smaller text than your channel name.",
-          "Use consistent font family with enough line spacing.",
-          "Avoid adding times unless absolutely necessary."
+          "Use a consistent font family with enough line spacing.",
+          "Avoid adding times unless absolutely necessary.",
         ]
       },
       {
@@ -165,13 +165,13 @@ export const batch294: BlogPost[] = [
           "If you want to use an image, blur it or crop to a solid area near the center where text sits. This keeps the focus on your message while still adding a touch of personality to your channel art."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Use solid colors or subtle gradients for better text readability.",
           "Avoid busy patterns behind the safe area.",
-          "Ensure strong contrast between text and background.",
-          "Keep the design simple to scale across devices."
+          "Keep strong contrast between text and background.",
+          "Keep the design simple to scale across devices.",
         ]
       },
       {
@@ -211,13 +211,13 @@ export const batch294: BlogPost[] = [
           "Consider how the avatar sits against the banner area when viewed on channel pages. Leave space in your banner so the avatar does not cover important text in the safe area. Plan placement during your initial layout."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Use the same color palette for banner and avatar.",
-          "Share font family or style between elements.",
-          "Leave clear space so avatar does not block banner text.",
-          "Keep shapes and style aligned for a unified look."
+          "Share a font family or style between elements.",
+          "Leave clear space so the avatar does not block banner text.",
+          "Keep shapes and style aligned for a unified look.",
         ]
       },
       {
@@ -234,7 +234,7 @@ export const batch294: BlogPost[] = [
   },
   {
     slug: "channel-banner-seasonal-updates",
-    title: "Planning Seasonal Banner Updates Without Starting From Scratch",
+    title: "Seasonal Banner Updates Without Starting From Scratch",
     excerpt: "Seasonal banner updates help keep your channel banner fresh for events while saving time by reusing your layout, safe areas, and brand colors.",
     date: "2042-11-08",
     author: { name: "GoScript Team", role: "Design" },
@@ -257,13 +257,13 @@ export const batch294: BlogPost[] = [
           "Use your brand color palette as a base and add one seasonal accent color. This keeps changes subtle and readable. Simple background design makes these swaps clean."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Save your banner layout as a reusable template with safe area guides.",
           "Swap only colors or small accents for each seasonal update.",
           "Keep text placement and fonts the same for consistency.",
-          "Test readability after making seasonal changes."
+          "Test readability after making seasonal changes.",
         ]
       },
       {
@@ -292,7 +292,7 @@ export const batch294: BlogPost[] = [
       {
         heading: "The quick answer",
         paragraphs: [
-          "You can create a channel banner using a free design tool by starting with a 2560x1440 canvas. Mark the safe area of 1546x423 pixels in the center before adding text. This ensures your banner looks good across all devices.",
+          "You can create a channel banner using a free design tool by starting with a 2560x1440 canvas. Mark the safe area of 1546x423 pixels in the center before adding text. This makes sure your banner looks good across all devices.",
           "Most free tools include guides, shapes, and text options. Focus on simple background design and readable fonts to get clean results."
         ]
       },
@@ -303,13 +303,13 @@ export const batch294: BlogPost[] = [
           "Keep banner and avatar consistency by using your brand colors and font. Avoid placing important elements near the very edges. Leave space so nothing critical gets cropped on smaller screens."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
-          "Use canvas size 2560x1440 for YouTube channel banners.",
+          "Use a 2560x1440 canvas for YouTube channel banners.",
           "Mark a 1546x423 safe area in the center as your text zone.",
           "Use readable fonts and high contrast colors.",
-          "Export as PNG or JPG at high quality."
+          "Export as PNG or JPG at high quality.",
         ]
       },
       {
@@ -349,13 +349,13 @@ export const batch294: BlogPost[] = [
           "Adding multiple calls to action creates clutter. One clear message like your channel name or upload schedule is enough. Too many colors also compete for attention."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
           "Do not place important text outside the safe area.",
           "Avoid thin, decorative fonts that lose clarity on mobile.",
           "Avoid busy backgrounds behind text.",
-          "Do not overload with multiple messages or colors."
+          "Do not overload with multiple messages or colors.",
         ]
       },
       {
@@ -373,7 +373,7 @@ export const batch294: BlogPost[] = [
   {
     slug: "channel-banner-readability-testing",
     title: "How to Test Channel Banner Readability on Every Device",
-    excerpt: "Testing channel banner readability across devices helps ensure your text stays clear on mobile, desktop, and TV by checking size, contrast, and safe area placement.",
+    excerpt: "Testing channel banner readability across devices keeps your text clear on mobile, desktop, and TV by checking size, contrast, and safe-area placement.",
     date: "2042-11-20",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["branding", "design", "channel"],
@@ -395,13 +395,13 @@ export const batch294: BlogPost[] = [
           "Also review banner and avatar consistency when viewed together on your channel page. Make sure the avatar does not cover key text. Simple background design makes this easier to validate."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
-          "Test your banner on at least mobile and desktop devices.",
+          "Test your banner on at least mobile and desktop.",
           "Confirm all text stays inside the safe area on every screen.",
           "Check contrast and readability from a normal viewing distance.",
-          "Verify avatar does not block important banner elements."
+          "Verify the avatar does not block important banner elements.",
         ]
       },
       {
@@ -440,22 +440,20 @@ export const batch294: BlogPost[] = [
           "Start with 2560x1440 canvas and mark the safe area at 1546x423 in the center. Choose your brand colors for banner and avatar consistency. Plan your message: channel name plus optional upload schedule. Pick a simple background design and readable fonts."
         ]
       },
-      {
+            {
+        heading: "Key takeaways",
         bullets: [
-          "Key takeaways",
-          "Canvas set to 2560x1440 with safe area guides marked.",
-          "Text placed fully inside safe area with 60 to 90 point size for titles.",
-          "Strong contrast between text and background for readability.",
-          "Upload schedule kept short if included.",
-          "Banner and avatar colors match your brand.",
-          "Tested on mobile and desktop before upload.",
-          "Project file saved for seasonal banner updates."
+          "Set the canvas to 2560x1440 with safe area guides marked.",
+          "Keep text fully inside the safe area at 60 to 90 point for titles.",
+          "Use strong contrast between text and background.",
+          "Match banner and avatar colors, and test on mobile and desktop.",
+          "Save the project file for seasonal updates.",
         ]
       },
       {
         heading: "Final checks before upload",
         paragraphs: [
-          "Preview the banner at mobile size to confirm no cropping. Check spelling of your channel name and accuracy of your upload schedule. Ensure the file is exported at high quality in PNG or JPG format. Upload to YouTube and verify it renders correctly on your channel page.",
+          "Preview the banner at mobile size to confirm no cropping. Check spelling of your channel name and accuracy of your upload schedule. Make sure the file is exported at high quality in PNG or JPG format. Upload to YouTube and verify it renders correctly on your channel page.",
           "If anything looks off, make a small adjustment and test again. This simple process gives you confidence in your channel art."
         ]
       },

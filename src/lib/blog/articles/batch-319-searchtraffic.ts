@@ -544,7 +544,7 @@ export const batch319: BlogPost[] = [
         heading: "What makes a how-to query different",
         paragraphs: [
           "A how-to viewer has a goal and a limited amount of patience. They want the answer, and they will reward a video that gets to it without wandering through a long intro.",
-          "That intent makes retention easier to earn and easier to lose. A video that starts with the answer keeps the viewer. One that delays it loses them before the real content begins.",
+          "That intent makes retention easier to earn and easier to lose. A video that starts with the answer keeps the viewer. One that delays it loses them before the real content starts.",
           "The query itself is usually specific, which helps a smaller channel. The broad version of a how-to is crowded, but the exact task often has open space at the top."
         ]
       },

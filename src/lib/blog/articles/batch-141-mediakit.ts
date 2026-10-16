@@ -425,7 +425,7 @@ export const batch141: BlogPost[] = [
         heading: "Review it every two weeks",
         paragraphs: [
           "Set a recurring block to review the sheet and clean it up. Move stale rows, schedule follow-ups, and mark anything that needs a reply from you. The ritual keeps the pipeline alive between busy weeks.",
-          "Track one simple ratio over time, like pitches sent to deals closed. Watching that number move tells you whether your kit and pitch are improving or just getting more numerous."
+          "Track one simple ratio over time, like pitches sent to deals closed. Watching that number move tells you whether your kit and pitch are improving or just getting more common."
         ]
       },
       {

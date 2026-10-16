@@ -5,7 +5,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-why-viewers-click",
     title: "Why viewers actually click the subscribe button",
-    excerpt: "A viewer clicks subscribe only when they see a clear reason to follow your channel for future content instead of finding one video and leaving with no plan to return.",
+    excerpt: "A viewer clicks subscribe only when they see a clear reason to follow you for future content, not just one good video with no promise of more to come.",
     date: "2045-06-01",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -58,7 +58,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-clear-channel-promise",
     title: "The value of a clear channel promise",
-    excerpt: "A clear channel promise tells a new viewer in seconds why to follow you. Without it, watch time does not translate well to subscribers because the next step feels uncertain.",
+    excerpt: "A clear channel promise tells a new viewer in seconds why to follow you. Without it, watch time rarely turns into subscribers: the next step feels vague.",
     date: "2045-06-04",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -112,7 +112,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-moment-of-trust",
     title: "Finding the subscribe moment and timing it well",
-    excerpt: "The subscribe moment is not the end card by default. It is the point in a video when the viewer feels they got what they came for and want more of that value later.",
+    excerpt: "The subscribe moment is not the end card by default. It is the point when the viewer feels they got what they came for and want more of that value later.",
     date: "2045-06-07",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -166,7 +166,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-ask-without-begging",
     title: "How to ask viewers to subscribe without begging",
-    excerpt: "Asking for a subscribe does not need to sound desperate. When you offer a clear reason tied to future value, the ask feels like a helpful suggestion instead of a favor.",
+    excerpt: "Asking for a subscribe does not need to sound desperate. When you offer a clear reason tied to future value, the ask feels like a suggestion, not a favor.",
     date: "2045-06-09",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -220,7 +220,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-reason-not-favor",
     title: "Offering a reason rather than a favor",
-    excerpt: "Viewers are more likely to subscribe when the action gives them a clear return. Framing the ask around a reason, not a favor, keeps your tone fair and consistent.",
+    excerpt: "Viewers are more likely to subscribe when the action gives them a clear return. Framing the ask around a reason, not a favor, keeps your tone fair and steady.",
     date: "2045-06-11",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -274,7 +274,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-backlog-that-converts",
     title: "Building a backlog that actually converts viewers",
-    excerpt: "A strong backlog gives new viewers a reason to subscribe because they can see a clear path of useful content waiting for them beyond the video they just watched.",
+    excerpt: "A strong backlog gives new viewers a reason to subscribe because they can see a clear path of useful content waiting for them beyond the video they watched.",
     date: "2045-06-14",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -328,7 +328,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-first-three-videos",
     title: "Why people subscribe after watching a few videos",
-    excerpt: "Many subscribers do not click after video one. They click after watching two or three videos that consistently deliver the same value, proving your channel is reliable.",
+    excerpt: "Many subscribers never click after video one. They click after two or three videos that deliver the same value, proving your channel is worth following.",
     date: "2045-06-16",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -347,7 +347,7 @@ export const batch325: BlogPost[] = [
         heading: "Designing your first three",
         paragraphs: [
           "Treat your first three uploads as an entry path. Make each one solve a different angle of the same problem, so a viewer can move forward naturally. For example, video one covers the basics, video two covers a common edge case, video three covers a practical example. Together they show range within focus.",
-          "Ensure each of these videos has a clear ask at the trust moment that references the next in the path or the overall promise. You are not pushing the button harder, you are reinforcing why the path continues."
+          "Make sure each of these videos has a clear ask at the trust moment that references the next in the path or the overall promise. You are not pushing the button harder, you are reinforcing why the path continues."
         ]
       },
       {
@@ -382,7 +382,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-subs-per-view-ratio",
     title: "Reading the subscribers per view ratio",
-    excerpt: "Subscribers per view shows how well a video turns viewers into followers. It is a simple ratio that helps you spot which uploads actually earn a subscribe for your channel.",
+    excerpt: "Subscribers per view shows how well a video turns viewers into followers. It is a simple ratio that helps you spot which uploads actually earn a subscribe.",
     date: "2045-06-19",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -436,7 +436,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-when-low-ratio-fine",
     title: "When a low subscribers per view ratio is fine",
-    excerpt: "A low ratio is not always a problem. Sometimes it means your video serves viewers with one time needs, or it reaches existing fans who do not need to subscribe again.",
+    excerpt: "A low ratio is not always a problem. Sometimes it means your video serves viewers with one-time needs, or reaches existing fans who do not need to subscribe.",
     date: "2045-06-22",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],
@@ -490,7 +490,7 @@ export const batch325: BlogPost[] = [
   {
     slug: "subscriber-conversion-growing-subs-you-keep",
     title: "Growing subscribers you actually keep over time",
-    excerpt: "Getting new subscribers matters, but keeping them matters more. Growth that matches your channel promise leads to subscribers who stay and engage with future videos.",
+    excerpt: "Getting new subscribers matters, but keeping them matters more. Growth that matches your channel promise leads to subscribers who stay and watch future videos.",
     date: "2045-06-25",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "cta", "retention"],

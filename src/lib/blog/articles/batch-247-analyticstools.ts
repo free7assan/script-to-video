@@ -24,7 +24,7 @@ export const batch247: BlogPost[] = [
         heading: "What the platform already gives you",
         paragraphs: [
           "YouTube Studio, TikTok analytics, and Instagram Insights all report the same core set: impressions, click-through rate, average view duration, retention curves, traffic sources, and subscriber movement. That set already answers whether a video worked and roughly why it did.",
-          "More usefully, those numbers sit next to the content. You can jump from a retention dip to the exact second it happened, which is where diagnosis begins. Third-party tools rarely reach that timestamp, and the gap costs more than the extra charts gain.",
+          "More usefully, those numbers sit next to the content. You can jump from a retention dip to the exact second it happened, which is where diagnosis starts. Third-party tools rarely reach that timestamp, and the gap costs more than the extra charts gain.",
           "Every field is also exportable, which matters more than it sounds. A native dashboard answers today's question well and last year's question badly, because the detail fades after a few months. The export is what keeps the answer alive when you finally need it.",
         ],
       },
@@ -576,7 +576,7 @@ export const batch247: BlogPost[] = [
         heading: "Frame without distorting",
         paragraphs: [
           "Context is not spin. Saying the video hit eighty percent of your usual views while the category average was fifty-five percent of its own baseline gives the sponsor something real to work with, and comparing to your own average is the fairest benchmark you control.",
-          "If a number missed, say what you think happened and what you would change in the next placement. Sponsors forgive misses; they do not forgive discovering them on their own. The sentence that begins 'this underperformed because' has closed more renewals than any highlight reel.",
+          "If a number missed, say what you think happened and what you would change in the next placement. Sponsors forgive misses; they do not forgive discovering them on their own. The sentence that starts 'this underperformed because' has closed more renewals than any highlight reel.",
           "Send the report on a schedule rather than at random. Predictable timing signals that you run this like a business, and it removes the awkwardness of whether to mention a weak number or wait to be asked about it.",
         ],
       },
@@ -667,7 +667,7 @@ export const batch247: BlogPost[] = [
       },
       {
         paragraphs: [
-          "The review is the cheapest leverage in a creator's week. Twenty minutes of honest comparison outperforms an afternoon of dashboard tourism, and it compounds because every decision you write becomes evidence for the next one.",
+          "The review is the cheapest advantage in a creator's week. Twenty minutes of honest comparison outperforms an afternoon of dashboard tourism, and it compounds because every decision you write becomes evidence for the next one.",
           "Start this Monday with one row per upload and one sentence of intent. Skip the tools that promise to do it for you until the habit exists, because a habit that lives in your own spreadsheet survives a change of software.",
         ],
       },

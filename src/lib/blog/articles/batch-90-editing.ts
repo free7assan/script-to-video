@@ -266,7 +266,7 @@ export const batch90: BlogPost[] = [
       },
       {
         quote:
-          "Great grades feel effortless because the editor solved the contrast and saturation problem before the viewer ever noticed it existed.",
+          "Great grades feel easy because the editor solved the contrast and saturation problem before the viewer ever noticed it existed.",
       },
       {
         heading: "A workflow that keeps both in check",

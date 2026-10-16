@@ -268,7 +268,7 @@ export const batch276: BlogPost[] = [
     {
       heading: "Start with the phone in your hand",
       paragraphs: [
-        "Digital minimalism begins with the device you check first. Count your screen time for a day and read the top three apps. Those numbers are the real story, and they tell viewers where the work starts. Guessing about your habits rarely matches the report.",
+        "Digital minimalism starts with the device you check first. Count your screen time for a day and read the top three apps. Those numbers are the real story, and they tell viewers where the work starts. Guessing about your habits rarely matches the report.",
         "Show your home screen as it is. Cluttered folders and a wall of red badges say more than a tidy mockup. Honest footage gives people a place to see their own habits. A cleaned up screen for the camera helps nobody."
       ]
     },

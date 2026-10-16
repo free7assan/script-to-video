@@ -22,6 +22,15 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Search intent is the job behind the query.",
+          "Match the format to the intent, not the other way around.",
+          "Read intent from the query words themselves.",
+          "The title is a promise; the video is the receipt.",
+        ]
+      },
+      {
         heading: "Match the format to the intent",
         paragraphs: [
           "Format signals intent as loudly as the title does. A 22 minute documentary cannot answer a fix query, and a 90 second clip cannot teach a full workflow. When format and intent disagree, people leave in the first 15 seconds and the impressions dry up within a day.",
@@ -90,6 +99,15 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "YouTube does not count keywords like a spreadsheet.",
+          "Put the core phrase near the front of the title.",
+          "Say the topic aloud in the first 15 seconds.",
+          "Name chapters the way a viewer would search.",
+        ]
+      },
+      {
         heading: "Write the way the query is spoken",
         paragraphs: [
           "Start with the exact phrase a viewer would type, then write around it like a person. If the phrase is \"budget travel camera,\" your title does not need it three times. It needs it once, in a place a human would naturally put it.",
@@ -147,6 +165,15 @@ export const batch08: BlogPost[] = [
           "Search traffic arrives with a question. Browse traffic arrives with time to kill and no plan. The first person already knows what they want. The second person is choosing between you and the thumbnail two inches to the left.",
           "I used to lump both into one \"views\" number and optimize for neither. Once I split them, my decisions got sharper. A search video needs precision. A browse video needs a hook that works in half a second of scanning.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Browse and search are two doors with two different people.",
+          "Search rewards clarity and exact matches.",
+          "Browse numbers look harsh because the feed tests small first.",
+          "Read the two surfaces together, not blended.",
+        ]
       },
       {
         heading: "Search traffic rewards clarity",
@@ -209,6 +236,15 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The algorithm is not random, but it is not fair either.",
+          "Volume, upload times, and hashtags are not the levers.",
+          "Optimize for the second click, not the algorithm.",
+          "Build a repeatable process instead of gambling each upload.",
+        ]
+      },
+      {
         heading: "What actually drives the recommendation",
         paragraphs: [
           "Two clicks matter more than anything else: the click onto your video, and the click that keeps the viewer on YouTube after it ends. Everything the algorithm does serves those two events.",
@@ -266,6 +302,15 @@ export const batch08: BlogPost[] = [
           "Whenever someone finishes a video, YouTube offers a next one on the right or the end screen. That sidebar is not random. It is a guess about what this specific viewer would watch next, based on what people like them did before.",
           "If your video gets placed beside a giant in your niche, the traffic can be enormous. If it gets placed beside something unrelated, you get clutter clicks and poor retention.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Adjacency is the room your video walks into.",
+          "Match the length, pacing, and tone of your neighbors.",
+          "Answer the next obvious question the other video left open.",
+          "Keep retention strong in the back half, where placement is tested.",
+        ]
       },
       {
         heading: "How the shelf gets built",
@@ -328,6 +373,15 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Playlists are an underused front door.",
+          "Give the playlist a searchable promise, not a folder name.",
+          "Order videos as a path, opening with your strongest.",
+          "Keep entries tightly related so the promise holds.",
+        ]
+      },
+      {
         heading: "Why YouTube likes a good playlist",
         paragraphs: [
           "The platform cares about watch time across a session, not just per video. A playlist that keeps someone watching through five videos is a small gift to the recommendation system, and the system remembers.",
@@ -388,12 +442,21 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Most metadata is decoration.",
+          "Title and thumbnail do the heavy lifting.",
+          "The first two description lines carry real weight.",
+          "The spoken opening is a keyword whether you planned it or not.",
+        ]
+      },
+      {
         heading: "The fields that move discovery",
         paragraphs: [
           "If you only had ten minutes, this is where I would put them.",
         ],
         bullets: [
-          "Title: the single highest-leverage text on the page, and the phrase that earns the click.",
+          "Title: the single highest-value text on the page, and the phrase that earns the click.",
           "Thumbnail: technically an image, but it works like metadata and often decides everything.",
           "First two description lines: shown in search and suggested feeds, so they carry real weight.",
           "Spoken opening: YouTube reads the transcript, so the first sentence is a keyword whether you planned it or not.",
@@ -445,6 +508,15 @@ export const batch08: BlogPost[] = [
           "A new channel feels like shouting into a void, but the void contains millions of people searching every day. They do not care that you are new. They care whether your video answers their question.",
           "This is the one advantage of starting now: search demand already exists, and it does not check your subscriber count before it shows a result.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "No subscribers is not the same as no audience.",
+          "Start where search demand already sits.",
+          "Treat the first 30 videos as research.",
+          "Judge the pattern across thirty uploads, not video three.",
+        ]
       },
       {
         heading: "Start where the search demand already sits",
@@ -507,6 +579,15 @@ export const batch08: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Tags are the least important field, still worth ten minutes.",
+          "Chapters help humans, and humans help you.",
+          "Write the first two description lines to do a job.",
+          "Use natural sentences, not a wall of repeated keywords.",
+        ]
+      },
+      {
         heading: "Chapters help humans, and humans help you",
         paragraphs: [
           "Chapters do not directly boost ranking in any clean way I can measure. What they do is let a viewer jump to the exact answer, which keeps them from leaving out of frustration. That retention shows up in the graph.",
@@ -564,6 +645,15 @@ export const batch08: BlogPost[] = [
           "Every video is racing two clocks. One measures whether people care this week, the other measures whether they will still care in two years. Most topics lean hard toward one and barely register on the other.",
           "Trend videos spike fast and fall off a cliff. Evergreen videos start slow and keep a low, steady heartbeat. A channel needs both eventually, but the right mix depends on where you are.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Evergreen and trend run on two clocks at once.",
+          "Trend videos work best when they relate to your evergreen core.",
+          "Speed beats polish when chasing a trend.",
+          "One hit trend can fund a month of sturdier uploads.",
+        ]
       },
       {
         heading: "What evergreen actually means",

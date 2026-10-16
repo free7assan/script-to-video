@@ -146,7 +146,7 @@ export const batch349: BlogPost[] = [
         paragraphs: [
           "Mapping pillars to weeks means assigning each content pillar a fixed place in a repeating weekly pattern, so week one is always tutorials and week two is always story videos. The pattern repeats until the month ends and then starts again.",
           "You stop deciding from scratch every Sunday night, and the question changes from what should I make to which pillar is due. That smaller question gets answered in minutes instead of an hour.",
-          "The system is boring by design, and boring is what a monthly calendar needs. Nobody sticks to a plan that demands a fresh burst of creative direction every time a week begins."
+          "The system is boring by design, and boring is what a monthly calendar needs. Nobody sticks to a plan that demands a fresh burst of creative direction every time a week starts."
         ]
       },
       {

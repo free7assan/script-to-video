@@ -139,7 +139,7 @@ export const batch331: BlogPost[] = [
       {
         heading: "Escalate on a curve",
         paragraphs: [
-          "You do not need maximum danger at the start. Begin with a small cost, then let it grow as the challenge wears on. A gentle line includes every viewer, and a steep one frightens most of them off too early.",
+          "You do not need maximum danger at the start. Start with a small cost, then let it grow as the challenge wears on. A gentle line includes every viewer, and a steep one frightens most of them off too early.",
           "Layer stakes one at a time. Each new consequence should build on the last, so the pressure feels earned instead of announced.",
         ],
       },

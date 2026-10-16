@@ -21,7 +21,7 @@ export const batch235: BlogPost[] = [
         ]
       },
       {
-        heading: "How these bonds begin",
+        heading: "How these bonds start",
         paragraphs: [
           "Exposure builds recognition, and recognition leads to comfort for many viewers. When a creator speaks regularly on camera, small habits can feel personal to someone watching alone.",
           "These habits may include tone, phrasing, or reactions to everyday events. Over months or years, those details become part of a viewer's routine without any direct contact."
@@ -31,7 +31,7 @@ export const batch235: BlogPost[] = [
         quote: "Familiarity can create closeness, but closeness still needs consent from both sides."
       },
       {
-        heading: "Why they can be powerful",
+        heading: "Why they carry weight",
         paragraphs: [
           "Many viewers turn to creators for comfort during hard periods or for company during solitary tasks. That reliance can be positive when it leads to healthy habits or a sense of belonging.",
           "At the same time, creators hold influence over these feelings without always seeing their full effect. That imbalance calls for care in how much weight is placed on audience reactions."
@@ -112,7 +112,7 @@ export const batch235: BlogPost[] = [
     icon: Eye,
     content: [
       {
-        heading: "Connection begins with presence",
+        heading: "Connection starts with presence",
         paragraphs: [
           "On-camera connection grows when a creator pays attention to their delivery without overacting. Small pauses, natural tone, and eye contact with the lens can all signal care to a viewer.",
           "These cues may seem minor, but repeated over many videos they form the base of a parasocial bond. Viewers notice consistency more than perfection."

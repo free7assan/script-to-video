@@ -499,7 +499,7 @@ export const batch66: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with two groups, not twenty.",
+          "Start with two groups, not twenty.",
           "Let behavior define the split.",
           "Build a segment only when it changes what you send.",
           "Resist tags you have no plan to use.",

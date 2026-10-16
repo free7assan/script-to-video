@@ -6,7 +6,7 @@ export const batch03: BlogPost[] = [
     slug: "story-three-act-structure-for-creators",
     title: "Three-Act Structure for Creators Who Hate Formulas",
     excerpt:
-      "The three-act structure is the oldest organizing tool in storytelling. Used badly it feels like a template; used well it disappears and the viewer just keeps watching.",
+      "The three-act structure is the oldest tool in storytelling. Used badly it feels like a template; used well it disappears and the viewer keeps watching.",
     date: "2024-03-12",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["storytelling", "structure", "narrative"],
@@ -19,6 +19,15 @@ export const batch03: BlogPost[] = [
           "I avoided three-act structure for years because it sounded like something a screenwriting professor put on a whiteboard to justify tenure. The videos I loved did not appear to follow any template at all. Then I mapped ten of my favorites onto the shape and found it hiding in plain sight, over and over.",
           "The dry summary is setup, then confrontation, then resolution. The more useful framing tracks what the viewer does at each stage. They arrive with a question, get pulled deeper into the middle, and at the end either feel paid off or cheated.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Act one should pose a specific question the rest of the video answers.",
+          "Keep the promise legible: who it is for and what they get.",
+          "Stretch the act proportions, but keep the underlying shape.",
+          "Run an act-one check: could a stranger restate the promise?",
+        ]
       },
       {
         paragraphs: [],
@@ -85,6 +94,15 @@ export const batch03: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Stakes are a relationship with the viewer, not a volume knob.",
+          "Ask what happens if the main thing fails, and who pays.",
+          "Deadlines and constraints do most of the heavy lifting.",
+          "Raise stakes by narrowing the outcome.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "Viewers do not stay for your topic. They stay to find out whether the thing you care about is going to survive.",
       },
@@ -141,6 +159,15 @@ export const batch03: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "If narration explains how to feel about a readable shot, cut it.",
+          "Summarizing a scene instead of cutting to it is telling.",
+          "Telling is right when a scene would cost too much runtime.",
+          "Run a rewrite pass to remove 'I felt' and 'it was' openers.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "A sentence tells the viewer what to think. A shot lets them arrive at the thought themselves, and a thought you find is louder than one you are handed.",
       },
@@ -164,7 +191,7 @@ export const batch03: BlogPost[] = [
           "Your narration explains how the viewer is supposed to feel about a shot they can already read.",
           "You summarize a scene instead of cutting to it.",
           "The most important moment in the video happens off-screen.",
-          "Every sentence begins with 'I felt' or 'it was'.",
+          "Every sentence starts with 'I felt' or 'it was'.",
         ],
         paragraphs: [
           "Two of these in a single section is a signal to stop scripting and start boarding. Often the footage already exists and the words are the problem.",
@@ -193,9 +220,18 @@ export const batch03: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Personal stories are the highest-leverage material a creator has, and the easiest to overuse. Anecdotes buy attention because they are concrete and they signal a real person. They also cost the viewer's patience if the story is only about you.",
+          "Personal stories are the highest-value material a creator has, and the easiest to overuse. Anecdotes buy attention because they are concrete and they signal a real person. They also cost the viewer's patience if the story is only about you.",
           "The test I use is simple. Does the anecdote change how the viewer understands the lesson, or does it just delay the lesson? If removing it changes nothing, it is decoration.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Start in the action, not the biography.",
+          "Pick stories that carry a visible change.",
+          "Keep the cast small and cut relationship-establishing lines.",
+          "End on the insight, not the scene's resolution.",
+        ]
       },
       {
         paragraphs: [],
@@ -255,6 +291,15 @@ export const batch03: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Choose the subject by tension, not prestige.",
+          "Structure the case study like a mystery: outcome, then rewind.",
+          "Treat numbers as characters with a role in the turn.",
+          "End with a lesson the viewer can transfer.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "A case study is a story that happens to end with a number.",
       },
@@ -297,7 +342,7 @@ export const batch03: BlogPost[] = [
     slug: "story-conflict-and-tension-without-drama",
     title: "Building Conflict and Tension Without All the Drama",
     excerpt:
-      "You do not need outrage to hold attention. Conflict is structural, not theatrical, and the quietest contradiction can keep a viewer watching longer than any fight.",
+      "You do not need outrage to hold attention. Conflict is structural, not theatrical, and the quietest contradiction keeps a viewer watching longer than any fight.",
     date: "2025-05-14",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["storytelling", "structure", "emotion"],
@@ -310,6 +355,15 @@ export const batch03: BlogPost[] = [
           "Conflict on YouTube does not require fights, villains, or outrage. It requires two things that cannot both be true at once, and a viewer who wants to know how the contradiction resolves.",
           "Internal conflict works as well as external. Two goals pulling in opposite directions, a principle colliding with a deadline, a habit fighting a better plan. The drama is optional. The contradiction is not.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Conflict is structural; drama is volume.",
+          "Plant the conflict in the first minute.",
+          "Escalate by removing an easy option.",
+          "Resolve it in a way that costs the creator something.",
+        ]
       },
       {
         paragraphs: [],
@@ -369,6 +423,15 @@ export const batch03: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Deliver the exact promise you made before adding anything else.",
+          "Give the payoff room to land before moving on.",
+          "Show the concrete change and the cost it did not erase.",
+          "Close the loop you opened in the first minute.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "The payoff answers what happened. The aftermath answers why it mattered.",
       },
@@ -424,6 +487,15 @@ export const batch03: BlogPost[] = [
           "Single videos earn a view. Series earn a relationship. The difference is whether the viewer has a reason to come back to the next drop, and that reason is almost always an unfinished arc.",
           "A serialized arc is a question that spans multiple videos and resolves slowly. It can be a project, a challenge, a transformation, or a mystery. What matters is that each episode moves the arc and leaves one thread open.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Design the arc before the first episode.",
+          "Give each episode its own shape inside the larger arc.",
+          "Keep a public ledger with a concrete number each time.",
+          "Deliver a real milestone every few episodes and know when to close.",
+        ]
       },
       {
         paragraphs: [],
@@ -483,6 +555,15 @@ export const batch03: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Replace the claim with the detail.",
+          "Use numbers with units, real names, and anchoring times.",
+          "One sensory detail per important moment, no more.",
+          "Specificity serves the point; it is not a pile of trivia.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "An adjective asks the viewer to trust you. A specific detail earns it.",
       },
@@ -525,7 +606,7 @@ export const batch03: BlogPost[] = [
     slug: "story-when-a-story-is-the-wrong-format",
     title: "When a Story Is the Wrong Format for Your Video",
     excerpt:
-      "Storytelling is a tool, not a default. Some videos need a narrative arc and some need a straight answer, and picking wrong costs you the viewer in the first minute.",
+      "Storytelling is a tool, not a default. Some videos need a narrative arc, some need a straight answer, and choosing wrong costs the viewer in the first minute.",
     date: "2026-09-08",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["storytelling", "structure", "emotion"],
@@ -538,6 +619,15 @@ export const batch03: BlogPost[] = [
           "Storytelling is a tool, and like any tool it fails on the wrong job. Some videos need a story. Some need a list, a demonstration, or a straight answer. Knowing which one you are making saves you a rewrite and the viewer five minutes.",
           "The strongest signal is what the viewer came for. If they searched a specific question, they want the answer fast. If they clicked a title about a transformation, they want the journey.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A story is a tool, not a default; match format to intent.",
+          "Answer one-answer questions in the first ten seconds.",
+          "Show, explain, then summarize when transferring a skill.",
+          "Use a story when the goal is to change a belief.",
+        ]
       },
       {
         paragraphs: [],
@@ -554,7 +644,7 @@ export const batch03: BlogPost[] = [
         heading: "Format choices by intent",
         bullets: [
           "Question with one answer: answer it in the first ten seconds.",
-          "Skill to transfer: demonstrate, then explain, then summarize.",
+          "Skill to transfer: show, then explain, then summarize.",
           "Belief to change: use a story so the viewer feels the shift.",
           "Product to sell: show the outcome, then the mechanism.",
         ],

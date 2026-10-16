@@ -5,7 +5,7 @@ export const batch246: BlogPost[] = [
   {
     slug: "workflow-automation-finding-repetitive-steps",
     title: "Workflow Automation Starts With Finding Repetition",
-    excerpt: "Workflow automation begins with spotting the steps you repeat on every video, because you cannot hand off a task you never wrote down first.",
+    excerpt: "Workflow automation starts with spotting the steps you repeat on every video, because you cannot hand off a task you never wrote down first.",
     date: "2038-11-02",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["tools", "productivity", "workflow"],
@@ -137,7 +137,7 @@ export const batch246: BlogPost[] = [
         heading: "A template is a project you start from",
         paragraphs: [
           "Workflow automation works best when the environment is already prepared, and a templated project does exactly that. Instead of rebuilding tracks, bins, and settings for each video, you duplicate a finished shell that already contains everything you configured once. The work you did the first time keeps paying off.",
-          "This is automation without a single line of code. Nothing runs in the background, yet you still recover hours, because the most error prone part of any edit is the setup that has to happen before creative work begins. Get that part right once and copy it forever."
+          "This is automation without a single line of code. Nothing runs in the background, yet you still recover hours, because the most error prone part of any edit is the setup that has to happen before creative work starts. Get that part right once and copy it forever."
         ]
       },
       {
@@ -354,7 +354,7 @@ export const batch246: BlogPost[] = [
         paragraphs: [
           "Scheduling is strongest when it sits at the end of a checklist rather than on its own. Let the last item on your pre publish list be the act of choosing a slot and confirming it, so a video can only enter the calendar once everything else is already finished.",
           "That ordering stops a half ready file from slipping into the queue during a busy week. The moment you find yourself scheduling early, the checklist is telling you a step above it was skipped, and that signal is worth more than any deadline you set.",
-          "Print the order if you work better with paper, or pin it beside the upload button. A visible sequence removes the small hesitation at the end of every project, and hesitation at the finish line is where sloppy uploads tend to begin."
+          "Print the order if you work better with paper, or pin it beside the upload button. A visible sequence removes the small hesitation at the end of every project, and hesitation at the finish line is where sloppy uploads tend to start."
         ]
       },
       {
@@ -389,7 +389,7 @@ export const batch246: BlogPost[] = [
       {
         heading: "Pick the trigger first, then the action",
         paragraphs: [
-          "Start every new connection from the moment that matters, not from the tool you happen to like. Ask what event should begin the flow, then decide what should happen next. Building from the action backward is how people create connections that fire at the wrong time or never fire at all.",
+          "Start every new connection from the moment that matters, not from the tool you happen to like. Ask what event should start the flow, then decide what should happen next. Building from the action backward is how people create connections that fire at the wrong time or never fire at all.",
           "One trigger with one clear action is easier to trust than five actions bundled together. Add a second step only after the first one has run correctly for a week, because debugging a ten step chain is far harder than debugging a two step one.",
           "Write a one line note beside each connection describing its trigger and its action. That note is all you need to rebuild the flow after a tool updates and the connection breaks, and it beats reconstructing the logic from a settings screen under pressure."
         ]

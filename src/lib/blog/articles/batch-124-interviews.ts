@@ -16,7 +16,7 @@ export const batch124: BlogPost[] = [
       {
         heading: "Start with fit before fame",
         paragraphs: [
-          "Finding a guest begins with fit, not follower count. You want someone whose story already matters to your audience and who will show up ready to talk. A guest who understands the show can carry an episode on their own energy, and that is worth more than a name that looks good in a thumbnail.",
+          "Finding a guest starts with fit, not follower count. You want someone whose story already matters to your audience and who will show up ready to talk. A guest who understands the show can carry an episode on their own energy, and that is worth more than a name that looks good in a thumbnail.",
           "Famous names can lift a single episode, but they rarely fit every format. Audience size is the last box you check, because a mismatched guest and a bored audience are the same problem."
         ]
       },

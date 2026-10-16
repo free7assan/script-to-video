@@ -145,7 +145,7 @@ export const batch301: BlogPost[] = [
       {
         heading: "The format that actually works",
         paragraphs: [
-          "Start a chapter line with a zero or a colon separated time, then a space, then a label. Begin the first chapter at zero zero zero. Keep the list in order and never skip backward, because a single mistake can disable the whole set.",
+          "Start a chapter line with a zero or a colon separated time, then a space, then a label. Start the first chapter at zero zero zero. Keep the list in order and never skip backward, because a single mistake can disable the whole set.",
           "You need at least three chapters before the player shows them. If your video only has two clear sections, do not force a third. A short list that reads well beats a padded one that confuses."
         ]
       },

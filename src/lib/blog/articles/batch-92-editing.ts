@@ -415,7 +415,7 @@ export const batch92: BlogPost[] = [
     slug: "editing-audio-sync-workflow",
     title: "A Two-System Audio Sync Workflow That Holds Up",
     excerpt:
-      "A reliable audio sync workflow for two-system recording starts with a clap, a scratch track, and a timeline you can trust before the edit begins.",
+      "A reliable audio sync workflow for two-system recording starts with a clap, a scratch track, and a timeline you can trust before the edit starts.",
     date: "2025-12-01",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["editing", "post-production"],

@@ -26,7 +26,7 @@ export const batch350: BlogPost[] = [
         paragraphs: [
           "Recording a single video means choosing a topic, digging out notes, arranging the camera, checking levels, and settling into a speaking rhythm. That warm-up burns the first twenty minutes before you capture a usable take. None of it shows up in the final video, and all of it still costs you.",
           "Do it once a week and the cost stays invisible. Do it seven days running and you have spent most of a working day getting ready to work. The waste hides because it spreads across the week instead of sitting in one obvious block.",
-          "The fix is not to work faster on those mornings. The fix is to stop having so many mornings that begin the same way. Fewer starts mean fewer minutes lost to the same routine."
+          "The fix is not to work faster on those mornings. The fix is to stop having so many mornings that start the same way. Fewer starts mean fewer minutes lost to the same routine."
         ]
       },
       {
@@ -599,7 +599,7 @@ export const batch350: BlogPost[] = [
   {
     slug: "batch-production-a-weekly-batch-rhythm",
     title: "A Weekly Batch Rhythm You Can Actually Maintain",
-    excerpt: "A weekly batch rhythm gives each weekday one fixed stage, so batch production stops starting from zero and every day begins where the last ended.",
+    excerpt: "A weekly batch rhythm gives each weekday one fixed stage, so batch production stops starting from zero and every day starts where the last ended.",
     date: "2047-07-28",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["workflow", "productivity", "production"],

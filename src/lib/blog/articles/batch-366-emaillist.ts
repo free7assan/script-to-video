@@ -28,7 +28,7 @@ export const batch366: BlogPost[] = [
       {
         heading: "What a big number actually buys you",
         paragraphs: [
-          "Ten thousand followers sounds like leverage until you publish the video you actually care about. Reach swings hard from day to day, and the swing rarely tracks the quality of the work. Ask any creator who launched something straight to a feed and watched the replies dry up.",
+          "Ten thousand followers sounds like an advantage until you publish the video you actually care about. Reach swings hard from day to day, and the swing rarely tracks the quality of the work. Ask any creator who launched something straight to a feed and watched the replies dry up.",
           "Email behaves more predictably. You know who opened, who clicked, and who ignored you, and none of that depends on a ranking system you cannot inspect. The list numbers are smaller and every one of them means more.",
           "There is also the follow-up problem. A stranger who scrolls past your post may never see you again, while a subscriber who skipped last week gets a fair second chance in their inbox tomorrow. That second chance is the whole game.",
         ],
@@ -582,7 +582,7 @@ export const batch366: BlogPost[] = [
         paragraphs: [
           "Email readers give you the questions your next videos should answer, which is the cheapest research available to any creator. Ask directly, keep a running note of the replies, and treat the top answers as your next three topics.",
           "Videos give the list a face and a voice, which makes an inbox message feel like it came from a person rather than a brand. Readers who have watched you speak open your mail at higher rates for exactly that reason.",
-          "Track the loop once a month. Note how many subscribers arrived from video descriptions, how much traffic email sent to each upload, and which came first for your biggest viewers. The pattern tells you where the real leverage sits.",
+          "Track the loop once a month. Note how many subscribers arrived from video descriptions, how much traffic email sent to each upload, and which came first for your biggest viewers. The pattern tells you where the real edge sits.",
         ],
       },
       {

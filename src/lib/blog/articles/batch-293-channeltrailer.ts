@@ -182,7 +182,7 @@ export const batch293: BlogPost[] = [
   {
     slug: "channel-trailer-show-best-work-fast",
     title: "Showing Your Best Work Fast in a Channel Trailer",
-    excerpt: "Your channel trailer should show your best work fast. Lead with the strongest moment, cut the setup, and replace praise with visible proof that lands in seconds.",
+    excerpt: "Your channel trailer should show your best work fast. Lead with the strongest moment, cut the setup, and replace praise with proof that lands in seconds.",
     date: "2042-10-08",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["branding", "video", "channel"],
@@ -201,7 +201,7 @@ export const batch293: BlogPost[] = [
       {
         heading: "Cut the setup and the throat clearing",
         paragraphs: [
-          "Most first drafts begin with context no one asked for. The who, the when, the backstory. Cut it. The trailer is not the place to explain how you got here.",
+          "Most first drafts start with context no one asked for. The who, the when, the backstory. Cut it. The trailer is not the place to explain how you got here.",
           "Ask of every shot whether a stranger needs it to understand the promise. If not, it goes. The trailer gets stronger every time you remove something the viewer would not miss."
         ]
       },
@@ -237,7 +237,7 @@ export const batch293: BlogPost[] = [
   {
     slug: "channel-trailer-new-vs-returning-viewers",
     title: "Channel Trailers for New and Returning Viewers",
-    excerpt: "One channel trailer serves new and returning viewers at once. Lead with the stranger, reward the fan, and let your traffic data decide which audience comes first.",
+    excerpt: "One channel trailer serves new and returning viewers. Lead with the stranger, reward the fan, and let your traffic data decide which audience comes first.",
     date: "2042-10-11",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["branding", "video", "channel"],
@@ -407,7 +407,7 @@ export const batch293: BlogPost[] = [
   {
     slug: "channel-trailer-measuring-impact",
     title: "How to Measure Whether a Channel Trailer Works",
-    excerpt: "Measuring channel trailer impact takes more than views. Track subscriber conversion and returning viewers to learn whether the trailer attracts the right people.",
+    excerpt: "Measuring channel trailer impact takes more than views. Track subscriber conversion and returning viewers to learn whether the trailer attracts the people.",
     date: "2042-10-20",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["branding", "video", "channel"],
@@ -461,7 +461,7 @@ export const batch293: BlogPost[] = [
   {
     slug: "channel-trailer-for-niche-channels",
     title: "Writing a Channel Trailer for a Niche Channel",
-    excerpt: "A niche channel trailer still needs a clear promise. Translate the narrow topic into a wider benefit, speak the community language, and show range inside the lane.",
+    excerpt: "A niche channel trailer needs a clear promise. Translate the narrow topic into a wider benefit, speak the community language, and show range within the lane.",
     date: "2042-10-23",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["branding", "video", "channel"],

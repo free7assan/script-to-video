@@ -37,7 +37,7 @@ export const batch206: BlogPost[] = [
       },
       {
         quote:
-          "A standard is rarely the best option. It is the option the most powerful people can agree to stop fighting about.",
+          "A standard is rarely the best option. It is the option the most influential people can agree to stop fighting about.",
       },
       {
         heading: "Why it stuck once it spread",
@@ -297,7 +297,7 @@ export const batch206: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Let the frame shape the shot before the shoot begins.",
+          "Let the frame shape the shot before the shoot starts.",
           "Use wide space for motion, depth, and two subjects.",
           "Keep square compositions balanced and centered.",
           "Treat vertical as a spotlight for one hero.",

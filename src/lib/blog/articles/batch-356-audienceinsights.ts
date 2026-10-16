@@ -285,7 +285,7 @@ export const batch356: BlogPost[] = [
         heading: "Watch where people scrub instead of leaving",
         paragraphs: [
           "Some retention graphs show flat stretches where viewers hold position rather than drop. Those plateaus can mean confusion rather than boredom, and they are worth reading differently. A viewer who rewinds is engaged but lost, which usually means your explanation assumed knowledge you never checked.",
-          "When you see that pattern, add a line of context where the flat begins. You are not slowing the video down. You are removing the wall that made people stop moving forward.",
+          "When you see that pattern, add a line of context where the flat starts. You are not slowing the video down. You are removing the wall that made people stop moving forward.",
           "Watch two or three high retention videos from other creators in your space and note where their graphs hold flat. You will usually find the same confusion points handled with a quick recap or a visual aid, and those small moves are easy to borrow into your own cuts."
         ]
       },

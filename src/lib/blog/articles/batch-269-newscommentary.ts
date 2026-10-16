@@ -102,7 +102,7 @@ export const batch269: BlogPost[] = [
         heading: "Start from the question, not the outrage",
         paragraphs: [
           "Before you write, name the question the story actually raises. If the honest answer is 'this is bad,' you have a post, not an episode. Push until you find the tension underneath, such as who gains from the framing or what the number leaves out.",
-          "Outrage is a starting signal, never a script. When you begin from a question, every paragraph earns its place by moving closer to an answer the viewer could not reach alone.",
+          "Outrage is a starting signal, never a script. When you start from a question, every paragraph earns its place by moving closer to an answer the viewer could not reach alone.",
           "This also solves the blank page. Writers freeze when they try to arrive at feeling. Give yourself a question to answer instead, and the anger becomes a byproduct rather than the assignment.",
         ],
       },

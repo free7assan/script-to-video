@@ -241,7 +241,7 @@ export const batch376: BlogPost[] = [
         heading: "Prune and reorder as you grow",
         paragraphs: [
           "Boards accumulate dead weight over time. Every few months, move your strongest pins to the top, archive anything off topic, and merge boards that split the same audience.",
-          "A tidy board structure keeps the recommendation system confident about your account. Confident accounts get tested on more searches, which is where the compounding traffic begins.",
+          "A tidy board structure keeps the recommendation system confident about your account. Confident accounts get tested on more searches, which is where the compounding traffic starts.",
           "Keep board covers consistent with your pin style so the whole profile reads as one body of work. A visitor deciding whether to follow you makes that call in a single glance."
         ]
       },

@@ -27,7 +27,7 @@ export const batch164: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Getting started on Twitch comes down to three things: a way to capture your screen or game, a microphone people can hear, and a reason to press go live. You do not need a studio, a lighting rig, or a capture card to begin. You need a channel that looks intentional and a habit of showing up.",
+          "Getting started on Twitch comes down to three things: a way to capture your screen or game, a microphone people can hear, and a reason to press go live. You do not need a studio, a lighting rig, or a capture card to start. You need a channel that looks intentional and a habit of showing up.",
           "Plenty of new streamers stall for months buying gear they never use. They research microphones, watch setup videos, and redesign their panels before they have streamed a single minute. The better move is to stream this week with what you already own, then fix the loudest problem after each session.",
         ],
       },
@@ -54,7 +54,7 @@ export const batch164: BlogPost[] = [
         heading: "Titles and categories that help people find you",
         paragraphs: [
           "Set your stream title to something a stranger would search, not an inside joke. A title like 'learning Elden Ring, no summons' tells a random viewer exactly what they get.",
-          "Pick the exact game category you are playing and browse a few channels in it before you start. Raids, recommendations, and search all begin with being findable.",
+          "Pick the exact game category you are playing and browse a few channels in it before you start. Raids, recommendations, and search all start with being findable.",
         ],
       },
       {

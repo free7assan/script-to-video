@@ -541,7 +541,7 @@ export const batch233: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "The title and thumbnail open the first gap before the video begins.",
+          "The title and thumbnail open the first gap before the video starts.",
           "Split the job so each element raises a different half of the question.",
           "Keep the packaging honest or the broken promise kills retention.",
           "Test titles and thumbnails together, because the pair is what viewers see."

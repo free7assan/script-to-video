@@ -65,7 +65,7 @@ export const batch259: BlogPost[] = [
         paragraphs: [
           "Send viewers off with a small assignment tied to the control you taught. Something like shooting five frames at a wide aperture gives them a reason to leave the video and pick up the camera. A lesson without a task is entertainment, not teaching.",
           "Ask them to post the results in the comments so the lesson turns into a conversation. That loop pulls people back for the next episode and gives you material for the following one. You also learn where the audience actually gets stuck.",
-          "Keep the assignment small enough to finish the same day. A task that takes a week will not happen, and the lesson fades before the practice begins.",
+          "Keep the assignment small enough to finish the same day. A task that takes a week will not happen, and the lesson fades before the practice starts.",
         ],
       },
       {
@@ -245,7 +245,7 @@ export const batch259: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with a flawed frame and name the problem before editing.",
+          "Start with a flawed frame and name the problem before editing.",
           "State a single goal so each adjustment has a reason to exist.",
           "Reverse edits that fail so viewers learn when to stop.",
           "Show edits in a repeatable order instead of a random pile of tools.",
@@ -420,7 +420,7 @@ export const batch259: BlogPost[] = [
       {
         paragraphs: [
           "A composition lesson sticks when you show the rule, then show the same scene without it. The contrast is what teaches the eye, not the rule on its own. Comparison turns an abstract idea into something visible.",
-          "Begin with one principle and let the whole video prove it through a handful of real locations. Keeping the focus narrow is what makes the idea usable.",
+          "Start with one principle and let the whole video prove it through a handful of real locations. Keeping the focus narrow is what makes the idea usable.",
           "The goal is not to make the viewer memorize a list. It is to give them one lens to look through the next time they raise a camera.",
         ],
       },
@@ -445,7 +445,7 @@ export const batch259: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Teach one principle per video, never a list of ten.",
-          "Demonstrate the rule in the simplest scene before adding complexity.",
+          "Show the rule in the simplest scene before adding complexity.",
           "Show the same subject with and against the rule for contrast.",
           "Explain where the frame sends the eye, since that is the real skill.",
           "Invite a choice so the viewer judges frames, not just watches them.",

@@ -22,6 +22,15 @@ export const batch46: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "A title is a promise with a deadline.",
+          "Front-load the phrase people already use.",
+          "Do not lead with a greeting or the channel name.",
+          "The click is not the finish line; the first minute must deliver.",
+        ]
+      },
+      {
         heading: "The only formula that matters",
         paragraphs: [
           "Formula lists sell courses, but almost every good title reduces to one idea. Name the outcome, then remove the doubt. The outcome tells the viewer what changes for them. Removing the doubt tells them it is achievable for someone in their position.",
@@ -243,7 +252,7 @@ export const batch46: BlogPost[] = [
         heading: "What actually moves discovery",
         paragraphs: [
           "The title decides whether the video gets a click. The thumbnail decides whether it gets the glance that leads to the click. The opening minute decides whether the click was a mistake. Tags sit well behind all three of those.",
-          "When I audit a channel, I can usually predict its performance from packaging alone without opening the tag box once. That tells you where the leverage lives, and it is not in a hidden field most viewers will never see.",
+          "When I audit a channel, I can usually predict its performance from packaging alone without opening the tag box once. That tells you where the edge lives, and it is not in a hidden field most viewers will never see.",
         ],
       },
       {
@@ -526,7 +535,7 @@ export const batch46: BlogPost[] = [
       },
       {
         paragraphs: [],
-        quote: "Hashtags are the least expensive habit in the upload flow and also the least powerful. Cheap is not the same as effective.",
+        quote: "Hashtags are the least expensive habit in the upload flow and also the least effective. Cheap is not the same as effective.",
       },
       {
         heading: "Keep expectations honest",

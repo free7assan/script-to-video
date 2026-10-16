@@ -395,7 +395,7 @@ export const batch207: BlogPost[] = [
       {
         heading: "Watch the seam",
         paragraphs: [
-          "When you finally unlock or switch modes, the brightness will jump. Cut around it or make the change mid-move so the transition hides. A sudden exposure shift is more distracting than a slightly wrong one.",
+          "When you finally leave or switch modes, the brightness will jump. Cut around it or make the change mid-move so the transition hides. A sudden exposure shift is more distracting than a slightly wrong one.",
           "Good editors hide the seam. Good shooters plan where it lands."
         ]
       },

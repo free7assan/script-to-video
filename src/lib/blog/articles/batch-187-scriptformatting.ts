@@ -386,7 +386,7 @@ export const batch187: BlogPost[] = [
           "A template pays off most when work moves between people. A writer fills the draft, a producer adds notes, and an editor reads the same shape they saw last week.",
           "Share the template with the whole team and keep one canonical copy. When everyone starts from the same file, nobody invents a private layout that others cannot read.",
           "Update the shared template in one place when the process changes. Scattered copies drift fast, and a drifted template is just a blank page with extra steps.",
-          "A template is only as good as the habit around it. Keep it in one obvious place and name it so anyone can find it in a hurry. When a writer cannot locate the template, they build a new layout by hand and the drift begins again. A quick link in the project folder removes that excuse. The few seconds spent opening the right file protect the consistency of the whole series, and a lean template is faster to open, faster to fill, and far less likely to be ignored."
+          "A template is only as good as the habit around it. Keep it in one obvious place and name it so anyone can find it in a hurry. When a writer cannot locate the template, they build a new layout by hand and the drift starts again. A quick link in the project folder removes that excuse. The few seconds spent opening the right file protect the consistency of the whole series, and a lean template is faster to open, faster to fill, and far less likely to be ignored."
         ]
       },
       {
@@ -618,7 +618,7 @@ export const batch187: BlogPost[] = [
         paragraphs: [
           "Formatting that helps an editor does one thing well: it answers questions before they are asked. Scene numbers, consistent markers, and clear note types do that work quietly on every page.",
           "An editor should never have to hunt through a paragraph to find what changes on screen. If they are searching, the format is costing them time you already spent.",
-          "The format carries as much information as the words once the cut begins, so it deserves the same attention you give the script itself."
+          "The format carries as much information as the words once the cut starts, so it deserves the same attention you give the script itself."
         ]
       },
       {

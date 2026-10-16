@@ -434,7 +434,7 @@ export const batch22: BlogPost[] = [
     slug: "story2-satire-video-essays",
     title: "Satire in Video Essays: Aim It at Something Real",
     excerpt:
-      "Satire in video essays imitates a subject closely enough to expose the flaw. Learn how to aim the ridicule at something real instead of settling for cheap shots.",
+      "Satire in video essays imitates a subject closely to expose the flaw. Learn how to aim the ridicule at something real instead of settling for cheap shots.",
     date: "2025-11-24",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["narrative", "storytelling"],

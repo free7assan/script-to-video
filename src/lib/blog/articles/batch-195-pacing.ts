@@ -207,7 +207,7 @@ export const batch195: BlogPost[] = [
         heading: "Structure is pacing at scale",
         paragraphs: [
           "On a three minute video, pacing is about individual cuts. On a thirty minute video, pacing is about structure, because the audience is committed and needs milestones.",
-          "Break the runtime into sections with their own mini arc. Each section should open a small question and answer it before the next one begins.",
+          "Break the runtime into sections with their own mini arc. Each section should open a small question and answer it before the next one starts.",
           "That rhythm of question and answer is what keeps a long video moving. It gives viewers a reason to stay for the next minute instead of the next half hour."
         ]
       },
@@ -475,7 +475,7 @@ export const batch195: BlogPost[] = [
         paragraphs: [
           "Long tutorials need internal landmarks. Section titles and short recaps let a viewer who paused ten minutes ago find their place again.",
           "Treat each step as its own small segment with a clear start and finish. That structure makes the pacing feel guided rather than relentless.",
-          "When the whole process is segmented, the viewer always knows where they are, and knowing where you are is a quiet but powerful reason to keep watching."
+          "When the whole process is segmented, the viewer always knows where they are, and knowing where you are is a quiet but strong reason to keep watching."
         ]
       },
       {

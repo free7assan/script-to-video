@@ -27,7 +27,7 @@ export const batch87: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Begin by writing down every step a job takes from the first request to the finished result. Leave nothing out, including the small handoffs that feel too obvious to mention. A job that lives only in someone's head cannot be improved, because nobody can see where the delays hide.",
+          "Start by writing down every step a job takes from the first request to the finished result. Leave nothing out, including the small handoffs that feel too obvious to mention. A job that lives only in someone's head cannot be improved, because nobody can see where the delays hide.",
           "Most teams find that a chunk of their steps exist only to move information between tools that do not talk to each other. Those steps are the easiest to remove, and they often need no AI at all. Plain integration work handles them cheaper and with far fewer surprises.",
           "The map also settles arguments before they start. When two people disagree about who owns a step, the drawing shows the gap, and the gap is the real problem.",
         ],
@@ -69,7 +69,7 @@ export const batch87: BlogPost[] = [
           "Draw the process as it runs today, before you evaluate a single tool.",
           "Tag steps by the thinking they require, then hand the mechanical ones to a machine.",
           "Rank targets by frequency and pain rather than by how impressive the demo looked.",
-          "Set one measurable goal and record the baseline before any work begins.",
+          "Set one measurable goal and record the baseline before any work starts.",
         ],
       },
     ],

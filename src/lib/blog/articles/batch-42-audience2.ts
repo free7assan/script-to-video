@@ -467,7 +467,7 @@ export const batch42: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Loyalty is a sequence: finish, then recognize, then belong.",
-          "Retention is the doorway, so nothing begins until people reach the end.",
+          "Retention is the doorway, so nothing starts until people reach the end.",
           "Consistency creates recognition, and recognition turns a video into a place.",
           "Belonging is built from small invitations, not big asks.",
         ],
@@ -488,7 +488,7 @@ export const batch42: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Retention earns ad revenue and algorithm reach. Loyalty earns everything that lasts: products bought, memberships kept, and the word of mouth that costs nothing to acquire.",
+          "Retention earns ad revenue and algorithm reach. Loyalty earns everything that lasts: products bought, memberships kept, and the word of mouth that costs nothing to earn.",
           "Treat them as one budget and you will overspend on whichever is easier to measure. Treat them as two and you can decide, per video, which one you are buying.",
         ],
       },

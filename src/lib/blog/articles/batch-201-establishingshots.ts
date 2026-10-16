@@ -178,7 +178,7 @@ export const batch201: BlogPost[] = [
         heading: "Mind the small screen",
         paragraphs: [
           "Most people watch vertical or phone-sized these days, so a wide shot built for a cinema screen can lose its subject entirely on a phone. Check your frame at thumbnail size before you commit.",
-          "If the important part vanishes when shrunk, the shot is too wide for how it will be seen. Move closer or recompose until the key element survives the smaller canvas.",
+          "If the important part vanishes when shrunk, the shot is too wide for how it will be seen. Move closer or recompose until the main element survives the smaller canvas.",
           "This is the most common reason a beautiful wide fails online. It was composed for a size almost nobody was watching on.",
         ],
       },
@@ -305,7 +305,7 @@ export const batch201: BlogPost[] = [
         paragraphs: [
           "When you have a location you know you will return to, spend extra time there the first visit. Capture several wide angles, a few details, and a couple of moving shots at different times of day if you can.",
           "That upfront effort buys months of use. Later, when the episode needs that place, you have a choice of frames instead of one shot you have already leaned on too hard.",
-          "Think of it as stock footage you shot yourself, shot exactly for your story and your colour.",
+          "Treat it as stock footage you shot yourself, shot exactly for your story and your colour.",
         ],
       },
       {

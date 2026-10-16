@@ -102,7 +102,7 @@ export const batch82: BlogPost[] = [
         heading: "Constraints do most of the work",
         paragraphs: [
           "Start with audience and length. A thirty second script for beginners and a ten minute script for experts are different animals. When you skip that, the tool splits the difference and serves neither one well.",
-          "Then add a negative constraint. Tell it what to avoid. No rhetorical questions, no corporate filler, no opening with a definition. Negatives are powerful because they block the path of least resistance, which is where generic scripts come from.",
+          "Then add a negative constraint. Tell it what to avoid. No rhetorical questions, no corporate filler, no opening with a definition. Negatives are effective because they block the path of least resistance, which is where generic scripts come from.",
         ],
       },
       {

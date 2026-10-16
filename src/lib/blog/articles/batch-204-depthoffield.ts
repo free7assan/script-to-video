@@ -161,7 +161,7 @@ export const batch204: BlogPost[] = [
       {
         heading: "The cost of going deep",
         paragraphs: [
-          "Small apertures need more light, so deep focus is easier outdoors or with powerful lighting. Indoors, you may have to raise the ISO and accept some noise.",
+          "Small apertures need more light, so deep focus is easier outdoors or with strong lighting. Indoors, you may have to raise the ISO and accept some noise.",
           "Diffraction is the other tax. Stop down too far and the whole image softens, which is the opposite of what you wanted.",
           "Find the middle setting where the scene is sharp end to end without the lens turning to mush.",
         ],

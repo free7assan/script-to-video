@@ -295,7 +295,7 @@ export const batch51: BlogPost[] = [
     slug: "shorts2-text-overlay-timing",
     title: "Timing On Screen Text to the Spoken Hook",
     excerpt:
-      "On screen text should arrive with the spoken hook, not lag behind it. Line up words to voice and the caption reinforces the claim instead of splitting attention.",
+      "On screen text should arrive with the spoken hook, not lag behind it. Line words to voice and the caption reinforces the claim instead of splitting attention.",
     date: "2025-08-09",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["shorts", "format"],
@@ -319,7 +319,7 @@ export const batch51: BlogPost[] = [
       {
         heading: "Reveal the text on the beat",
         paragraphs: [
-          "If the spoken hook is three seconds, the text should be visible for about three seconds, entering as the voice starts and leaving before the next idea begins. Lag either edge and the sync frays.",
+          "If the spoken hook is three seconds, the text should be visible for about three seconds, entering as the voice starts and leaving before the next idea starts. Lag either edge and the sync frays.",
           "I lock text to the waveform first, then animate. Motion added after the timing is set stays subordinate to the voice. Animated text that drives the timing ends up fighting the speaker.",
         ],
       },

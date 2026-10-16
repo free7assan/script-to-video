@@ -111,7 +111,7 @@ export const batch161: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Pick products with enough margin to survive a live discount and still profit.",
-          "Favor items that can be demonstrated fast. Visible change holds a room.",
+          "Favor items that can be showed fast. Visible change holds a room.",
           "Mix low-price entry items with a small number of premium pieces.",
           "Test new products in small batches and read the chat for early demand.",
         ],
@@ -439,7 +439,7 @@ export const batch161: BlogPost[] = [
       {
         heading: "Trim the dead air",
         paragraphs: [
-          "Start the replay where the offer begins, not where the stream starts. New viewers do not need the ten minutes you spent welcoming the room and fixing the light.",
+          "Start the replay where the offer starts, not where the stream starts. New viewers do not need the ten minutes you spent welcoming the room and fixing the light.",
           "Cut the awkward pauses and the repeated links. A tight twenty-minute replay out-performs a rambling two-hour one on almost every metric that matters.",
         ],
       },

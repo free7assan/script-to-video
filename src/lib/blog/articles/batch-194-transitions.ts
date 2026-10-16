@@ -366,7 +366,7 @@ export const batch194: BlogPost[] = [
         heading: "Layering sells the illusion",
         paragraphs: [
           "One sound rarely does the job alone. Stack a subtle low end, a mid whoosh, and a tiny high sparkle and the move feels full. Keep each layer quiet so the stack never overwhelms the dialogue that follows.",
-          "Watch your dynamics. A transition hit that is too loud flattens everything after it because the ear has already reset to a higher volume. Ride the level down as the new scene begins, and the moment lands without shouting.",
+          "Watch your dynamics. A transition hit that is too loud flattens everything after it because the ear has already reset to a higher volume. Ride the level down as the new scene starts, and the moment lands without shouting.",
           "Pan your layers left and right for a wider feel, but keep the low end centered so it stays solid on a phone speaker. Width is drama, and the center is the foundation."
         ]
       },
@@ -421,7 +421,7 @@ export const batch194: BlogPost[] = [
       {
         heading: "Timing decides everything",
         paragraphs: [
-          "Cut too early and the viewer sees the pan end before the next shot begins. Cut too late and the blur passes and the join shows. Line up the two frames so the blur direction and speed nearly match, then cut on the fastest point of the move.",
+          "Cut too early and the viewer sees the pan end before the next shot starts. Cut too late and the blur passes and the join shows. Line up the two frames so the blur direction and speed nearly match, then cut on the fastest point of the move.",
           "Rehearse the pan three or four times before you roll. Move your whole body, not just your arms, so the speed stays constant. A pan that accelerates mid move is almost impossible to match in the edit.",
           "Shoot the pan twice, once fast and once a little slower, so you have room to match in the edit. Coverage is cheaper than a reshoot, and the slower take often fits better."
         ]
@@ -488,7 +488,7 @@ export const batch194: BlogPost[] = [
       {
         heading: "Match the elements",
         paragraphs: [
-          "Look for a continuous thread between the outgoing and incoming shots. A pan that ends where the next pan begins. A light that dims as the new scene brightens. A sound that carries from one room into the next.",
+          "Look for a continuous thread between the outgoing and incoming shots. A pan that ends where the next pan starts. A light that dims as the new scene brightens. A sound that carries from one room into the next.",
           "Movement is the strongest thread because the eye tracks it automatically. If the subject exits the frame on the right, cut to a shot where something enters from the right. The eye follows the direction and accepts the new space.",
           "Keep a bin of transition candidates as you review footage. A shot with a strong exit or a clear direction is worth flagging, because those are the threads you will reach for later."
         ]

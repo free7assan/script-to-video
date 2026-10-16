@@ -28,7 +28,7 @@ export const batch69: BlogPost[] = [
       {
         paragraphs: [
           "I automate the welcome sequence first, then the boring logistics, and almost nothing else. That order keeps the personality inside the emails people actually open while the software handles the parts nobody notices. Most creators do it backwards. They wire up complicated automation before a single subscriber flow works, then wonder why the whole system feels stiff.",
-          "Think of it as hiring. You would not let a new assistant rewrite your letters on day one. You would let them stamp envelopes and update the address book first. Newsletter automation deserves the same probation, and it earns more trust the longer you keep it away from the words.",
+          "Treat it as hiring. You would not let a new assistant rewrite your letters on day one. You would let them stamp envelopes and update the address book first. Newsletter automation deserves the same probation, and it earns more trust the longer you keep it away from the words.",
         ],
       },
       {
@@ -387,7 +387,7 @@ export const batch69: BlogPost[] = [
         heading: "Where it quietly hurts",
         paragraphs: [
           "Publishing an AI draft unchanged is the fastest way to sound like everyone else. The tools share a rhythm, and readers notice the sameness even if they cannot name it.",
-          "Generic openings are the tell. If your email begins with a sentence that could belong to any writer in your niche, cut it and start with the second one. The specific line is always further down.",
+          "Generic openings are the tell. If your email starts with a sentence that could belong to any writer in your niche, cut it and start with the second one. The specific line is always further down.",
         ],
       },
       {

@@ -4,7 +4,7 @@ import type { BlogPost } from "../types";
 export const batch123: BlogPost[] = [
   {
     slug: "scripts-outline-before-writing",
-    title: "Why Outlining Beats Writing a Script by the Seat of Your Pants",
+    title: "Why Outlining Beats Writing by the Seat of Your Pants",
     excerpt:
       "An outline before you write a video script saves rewrites and keeps the story tight. Here is how to plan your beats before you touch the page.",
     date: "2028-08-01",
@@ -124,7 +124,7 @@ export const batch123: BlogPost[] = [
         paragraphs: [
           "Some lines are grammatically clean and still impossible to say. Two hard consonants collide, a string of s sounds hisses, or a phrase echoes a word from the line before it.",
           "I hunt these down in a dedicated pass. I read the script at full speaking pace and circle anything that makes my mouth work harder than it should.",
-          "The repair is usually a swap. Trade a word, flip the order, cut an adjective. The meaning stays, but the line suddenly feels effortless, and effortless is what sounds natural.",
+          "The repair is usually a swap. Trade a word, flip the order, cut an adjective. The meaning stays, but the line suddenly feels easy, and easy is what sounds natural.",
         ],
       },
       {
@@ -305,7 +305,7 @@ export const batch123: BlogPost[] = [
           "The apology: explaining why the video might be imperfect before it starts.",
           "The buried point: stating the topic but not the reason to care about it.",
           "The bait: a dramatic promise the rest of the script never pays off.",
-          "The warm up: clearing your throat on camera while the viewer waits for the video to begin.",
+          "The warm up: clearing your throat on camera while the viewer waits for the video to start.",
         ],
       },
       {

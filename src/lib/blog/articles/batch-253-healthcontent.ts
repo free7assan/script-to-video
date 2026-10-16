@@ -136,7 +136,7 @@ export const batch253: BlogPost[] = [
         paragraphs: [
           "If a viewer wants to verify you, do not make them hunt. Drop the title, the year, and the journal on screen or in a pinned comment. When verification is easy, honest creators look better and careless ones get filtered out.",
           "That small courtesy is also a filter for you. If you cannot find a clean way to cite a claim, that is usually a sign the claim was never solid.",
-          "Do this long enough and viewers start to expect it. They begin asking their own questions instead of waiting for yours, and that shift is the sign your source work is doing its job.",
+          "Do this long enough and viewers start to expect it. They start asking their own questions instead of waiting for yours, and that shift is the sign your source work is doing its job.",
         ],
       },
     ],
@@ -169,7 +169,7 @@ export const batch253: BlogPost[] = [
       },
       {
         quote:
-          "A routine that looks effortless teaches nothing. A routine that looks possible teaches everything.",
+          "A routine that looks easy teaches nothing. A routine that looks possible teaches everything.",
       },
       {
         heading: "Give the viewer a way in",
@@ -183,7 +183,7 @@ export const batch253: BlogPost[] = [
         heading: "Film the setup, not just the payoff",
         paragraphs: [
           "The gear, the outfit, and the prepped meal are the easy part of a wellness video, and they are also the least useful to a viewer. Spend your screen time on the setup that makes the routine repeatable, like where the shoes live or when the walk gets scheduled.",
-          "If a routine needs a lot of preparation, be honest about that cost. Telling viewers it is effortless when it takes planning sets them up to fail, and they will quietly stop following along without ever telling you why.",
+          "If a routine needs a lot of preparation, be honest about that cost. Telling viewers it is easy when it takes planning sets them up to fail, and they will quietly stop following along without ever telling you why.",
           "A short clip of you setting things up the night before can do more work than the routine itself. It shows the viewer the invisible step that makes the visible one possible.",
         ],
       },
@@ -387,7 +387,7 @@ export const batch253: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Put a plain content warning before the sensitive material begins.",
+          "Put a plain content warning before the sensitive material starts.",
           "Give timestamps so viewers can skip the hard parts and stay.",
           "Withhold graphic detail unless it genuinely explains something.",
           "Get consent and fairness from anyone whose story you tell.",
@@ -505,7 +505,7 @@ export const batch253: BlogPost[] = [
         paragraphs: [
           "A viewer needs a signal that the habit is doing something. It can be as simple as a check mark on a calendar or a note about how they felt. Without a signal, the habit feels pointless by week three.",
           "Be honest about how long it takes to notice a change. Telling viewers to expect a shift in a few days sets them up to quit. Telling them the first weeks may feel like nothing prepares them to keep going.",
-          "Build in a restart. Every habit breaks. A viewer who knows how to begin again after a missed week is far more likely to keep the habit for a year.",
+          "Build in a restart. Every habit breaks. A viewer who knows how to start again after a missed week is far more likely to keep the habit for a year.",
         ],
       },
       {

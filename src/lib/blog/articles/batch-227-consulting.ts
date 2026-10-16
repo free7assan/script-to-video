@@ -125,7 +125,7 @@ export const batch227: BlogPost[] = [
   {
     slug: "consulting-setting-your-consulting-rates",
     title: "Setting Consulting Rates Without Underselling Yourself",
-    excerpt: "Most consultants set rates too low. Setting consulting rates without underselling yourself starts with the result you deliver, not the hours you spend on the clock.",
+    excerpt: "Most consultants set rates too low. Setting rates without underselling yourself starts with the result you deliver, not the hours you spend on the clock.",
     date: "2037-04-05",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["services", "business", "expertise"],
@@ -245,7 +245,7 @@ export const batch227: BlogPost[] = [
   {
     slug: "consulting-discovery-calls-that-convert",
     title: "Discovery Calls That Turn Curious Viewers into Clients",
-    excerpt: "A call is not a pitch, it is a diagnosis. Discovery calls that turn curious viewers into clients ask sharper questions and let the client do most of the talking.",
+    excerpt: "A call is not a pitch, it is a diagnosis. Discovery calls that turn curious viewers into clients ask sharper questions and let the client do the talking.",
     date: "2037-04-09",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["services", "business", "expertise"],
@@ -305,7 +305,7 @@ export const batch227: BlogPost[] = [
   {
     slug: "consulting-scoping-a-project",
     title: "Scoping a Consulting Project before Work Begins",
-    excerpt: "Most project pain starts with a scope nobody wrote down. Scoping a consulting project before work begins protects the budget and the relationship.",
+    excerpt: "Most project pain starts with a scope nobody wrote down. Scoping a consulting project before work starts protects the budget and the relationship.",
     date: "2037-04-11",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["services", "business", "expertise"],
@@ -340,7 +340,7 @@ export const batch227: BlogPost[] = [
       {
         heading: "Plan for the unknowns",
         paragraphs: [
-          "Some questions cannot be answered until work begins. Build a small buffer for discovery inside the project rather than pretending everything is known.",
+          "Some questions cannot be answered until work starts. Build a small buffer for discovery inside the project rather than pretending everything is known.",
           "Put the assumption in writing. When the assumption breaks, you have a fair starting point for a new conversation."
         ]
       },

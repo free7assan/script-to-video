@@ -5,7 +5,7 @@ export const batch211: BlogPost[] = [
   {
     slug: "youtube-growth-honest-timeline",
     title: "The Honest Timeline for Growing a YouTube Channel",
-    excerpt: "Here is what YouTube growth actually looks like over the first few years, stripped of the hype from people who sell courses promising overnight results for new creators.",
+    excerpt: "Here is what YouTube growth looks like over the first few years, stripped of the hype from people who sell courses promising overnight results for new creators.",
     date: "2035-12-01",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["growth", "platform", "strategy"],

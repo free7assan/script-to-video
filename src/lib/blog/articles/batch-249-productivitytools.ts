@@ -278,7 +278,7 @@ export const batch249: BlogPost[] = [
         heading: "Protect against new clutter",
         paragraphs: [
           "New tools will keep arriving, and some will be worth trying. Set a rule before you install anything. If a new app does not replace an old one, it does not get a spot.",
-          "Test new tools inside a small, low-stakes project. If the app does not survive a real deadline, it does not deserve your daily attention. Novelty fades fast once real work begins."
+          "Test new tools inside a small, low-stakes project. If the app does not survive a real deadline, it does not deserve your daily attention. Novelty fades fast once real work starts."
         ]
       },
       {

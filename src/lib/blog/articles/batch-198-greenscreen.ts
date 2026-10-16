@@ -246,7 +246,7 @@ export const batch198: BlogPost[] = [
       {
         heading: "Start with the cleanest source you can",
         paragraphs: [
-          "Clean keying in the editor begins on set, not in the software. If the green is even and the subject stands clear of the cloth, the default key settings often work on the first try. Spend your time on the shoot and the edit becomes short.",
+          "Clean keying in the editor starts on set, not in the software. If the green is even and the subject stands clear of the cloth, the default key settings often work on the first try. Spend your time on the shoot and the edit becomes short.",
           "Import the clip and look at it full size before you add any effect. Find the brightest and darkest spots of green in the frame. Those two patches tell you how much range the key has to handle."
         ]
       },

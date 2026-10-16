@@ -106,7 +106,7 @@ export const batch224: BlogPost[] = [
         heading: "Publishing a sample",
         paragraphs: [
           "Show the first section for free so buyers know what they are paying for. A preview costs you nothing and removes most of the risk of a blind purchase. People buy what they can already picture using, so let them picture it.",
-          "Cut the sample where the real value begins. Enough to prove the structure works, not so much that the file feels redundant. The line between sample and product should feel generous, not teasing.",
+          "Cut the sample where the real value starts. Enough to prove the structure works, not so much that the file feels redundant. The line between sample and product should feel generous, not teasing.",
           "Pair the sample with a short clip of you filling it in. Seeing the template used answers the questions a preview alone cannot. Video proof is the cheapest salesperson you will ever hire."
         ]
       },
@@ -407,7 +407,7 @@ export const batch224: BlogPost[] = [
       {
         heading: "A folder structure that explains itself",
         paragraphs: [
-          "Name folders in plain words and keep the count small. Buyers should know where to start without opening five directories. A single entry document that walks through the pack beats a mystery maze. Confusion at the start colors everything after, and a buyer who has to hunt for the entry file begins annoyed.",
+          "Name folders in plain words and keep the count small. Buyers should know where to start without opening five directories. A single entry document that walks through the pack beats a mystery maze. Confusion at the start colors everything after, and a buyer who has to hunt for the entry file starts annoyed.",
           "Put anything optional in its own place. Fonts, extra presets, and sample media belong together so the main file stays obvious. A tidy tree is the first proof that you respect their time. Order signals quality before anyone opens a single file, and structure is the cheapest quality signal you can send.",
           "Number the folders if there is a sequence. A numbered path tells buyers what to open first without a single line of instruction."
         ]
@@ -435,7 +435,7 @@ export const batch224: BlogPost[] = [
       {
         heading: "Writing a readme people read",
         paragraphs: [
-          "Keep the readme short and ordered. A buyer should finish it in two minutes and know exactly which file to open first. Steps beat paragraphs, and screenshots beat steps. Clarity is kindness when someone is eager to start, so write for the person who already paid and wants to begin.",
+          "Keep the readme short and ordered. A buyer should finish it in two minutes and know exactly which file to open first. Steps beat paragraphs, and screenshots beat steps. Clarity is kindness when someone is eager to start, so write for the person who already paid and wants to start.",
           "Put the support contact at the top and the license at the bottom. Buyers reach for help before they read terms, so make both easy to find. Design the readme around real behavior, not around how you wish people read."
         ]
       },
@@ -556,7 +556,7 @@ export const batch224: BlogPost[] = [
       {
         heading: "Handling objections in comments",
         paragraphs: [
-          "Buyers will ask about price, compatibility, and refunds in public. Answer every question calmly, because the people reading are more numerous than the one person asking. A rude reply costs sales you never see.",
+          "Buyers will ask about price, compatibility, and refunds in public. Answer every question calmly, because the people reading are more common than the one person asking. A rude reply costs sales you never see.",
           "Pin the answer to the most common question. A single reply at the top saves you from typing the same thing all week. Public answers keep working while you sleep, which is the closest thing to passive marketing. You answer once and hundreds of readers benefit."
         ]
       },

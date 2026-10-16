@@ -538,7 +538,7 @@ export const batch353: BlogPost[] = [
       {
         heading: "How to word it",
         paragraphs: [
-          "Write like you are telling a friend, not issuing a press release. I re-recorded the pricing section and added a note about the new free tier works better than this video has been comprehensively updated to reflect current information. Plain language always beats formal phrasing.",
+          "Write like you are telling a friend, not issuing a press release. I re-recorded the pricing section and added a note about the new free tier works better than this video has been fully updated to reflect current information. Plain language always beats formal phrasing.",
           "Avoid apologizing for the old version. The video was fine when it shipped, and you made it better. That is a normal part of maintaining a channel, and owning it without excuses reads as confidence rather than regret. You are a working creator, not a disappointing one."
         ]
       },

@@ -17,14 +17,14 @@ export const batch261: BlogPost[] = [
         heading: "The short answer",
         paragraphs: [
           "To teach a language on video, pick one phrase, say it slowly and at natural speed, then ask the viewer to repeat it before the clip ends. That loop, model then mirror, is the whole job, and everything else in your edit serves it.",
-          "Most language videos fail because they explain too much and demonstrate too little. A viewer can follow a grammar chart and still freeze in a real conversation. Give the ear a sound and the mouth a job, and the lesson starts to stick."
+          "Most language videos fail because they explain too much and show too little. A viewer can follow a grammar chart and still freeze in a real conversation. Give the ear a sound and the mouth a job, and the lesson starts to stick."
         ]
       },
       {
         heading: "Choose one outcome per video",
         paragraphs: [
           "A lesson that promises five verbs and three tenses teaches nobody anything. Pick a single sentence your viewer could use at a cash register tomorrow, then build the entire clip around that sentence. Narrow goals survive attention spans.",
-          "Write the outcome in your title and repeat it in the first twenty seconds. When the viewer knows exactly what they will walk away holding, they tolerate the practice drills that follow. vague promises lose people before the first exercise begins."
+          "Write the outcome in your title and repeat it in the first twenty seconds. When the viewer knows exactly what they will walk away holding, they tolerate the practice drills that follow. vague promises lose people before the first exercise starts."
         ]
       },
       {
@@ -383,7 +383,7 @@ export const batch261: BlogPost[] = [
   {
     slug: "language-learning-tracking-progress",
     title: "Tracking Language Progress So You Know It Is Working",
-    excerpt: "Tracking language progress keeps motivation alive when fluency feels slow. This guide shows which numbers matter, what to log weekly, and what to ignore completely.",
+    excerpt: "Tracking language progress keeps motivation alive when fluency feels slow. This guide shows which numbers matter, what to log weekly, and what to ignore.",
     date: "2040-02-24",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["niche", "education", "howto"],
@@ -435,7 +435,7 @@ export const batch261: BlogPost[] = [
   },
   {
     slug: "language-learning-native-speaker-collabs",
-    title: "Working With Native Speakers on Collaborative Language Videos",
+    title: "Working With Native Speakers on Language Videos",
     excerpt: "Working with native speakers on language videos adds authenticity no script can fake. Learn where to find partners, how to brief them, and what to pay fairly.",
     date: "2040-02-26",
     author: { name: "GoScript Team", role: "Editorial" },

@@ -14,7 +14,7 @@ export const batch174: BlogPost[] = [
     icon: BookOpen,
     content: [
       {
-        heading: "Where to begin",
+        heading: "Where to start",
         paragraphs: [
           "You can start a tech channel with the phone in your pocket and one clear goal for the first ten videos. The goal matters far more than the gear, because equipment only helps once you know what your videos are for.",
           "Most people quit before upload number five, long before the channel has a fair chance. Set a small target, such as one review each week, and treat the first month as practice rather than a launch."
@@ -143,7 +143,7 @@ export const batch174: BlogPost[] = [
       {
         heading: "Skip the slow intro",
         paragraphs: [
-          "A strong unboxing starts within a few seconds of the video with the box already on the table. Long channel intros give viewers a reason to tap away before the interesting part begins.",
+          "A strong unboxing starts within a few seconds of the video with the box already on the table. Long channel intros give viewers a reason to tap away before the interesting part starts.",
           "Say what is inside in one line, then open the box on camera. Viewers came to see the device, so get to it quickly."
         ]
       },

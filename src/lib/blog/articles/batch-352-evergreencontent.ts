@@ -433,7 +433,7 @@ export const batch352: BlogPost[] = [
   {
     slug: "evergreen-content-updating-without-losing-rank",
     title: "Updating an Evergreen Video Without Losing Your Rank",
-    excerpt: "Evergreen content sometimes needs a refresh, and you can update an old video without losing rank by keeping the URL, the promise, and most of the runtime intact.",
+    excerpt: "Evergreen content sometimes needs a refresh, and you can update an old video without losing rank by keeping the URL, the promise, and most of runtime intact.",
     date: "2047-09-20",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["strategy", "longevity", "seo"],

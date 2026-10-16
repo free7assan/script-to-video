@@ -166,7 +166,7 @@ export const batch14: BlogPost[] = [
         heading: "Avoid manufacturing dread",
         paragraphs: [
           "Loss framing tips into manipulation the moment the loss is invented. If the viewer is not actually losing anything, they sense it, and the hook reads as a threat. Save loss aversion for costs you can prove.",
-          "A good rule: only frame a loss you can demonstrate on screen. If you claim the viewer is losing money, show the line item. Proof is what separates a warning from a scare tactic.",
+          "A good rule: only frame a loss you can show on screen. If you claim the viewer is losing money, show the line item. Proof is what separates a warning from a scare tactic.",
         ],
       },
       {

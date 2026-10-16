@@ -136,7 +136,7 @@ export const batch49: BlogPost[] = [
       "Voice in a Short is not a persona you perform. It is the handful of habits that survive when every sentence has to earn its place on the timeline.",
     date: "2024-07-03",
     author: { name: "GoScript Team", role: "Editorial" },
-    tags: ["shorts"],
+    tags: ["shorts", "voice"],
     readTime: "6 min read",
     accent: "#f97316",
     icon: MessageSquare,

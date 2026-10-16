@@ -259,7 +259,7 @@ export const batch13: BlogPost[] = [
       {
         paragraphs: [
           "To diagnose a weak hook, find the exact second where the retention line drops hardest, then read the script at that timestamp. The graph points to the sentence, and the sentence explains the graph.",
-          "I stopped guessing why videos underperformed once I started matching timestamps to lines. The answer is usually sitting at the exact moment the drop begins.",
+          "I stopped guessing why videos underperformed once I started matching timestamps to lines. The answer is usually sitting at the exact moment the drop starts.",
         ],
       },
       {

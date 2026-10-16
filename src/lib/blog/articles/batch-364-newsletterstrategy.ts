@@ -381,7 +381,7 @@ export const batch364: BlogPost[] = [
         heading: "Why short survives",
         paragraphs: [
           "Short issues survive because they are cheap to produce. When a send costs you forty minutes instead of four hours, you keep going through the months when nothing exciting happened.",
-          "Short also invites a reply. A dense email gets a nod at best, and a small one gets answers, which is where every useful conversation with your audience begins.",
+          "Short also invites a reply. A dense email gets a nod at best, and a small one gets answers, which is where every useful conversation with your audience starts.",
           "There is a practical ceiling as well. The longer the issue, the more likely something breaks, a wrong link, a missing image, or a subject line that no longer matches the text. Short issues have fewer moving parts, and small emails render more reliably across phone clients.",
         ],
       },

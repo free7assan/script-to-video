@@ -314,7 +314,7 @@ export const batch146: BlogPost[] = [
       {
         heading: "Skipping the setup the viewer needs",
         paragraphs: [
-          "You know your computer, your accounts, and your files. The viewer does not, so a video that starts mid project leaves them stranded before the real lesson begins.",
+          "You know your computer, your accounts, and your files. The viewer does not, so a video that starts mid project leaves them stranded before the real lesson starts.",
           "Name the software and its version, show the starting state, and mention any prerequisites in the first minute. A short setup section prevents a flood of confused comments.",
           "Assume less. If you downloaded a template or opened a specific file, say where it came from so a beginner can actually follow along.",
         ],
@@ -400,7 +400,7 @@ export const batch146: BlogPost[] = [
         heading: "Offer a path for the wrong audience",
         paragraphs: [
           "When an advanced video will lose beginners, link them to the prerequisite video in the description and on screen. Sending someone to the right starting point is kindness, not a lost view.",
-          "The same works in reverse. If an expert has wandered into a basic tutorial, a quick note about where the advanced material begins saves them from hunting.",
+          "The same works in reverse. If an expert has wandered into a basic tutorial, a quick note about where the advanced material starts saves them from hunting.",
           "These small redirects build a library that works as a course, where each video knows its place in the sequence.",
         ],
       },

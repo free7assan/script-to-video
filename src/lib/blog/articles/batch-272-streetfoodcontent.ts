@@ -449,7 +449,7 @@ export const batch272: BlogPost[] = [
         paragraphs: [
           "Markets breathe, and the quiet hours are your best window. Get there as vendors set up and you can film clean shots without shoving through a crowd. Stay after the peak and the light softens as the stalls empty.",
           "If you must shoot midday, pick one lane and work it slowly. Jumping between aisles wastes time and doubles the number of people you have to dodge.",
-          "Ask a vendor when the crush begins and plan around it. Most are happy to tell you, and their answer is more accurate than any schedule posted online.",
+          "Ask a vendor when the crush starts and plan around it. Most are happy to tell you, and their answer is more accurate than any schedule posted online.",
         ],
       },
       {

@@ -628,7 +628,7 @@ export const batch33: BlogPost[] = [
         paragraphs: [
           "A producer owns the schedule, the people, and the logistics so you can spend your hours on ideas and filming. They are the role that turns a group of freelancers into a team that ships on time.",
           "I added a producer when coordinating three freelancers had become a part-time job. Within a month, uploads stopped slipping and I stopped spending evenings chasing files.",
-          "Until you have other people to manage, you do not need one. Once you do, the producer is often the highest-leverage hire on the channel.",
+          "Until you have other people to manage, you do not need one. Once you do, the producer is often the highest-value hire on the channel.",
         ],
       },
       {

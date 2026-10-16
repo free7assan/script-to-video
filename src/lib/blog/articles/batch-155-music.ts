@@ -47,7 +47,7 @@ export const batch155: BlogPost[] = [
       {
         heading: "Match motion, not just cuts",
         paragraphs: [
-          "A pan that ends where the next shot begins feels tighter than any frame-accurate cut. Match the direction and speed of movement across the join and the transition almost disappears, which is often exactly what you want.",
+          "A pan that ends where the next shot starts feels tighter than any frame-accurate cut. Match the direction and speed of movement across the join and the transition almost disappears, which is often exactly what you want.",
           "Titles can ride the beat too. Bring a lower third in on the snare, settle it before the next bar, and it reads as designed rather than dropped on top.",
         ],
       },
@@ -157,7 +157,7 @@ export const batch155: BlogPost[] = [
         ],
       },
       {
-        quote: "The fastest way to make your music feel powerful is to take it away for a moment and give it back.",
+        quote: "The fastest way to make your music feel forceful is to take it away for a moment and give it back.",
       },
       {
         heading: "Drop out for transitions and reveals",

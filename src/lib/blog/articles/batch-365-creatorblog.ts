@@ -649,7 +649,7 @@ export const batch365: BlogPost[] = [
           "A blog keeps earning attention long after a video goes quiet.",
           "Owned addresses and clean design age better than platform-dependent reach.",
           "Older posts appreciate while most videos depreciate.",
-          "The archive itself becomes reputation, inventory, and leverage."
+          "The archive itself becomes reputation, inventory, and advantage."
         ]
       }
     ]

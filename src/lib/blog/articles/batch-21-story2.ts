@@ -115,7 +115,7 @@ export const batch21: BlogPost[] = [
   {
     slug: "story2-survey-data-video-narrative",
     title: "How to Turn Survey Data Into a Video Narrative",
-    excerpt: "Survey data becomes a story when you stop reading percentages and start reading people. Here is how to cast one survey, chart the split, and close with a number.",
+    excerpt: "Survey data becomes a story when you stop reading percentages and start reading people. How to cast one survey, chart the split, and close with a number.",
     date: "2024-11-21",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["storytelling", "narrative"],

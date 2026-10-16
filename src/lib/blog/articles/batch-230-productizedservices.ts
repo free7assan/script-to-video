@@ -77,7 +77,7 @@ export const batch230: BlogPost[] = [
       {
         heading: "Start with the sale, not the work",
         paragraphs: [
-          "Turning custom work into a fixed offer begins at the end. Picture the exact moment a client says yes and imagine what they believe they are buying. That belief, not your process, is the product.",
+          "Turning custom work into a fixed offer starts at the end. Picture the exact moment a client says yes and imagine what they believe they are buying. That belief, not your process, is the product.",
           "Most freelancers build the offer backward. They list the hours, the tools, and the steps, then hope a buyer cares. Buyers do not buy steps. They buy a finished result they can picture.",
         ],
       },
@@ -234,7 +234,7 @@ export const batch230: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Standard deliverables remove repeated decisions that drain your margin.",
-          "Define the exact artifact and share its spec before work begins.",
+          "Define the exact artifact and share its spec before work starts.",
           "Turn your best projects into templates that carry quality for you.",
           "Keep a short quality checklist for every handoff.",
           "Variety is expensive when it is unplanned.",
@@ -363,7 +363,7 @@ export const batch230: BlogPost[] = [
       {
         heading: "Momentum starts at payment",
         paragraphs: [
-          "Onboarding begins the second a client pays, not when you feel ready. The first hours set the tone for the whole project, and silence in those hours breeds doubt.",
+          "Onboarding starts the second a client pays, not when you feel ready. The first hours set the tone for the whole project, and silence in those hours breeds doubt.",
           "Send a single welcome email that confirms what happens next and when. A client who knows the plan stops sending nervous follow ups.",
         ],
       },
@@ -374,7 +374,7 @@ export const batch230: BlogPost[] = [
           "Keep the form tight. Ask for the things you truly need to start, and find the rest as the work moves.",
         ],
       },
-      { quote: "A calm onboarding is a promise kept before the work even begins." },
+      { quote: "A calm onboarding is a promise kept before the work even starts." },
       {
         heading: "Set the calendar",
         paragraphs: [
@@ -467,7 +467,7 @@ export const batch230: BlogPost[] = [
     icon: Scissors,
     content: [
       {
-        heading: "How creep begins",
+        heading: "How creep starts",
         paragraphs: [
           "Scope creep rarely arrives as a big demand. It comes as a small favor, then another, until the fixed price covers twice the work you quoted.",
           "Clients are not villains. They simply ask for what seems reasonable, and it is your job to define what is included before they ask.",
@@ -499,7 +499,7 @@ export const batch230: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Scope creep starts with small favors and compounds quietly.",
-          "Write inclusions and exclusions before work begins.",
+          "Write inclusions and exclusions before work starts.",
           "Repeat the boundary at kickoff, not only in the contract.",
           "Keep one calm script that offers a paid path for extras.",
           "Repeated requests are signals for your next package.",

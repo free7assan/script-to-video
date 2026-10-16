@@ -206,7 +206,7 @@ export const batch102: BlogPost[] = [
         bullets: [
           "A one-line bio that names the viewer and the result.",
           "Thumbnails that look like they belong to one channel, not five.",
-          "An intro that states the value before the story begins.",
+          "An intro that states the value before the story starts.",
           "Titles that repeat your core phrase until it sticks.",
           "A pinned comment that says who the channel is for."
         ]

@@ -241,7 +241,7 @@ export const batch344: BlogPost[] = [
       {
         heading: "Make the first minute prove the title",
         paragraphs: [
-          "The opening has to cash the promise immediately. If the viewer cannot see the list starting within thirty seconds, the title begins to feel like bait and trust starts leaking. The first item should arrive before any lengthy setup has a chance to test their patience.",
+          "The opening has to cash the promise immediately. If the viewer cannot see the list starting within thirty seconds, the title starts to feel like bait and trust starts leaking. The first item should arrive before any lengthy setup has a chance to test their patience.",
           "State the premise in plain language, then move into item one. Every sentence between the click and the first entry is a place a viewer can decide they were misled. There is no reason to spend that opening on a rambling introduction the title already covered.",
           "You can also name the stakes once. Saying who the list is for and what the ranking measures gives the viewer a frame for judging every entry that follows."
         ]

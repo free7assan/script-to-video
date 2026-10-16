@@ -293,7 +293,7 @@ export const batch105: BlogPost[] = [
         heading: "Your name is on the line",
         paragraphs: [
           "When you join a collab, part of your reputation rides on the result. Viewers do not separate your channel from the video you appeared in, even when they should.",
-          "That is why you set a few rules before you start. Not to be difficult, but to protect both sides from a video that neither of you would have posted alone. Think of it as insurance you both pay into."
+          "That is why you set a few rules before you start. Not to be difficult, but to protect both sides from a video that neither of you would have posted alone. Treat it as insurance you both pay into."
         ]
       },
       {

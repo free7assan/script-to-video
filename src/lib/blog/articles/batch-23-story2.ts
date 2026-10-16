@@ -263,7 +263,7 @@ export const batch23: BlogPost[] = [
         heading: "Protect the subject after the cut",
         paragraphs: [
           "Editing can make an honest person sound evasive if you cut mid-answer. Keep enough of each response that the meaning survives, even when it runs long. Viewers notice when someone is being made to look bad.",
-          "When in doubt, show the subject the segment and note their objection on the record. That note can become a powerful part of the story instead of a liability.",
+          "When in doubt, show the subject the segment and note their objection on the record. That note can become a strong part of the story instead of a liability.",
         ],
       },
     ],

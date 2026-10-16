@@ -249,7 +249,7 @@ export const batch308: BlogPost[] = [
   },
   {
     slug: "strikes-waiting-out-a-strike",
-    title: "How to Wait Out a YouTube Channel Strike Without Losing Ground",
+    title: "How to Wait Out a YouTube Channel Strike",
     excerpt:
       "Waiting out a strike tests patience more than skill or luck. Use the 90 days to fix the cause and return with videos that stay clear of the line.",
     date: "2044-01-09",
@@ -417,7 +417,7 @@ export const batch308: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Recovery begins when the strike expires, not before.",
+          "Recovery starts when the strike expires, not before.",
           "Your first few uploads should be your safest ones.",
           "Avoid borrowed footage and music for the first week back.",
           "Reach can lag for two or three weeks, so watch trends.",

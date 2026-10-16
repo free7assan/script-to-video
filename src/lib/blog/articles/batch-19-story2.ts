@@ -22,6 +22,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Mark every first-person line and ask what it adds.",
+          "Keep the pronoun consistent between intro and body.",
+          "Confirm the 'I' returns to a changed view by the end.",
+          "Hand the line to a named subject when they tell it better.",
+        ]
+      },
+      {
         quote: "Delete every I from the script. If nothing is lost, the pronoun was never carrying weight.",
       },
       {
@@ -86,6 +95,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Persona is a set of repeatable choices.",
+          "Give the narrator one bias you can name.",
+          "Build recognition with a signature opening move and attitude.",
+          "Keep the character honest by naming what the record cannot prove.",
+        ]
+      },
+      {
         quote: "The narrator is not a mask you put on. It is a filter you choose, and every filter hides something.",
       },
       {
@@ -141,6 +159,15 @@ export const batch19: BlogPost[] = [
           "The trade is intimacy for reach. You can cover more ground and stay credible across subjects that have nothing to do with your life, but you give up the easy warmth that comes from a person saying 'I saw this.'",
           "I use it whenever the subject is bigger than my reaction to it. A video about a collapsed fishing town does not need me as a character. It needs me as a guide who knows when to stop talking.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Distance is the point of third person.",
+          "Use it when living people can speak for themselves.",
+          "Use it when the argument depends on scale or trust is fragile.",
+          "Keep cold narration warm with concrete detail.",
+        ]
       },
       {
         quote: "Distance is not coldness. It is a decision about where the viewer should stand.",
@@ -200,6 +227,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Choose the kind of unreliability: misrememberer, self-justifier, withholder, or convert.",
+          "Plant the tell so the viewer can sense the gap.",
+          "Make the ending pay off the doubt you planted.",
+          "Use unreliability to mimic how real testimony behaves.",
+        ]
+      },
+      {
         quote: "An unreliable narrator must leave fingerprints. Otherwise the viewer has nothing to solve.",
       },
       {
@@ -248,6 +284,15 @@ export const batch19: BlogPost[] = [
           "The mistake is importing fiction's tidy curve onto a messy life. Real arcs are lumpy. Someone can grow in one area and regress in another, and the video is more believable when it lets both happen.",
           "I build arcs from interviews and records because those are the only places a real person's wants become visible. If I cannot find the want in the evidence, I do not have an arc, I have a biography.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Find the want before the change.",
+          "The arc hides in early interviews and contradictions.",
+          "Let the ending stay open.",
+          "Test the arc against the record.",
+        ]
       },
       {
         quote: "You do not give a real person an arc. You find the one they were already living and point the camera at it.",
@@ -307,6 +352,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Mark every shift out loud.",
+          "A shift earns its place when it changes meaning.",
+          "Keep a home base so the viewer is not lost.",
+          "Editing the shift is where the real work happens.",
+        ]
+      },
+      {
         quote: "A perspective shift should feel like turning a corner, not like changing the channel.",
       },
       {
@@ -364,6 +418,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Evidence first, feeling second.",
+          "Use honest hedges like 'the record does not say.'",
+          "Attribute interpretation to yourself so the viewer can weigh it.",
+          "Let silence carry weight instead of inventing interiority.",
+        ]
+      },
+      {
         quote: "Do not tell the viewer what a subject felt. Give them the pause that made you wonder.",
       },
       {
@@ -382,7 +445,7 @@ export const batch19: BlogPost[] = [
           "Name the moment your reading might be wrong, and say what would change your mind.",
         ],
         paragraphs: [
-          "Hedges are not weakness. They tell the viewer where the evidence ends and your reading begins, which is exactly the honesty the genre needs.",
+          "Hedges are not weakness. They tell the viewer where the evidence ends and your reading starts, which is exactly the honesty the genre needs.",
         ],
       },
       {
@@ -395,7 +458,7 @@ export const batch19: BlogPost[] = [
       {
         heading: "Let silence carry weight",
         paragraphs: [
-          "Sometimes the most honest move is to leave a gap where the inner life would go. Show the subject looking out a window, say nothing, and move on. The viewer fills it in with their own experience, which is more powerful than any sentence I could write.",
+          "Sometimes the most honest move is to leave a gap where the inner life would go. Show the subject looking out a window, say nothing, and move on. The viewer fills it in with their own experience, which is stronger than any sentence I could write.",
           "Interiority is not about explaining people. It is about making the viewer lean toward them. The lean is the whole point, and it only happens when you leave them something to lean into.",
         ],
       },
@@ -419,6 +482,15 @@ export const batch19: BlogPost[] = [
           "Consistency is not repetition. The character can grow across a season. What cannot change is the underlying contract about how the narrator behaves, because that contract is what the audience learned to rely on in the first place.",
           "I keep a one-page character sheet for every series I run. It is boring administrative work, and it is the reason the later episodes do not read as a different channel wearing the same logo.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Decide what stays fixed across the series.",
+          "Repeat an opening ritual and a private language.",
+          "Give difficult subjects the same ethical care each time.",
+          "Let the character grow on a slow clock.",
+        ]
       },
       {
         quote: "A series is a promise that the person who showed up last week will show up again.",
@@ -478,6 +550,15 @@ export const batch19: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Weigh the candidates by whose knowledge the claim depends on.",
+          "Ask who pays the cost if the story is told wrong.",
+          "Name what a position cannot see.",
+          "Commit, and let the perspective constrain you.",
+        ]
+      },
+      {
         quote: "Point of view is not a filter you can add later. It is the room the whole story happens in.",
       },
       {
@@ -533,6 +614,15 @@ export const batch19: BlogPost[] = [
           "You can have a distinctive voice and no point of view, which is what most style-over-substance channels actually are. You can also have a strong point of view delivered in a flat voice, which usually reads as a lecture.",
           "The essays that stay with me have both. The voice keeps me listening. The point of view tells me why it matters that this particular person is the one saying it.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Voice you can practice; point of view you have to earn.",
+          "If the sentences could fit any topic, the point of view is thin.",
+          "Build the point of view into the structure.",
+          "Commit to a claim instead of restating the premise.",
+        ]
       },
       {
         quote: "Voice is how the sentence sounds. Point of view is why anyone should let you finish it.",

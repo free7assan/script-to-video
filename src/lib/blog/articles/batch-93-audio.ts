@@ -30,7 +30,7 @@ export const batch93: BlogPost[] = [
       {
         heading: "Timing for natural speech",
         paragraphs: [
-          "The attack time controls how fast the gate opens when speech begins. A fast attack can sound abrupt, while a slow attack can miss the first part of a word. For speech, a short attack near a few milliseconds often works well.",
+          "The attack time controls how fast the gate opens when speech starts. A fast attack can sound abrupt, while a slow attack can miss the first part of a word. For speech, a short attack near a few milliseconds often works well.",
           "Hold and release control how long the gate stays open after speech drops. A short release can chop the end of words, while a long release can leave noise open too long. Aim for a release that matches the pace of speech in the room.",
         ],
       },
@@ -515,7 +515,7 @@ export const batch93: BlogPost[] = [
       {
         heading: "Start with light values",
         paragraphs: [
-          "Begin with a threshold that catches only the loudest peaks, a low ratio, a moderate attack and an auto or medium release. Aim for a few decibels of gain reduction at most for most speech.",
+          "Start with a threshold that catches only the loudest peaks, a low ratio, a moderate attack and an auto or medium release. Aim for a few decibels of gain reduction at most for most speech.",
           "Make up gain to match the level before compression. This lets you judge the change fairly without the volume jump tricking your ears.",
         ],
       },

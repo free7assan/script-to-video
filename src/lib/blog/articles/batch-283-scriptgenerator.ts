@@ -28,7 +28,7 @@ export const batch283: BlogPost[] = [
       {
         paragraphs: [
           "A usable first draft from a script generator is one you can read aloud and react to, not a finished piece. Your goal at this stage is raw material with a clear shape. The words can be rough as long as the structure holds together. If a sentence makes you wince, that is fine, because you are looking for bones rather than polish.",
-          "People get stuck because they expect the tool to write the final video. It will not. What it does well is turn a topic and an outline into sentences you can push around, cut, and reorder until they sound like you. A draft you can improve is worth far more than a blank page you are afraid to begin.",
+          "People get stuck because they expect the tool to write the final video. It will not. What it does well is turn a topic and an outline into sentences you can push around, cut, and reorder until they sound like you. A draft you can improve is worth far more than a blank page you are afraid to start.",
           "Keep the session short. Generate, skim, and stop before you start polishing, because polishing inside the first pass hides the structure problems you need to see. Twenty focused minutes beats two distracted hours at the same task.",
         ],
       },
@@ -555,7 +555,7 @@ export const batch283: BlogPost[] = [
         paragraphs: [
           "Every channel repeats pieces of itself, and a script generator gets some of those pieces right. Save the sections that work, and your next few drafts come together faster. Reuse is how you turn a tool into a system. A system is what carries you through a busy month.",
           "A reusable section is anything you rewrite the same way every time. Find those and stop rewriting them from zero. The work you save is the work you get to spend on the parts that matter.",
-          "The goal is not to sound repetitive. It is to stop spending fresh effort on the parts that were never original to begin with. Reuse the frame, save the creativity for the picture.",
+          "The goal is not to sound repetitive. It is to stop spending fresh effort on the parts that were never original to start with. Reuse the frame, save the creativity for the picture.",
         ],
       },
       {

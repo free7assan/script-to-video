@@ -34,7 +34,7 @@ export const batch361: BlogPost[] = [
       {
         heading: "Count the revision rounds out loud",
         paragraphs: [
-          "Revision rounds are the most common place a scope quietly expands. Fix the number before you begin. Two rounds is a workable standard for most script and content work, and anything past that triggers a rate you both already know.",
+          "Revision rounds are the most common place a scope quietly expands. Fix the number before you start. Two rounds is a workable standard for most script and content work, and anything past that triggers a rate you both already know.",
           "Also define what counts as a round. A batch of comments in one document is one round. Fifteen separate messages spread over four days is five. Stating this early keeps the process honest without anyone feeling policed."
         ]
       },
@@ -78,7 +78,7 @@ export const batch361: BlogPost[] = [
       {
         heading: "Start with a number, not a feeling",
         paragraphs: [
-          "The healthiest revision process begins before the first draft exists. Tell the client exactly how many rounds are included and what a round looks like in practice. A number on the invoice agreement beats a vague promise to keep going until it feels right.",
+          "The healthiest revision process starts before the first draft exists. Tell the client exactly how many rounds are included and what a round looks like in practice. A number on the invoice agreement beats a vague promise to keep going until it feels right.",
           "Open-ended revision language sounds generous and turns into a second unpaid job. Clients do not push past a stated limit when they met it on day one. They push when the limit was never there."
         ]
       },

@@ -246,7 +246,7 @@ export const batch137: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Begin with one soft light placed to the side and slightly above the face.",
+          "Start with one soft light placed to the side and slightly above the face.",
           "A window with a sheer curtain is a free and flattering key light.",
           "Match color temperatures so your subject does not look half warm and half cool.",
           "Tape your positions so a good setup is easy to rebuild next time.",

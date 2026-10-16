@@ -284,7 +284,7 @@ export const batch229: BlogPost[] = [
         heading: "Scope the retainer in writing",
         paragraphs: [
           "Say exactly what the monthly fee covers. Four videos, two revision rounds each, one call, and a set delivery date. Anything past that is a new quote. This one page prevents most arguments.",
-          "Define what counts as a revision. A change from the approved script is a revision. Starting over because the product changed is a new project. Say this before the work begins, not after.",
+          "Define what counts as a revision. A change from the approved script is a revision. Starting over because the product changed is a new project. Say this before the work starts, not after.",
           "Put the payment date and late rule in the same document. Retainers fail when the invoice is vague and the client decides it is optional."
         ]
       },

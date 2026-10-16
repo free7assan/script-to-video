@@ -240,7 +240,7 @@ export const batch196: BlogPost[] = [
         heading: "Lean on audio comfort, not visuals",
         paragraphs: [
           "Since the picture rarely changes, the cut has to land on a strong audio boundary. Trim at a natural end of phrase or a completed thought, because cutting mid-clause makes the speaker seem to teleport between words.",
-          "Listen with your eyes closed. If the audio sounds seamless, the jump will read as intentional rather than accidental.",
+          "Listen with your eyes closed. If the audio sounds smooth, the jump will read as intentional rather than accidental.",
         ],
       },
       {

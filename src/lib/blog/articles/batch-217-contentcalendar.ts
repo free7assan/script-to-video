@@ -164,7 +164,7 @@ export const batch217: BlogPost[] = [
   {
     slug: "content-calendar-timely-videos",
     title: "Leaving Room in Your Calendar for Timely Videos",
-    excerpt: "A content calendar needs empty slots for timely videos, because a plan that is too full leaves no room when news, trends, or questions from your audience arrive.",
+    excerpt: "A content calendar needs empty slots for timely videos, because a plan that is too full leaves no room when news, trends, or audience questions arrive.",
     date: "2036-06-11",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["planning", "workflow", "consistency"],

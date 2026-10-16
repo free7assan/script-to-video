@@ -274,7 +274,7 @@ export const batch296: BlogPost[] = [
         heading: "Trade reach for fit",
         paragraphs: [
           "Big channels chase volume. Small channels should chase fit. A term with modest search volume that exactly matches your videos will outperform a huge term where you rank on page nine.",
-          "Think of it as fishing in a smaller pond where you are the only boat, instead of a crowded ocean where nobody notices you.",
+          "Treat it as fishing in a smaller pond where you are the only boat, instead of a crowded ocean where nobody notices you.",
         ],
       },
       {

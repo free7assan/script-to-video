@@ -21,6 +21,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Shapes age better than sentences; test the shape, not the wording.",
+          "The named outcome, numbered inventory, reversal, and direct address hold up.",
+          "Write three titles in one shape, then three in different shapes.",
+          "Revisit older titles six months later to see which shapes still read.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "A title formula is only proven when it survives the audience recognizing it.",
       },
@@ -80,6 +89,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Design at feed size, not full screen.",
+          "Shrink to 320 pixels and name the subject in one glance.",
+          "Let one face and one object compete, never two heroes.",
+          "Keep busy detail away from frame edges.",
+        ]
+      },
+      {
         heading: "Design the silhouette first",
         paragraphs: [
           "At feed size, viewers process shape before they process anything else. A strong thumbnail has a silhouette you could recognize from across the room: a face turned at an angle, a bold object, a clean split between two colors. Build that silhouette before you place a single word.",
@@ -131,6 +149,15 @@ export const batch04: BlogPost[] = [
           "A click is not a vote of confidence. It is a small wager. The viewer hands over a few seconds of attention on the bet that the video delivers the exact thing the title and thumbnail implied. Your job is to settle that bet, not to move the goalposts.",
           "Most retention problems are actually contract disputes. The video opened, the viewer realized the promise was different from what they bought, and they left. The graph shows a cliff; the cause is the fine print.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The click is a contract you have to honor in the first minute.",
+          "Restate the promise in your own words within the first sentence.",
+          "Show the payoff's shape early, even if you withhold the payoff.",
+          "If you narrow the topic mid-video, say so out loud.",
+        ]
       },
       {
         paragraphs: [],
@@ -185,6 +212,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Curiosity promises something falsifiable; bait promises the impossible.",
+          "Be honest about scale; do not pretend a small answer is enormous.",
+          "Deliver more than the title implied, never less.",
+          "If the title embarrasses you read aloud, it is bait.",
+        ]
+      },
+      {
         heading: "Signs a title is curiosity, not bait",
         bullets: [
           "The promise is specific enough to be falsifiable. 'The 4-minute rule I use before every upload' can be delivered. 'The secret nobody tells you' cannot.",
@@ -237,6 +273,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Change one thing per test or you learn nothing.",
+          "Run until impressions stop climbing, not for a fixed 24 hours.",
+          "Write the hypothesis before you see the result.",
+          "Track retention and returning viewers, not just CTR.",
+        ]
+      },
+      {
         heading: "The math nobody wants to hear",
         paragraphs: [
           "If your video gets 2,000 impressions and a 4 percent CTR, that is 80 clicks. Swapping the title to reach 5 percent adds 20. That difference is inside the daily noise of most channels. Calling it a winner is astrology with a spreadsheet.",
@@ -287,6 +332,15 @@ export const batch04: BlogPost[] = [
           "The old advice was three words maximum. Then half the platform started using six, and the old advice looked wrong. The truth is that the number matters less than the job the text is doing. Text on a thumbnail is a second headline, and headlines have rules.",
           "Ask what the image already says, then use words only for what the image cannot. If the picture shows a leaking pipe, the text should not say 'leaking pipe.' It should say the thing the picture cannot: the cost, the cause, or the stake.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Text should add what the image cannot carry.",
+          "Use it to name an abstract topic or set up a contrast.",
+          "Keep it readable at 320 pixels.",
+          "Sometimes zero words is the right answer.",
+        ]
       },
       {
         heading: "The three jobs text can do",
@@ -343,6 +397,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Match the expression to the claim the title makes.",
+          "A smile on a warning reads as a contradiction.",
+          "Authenticity beats intensity; relief reads truer than triumph.",
+          "A neutral gaze can build authority; not every video needs theater.",
+        ]
+      },
+      {
         heading: "Match the expression to the claim",
         bullets: [
           "If the title promises a revelation, use surprise or disbelief. The face should look like it just learned the thing the title implies.",
@@ -395,6 +458,15 @@ export const batch04: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Read CTR and retention as a pair, never alone.",
+          "High CTR with low retention means overpromising.",
+          "Low CTR with high retention means the packaging is the problem.",
+          "Low CTR with low retention means the topic is not landing.",
+        ]
+      },
+      {
         heading: "Why the two numbers pull apart",
         paragraphs: [
           "A vague, dramatic title maximizes clicks because it fits almost any video. That is also why it underperforms after the click, since the video can never be as broad as the promise. The narrower and more accurate the title, the lower the CTR and the higher the retention, usually.",
@@ -445,6 +517,15 @@ export const batch04: BlogPost[] = [
           "Packaging problems hide because you see your own thumbnails in a context that does not match the feed. On your channel page they look consistent and calm. In a busy feed, next to competitors, they may look invisible. An audit forces the second view.",
           "The audit is simple and takes about an hour. You review your last ten videos as a stranger would, score the packaging on a few honest criteria, then decide what to change for the next ten.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Build a fake feed from your last ten videos.",
+          "Score each on clarity, contrast, specificity, fit, and originality.",
+          "Pick two changes, not ten.",
+          "Return to the audit on a schedule.",
+        ]
       },
       {
         heading: "Step one: build the fake feed",
@@ -501,6 +582,15 @@ export const batch04: BlogPost[] = [
           "Most creators write the script, then bolt a title onto the end like a name tag at a conference. The title becomes a summary of what happened, which is almost never as sharp as a title written on purpose. Writing it first changes the video, not just the packaging.",
           "A title is a compression of your promise. If you cannot compress the promise into one line before you write, the video probably does not have a promise yet. That is a useful thing to learn in ten minutes instead of ten pages.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Writing the title first is a design constraint on the script.",
+          "If the sharpest title is boring, the video probably is too.",
+          "A title needing three clauses is really three videos.",
+          "If you cannot picture the thumbnail, the title may be too abstract.",
+        ]
       },
       {
         heading: "The title as a design constraint",

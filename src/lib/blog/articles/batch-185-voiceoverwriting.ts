@@ -129,7 +129,7 @@ export const batch185: BlogPost[] = [
       {
         heading: "Repeated sounds build up",
         paragraphs: [
-          "Alliteration can sound elegant in a title and clumsy in a live read. Two similar sounds are fine, but four in a row start to collide. Read the line aloud to hear where the collision happens.",
+          "Alliteration can sound refined in a title and clumsy in a live read. Two similar sounds are fine, but four in a row start to collide. Read the line aloud to hear where the collision happens.",
           "Watch for the same word ending on two nearby words, like business practice or specific tactic. The mouth prepares for one sound and meets another.",
         ],
       },
@@ -175,14 +175,14 @@ export const batch185: BlogPost[] = [
       {
         heading: "Let the picture lead",
         paragraphs: [
-          "Voiceover and picture should move as one piece of work. Write each line against the shot it will sit under, not in isolation on the page. When the words describe what the eye already sees, the story feels effortless.",
+          "Voiceover and picture should move as one piece of work. Write each line against the shot it will sit under, not in isolation on the page. When the words describe what the eye already sees, the story feels easy.",
           "The narration adds meaning the image cannot carry alone. It should answer a question the viewer is already asking, right as they ask it.",
         ],
       },
       {
         heading: "Time lines to the action",
         paragraphs: [
-          "Start a line when the relevant action begins on screen. If the voice arrives early, the viewer waits. If it arrives late, the moment has passed.",
+          "Start a line when the relevant action starts on screen. If the voice arrives early, the viewer waits. If it arrives late, the moment has passed.",
           "Leave breathing room after a key shot so the image can land before the next line. Silence under a strong visual often says more than a sentence would.",
         ],
       },
@@ -207,7 +207,7 @@ export const batch185: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Write each line against the exact shot it covers.",
-          "Begin lines as the on screen action begins.",
+          "Start lines as the on screen action starts.",
           "End or start thoughts at the cut points.",
           "Leave silent beats under strong visuals.",
         ],
@@ -229,7 +229,7 @@ export const batch185: BlogPost[] = [
         heading: "Write for the mouth, not the eye",
         paragraphs: [
           "Numbers and names are where a voiceover read most often goes wrong. The page shows digits and spelling, but the ear needs a sound. Decide how each one should be spoken, then write it that way.",
-          "The narrator should never have to guess whether 2010 is a year, a price, or an address. Remove the guesswork before the session begins.",
+          "The narrator should never have to guess whether 2010 is a year, a price, or an address. Remove the guesswork before the session starts.",
         ],
       },
       {
@@ -281,7 +281,7 @@ export const batch185: BlogPost[] = [
       {
         heading: "Scripts change mood",
         paragraphs: [
-          "A single voiceover often moves from warm to serious, from urgent to calm. The written script should carry those shifts so the narrator knows where each one begins. Tone left unmarked gets flattened in the booth.",
+          "A single voiceover often moves from warm to serious, from urgent to calm. The written script should carry those shifts so the narrator knows where each one starts. Tone left unmarked gets flattened in the booth.",
           "A viewer follows a story that changes feeling, and the writing is what signals the change. Plan the emotional arc before you record a word.",
         ],
       },

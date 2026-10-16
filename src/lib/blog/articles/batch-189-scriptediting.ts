@@ -4,7 +4,7 @@ import type { BlogPost } from "../types";
 export const batch189: BlogPost[] = [
   {
     slug: "script-revision-cut-filler-words",
-    title: "How to Cut Filler Words From a Script Without Losing Your Voice",
+    title: "How to Cut Filler Words Without Losing Your Voice",
     excerpt:
       "Filler words drain the energy from a video script. Learn how to find and cut them one pass at a time while keeping the voice that makes your work yours.",
     date: "2034-02-01",
@@ -517,7 +517,7 @@ export const batch189: BlogPost[] = [
       {
         heading: "What makes a sentence flabby",
         paragraphs: [
-          "Look for clauses that begin with that, which, or who. Some are needed. Many just delay the point.",
+          "Look for clauses that start with that, which, or who. Some are needed. Many just delay the point.",
           "Weak verb phrases are another culprit. Is able to do becomes can do. Is going to becomes will. The meaning holds and the line drops weight.",
           "Then there is the windup. Phrases like what I want to talk about today can usually be replaced by the thing itself.",
         ],

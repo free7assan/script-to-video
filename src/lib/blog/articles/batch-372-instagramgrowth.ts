@@ -18,7 +18,7 @@ export const batch372: BlogPost[] = [
     slug: "instagram-growth-reels-reach",
     title: "Using Reels to Reach New People on Instagram Growth",
     excerpt:
-      "Instagram growth for most creators now starts with Reels, the format the algorithm pushes hardest to non-followers. Here is how to make short clips that earn real reach.",
+      "Instagram growth now starts with Reels, the format the algorithm pushes hardest to non-followers. Here is how to make short clips that earn real reach.",
     date: "2049-05-03",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["instagram", "platform", "growth"],
@@ -163,7 +163,7 @@ export const batch372: BlogPost[] = [
         heading: "The name field is searchable, the bio is not",
         paragraphs: [
           "Instagram searches the name field, not the handle. So the name field should contain what you do, not just your brand name. 'Marcus | Cooking for beginners' will surface for cooking searches; 'MarcusOfficial' will not.",
-          "This is the single highest-leverage change on the whole platform and it takes ten seconds. Yet half the profiles we review never do it.",
+          "This is the single highest-value change on the whole platform and it takes ten seconds. Yet half the profiles we review never do it.",
         ],
       },
       {

@@ -263,7 +263,7 @@ export const batch373: BlogPost[] = [
         heading: "Key takeaways",
         bullets: [
           "Reach travels through people, so network quality matters more than connection count.",
-          "Begin with people who already know you and peers at your own level.",
+          "Start with people who already know you and peers at your own level.",
           "Skip mass requests to strangers, since dead connections weaken your early engagement.",
           "Leave substantive comments for two weeks before you start publishing.",
           "Watch profile visits after each comment session and connect with the right ones."
@@ -460,13 +460,13 @@ export const batch373: BlogPost[] = [
         heading: "Why the mix matters",
         paragraphs: [
           "Text and video reach different moods of the same reader, and publishing only one leaves half your ideas on the table. Some days people want to scan a claim between meetings, other days they will watch sixty seconds with the sound on. Alternating formats keeps you present regardless of which mood the feed is in that morning.",
-          "The formats also do different jobs. Text posts build your reputation for thinking, video builds your reputation for showing. Together they answer the two questions a curious reader asks: do they know what they are talking about, and can they demonstrate it."
+          "The formats also do different jobs. Text posts build your reputation for thinking, video builds your reputation for showing. Together they answer the two questions a curious reader asks: do they know what they are talking about, and can they show it."
         ]
       },
       {
         heading: "Building one idea into both formats",
         paragraphs: [
-          "Take one insight from your latest episode and write the text version first, because writing forces the idea to be sharp before any footage softens it. Two paragraphs, a concrete example, and a closing question is usually enough. Then pull the sixty-second clip where you demonstrate that exact point.",
+          "Take one insight from your latest episode and write the text version first, because writing forces the idea to be sharp before any footage softens it. Two paragraphs, a concrete example, and a closing question is usually enough. Then pull the sixty-second clip where you show that exact point.",
           "Publish the text post on one day and the clip two days later, referring to the earlier discussion in your caption. Readers who engaged with the text arrive primed for the video, and the video introduces the idea to people who never saw the first post. Each format feeds the other instead of competing.",
           "Resist posting both on the same morning. They split the attention of your warmest connections and neither gets the full first hour it needs, which is the window that decides how far the ranking system carries it."
         ]
@@ -477,7 +477,7 @@ export const batch373: BlogPost[] = [
       {
         heading: "What each format should never do",
         paragraphs: [
-          "Text posts should never read like a video description. If your caption begins with 'In today's video I talk about', you have written an advertisement for content the reader has not committed to yet. Lead with the idea itself and mention the video only once you have earned the mention.",
+          "Text posts should never read like a video description. If your caption starts with 'In today's video I talk about', you have written an advertisement for content the reader has not committed to yet. Lead with the idea itself and mention the video only once you have earned the mention.",
           "Video clips should never open with branding or a logo animation. The first second belongs to the claim, and anything spent on production polish is a second stolen from the hook. Save the intro for episodes where the viewer has already chosen to stay.",
           "Both formats should avoid the same closing line every time, since regular readers recognize repetition faster than you think. Rotate your endings between a question, a result, and a plain statement of position."
         ]

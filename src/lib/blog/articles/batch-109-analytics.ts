@@ -334,7 +334,7 @@ export const batch109: BlogPost[] = [
   },
   {
     slug: "analytics-notification-traffic",
-    title: "Notification Traffic: The Small Source That Predicts Retention",
+    title: "Notification Traffic: The Small Source of Retention",
     excerpt: "Notification traffic is tiny on paper but tells you who your real fans are. Learn to read notification clicks and what they reveal about subscriber loyalty.",
     date: "2027-06-19",
     author: { name: "GoScript Team", role: "Product" },

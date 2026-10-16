@@ -500,7 +500,7 @@ export const batch86: BlogPost[] = [
         ],
       },
       {
-        quote: "A chain is a set of small promises, and each step keeps one before the next begins.",
+        quote: "A chain is a set of small promises, and each step keeps one before the next starts.",
       },
       {
         heading: "A simple chain to try",

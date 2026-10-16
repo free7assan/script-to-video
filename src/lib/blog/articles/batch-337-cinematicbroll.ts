@@ -414,7 +414,7 @@ export const batch337: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Color grading basics begin with a boring step: correction. Before you chase a moody look, you make every shot match in exposure and white balance, or the whole edit will feel like it was assembled from three different films.",
+          "Color grading basics start with a boring step: correction. Before you chase a moody look, you make every shot match in exposure and white balance, or the whole edit will feel like it was assembled from three different films.",
           "Creativity comes second. A grade that fights the footage never looks intentional, while a subtle grade on matched footage looks like it was always meant to be that way.",
         ],
       },

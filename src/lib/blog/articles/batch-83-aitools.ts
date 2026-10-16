@@ -16,7 +16,7 @@ export const batch83: BlogPost[] = [
       {
         paragraphs: [
           "AI auto cutting tools scan a clip for silence and filler words, then remove those sections on their own. You get a rough cut in a couple of minutes instead of an afternoon of scrubbing. The tool handles the tedious part, and you keep the judgment that separates a watchable edit from a mechanical one. For anyone who records long interviews, that trade is the whole appeal.",
-          "That changes how a project starts. Instead of building a timeline from zero, you begin with something shrunken and fix the parts that need a human eye. Editors who adopt this stop dreading long footage, because the blank page is already filled in. The first version arrives before your coffee goes cold."
+          "That changes how a project starts. Instead of building a timeline from zero, you start with something shrunken and fix the parts that need a human eye. Editors who adopt this stop dreading long footage, because the blank page is already filled in. The first version arrives before your coffee goes cold."
         ]
       },
       {
@@ -339,7 +339,7 @@ export const batch83: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "AI background removal isolates a subject from any clip without a green screen. The model segments the person or object frame by frame and lets you drop in a new background. The whole process runs in the browser or on a laptop. You do not need a powerful machine for short clips.",
+          "AI background removal isolates a subject from any clip without a green screen. The model segments the person or object frame by frame and lets you drop in a new background. The whole process runs in the browser or on a laptop. You do not need a fast machine for short clips.",
           "That means a talking head shot in a messy room can sit on a clean set with a few clicks. No masking, no keying, no reshoot. For solo creators without a studio, that is a real shift. The barrier to a clean look has dropped a lot.",
           "The technique suits solo work where a full studio is out of reach. A decent camera and even light now go further than they used to. The software fills the gap that gear once had to cover."
         ]

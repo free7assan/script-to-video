@@ -6,7 +6,7 @@ export const batch02: BlogPost[] = [
     slug: "retention-beat-density-pacing",
     title: "Pacing Is About Beat Density, Not Cuts Per Minute",
     excerpt:
-      "Cuts per minute tell you almost nothing about pace. Beat density, the rate at which something changes for the viewer, is the number that actually decides whether a video drags.",
+      "Cuts per minute tell you little about pace. Beat density, the rate at which things change for the viewer, is what decides whether a video drags or holds.",
     date: "2024-02-14",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["retention", "pacing", "structure"],
@@ -19,6 +19,15 @@ export const batch02: BlogPost[] = [
           "Most creators measure pacing with the wrong instrument. They count cuts per minute, or scrub the editing timeline, or watch their own video at double speed to check whether it drags. None of that tells you whether the story is moving. A video can have forty cuts a minute and feel frozen, and it can hold one static shot for nine minutes and grip like a vice.",
           "Pacing is beat density. A beat is any moment where something changes for the viewer: a question gets answered, a stake rises, a new piece of information lands, a character wants something they did not want a sentence ago. If two minutes pass without a change, the viewer feels it even if they cannot name it.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Beat density, not cuts per minute, decides whether a video drags.",
+          "A beat is a change the viewer can feel, not an edit you made.",
+          "Raise density by compressing setup and cutting repeated beats.",
+          "Split compound beats and add stakes instead of tangents.",
+        ]
       },
       {
         heading: "What counts as a beat",
@@ -74,9 +83,18 @@ export const batch02: BlogPost[] = [
     content: [
       {
         paragraphs: [
-          "Every section of a video is a small video, and every small video has its own exit. Viewers do not leave at random. They leave at seams: the moment a section ends and the next one begins, when the tension you built has been spent and the next promise has not yet been made. Transitions are where retention quietly bleeds out.",
+          "Every section of a video is a small video, and every small video has its own exit. Viewers do not leave at random. They leave at seams: the moment a section ends and the next one starts, when the tension you built has been spent and the next promise has not yet been made. Transitions are where retention quietly bleeds out.",
           "Most creators treat transitions as connective tissue, a sentence or two that gets you from point A to point B. That is a wasted opportunity. A transition is the cheapest place in the script to plant the next reason to stay.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Treat every transition as a re-hook, not a pause.",
+          "Hand off with the question the next section answers.",
+          "Use contradiction and escalation to keep sections airborne.",
+          "Write transitions before they feel needed.",
+        ]
       },
       {
         heading: "The spent-tension problem",
@@ -134,6 +152,15 @@ export const batch02: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The middle fails when the payoff sits too far from the setup.",
+          "Move the payoff earlier and make the middle a consequence.",
+          "Install a midpoint turn: a new problem or reversal.",
+          "Cut context that a graphic or clip can imply.",
+        ]
+      },
+      {
         heading: "Why the middle fails",
         paragraphs: [
           "Intros run on curiosity. Endings run on payoff. The middle runs on promise alone, and promise is the weakest fuel of the three. If your middle is a list of supporting points, the viewer has to trust that the list matters. Most will not extend that trust for four minutes.",
@@ -171,7 +198,7 @@ export const batch02: BlogPost[] = [
     slug: "retention-pattern-interrupts-not-gimmicky",
     title: "Pattern Interrupts That Never Feel Like a Gimmick",
     excerpt:
-      "Zoom sounds and jump cuts interrupt the pattern and also teach the viewer that your video is noise. Real interrupts change the mode of attention, not just the frame.",
+      "Zoom sounds and jump cuts interrupt the pattern and also teach the viewer that your video is noise. Real interrupts change the mode of attention, not the frame.",
     date: "2025-01-11",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["retention", "pacing", "structure"],
@@ -184,6 +211,15 @@ export const batch02: BlogPost[] = [
           "Pattern interrupts get a bad reputation because the visible ones are terrible. A random zoom, a meme sound, a jump cut every two seconds. These do interrupt the pattern, which is the point, and they also teach the viewer that the video is noisy. The interruption becomes its own predictable pattern, and predictable is exactly what we were trying to escape.",
           "A useful interrupt changes the viewer's mode of attention, not just the frame. It gives the brain something new to do. The test is whether the interrupt serves the content or covers for the lack of it.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "An interrupt has to carry meaning, or it reads as a gimmick.",
+          "Change format, register, pace, or source, not just for shock.",
+          "Use a raw reaction or a viewer quote where the claim needs proof.",
+          "Test each interrupt against whether it advances the point.",
+        ]
       },
       {
         heading: "Interrupts that carry meaning",
@@ -235,6 +271,15 @@ export const batch02: BlogPost[] = [
           "Most videos end at the resolution. The question gets answered, the experiment concludes, the point lands, and the creator says thanks for watching. That is a complete video. It is also, too often, a forgettable one.",
           "The ending is the last impression and the last chance to earn a follow, a like, or the next click. Resolution closes the loop. Aftermath shows the viewer what the closure meant, which is a different and more durable thing.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Resolution is a fact; aftermath is a feeling.",
+          "Name the cost the win did not erase.",
+          "Zoom out to the lesson, then qualify it.",
+          "Hand the pattern back to the viewer's own work.",
+        ]
       },
       {
         heading: "Resolution is a fact; aftermath is a feeling",
@@ -289,6 +334,15 @@ export const batch02: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Trim dead air at the head of every clip; half-seconds add up.",
+          "Keep the audio ahead of the eye so the voice stays continuous.",
+          "Change the music bed at a beat, not at random.",
+          "Cut graphics that need more than three seconds to read.",
+        ]
+      },
+      {
         heading: "Keep the audio ahead of the eye",
         paragraphs: [
           "The single most reliable editing rule I know: the viewer should hear what matters before or as they see it, never after. If a graphic appears and the narration explains it two seconds later, those two seconds are dead air. The brain is waiting.",
@@ -326,7 +380,7 @@ export const batch02: BlogPost[] = [
     slug: "retention-flat-line-trap",
     title: "The Flat-Line Trap: Watchable but Completely Forgettable",
     excerpt:
-      "A flat retention curve looks like success until you check engagement. Watchable and forgettable is its own kind of failure, and it hides from the numbers you check first.",
+      "A flat retention curve looks like success until you check engagement. Watchable and forgettable is a failure, and it hides from the numbers you check first.",
     date: "2025-09-22",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["retention", "analytics"],
@@ -339,6 +393,15 @@ export const batch02: BlogPost[] = [
           "There is a failure mode that hides from analytics. The video holds. The retention curve is a gentle slope, no cliffs, no spikes. Average view duration is decent. And it does almost nothing for the channel. No comments worth replying to, no new subscribers, no shares. Watchable and forgettable at the same time.",
           "This is the flat-line trap. A flat curve can mean a video that never offends, never surprises, and never gives anyone a reason to feel something. Consistency is not the same as engagement, and a curve that never dips can also never peak.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "A flat curve can mean watchable but forgettable.",
+          "Take a real position so the video loses some and galvanizes others.",
+          "Include one clip-worthy moment that makes a real point.",
+          "Show the failure, not only the polished result.",
+        ]
       },
       {
         heading: "Why flat curves lie",
@@ -390,6 +453,15 @@ export const batch02: BlogPost[] = [
           "Everyone obsesses over the first three seconds, and they should. But there is a second window that gets far less attention and costs just as much: the thirty seconds after the hook. Plenty of videos win the click and then spend half a minute explaining, hedging, or introducing themselves.",
           "That half minute is not neutral. Retention is cumulative, and every second you spend on setup is a second the viewer is not getting the thing they clicked for. By the time the video starts, you have already paid a tax you did not need to pay.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The viewer should learn something new between second three and thirty.",
+          "Cut anything the thumbnail and title already told them.",
+          "Promise a specific payoff, then postpone it just enough.",
+          "Test whether a stranger could describe the video from thirty seconds.",
+        ]
       },
       {
         heading: "Where thirty seconds goes",
@@ -445,6 +517,15 @@ export const batch02: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Drop points cluster where you explain something nobody asked about.",
+          "Watch the moment right after a major payoff.",
+          "Do not interrupt a rising beat with sponsor or housekeeping.",
+          "Cut example lists where each item repeats the last.",
+        ]
+      },
+      {
         heading: "The predictable culprits",
         bullets: [
           "Any stretch where the script explains something the viewer did not ask about yet.",
@@ -495,6 +576,15 @@ export const batch02: BlogPost[] = [
           "When a video underperforms, the first instinct is to blame the edit. More cuts, more movement, better sound design. Those things help at the margin. They do not fix the core problem, which is almost always that the script gave the viewer no reason to keep watching.",
           "Editing controls how a video feels. Writing controls whether there is anything to feel. No amount of pace rescues a script with no tension, and no pacing change fixes a section that has no reason to exist.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Retention is usually a script problem, not an editing problem.",
+          "If viewers leave after a payoff, the next loop never opened.",
+          "If comments ask what you answered, you buried it or rushed it.",
+          "A video watched but never shared informed without mattering.",
+        ]
       },
       {
         heading: "What editing can and cannot do",

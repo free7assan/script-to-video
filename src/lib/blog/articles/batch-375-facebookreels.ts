@@ -128,7 +128,7 @@ export const batch375: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Post from a page to unlock insights and scheduling.",
+          "Post from a page to get insights and scheduling.",
           "Write one clear line about what you make.",
           "Match your name and image across platforms.",
           "Pin one clip that shows your format.",

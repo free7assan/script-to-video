@@ -32,6 +32,15 @@ export const batch07: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Signal lives in repetition, not in any single comment.",
+          "Catalog four types: the repeated question, correction, story, and request.",
+          "A correction is a free credibility upgrade.",
+          "Turn comments into your next calendar.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "One angry comment is an opinion. The same angry comment from six viewers is a product brief.",
@@ -66,7 +75,7 @@ export const batch07: BlogPost[] = [
         heading: "From comments to a calendar",
         paragraphs: [
           "Once you have a ranked list, map each item to a format. A repeated question becomes a Q&A or a deep dive. A correction becomes a short. A story becomes a case study with the commenter as the guest star.",
-          "Then tell the audience you are doing it. 'Five of you asked about this, so here it is' is the most powerful opening line in audience research, because it proves you listened without asking for a like first.",
+          "Then tell the audience you are doing it. 'Five of you asked about this, so here it is' is the most effective opening line in audience research, because it proves you listened without asking for a like first.",
         ],
       },
     ],
@@ -88,6 +97,15 @@ export const batch07: BlogPost[] = [
           "Every creator I know has sent a survey and gotten nine responses, six of them from friends. Then they conclude surveys do not work. Surveys work fine. Ten-question surveys mailed to a passive audience with nothing in return do not.",
           "A survey is a trade. You are asking for minutes of unpaid labor, so you have to return something the person values even if they never hear from you again. I started treating surveys as a product instead of a favor, and completion stopped embarrassing me.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Keep the whole survey under a minute.",
+          "Use forced choices and tradeoffs, not open-ended wishes.",
+          "One open field for confusion is your best topic list.",
+          "Negative answers tell you what to stop making.",
+        ]
       },
       {
         paragraphs: [],
@@ -148,6 +166,15 @@ export const batch07: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Start with behavior, not biography.",
+          "Use analytics, comments, and search terms you already have.",
+          "Write the persona as a decision rule.",
+          "Test it against a real choice.",
+        ]
+      },
+      {
         paragraphs: [],
         quote: "A persona is only real if you can use it to reject an idea.",
       },
@@ -201,6 +228,15 @@ export const batch07: BlogPost[] = [
           "Demographics tell you who someone is. Motivation tells you why they clicked. The second predicts behavior almost every time; the first mostly predicts nothing you can act on.",
           "Two viewers can share the same age and country and want completely different things from your video. One is stuck on a problem and searching for a fix. The other is bored and looking for company. Same spreadsheet row, opposite videos.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Motivation beats demographics every time.",
+          "Sort by the four motives: solve, reinforce, escape, aspire.",
+          "Match the content to the motive, not the topic.",
+          "Ask the motive question before you write.",
+        ]
       },
       {
         paragraphs: [],
@@ -259,6 +295,15 @@ export const batch07: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Parasocial is the format, not a flaw.",
+          "Reply in public more than in private.",
+          "Name what you will not discuss before you have to.",
+          "Keep an exit script for when someone crosses a line.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "The viewer is not your friend. That does not make the relationship fake. It makes it a role with responsibilities.",
@@ -311,6 +356,15 @@ export const batch07: BlogPost[] = [
           "Feedback is only useful when it changes something. Most creators collect it constantly and act on almost none of it, which trains the audience to stop giving it. The loop has to close, visibly, or it decays.",
           "Closing the loop does not mean obeying every comment. It means the trip from viewer input to a decision is short, traceable, and sometimes shown.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "The loop has four stages: collect, interpret, act, report.",
+          "Most loops break at the acting step.",
+          "Decline out loud and give the reason.",
+          "Build the loop into your calendar.",
+        ]
       },
       {
         paragraphs: [],
@@ -367,6 +421,15 @@ export const batch07: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "The 90-9-1 pattern is real; lurkers are not failures.",
+          "Silent watch time is the metric that compounds.",
+          "Lurkers buy and return at high rates.",
+          "Design for the median viewer, not the loudest one.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "The comment section is a sample, and a biased one. It over-represents people with strong opinions and time to type.",
@@ -419,6 +482,15 @@ export const batch07: BlogPost[] = [
           "What people say they want and what they actually watch are two different surveys, and only one of them is honest. Ask a viewer and they will request depth and longer videos. Watch their behavior and they skip the twenty-minute lecture to rewatch the four-minute one.",
           "I am not saying the audience lies. People are unreliable narrators of their own habits, including you. The trick is to stop asking and start reading the evidence they leave behind.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Stated wants and revealed wants often diverge.",
+          "Compare retention by topic to find what they rewatch.",
+          "Replays mark exactly what to make next.",
+          "Separate search-driven jobs from browse-driven moods.",
+        ]
       },
       {
         paragraphs: [],
@@ -474,6 +546,15 @@ export const batch07: BlogPost[] = [
         ],
       },
       {
+        heading: "Key takeaways",
+        bullets: [
+          "Begging has a cost; community is built differently.",
+          "Keep a consistent tone so people join a place, not a video.",
+          "Give people a role, not a task.",
+          "Add low-effort entry points so lurkers can cross over.",
+        ]
+      },
+      {
         paragraphs: [],
         quote:
           "Asking for engagement is easy. Earning a place people want to hang out is the actual work.",
@@ -526,6 +607,15 @@ export const batch07: BlogPost[] = [
           "Every video is built on assumptions about the viewer: what they know and why they came. Most of those assumptions are invisible to you because you are not the audience. The cost shows up as a drop-off you blame on the algorithm.",
           "I have shipped videos where I assumed the audience knew a term and had twenty minutes to spare. The retention graph had opinions about both.",
         ],
+      },
+      {
+        heading: "Key takeaways",
+        bullets: [
+          "Expensive assumptions quietly cost you viewers.",
+          "Do not assume they know the jargon or have the context.",
+          "They came for the promise, not your credentials.",
+          "Assume less goodwill at the start than at the end.",
+        ]
       },
       {
         paragraphs: [],

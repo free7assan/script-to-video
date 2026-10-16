@@ -206,7 +206,7 @@ export const batch307: BlogPost[] = [
     slug: "community-guidelines-sensitive-topics",
     title: "Handling Sensitive Topics Under Community Guidelines",
     excerpt:
-      "Sensitive topics test community guidelines because harm depends on framing, not just subject matter. Reviewers weigh intent, audience, tone, and the words you choose.",
+      "Sensitive topics test community guidelines because harm depends on framing, not just subject. Reviewers weigh intent, audience, tone, and the words you choose.",
     date: "2043-12-11",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["policy", "safety", "rules"],
@@ -395,7 +395,7 @@ export const batch307: BlogPost[] = [
     slug: "community-guidelines-comment-moderation-tools",
     title: "Comment Moderation Tools in Community Guidelines",
     excerpt:
-      "Comment moderation tools turn community guidelines into daily practice. Filtering, holds, reviewer queues, and blocklists keep your comment section from becoming a hazard.",
+      "Comment moderation tools turn community guidelines into practice. Filtering, holds, reviewer queues, and blocklists keep your section from becoming a hazard.",
     date: "2043-12-20",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["policy", "safety", "rules"],
@@ -520,7 +520,7 @@ export const batch307: BlogPost[] = [
     slug: "community-guidelines-how-context-matters",
     title: "How Context Matters in Community Guidelines Rules",
     excerpt:
-      "Context decides how community guidelines apply to a clip, and the same footage can pass or fail. Intent, framing, tone, and audience usually decide which way it goes.",
+      "Context decides how community guidelines apply to a clip, and the same footage can pass or fail. Intent, framing, tone, and audience decide which way it goes.",
     date: "2043-12-25",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["policy", "safety", "rules"],

@@ -188,7 +188,7 @@ export const batch236: BlogPost[] = [
         ]
       },
       {
-        quote: "One tap can be more powerful than a blank text box."
+        quote: "One tap can be stronger than a blank text box."
       },
       {
         heading: "Close the loop after voting",

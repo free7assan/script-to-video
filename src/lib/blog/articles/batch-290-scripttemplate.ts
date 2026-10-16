@@ -382,7 +382,7 @@ export const batch290: BlogPost[] = [
   {
     slug: "script-template-testing-new",
     title: "How to Test a New Video Script Template Properly",
-    excerpt: "Testing a script template means publishing enough to see a pattern, not judging from one upload. Learn how to run a fair test and read what the results tell you.",
+    excerpt: "Testing a script template means publishing enough to see a pattern, not judging from one upload. Learn how to run a fair test and read what the results show.",
     date: "2042-07-20",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["writing", "templates", "structure"],
@@ -406,7 +406,7 @@ export const batch290: BlogPost[] = [
         bullets: [
           "Run the test across several videos, never just one.",
           "Hold topic type, length, and schedule as steady as you can.",
-          "Choose one metric before you begin so you cannot rationalize later.",
+          "Choose one metric before you start so you cannot rationalize later.",
           "Compare against your own past videos, not someone else's channel."
         ]
       },
@@ -434,7 +434,7 @@ export const batch290: BlogPost[] = [
   {
     slug: "script-template-retiring-old",
     title: "Retiring the Script Templates That Stop Working",
-    excerpt: "A script template that once carried your channel can quietly go stale. Learn the signs it is time to retire one and how to replace it without losing your rhythm.",
+    excerpt: "A script template that once carried your channel can go stale. Learn the signs it is time to retire one and how to replace it without losing your rhythm.",
     date: "2042-07-24",
     author: { name: "GoScript Team", role: "Editorial" },
     tags: ["writing", "templates", "structure"],

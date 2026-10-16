@@ -44,7 +44,7 @@ export const batch244: BlogPost[] = [
         paragraphs: [
           "Free software is not free if it burns your evenings. Render times twice as long, a missing effect that forces a workaround, or a crash that eats an afternoon all add up. Price your time at what an hour of your work is worth and the math changes quickly.",
           "There is also the upgrade trap. Many free tools keep export options or watermark removal behind a paywall, so you end up paying anyway under worse terms than a straightforward license. Read the export limits before you commit a project to any editor.",
-          "Free tools also change their terms. A generous tier today can shrink next year after a company gets acquired or shifts its business model. Keep project files in formats you can reopen elsewhere so a policy change never traps your whole library."
+          "Free tools also change their terms. A generous tier today can shrink next year after a company gets bought or shifts its business model. Keep project files in formats you can reopen elsewhere so a policy change never traps your whole library."
         ]
       },
       {
@@ -57,7 +57,7 @@ export const batch244: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Start free. Almost every editing workflow begins fine without a license.",
+          "Start free. Almost every editing workflow starts fine without a license.",
           "Pay for speed or one specific missing feature, never for status.",
           "Time your exports before you call a subscription too expensive.",
           "Check export limits on free tiers before you build a project inside them.",
@@ -91,7 +91,7 @@ export const batch244: BlogPost[] = [
         paragraphs: [
           "Simplified tools collapse the interface into a handful of buttons. You drop clips on a track, add auto captions, pick a template, and publish. That flow suits talking head uploads, reaction videos, and short form content where the edit is mostly trimming silence and tightening dead air.",
           "They also hide decisions you do not need to make yet. Levels, color space, and render settings sit behind defaults that are usually correct. For a creator shipping daily, removing those choices saves real minutes on every single video.",
-          "Speed is the whole point here. A simplified editor that publishes in ten minutes beats a powerful one that takes an hour because you keep tweaking settings nobody in the audience will ever notice."
+          "Speed is the whole point here. A simplified editor that publishes in ten minutes beats a capable one that takes an hour because you keep tweaking settings nobody in the audience will ever notice."
         ]
       },
       {

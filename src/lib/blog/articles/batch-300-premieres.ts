@@ -227,7 +227,7 @@ export const batch300: BlogPost[] = [
       {
         heading: "Keeping the room moving",
         paragraphs: [
-          "Ask a question tied to the video, then react to the answers. When you respond to one person, others type to get the same attention, and the room begins to move on its own.",
+          "Ask a question tied to the video, then react to the answers. When you respond to one person, others type to get the same attention, and the room starts to move on its own.",
           "Drop small pieces of context that are not in the video. Behind the scenes details give the chat something to carry between your replies.",
         ],
       },

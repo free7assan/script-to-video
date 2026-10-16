@@ -56,7 +56,7 @@ export const batch98: BlogPost[] = [
   {
     slug: "money-affiliate-offers",
     title: "Picking Affiliate Offers That Pay Creators Over Time",
-    excerpt: "Selecting affiliate offers with lasting value lets creators earn money from videos without chasing quick payouts that do not match the work put into each upload.",
+    excerpt: "Selecting affiliate offers with lasting value lets creators earn income from videos without chasing quick payouts that do not match the work in each upload.",
     date: "2024-04-15",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["monetization", "business"],
@@ -110,7 +110,7 @@ export const batch98: BlogPost[] = [
   {
     slug: "money-sponsorship-rates",
     title: "Setting Sponsorship Rates That Reflect Your Output",
-    excerpt: "Knowing how to set sponsorship rates based on your output helps creators ask for money that matches reach, effort, and the work done to fit brands to each video.",
+    excerpt: "Knowing how to set sponsorship rates based on your output helps creators ask for money that matches reach, effort, and the work of fitting brands to each video.",
     date: "2024-06-30",
     author: { name: "GoScript Team", role: "Craft" },
     tags: ["monetization", "business", "revenue"],

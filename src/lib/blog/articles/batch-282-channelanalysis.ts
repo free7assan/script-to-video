@@ -5,7 +5,7 @@ export const batch282: BlogPost[] = [
   {
     slug: "channel-analysis-hook-patterns",
     title: "Reading Hook Patterns From A Channel Video Lineup",
-    excerpt: "A channel analysis method helps identify hook patterns in videos so that you can spot repeats in phrasing and timing that shape viewer entry points on each upload.",
+    excerpt: "A channel analysis method helps identify hook patterns in videos so you can spot repeats in phrasing and timing that shape viewer entry points on each upload.",
     date: "2041-11-01",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["analysis", "research", "strategy"],
@@ -150,7 +150,7 @@ export const batch282: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Read the full lineup in order to see topic spread.",
+          "Read the full lineup to see topic spread.",
           "Group videos into topic clusters with counts and date ranges.",
           "Track order of clusters to see how coverage grows.",
           "Identify core clusters versus one-off videos."
@@ -178,7 +178,7 @@ export const batch282: BlogPost[] = [
   {
     slug: "channel-analysis-transitions",
     title: "Finding Transitions That Keep Videos Moving Forward",
-    excerpt: "A channel analysis process finds transitions between sections so that you can see how a channel links ideas and maintains flow from intro to close across videos.",
+    excerpt: "A channel analysis process finds transitions between sections so you can see how a channel links ideas and keeps flow from intro to close across videos.",
     date: "2041-11-04",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["analysis", "research", "strategy"],
@@ -203,7 +203,7 @@ export const batch282: BlogPost[] = [
       {
         heading: "Linking transitions to structure",
         paragraphs: [
-          "Map each transition to the video structure you have identified for that video. For example, link the phrase that ends setup to the point where body begins. Doing this across a sample shows which transitions pair with which sections.",
+          "Map each transition to the video structure you have identified for that video. For example, link the phrase that ends setup to the point where body starts. Doing this across a sample shows which transitions pair with which sections.",
           "This pairing helps you see the rhythm of the channel. It also shows if certain transitions appear only in longer videos or only in a specific topic cluster."
         ]
       },
@@ -538,7 +538,7 @@ export const batch282: BlogPost[] = [
   {
     slug: "channel-analysis-turning-analysis-plan",
     title: "Turning Channel Analysis Into Your Own Video Plan",
-    excerpt: "A channel analysis becomes useful when you turn findings into your own plan by selecting a cluster, adapting structure, and writing a script outline to fit your angle.",
+    excerpt: "A channel analysis becomes useful when you turn findings into your plan: select a cluster, adapt the structure, and write a script outline to fit your angle.",
     date: "2041-11-28",
     author: { name: "GoScript Team", role: "Product" },
     tags: ["analysis", "research", "strategy"],

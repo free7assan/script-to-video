@@ -6,7 +6,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-bitrate-without-wrecking-quality",
     title: "How To Set Bitrate Without Wrecking Your Quality",
     excerpt:
-      "Bitrate is the data spent on every second of video, and setting it well means giving motion-heavy shots more room than calm ones. Choose the lowest clean value, not the biggest.",
+      "Bitrate is the data spent on every second of video, and setting it well means giving motion-heavy shots more room than calm ones. Choose the lowest clean value.",
     date: "2035-11-01",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -65,7 +65,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-codecs-explained-simply",
     title: "Video Codecs Explained Simply For Every Export",
     excerpt:
-      "A codec is the rulebook that squeezes video into a smaller file and unpacks it later. Learn the few that matter and every export decision gets simpler and safer.",
+      "A codec is the rulebook that squeezes video into a file and unpacks it later. Learn the few that matter and every export decision gets simpler and safer.",
     date: "2035-11-03",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -124,7 +124,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-choosing-export-presets",
     title: "Choosing Export Presets That Save Your Quality",
     excerpt:
-      "An export preset bundles resolution, codec, bitrate, and frame rate into one click. Read what is inside before you trust a label that was built for average footage.",
+      "An export preset bundles resolution, codec, bitrate, and frame rate into one click. Read what is inside before you trust a label built for average footage.",
     date: "2035-11-05",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -183,7 +183,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-upload-without-extra-compression",
     title: "Uploading Video Without Losing Even More Quality",
     excerpt:
-      "Platforms re-encode every upload, so the quality you send is the quality that survives. Hand the site a clean, generous file and it comes back close to what you sent.",
+      "Platforms re-encode every upload, so the quality you send is the quality that survives. Hand the site a clean, generous file and it returns near what you sent.",
     date: "2035-11-08",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -242,7 +242,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-file-sizes-and-delivery",
     title: "File Sizes And Delivery For Your Video Exports",
     excerpt:
-      "File size is a budget you spend on quality, and every delivery channel sets a different limit. Know the numbers before you render so the file actually arrives and plays.",
+      "File size is a budget you spend on quality, and every delivery channel sets a different limit. Know the numbers before you render so the file arrives and plays.",
     date: "2035-11-11",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -300,7 +300,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-export-for-different-platforms",
     title: "Exporting The Same Video For Different Platforms",
     excerpt:
-      "One cut rarely fits every platform, and each destination wants its own ratio, resolution, and bitrate. Plan a short export slate so every version looks deliberate.",
+      "One cut rarely fits every platform, and each destination wants its own ratio, resolution, and bitrate. Plan an export slate so every version looks deliberate.",
     date: "2035-11-14",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -359,7 +359,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-preserve-quality-through-reedits",
     title: "Preserving Quality Through Every Video Re-Edit",
     excerpt:
-      "Every re-export of a compressed video loses a little detail through generation loss. Keep an untouched master and cut from it so quality survives round after round.",
+      "Every re-export of a compressed video loses detail through generation loss. Keep an untouched master and cut from it so quality survives round after round.",
     date: "2035-11-17",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -418,7 +418,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-common-export-mistakes",
     title: "Common Export Mistakes That Hurt Video Quality",
     excerpt:
-      "Most weak exports trace back to a few repeatable mistakes like mismatched frame rates or stingy bitrates. Check these before you render and quality complaints mostly stop.",
+      "Most weak exports trace back to a few mistakes, like mismatched frame rates or stingy bitrates. Check these before you render and most complaints stop.",
     date: "2035-11-20",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],
@@ -536,7 +536,7 @@ export const batch210: BlogPost[] = [
     slug: "compression-archiving-source-files",
     title: "Archiving Source Files Without Losing Footage",
     excerpt:
-      "Source files hold the only full-detail copy of your footage, so losing them shrinks every future edit. A simple archive plan keeps those originals safe for years.",
+      "Source files hold the only full-detail copy of your footage, so losing them shrinks every future edit. An archive plan keeps those originals safe for years.",
     date: "2035-11-27",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["export", "technical", "delivery"],

@@ -50,7 +50,7 @@ export const batch215: BlogPost[] = [
   {
     slug: "impressions-where-they-start",
     title: "Where Impressions Start for New Videos",
-    excerpt: "Impressions begin when a video enters feeds, and knowing those entry points can help clarify why some clips draw traffic from one path over another.",
+    excerpt: "Impressions start when a video enters feeds, and knowing those entry points can help clarify why some clips draw traffic from one path over another.",
     date: "2036-04-02",
     author: {
       name: "GoScript Team",

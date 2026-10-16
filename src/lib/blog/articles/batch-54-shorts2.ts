@@ -645,7 +645,7 @@ export const batch54: BlogPost[] = [
       {
         heading: "When to stop watching and start working",
         paragraphs: [
-          "After 48 hours the clip has told you what it is going to tell you. I stop refreshing and write two lines about what the numbers showed, then move to the next clip. The window for cheap learning closes once the tail begins.",
+          "After 48 hours the clip has told you what it is going to tell you. I stop refreshing and write two lines about what the numbers showed, then move to the next clip. The window for cheap learning closes once the tail starts.",
           "The habit matters more than any single read. A creator who checks early and writes down the pattern will learn faster than one who relies on memory, which is generous to the clips we liked and harsh on the ones we did not.",
         ],
       },

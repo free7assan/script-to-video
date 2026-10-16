@@ -134,7 +134,7 @@ export const batch335: BlogPost[] = [
   {
     slug: "whiteboard-animation-pacing-drawings-voice",
     title: "Pacing Whiteboard Drawings to a Voice-Over Track",
-    excerpt: "Pacing whiteboard animation drawings to a voice-over is a timing job, not an art project. Match each sketch to a spoken beat and the whole video feels effortless.",
+    excerpt: "Pacing whiteboard drawings to a voice-over is a timing job, not an art project. Match each sketch to a spoken beat and the whole video feels effortless.",
     date: "2046-04-05",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["format", "animation", "explainer"],
@@ -200,7 +200,7 @@ export const batch335: BlogPost[] = [
   {
     slug: "whiteboard-animation-keeping-sketches-simple",
     title: "Keeping Whiteboard Sketches Simple and Readable",
-    excerpt: "Keeping whiteboard animation sketches simple is the difference between clarity and clutter. Fewer lines, stronger shapes, and one focal point per frame make the drawing readable.",
+    excerpt: "Keeping whiteboard sketches simple is the difference between clarity and clutter. Fewer lines, stronger shapes, and one focal point per frame keep it readable.",
     date: "2046-04-07",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["format", "animation", "explainer"],
@@ -263,7 +263,7 @@ export const batch335: BlogPost[] = [
   {
     slug: "whiteboard-animation-tools-speed-up-workflow",
     title: "Tools That Speed Up Your Whiteboard Animation",
-    excerpt: "The right tools speed up whiteboard animation without flattening the style. Pick software for drawing, timing, and sound, then build a repeatable pipeline you can trust.",
+    excerpt: "The right tools speed up whiteboard animation without flattening the style. Pick software for drawing, timing, and sound, then build a repeatable pipeline.",
     date: "2046-04-09",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["format", "animation", "explainer"],
@@ -363,7 +363,7 @@ export const batch335: BlogPost[] = [
       {
         heading: "Sync the small sounds to the pencil",
         paragraphs: [
-          "A pen scratch that starts a beat after the line begins feels wrong. Line the sound up with the stroke itself. This tiny match is what makes the drawing feel physical instead of pasted on.",
+          "A pen scratch that starts a beat after the line starts feels wrong. Line the sound up with the stroke itself. This tiny match is what makes the drawing feel physical instead of pasted on.",
           "You do not need a scratch for every mark. Use them to accent the main shapes and let the rest stay silent. Too many small sounds turn into a hiss."
         ]
       },
@@ -578,7 +578,7 @@ export const batch335: BlogPost[] = [
   {
     slug: "whiteboard-animation-explainer-on-budget",
     title: "Producing a Whiteboard Explainer on a Low Budget",
-    excerpt: "A whiteboard animation explainer does not need a studio budget. A tight script, free drawing tools, and a borrowed microphone can carry a video from idea to upload.",
+    excerpt: "A whiteboard animation explainer does not need a studio budget. A tight script, free tools, and a borrowed microphone can carry a video from idea to upload.",
     date: "2046-04-27",
     author: { name: "GoScript Team", role: "Design" },
     tags: ["format", "animation", "explainer"],

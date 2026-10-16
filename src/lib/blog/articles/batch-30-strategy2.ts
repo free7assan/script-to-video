@@ -499,7 +499,7 @@ export const batch30: BlogPost[] = [
       {
         heading: "Show the change before you explain it",
         paragraphs: [
-          "The strongest announcement is a great video in the new format. By the time the viewer has watched it, they understand the reposition better than any talking-head clip could explain it. Explaining a change you have not demonstrated asks the audience to take a lot on faith.",
+          "The strongest announcement is a great video in the new format. By the time the viewer has watched it, they understand the reposition better than any talking-head clip could explain it. Explaining a change you have not showed asks the audience to take a lot on faith.",
           "If you want a text layer too, use a community post or the pinned comment. It is lower stakes than a dedicated video and it reaches the people who care enough to read.",
         ],
       },

@@ -382,7 +382,7 @@ export const batch251: BlogPost[] = [
         heading: "Same day, same spot, every month",
         paragraphs: [
           "Film updates on the same week each month in front of the same backdrop. The ritual makes the series feel dependable and speeds up your setup to near zero.",
-          "Viewers begin to expect the update, and expectation is the closest thing to an audience that any local agent gets."
+          "Viewers start to expect the update, and expectation is the closest thing to an audience that any local agent gets."
         ]
       },
       {

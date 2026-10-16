@@ -209,7 +209,7 @@ export const batch106: BlogPost[] = [
         heading: "Where transparency ends",
         paragraphs: [
           "You do not owe anyone your diagnosis, your finances, or your family details. Performance of openness is not the same as honesty. Some creators share everything and call it trust, then wonder why the audience treats every update as content.",
-          "Draw the line where your private life begins and hold it without apology. An audience that respects your boundaries is healthier than one that expects a confession with every upload."
+          "Draw the line where your private life starts and hold it without apology. An audience that respects your boundaries is healthier than one that expects a confession with every upload."
         ]
       },
       {

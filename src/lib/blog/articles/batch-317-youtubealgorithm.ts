@@ -42,7 +42,7 @@ export const batch317: BlogPost[] = [
       },
       {
         quote:
-          "Ranking systems do not chase the same outcome. Home wants a session to begin, search wants a question answered, and suggested wants the momentum to hold.",
+          "Ranking systems do not chase the same outcome. Home wants a session to start, search wants a question answered, and suggested wants the momentum to hold.",
       },
       {
         heading: "The systems talk to each other",
@@ -337,7 +337,7 @@ export const batch317: BlogPost[] = [
       {
         heading: "Key takeaways",
         bullets: [
-          "Every upload begins as a small, measured test.",
+          "Every upload starts as a small, measured test.",
           "Distribution widens in steps, not all at once.",
           "A failed step pauses growth and invites a retry.",
           "Weak hooks or weak wrappers stall the test early.",

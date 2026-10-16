@@ -243,7 +243,7 @@ export const batch359: BlogPost[] = [
       {
         heading: "Start with needs, not dreams",
         paragraphs: [
-          "Begin with a basic number: how much do you need to cover your minimum costs and your own pay each month? That is your floor. Everything above it is growth. Write that floor down. It is a realistic target because it is based on bills, not views. This gives you something to reach without comparing your channel to others with different lives.",
+          "Start with a basic number: how much do you need to cover your minimum costs and your own pay each month? That is your floor. Everything above it is growth. Write that floor down. It is a realistic target because it is based on bills, not views. This gives you something to reach without comparing your channel to others with different lives.",
           "Once you know your floor, set a small stretch goal. For example, add a set amount for savings or to pay off a tool. Keep it close enough that you can see a path to it. If your floor is $500 and stretch is $600, you know exactly what to cover. That clarity beats setting a large round number with no plan behind it."
         ]
       },

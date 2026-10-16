@@ -193,7 +193,7 @@ export const batch278: BlogPost[] = [
   {
     slug: "true-crime-content-visuals-without-exploitation",
     title: "Choosing Visuals for True Crime Without Exploitation",
-    excerpt: "True crime visuals should support understanding without sensationalizing victims. Thoughtful choices like maps, documents, and location shots add context while respecting dignity.",
+    excerpt: "True crime visuals should support understanding without sensationalizing victims. Maps, documents, and location shots add context while respecting dignity.",
     date: "2041-07-05",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["niche", "storytelling", "research"],
@@ -240,7 +240,7 @@ export const batch278: BlogPost[] = [
   {
     slug: "true-crime-content-handling-graphic-detail",
     title: "Handling Graphic Detail in True Crime Content",
-    excerpt: "Handling graphic detail means deciding what is necessary for truth while protecting viewers and respecting victims. Careful choices prevent harm without losing accuracy.",
+    excerpt: "Handling graphic detail means deciding what is necessary while protecting viewers and respecting victims. Careful choices prevent harm without losing accuracy.",
     date: "2041-07-06",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["niche", "storytelling", "research"],
@@ -287,7 +287,7 @@ export const batch278: BlogPost[] = [
   {
     slug: "true-crime-content-legal-ethical-care",
     title: "Staying Within Legal and Ethical Boundaries",
-    excerpt: "True crime creators need to understand legal risks and ethical duties. Staying careful with defamation, privacy, and evidence keeps work responsible and sustainable.",
+    excerpt: "True crime creators need to understand legal risks and duties. Staying careful with defamation, privacy, and evidence keeps work responsible and sustainable.",
     date: "2041-07-07",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["niche", "storytelling", "research"],
@@ -319,7 +319,7 @@ export const batch278: BlogPost[] = [
       {
         bullets: [
           "Distinguish charges, allegations, and convictions at all times.",
-          "Never use sealed or improperly obtained private materials.",
+          "Never use sealed or improperly collected private materials.",
           "Verify rights for third party images, audio, or video.",
           "Apply harm reduction even when information is public.",
           "Maintain a simple correction policy for factual errors."
@@ -381,7 +381,7 @@ export const batch278: BlogPost[] = [
   {
     slug: "true-crime-content-separating-fact-from-rumor",
     title: "Separating Fact From Rumor in True Crime Research",
-    excerpt: "Separating fact from rumor is a core skill for true crime creators. Testing claims against primary records keeps stories accurate and prevents spreading misinformation.",
+    excerpt: "Separating fact from rumor is a core skill for true crime creators. Testing claims against primary records keeps stories accurate and prevents falsehoods.",
     date: "2041-07-09",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["niche", "storytelling", "research"],
@@ -428,7 +428,7 @@ export const batch278: BlogPost[] = [
   {
     slug: "true-crime-content-mapping-case-locations",
     title: "Mapping Case Locations to Add Clarity for Viewers",
-    excerpt: "Maps help true crime viewers understand geography and timelines without guessing. Simple location visuals clarify movement while keeping the focus on verified facts.",
+    excerpt: "Maps help true crime viewers understand geography and timelines without guessing. Location visuals clarify movement while keeping focus on verified facts.",
     date: "2041-07-10",
     author: { name: "GoScript Team", role: "Research" },
     tags: ["niche", "storytelling", "research"],
