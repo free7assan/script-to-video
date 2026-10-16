@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Activity, Check, X, Loader2 } from "lucide-react";
+import { AdminGuard } from "@/components/AdminGuard";
 
 interface HealthItem {
   label: string;
@@ -37,6 +38,7 @@ export default function AdminHealthPage() {
   const okCount = checks.filter((c) => c.status === "ok").length;
 
   return (
+    <AdminGuard>
     <div className="space-y-8 animate-in">
       {/* Header */}
       <div className="rounded-xl border border-border/50 bg-card/50">
@@ -100,5 +102,6 @@ export default function AdminHealthPage() {
         )}
       </div>
     </div>
+    </AdminGuard>
   );
 }

@@ -6,14 +6,17 @@ async function getChannelWithOwnership(id: string) {
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
 
-  let query = getSupabaseAdmin()
+  if (!user) {
+    return { channel: null, error: null, user: null };
+  }
+
+  const { data: channel, error } = await getSupabaseAdmin()
     .from("channels")
     .select("*, blueprints(*)")
-    .eq("id", id);
+    .eq("id", id)
+    .eq("user_id", user.id)
+    .single();
 
-  if (user) query = query.eq("user_id", user.id);
-
-  const { data: channel, error } = await query.single();
   return { channel: channel as any, error, user };
 }
 
@@ -22,9 +25,10 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const { channel, error } = await getChannelWithOwnership(id);
+  const { channel, user } = await getChannelWithOwnership(id);
 
-  if (error || !channel) return NextResponse.json({ error: "Channel not found" }, { status: 404 });
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (!channel) return NextResponse.json({ error: "Channel not found" }, { status: 404 });
 
   return NextResponse.json({
     ...channel,
@@ -38,8 +42,9 @@ export async function DELETE(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const { channel } = await getChannelWithOwnership(id);
+  const { channel, user } = await getChannelWithOwnership(id);
 
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   if (!channel) {
     return NextResponse.json({ error: "Channel not found" }, { status: 404 });
   }
@@ -61,8 +66,9 @@ export async function PATCH(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const { channel } = await getChannelWithOwnership(id);
+  const { channel, user } = await getChannelWithOwnership(id);
 
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   if (!channel) {
     return NextResponse.json({ error: "Channel not found" }, { status: 404 });
   }

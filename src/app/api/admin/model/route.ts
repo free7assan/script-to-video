@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { cookies } from "next/headers";
+import { requireAdmin } from "@/lib/auth";
+import { getAiModel, setAiModel } from "@/lib/settings";
 
-const MODEL_COOKIE = "vs_ai_model";
-
-const PRESET_MODELS = [
+export const PRESET_MODELS = [
   { value: "zen:big-pickle", label: "OpenCode Zen — Big Pickle" },
   { value: "gemini:gemini-2.0-flash", label: "Google Gemini 2.0 Flash" },
   { value: "openrouter:openrouter/auto", label: "OpenRouter Auto" },
@@ -14,8 +13,10 @@ const PRESET_MODELS = [
 ] as const;
 
 export async function GET() {
-  const cookieStore = await cookies();
-  const current = cookieStore.get(MODEL_COOKIE)?.value || "zen:big-pickle";
+  const { error } = await requireAdmin();
+  if (error) return error;
+
+  const current = await getAiModel();
 
   return NextResponse.json({
     current,
@@ -24,19 +25,25 @@ export async function GET() {
 }
 
 export async function POST(request: NextRequest) {
-  const { model } = await request.json();
+  const { error } = await requireAdmin();
+  if (error) return error;
 
-  if (!model || typeof model !== "string") {
-    return NextResponse.json({ error: "model is required" }, { status: 400 });
+  let body: { model?: unknown };
+  try {
+    body = await request.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  const cookieStore = await cookies();
-  cookieStore.set(MODEL_COOKIE, model, {
-    path: "/",
-    maxAge: 60 * 60 * 24 * 365,
-    httpOnly: true,
-    sameSite: "lax",
-  });
+  const { model } = body;
+  if (!model || typeof model !== "string" || model.length > 200) {
+    return NextResponse.json({ error: "A valid model string is required" }, { status: 400 });
+  }
+
+  const saved = await setAiModel(model);
+  if (!saved) {
+    return NextResponse.json({ error: "Failed to save model setting" }, { status: 500 });
+  }
 
   return NextResponse.json({ current: model });
 }

@@ -23,8 +23,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const refresh = useCallback(async () => {
     try {
       const res = await fetch("/api/auth/session");
+      if (!res.ok) {
+        setUser(null);
+        return;
+      }
       const data = await res.json();
-      setUser(data.user);
+      setUser(data.user ?? null);
     } catch {
       setUser(null);
     } finally {

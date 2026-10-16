@@ -240,7 +240,7 @@ export default function AdminPage() {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="flex-1 ml-56 relative z-10">
+      <main className="flex-1 lg:ml-56 pt-14 lg:pt-0 relative z-10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="space-y-8 animate-in">
       {/* ──── Header ──── */}

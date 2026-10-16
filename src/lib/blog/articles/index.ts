@@ -280,6 +280,106 @@ import { batch277 } from "./batch-277-sustainabilitycontent";
 import { batch278 } from "./batch-278-truecrimecontent";
 import { batch279 } from "./batch-279-reactioncontent";
 import { batch280 } from "./batch-280-explainercontent";
+import { batch281 } from "./batch-281-goscript";
+import { batch282 } from "./batch-282-channelanalysis";
+import { batch283 } from "./batch-283-scriptgenerator";
+import { batch284 } from "./batch-284-competitoranalysis";
+import { batch285 } from "./batch-285-reverseengineering";
+import { batch286 } from "./batch-286-patternextraction";
+import { batch287 } from "./batch-287-contentpipeline";
+import { batch288 } from "./batch-288-creatordashboard";
+import { batch289 } from "./batch-289-aiwriting";
+import { batch290 } from "./batch-290-scripttemplate";
+import { batch291 } from "./batch-291-nicheseselection";
+import { batch292 } from "./batch-292-channelbranding";
+import { batch293 } from "./batch-293-channeltrailer";
+import { batch294 } from "./batch-294-channelbanner";
+import { batch295 } from "./batch-295-channelabout";
+import { batch296 } from "./batch-296-channelkeywords";
+import { batch297 } from "./batch-297-playlists";
+import { batch298 } from "./batch-298-uploaddefaults";
+import { batch299 } from "./batch-299-endscreens";
+import { batch300 } from "./batch-300-premieres";
+import { batch301 } from "./batch-301-videodescriptions";
+import { batch302 } from "./batch-302-videotags";
+import { batch303 } from "./batch-303-youtubemonetization";
+import { batch304 } from "./batch-304-youtubepp";
+import { batch305 } from "./batch-305-copyrightclaims";
+import { batch306 } from "./batch-306-fairuse";
+import { batch307 } from "./batch-307-communityguidelines";
+import { batch308 } from "./batch-308-youtubestrikes";
+import { batch309 } from "./batch-309-demonetization";
+import { batch310 } from "./batch-310-superchat";
+import { batch311 } from "./batch-311-memberships";
+import { batch312 } from "./batch-312-youtubeshopping";
+import { batch313 } from "./batch-313-shortsmonetization";
+import { batch314 } from "./batch-314-premiumrevenue";
+import { batch315 } from "./batch-315-creatortaxes";
+import { batch316 } from "./batch-316-payouts";
+import { batch317 } from "./batch-317-youtubealgorithm";
+import { batch318 } from "./batch-318-browsesuggested";
+import { batch319 } from "./batch-319-searchtraffic";
+import { batch320 } from "./batch-320-suggestedvideos";
+import { batch321 } from "./batch-321-notifications";
+import { batch322 } from "./batch-322-returningviewers";
+import { batch323 } from "./batch-323-watchsessions";
+import { batch324 } from "./batch-324-shortstolong";
+import { batch325 } from "./batch-325-subscriberconversion";
+import { batch326 } from "./batch-326-channelaudit";
+import { batch327 } from "./batch-327-titletesting";
+import { batch328 } from "./batch-328-thumbnailtesting";
+import { batch329 } from "./batch-329-viralanalysis";
+import { batch330 } from "./batch-330-trendjacking";
+import { batch331 } from "./batch-331-videochallenges";
+import { batch332 } from "./batch-332-talkinghead";
+import { batch333 } from "./batch-333-facelessformat";
+import { batch334 } from "./batch-334-screenrecording";
+import { batch335 } from "./batch-335-whiteboardanimation";
+import { batch336 } from "./batch-336-motiongraphics";
+import { batch337 } from "./batch-337-cinematicbroll";
+import { batch338 } from "./batch-338-documentarystyle";
+import { batch339 } from "./batch-339-vlogformat";
+import { batch340 } from "./batch-340-interviewformat";
+import { batch341 } from "./batch-341-reactionformat";
+import { batch342 } from "./batch-342-gamingformat";
+import { batch343 } from "./batch-343-unboxing";
+import { batch344 } from "./batch-344-listicle";
+import { batch345 } from "./batch-345-casestudy";
+import { batch346 } from "./batch-346-docuseries";
+import { batch347 } from "./batch-347-contentpillars";
+import { batch348 } from "./batch-348-contentbuckets";
+import { batch349 } from "./batch-349-editorialcalendar";
+import { batch350 } from "./batch-350-batchproduction";
+import { batch351 } from "./batch-351-contentrepurposing";
+import { batch352 } from "./batch-352-evergreencontent";
+import { batch353 } from "./batch-353-contentrefresh";
+import { batch354 } from "./batch-354-seriesplanning";
+import { batch355 } from "./batch-355-contentresearch";
+import { batch356 } from "./batch-356-audienceinsights";
+import { batch357 } from "./batch-357-competitorresearch";
+import { batch358 } from "./batch-358-videokeywords";
+import { batch359 } from "./batch-359-creatorbusiness";
+import { batch360 } from "./batch-360-pricingservices";
+import { batch361 } from "./batch-361-clientmanagement";
+import { batch362 } from "./batch-362-licensingdeals";
+import { batch363 } from "./batch-363-podcaststrategy";
+import { batch364 } from "./batch-364-newsletterstrategy";
+import { batch365 } from "./batch-365-creatorblog";
+import { batch366 } from "./batch-366-emaillist";
+import { batch367 } from "./batch-367-coursecreation";
+import { batch368 } from "./batch-368-communitybuilding";
+import { batch369 } from "./batch-369-outsourcingediting";
+import { batch370 } from "./batch-370-hiringeditors";
+import { batch371 } from "./batch-371-tiktokgrowth";
+import { batch372 } from "./batch-372-instagramgrowth";
+import { batch373 } from "./batch-373-linkedingrowth";
+import { batch374 } from "./batch-374-twittervideo";
+import { batch375 } from "./batch-375-facebookreels";
+import { batch376 } from "./batch-376-pinterestvideo";
+import { batch377 } from "./batch-377-snapchat";
+import { batch378 } from "./batch-378-aivideogeneration";
+import { batch379 } from "./batch-379-aiavatars";
+import { batch380 } from "./batch-380-aicreator";
 
 export const posts: BlogPost[] = [
   ...legacyPosts,
@@ -562,7 +662,106 @@ export const posts: BlogPost[] = [
   ...batch277,
   ...batch278,
   ...batch279,
-  ...batch280,
+  ...batch281,
+  ...batch282,
+  ...batch283,
+  ...batch284,
+  ...batch285,
+  ...batch286,
+  ...batch287,
+  ...batch288,
+  ...batch289,
+  ...batch290,
+  ...batch291,
+  ...batch292,
+  ...batch293,
+  ...batch294,
+  ...batch295,
+  ...batch296,
+  ...batch297,
+  ...batch298,
+  ...batch299,
+  ...batch300,
+  ...batch301,
+  ...batch302,
+  ...batch303,
+  ...batch304,
+  ...batch305,
+  ...batch306,
+  ...batch307,
+  ...batch308,
+  ...batch309,
+  ...batch310,
+  ...batch311,
+  ...batch312,
+  ...batch313,
+  ...batch314,
+  ...batch315,
+  ...batch316,
+  ...batch317,
+  ...batch318,
+  ...batch319,
+  ...batch320,
+  ...batch321,
+  ...batch322,
+  ...batch323,
+  ...batch324,
+  ...batch325,
+  ...batch326,
+  ...batch327,
+  ...batch328,
+  ...batch329,
+  ...batch330,
+  ...batch331,
+  ...batch332,
+  ...batch333,
+  ...batch334,
+  ...batch335,
+  ...batch336,
+  ...batch337,
+  ...batch338,
+  ...batch339,
+  ...batch340,
+  ...batch341,
+  ...batch342,
+  ...batch343,
+  ...batch344,
+  ...batch345,
+  ...batch346,
+  ...batch347,
+  ...batch348,
+  ...batch349,
+  ...batch350,
+  ...batch351,
+  ...batch352,
+  ...batch353,
+  ...batch354,
+  ...batch355,
+  ...batch356,
+  ...batch357,
+  ...batch358,
+  ...batch359,
+  ...batch360,
+  ...batch361,
+  ...batch362,
+  ...batch363,
+  ...batch364,
+  ...batch365,
+  ...batch366,
+  ...batch367,
+  ...batch368,
+  ...batch369,
+  ...batch370,
+  ...batch371,
+  ...batch372,
+  ...batch373,
+  ...batch374,
+  ...batch375,
+  ...batch376,
+  ...batch377,
+  ...batch378,
+  ...batch379,
+  ...batch380,
 ];
 
 export function getPost(slug: string): BlogPost | undefined {

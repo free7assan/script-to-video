@@ -21,6 +21,8 @@ import {
   Lightbulb,
   Bookmark,
   ChevronDown,
+  Menu,
+  X,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
@@ -32,9 +34,9 @@ const links = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/video/analyze", label: "Video Analyzer", icon: Video },
   { href: "/channels/new", label: "Channel Analyzer", icon: ListVideo },
+  { href: "/blueprints", label: "Blueprints", icon: Library },
   { href: "/scripts/new", label: "Generator", icon: Wand2 },
   { href: "/scripts", label: "Scripts", icon: FileText },
-  { href: "/blueprints", label: "Blueprints", icon: Library },
 ];
 
 const ideasLink = { href: "/ideas", label: "Ideas", icon: Lightbulb };
@@ -53,16 +55,65 @@ export function Sidebar() {
   const pathname = usePathname();
   const { user } = useAuth();
   const [ideasOpen, setIdeasOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     if (pathname.startsWith("/ideas")) setIdeasOpen(true);
   }, [pathname]);
 
+  // Close the mobile drawer on navigation
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
+
+  // Lock body scroll while the mobile drawer is open
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [mobileOpen]);
+
   return (
-    <aside className="fixed left-0 top-0 bottom-0 z-40 w-56 border-r border-border/40 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40 flex flex-col">
-      <div className="flex items-center h-14 px-4 border-b border-border/30">
+    <>
+      {/* ──── Mobile top bar ──── */}
+      <div className="lg:hidden fixed top-0 inset-x-0 z-30 h-14 flex items-center gap-2 px-3 border-b border-border/40 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40">
+        <button
+          onClick={() => setMobileOpen(true)}
+          className="w-9 h-9 -ml-1 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
+          aria-label="Open menu"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
         <Logo />
       </div>
+
+      {/* ──── Backdrop ──── */}
+      {mobileOpen && (
+        <div
+          className="lg:hidden fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+          onClick={() => setMobileOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
+      <aside
+        className={`fixed left-0 top-0 bottom-0 z-50 w-56 border-r border-border/40 bg-background/95 lg:bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40 flex flex-col transition-transform duration-200 ease-out lg:translate-x-0 ${
+          mobileOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="flex items-center h-14 px-4 border-b border-border/30">
+          <Logo />
+          <button
+            onClick={() => setMobileOpen(false)}
+            className="lg:hidden ml-auto -mr-1 w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
+            aria-label="Close menu"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
 
       <nav className="flex-1 flex flex-col gap-0.5 p-3 overflow-y-auto">
         {!user?.isAdmin && (
@@ -145,7 +196,8 @@ export function Sidebar() {
           </div>
         </div>
       </div>
-    </aside>
+      </aside>
+    </>
   );
 }
 

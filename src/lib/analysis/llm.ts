@@ -1,12 +1,12 @@
 import OpenAI from "openai";
-
-const MODEL_COOKIE = "vs_ai_model";
+import { getAiModel, DEFAULT_MODEL } from "@/lib/settings";
 
 async function getConfiguredModel(): Promise<string | undefined> {
   try {
-    const { cookies } = await import("next/headers");
-    const cookieStore = await cookies();
-    return cookieStore.get(MODEL_COOKIE)?.value;
+    const model = await getAiModel();
+    // The built-in default uses the full provider fallback chain, so don't
+    // pin it here (callZen with no model already starts with big-pickle).
+    return model === DEFAULT_MODEL ? undefined : model;
   } catch {
     // Outside request context (build, test, etc.)
     return undefined;
@@ -243,7 +243,7 @@ export async function callLLM(
   model?: string,
   maxTokens?: number
 ): Promise<unknown> {
-  // If no explicit model, try reading from cookie
+  // If no explicit model, use the admin-configured global setting.
   const activeModel = model || await getConfiguredModel();
 
   if (activeModel) {

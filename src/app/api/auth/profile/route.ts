@@ -1,8 +1,24 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
+const MAX_NAME_LENGTH = 100;
+
 export async function PATCH(request: NextRequest) {
-  const { name } = await request.json();
+  let body: { name?: unknown };
+  try {
+    body = await request.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+
+  const { name } = body;
+  if (typeof name !== "string" || name.trim().length === 0 || name.length > MAX_NAME_LENGTH) {
+    return NextResponse.json(
+      { error: `Name must be between 1 and ${MAX_NAME_LENGTH} characters` },
+      { status: 400 }
+    );
+  }
+
   const supabase = await createSupabaseServerClient();
 
   const { data: { user }, error: userError } = await supabase.auth.getUser();
@@ -11,11 +27,12 @@ export async function PATCH(request: NextRequest) {
   }
 
   const { error } = await supabase.auth.updateUser({
-    data: { ...user.user_metadata, name },
+    data: { ...user.user_metadata, name: name.trim() },
   });
 
   if (error) {
-    return NextResponse.json({ error: error.message }, { status: 400 });
+    console.error("[auth/profile] updateUser failed:", error.message);
+    return NextResponse.json({ error: "Failed to update profile" }, { status: 400 });
   }
 
   return NextResponse.json({ ok: true });

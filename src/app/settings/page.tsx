@@ -14,6 +14,7 @@ export default function SettingsPage() {
   const [nameError, setNameError] = useState("");
 
   const [newPassword, setNewPassword] = useState("");
+  const [currentPassword, setCurrentPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [passwordSaved, setPasswordSaved] = useState(false);
   const [passwordSaving, setPasswordSaving] = useState(false);
@@ -63,8 +64,12 @@ export default function SettingsPage() {
 
   const handlePasswordSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (newPassword.length < 6) {
-      setPasswordError("Password must be at least 6 characters");
+    if (!currentPassword) {
+      setPasswordError("Enter your current password");
+      return;
+    }
+    if (newPassword.length < 8) {
+      setPasswordError("Password must be at least 8 characters");
       return;
     }
     if (newPassword !== confirmPassword) {
@@ -78,13 +83,14 @@ export default function SettingsPage() {
       const res = await fetch("/api/auth/password", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ newPassword }),
+        body: JSON.stringify({ currentPassword, newPassword }),
       });
       if (!res.ok) {
         const { error } = await res.json();
         throw new Error(error || "Failed to update password");
       }
       setPasswordSaved(true);
+      setCurrentPassword("");
       setNewPassword("");
       setConfirmPassword("");
       setTimeout(() => setPasswordSaved(false), 2000);
@@ -192,15 +198,27 @@ export default function SettingsPage() {
         <div className="p-5">
           <form onSubmit={handlePasswordSubmit} className="space-y-4">
             <div className="space-y-2">
+              <label className="text-xs font-medium text-muted-foreground">Current password</label>
+              <input
+                type={showPassword ? "text" : "password"}
+                value={currentPassword}
+                onChange={(e) => setCurrentPassword(e.target.value)}
+                placeholder="Enter current password"
+                className="input-base"
+                required
+              />
+            </div>
+
+            <div className="space-y-2">
               <label className="text-xs font-medium text-muted-foreground">New password</label>
               <div className="relative">
                 <input
                   type={showPassword ? "text" : "password"}
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
-                  placeholder="Min. 6 characters"
+                  placeholder="Min. 8 characters"
                   className="input-base pr-10"
-                  minLength={6}
+                  minLength={8}
                   required
                 />
                 <button
@@ -221,7 +239,7 @@ export default function SettingsPage() {
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 placeholder="Repeat your password"
                 className="input-base"
-                minLength={6}
+                minLength={8}
                 required
               />
             </div>
@@ -233,7 +251,7 @@ export default function SettingsPage() {
             <div className="flex items-center gap-3">
               <button
                 type="submit"
-                disabled={passwordSaving || !newPassword || !confirmPassword}
+                disabled={passwordSaving || !currentPassword || !newPassword || !confirmPassword}
                 className="btn-secondary h-9 text-xs"
               >
                 {passwordSaving ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : null}

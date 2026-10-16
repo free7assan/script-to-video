@@ -7,6 +7,7 @@ import {
   ChevronDown, ChevronRight, Trash2, Calendar, Clock,
   CheckCircle, XCircle, FileText, Ban, Archive, UserCheck, RotateCcw
 } from "lucide-react";
+import { AdminGuard } from "@/components/AdminGuard";
 
 interface AdminUser {
   id: string;
@@ -80,6 +81,7 @@ export default function AdminUsersPage() {
   };
 
   return (
+    <AdminGuard>
     <div className="space-y-6 animate-in">
       <div className="rounded-xl border border-border/50 bg-card/50">
         <div className="p-4 border-b border-border/30">
@@ -336,5 +338,6 @@ export default function AdminUsersPage() {
         </div>
       )}
     </div>
+    </AdminGuard>
   );
 }

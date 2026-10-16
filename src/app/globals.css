@@ -127,11 +127,11 @@
 
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
-           bg-prussian-blue text-white
-           hover:bg-prussian-blue/80 active:bg-prussian-blue/70
+           bg-orange text-black
+           hover:bg-orange/90 active:bg-orange/80
            transition-all duration-150
            disabled:opacity-40 disabled:cursor-not-allowed
-           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-prussian-blue/40;
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange/40;
   }
 
   .btn-secondary {
@@ -177,7 +177,7 @@
   }
 
   .badge-secondary {
-    @apply badge text-prussian-blue border-prussian-blue/25 bg-prussian-blue/10;
+    @apply badge text-foreground border-border/50 bg-foreground/[0.04];
   }
 
   .badge-muted {

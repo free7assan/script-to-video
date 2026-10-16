@@ -10,6 +10,9 @@ export async function POST(
 ) {
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
 
   const { id } = await params;
 
@@ -23,11 +26,11 @@ export async function POST(
     return NextResponse.json({ error: "Channel not found" }, { status: 404 });
   }
 
-  if (user && channel.user_id && channel.user_id !== user.id) {
+  if (channel.user_id && channel.user_id !== user.id) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
 
-  if (user) {
+  {
     const { allowed } = await checkChannelLimit(user.id);
     if (!allowed) {
       return NextResponse.json(limitError("analyses"), { status: 403 });

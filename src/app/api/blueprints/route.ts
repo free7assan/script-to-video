@@ -5,6 +5,9 @@ import { createSupabaseServerClient } from "@/lib/supabase/server";
 export async function GET(request: NextRequest) {
   const supabase = await createSupabaseServerClient();
   const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
 
   const { searchParams } = new URL(request.url);
   const includeArchived = searchParams.get("archived") === "true";
@@ -12,9 +15,8 @@ export async function GET(request: NextRequest) {
   let query = getSupabaseAdmin()
     .from("channels")
     .select("*, blueprints(*)")
-    .not("blueprints", "is", null);
-
-  if (user) query = query.eq("user_id", user.id);
+    .not("blueprints", "is", null)
+    .eq("user_id", user.id);
 
   if (!includeArchived) {
     query = query.is("blueprints.archived_at", null);
@@ -27,9 +29,8 @@ export async function GET(request: NextRequest) {
   if (error) {
     let fallbackQuery = getSupabaseAdmin()
       .from("channels")
-      .select("*, blueprints(*)");
-
-    if (user) fallbackQuery = fallbackQuery.eq("user_id", user.id);
+      .select("*, blueprints(*)")
+      .eq("user_id", user.id);
 
     if (!includeArchived) {
       fallbackQuery = fallbackQuery.not("blueprints", "is", null);
