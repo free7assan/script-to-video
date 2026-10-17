@@ -170,7 +170,7 @@ export default function HomePage() {
               </div>
 
               {/* Right — instrument panel */}
-              <div className="animate-fade-up-d2 lg:col-span-5 lg:col-start-9">
+              <div className="animate-fade-up lg:col-span-5 lg:col-start-9">
                 <div className="relative">
                   <div className="absolute -inset-6 bg-gradient-to-r from-orange/15 via-orange/5 to-transparent rounded-[40px] blur-3xl opacity-70" />
                   <div className="relative rounded-2xl overflow-hidden border border-orange/10 bg-gradient-to-br from-orange/[0.06] to-card/40 backdrop-blur-sm">
