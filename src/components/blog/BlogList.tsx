@@ -64,6 +64,11 @@ export function BlogList({
   if (!showFeatured) {
     return (
       <>
+        {tag ? (
+          <h2 className="sr-only">Articles tagged {tag}</h2>
+        ) : (
+          <h2 className="sr-only">All articles</h2>
+        )}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {gridPosts.map((summary) => (
             <div key={summary.slug} className="animate-fade-up">
@@ -83,9 +88,9 @@ export function BlogList({
         <section className="relative pb-12 sm:pb-14">
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+              <h2 className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
                 Latest dispatch
-              </span>
+              </h2>
               <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
             </div>
             <div className="animate-fade-up">
@@ -99,9 +104,9 @@ export function BlogList({
       <section className="relative pb-20 sm:pb-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+            <h2 className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
               All posts
-            </span>
+            </h2>
             <span className="text-[10px] font-mono text-orange/50 tracking-[0.25em] uppercase">
               {Math.min(gridPosts.length, total)} / {total}
             </span>

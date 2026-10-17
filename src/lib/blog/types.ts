@@ -31,10 +31,18 @@ export function toPostSummary(post: BlogPost): BlogPostSummary {
   return { ...rest, iconName: icon.displayName ?? "" };
 }
 
+const MONTHS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+/**
+ * Formats an ISO date (YYYY-MM-DD) without timezone or locale involvement so
+ * the server-rendered markup always matches the client during hydration.
+ */
 export function formatPostDate(date: string): string {
-  return new Date(date).toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
+  const [year, month, day] = date.slice(0, 10).split("-");
+  const monthName = MONTHS[Number(month) - 1];
+  if (!year || !monthName || !day) return date;
+  return `${monthName} ${Number(day)}, ${year}`;
 }
