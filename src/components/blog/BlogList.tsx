@@ -1,8 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { ChevronDown } from "lucide-react";
 import { BlogCard } from "@/components/blog/BlogCard";
+import { LoadMore, usePaginatedPosts } from "@/components/blog/BlogPagination";
 import { getBlogIcon } from "@/lib/blog/iconRegistry";
 import type { BlogPostMeta, BlogPostSummary } from "@/lib/blog/posts";
 
@@ -14,7 +13,12 @@ const delays = [
   "animate-fade-up-d5",
 ];
 
-const PAGE_SIZE = 9;
+interface BlogListProps {
+  initialPosts: BlogPostSummary[];
+  total: number;
+  tag?: string;
+  showFeatured?: boolean;
+}
 
 function toMeta(summary: BlogPostSummary): BlogPostMeta {
   return {
@@ -30,11 +34,47 @@ function toMeta(summary: BlogPostSummary): BlogPostMeta {
   };
 }
 
-export function BlogList({ posts }: { posts: BlogPostSummary[] }) {
-  const [featured, ...rest] = posts;
-  const [visible, setVisible] = useState(PAGE_SIZE);
+export function BlogList({
+  initialPosts,
+  total,
+  tag,
+  showFeatured = false,
+}: BlogListProps) {
+  const { items, remaining, loading, error, loadMore } = usePaginatedPosts(
+    initialPosts,
+    total,
+    tag
+  );
 
-  const remaining = Math.max(rest.length - visible, 0);
+  const [first, ...rest] = items;
+  const featured = showFeatured ? first : undefined;
+  const gridPosts = showFeatured ? rest : items;
+
+  const controls = (
+    <div className="flex flex-col items-center gap-3 mt-12">
+      <LoadMore
+        remaining={remaining}
+        loading={loading}
+        error={error}
+        onLoadMore={loadMore}
+      />
+    </div>
+  );
+
+  if (!showFeatured) {
+    return (
+      <>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {gridPosts.map((summary) => (
+            <div key={summary.slug} className="animate-fade-up">
+              <BlogCard post={toMeta(summary)} />
+            </div>
+          ))}
+        </div>
+        {controls}
+      </>
+    );
+  }
 
   return (
     <>
@@ -63,40 +103,20 @@ export function BlogList({ posts }: { posts: BlogPostSummary[] }) {
               All posts
             </span>
             <span className="text-[10px] font-mono text-orange/50 tracking-[0.25em] uppercase">
-              {Math.min(visible, rest.length)} / {rest.length}
+              {Math.min(gridPosts.length, total)} / {total}
             </span>
             <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {rest.map((summary, i) => (
-              <div key={summary.slug} className={i >= visible ? "hidden" : delays[i % delays.length]}>
+            {gridPosts.map((summary, i) => (
+              <div key={summary.slug} className={delays[i % delays.length]}>
                 <BlogCard post={toMeta(summary)} />
               </div>
             ))}
           </div>
 
-          <div className="flex flex-col items-center gap-3 mt-12">
-            {remaining > 0 ? (
-              <>
-                <button
-                  type="button"
-                  onClick={() => setVisible((v) => v + PAGE_SIZE)}
-                  className="group relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl border border-orange/30 bg-orange/[0.04] text-sm font-semibold text-orange hover:bg-orange hover:text-black hover:scale-[1.02] transition-all duration-300"
-                >
-                  Load more articles
-                  <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-300" />
-                </button>
-                <span className="text-[10px] font-mono text-muted-foreground/40 tracking-[0.2em] uppercase">
-                  {remaining} more to load
-                </span>
-              </>
-            ) : (
-              <span className="text-[10px] font-mono text-muted-foreground/40 tracking-[0.25em] uppercase">
-                End of the journal
-              </span>
-            )}
-          </div>
+          {controls}
         </div>
       </section>
     </>

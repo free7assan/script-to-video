@@ -18,9 +18,8 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-  const sorted = [...posts]
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .map(toPostSummary);
+  const sorted = [...posts].sort((a, b) => b.date.localeCompare(a.date));
+  const initialPosts = sorted.slice(0, 10).map(toPostSummary);
 
   const topTags = getAllTags()
     .map((tag) => ({ tag, count: getPostsByTag(tag).length }))
@@ -57,7 +56,7 @@ export default function BlogPage() {
                   Journal
                 </span>
               </div>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold tracking-tight leading-[1.02] mb-4 animate-fade-up-d1">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold tracking-tight leading-[1.02] mb-4">
                 Field notes from the{" "}
                 <span
                   className="bg-gradient-to-r from-orange via-orange/80 to-orange/40 bg-clip-text text-transparent animate-shimmer-text"
@@ -103,7 +102,7 @@ export default function BlogPage() {
         )}
 
         {/* ════════════════ FEATURED + GRID (load more) ════════════════ */}
-        <BlogList posts={sorted} />
+        <BlogList initialPosts={initialPosts} total={sorted.length} showFeatured />
 
         {/* ════════════════ CTA ════════════════ */}
         <section className="relative py-16 sm:py-20">

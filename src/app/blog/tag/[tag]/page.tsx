@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight, Hash, Tag as TagIcon } from "lucide-react";
-import { BlogCard } from "@/components/blog/BlogCard";
-import { getAllTags, getPostsByTag } from "@/lib/blog/posts";
+import { BlogList } from "@/components/blog/BlogList";
+import { getAllTags, getPostsByTag, toPostSummary } from "@/lib/blog/posts";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -93,11 +93,11 @@ export default async function BlogTagPage({
 
         <section className="relative pb-20 sm:pb-24">
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-              {tagPosts.map((post) => (
-                <BlogCard key={post.slug} post={post} />
-              ))}
-            </div>
+            <BlogList
+              initialPosts={tagPosts.slice(0, 12).map(toPostSummary)}
+              total={tagPosts.length}
+              tag={decoded}
+            />
 
             <div className="mt-14 pt-8 border-t border-border/10">
               <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
