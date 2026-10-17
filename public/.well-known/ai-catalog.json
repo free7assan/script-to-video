@@ -1,0 +1,20 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "GoScript"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:goscript.app:website:home",
+      "displayName": "GoScript",
+      "type": "text/html",
+      "url": "https://www.goscript.app/",
+      "description": "Analyze YouTube channels, extract their script methodology, and write new video scripts built on patterns that actually work.",
+      "tags": ["youtube", "scriptwriting", "content-strategy"],
+      "representativeQueries": [
+        "analyze a YouTube channel's script patterns",
+        "write a video script from proven patterns"
+      ]
+    }
+  ]
+}

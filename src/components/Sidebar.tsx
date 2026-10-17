@@ -28,15 +28,31 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
 import { useAuth } from "@/components/AuthProvider";
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 
-const links = [
-  { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/video/analyze", label: "Video Analyzer", icon: Video },
-  { href: "/channels/new", label: "Channel Analyzer", icon: ListVideo },
-  { href: "/blueprints", label: "Blueprints", icon: Library },
-  { href: "/scripts/new", label: "Generator", icon: Wand2 },
-  { href: "/scripts", label: "Scripts", icon: FileText },
+const navSections = [
+  {
+    label: null,
+    items: [{ href: "/dashboard", label: "Dashboard", icon: LayoutDashboard }],
+  },
+  {
+    label: "Analyze",
+    items: [
+      { href: "/channels/new", label: "Channel Analyzer", icon: ListVideo },
+      { href: "/video/analyze", label: "Video Analyzer", icon: Video },
+    ],
+  },
+  {
+    label: "Create",
+    items: [
+      { href: "/scripts/new", label: "Generator", icon: Wand2 },
+      { href: "/scripts", label: "Scripts", icon: FileText },
+    ],
+  },
+  {
+    label: "Library",
+    items: [{ href: "/blueprints", label: "Blueprints", icon: Library }],
+  },
 ];
 
 const ideasLink = { href: "/ideas", label: "Ideas", icon: Lightbulb };
@@ -115,74 +131,74 @@ export function Sidebar() {
           </button>
         </div>
 
-      <nav className="flex-1 flex flex-col gap-0.5 p-3 overflow-y-auto">
+      <nav className="flex-1 flex flex-col p-3 overflow-y-auto">
         {!user?.isAdmin && (
           <>
-            {links.map(({ href, label, icon }) => (
-              <NavLink key={href} href={href} label={label} icon={icon} isActive={pathname === href} />
+            {navSections.map((section, i) => (
+              <div key={section.label ?? `section-${i}`} className={i > 0 ? "mt-1.5" : ""}>
+                {section.label && <SectionLabel>{section.label}</SectionLabel>}
+                <div className="space-y-0.5">
+                  {section.items.map(({ href, label, icon }) => (
+                    <NavLink key={href} href={href} label={label} icon={icon} isActive={pathname === href} />
+                  ))}
+                </div>
+              </div>
             ))}
 
             {/* Ideas group */}
-            <div>
+            <div className="mt-1.5">
               <button
                 onClick={() => setIdeasOpen(!ideasOpen)}
-                className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all w-full ${
-                  pathname.startsWith("/ideas")
-                    ? "text-orange"
-                    : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-                }`}
+                className="w-full flex items-center gap-1 px-3 pt-3.5 pb-1.5 group/ideas"
+                aria-expanded={ideasOpen}
               >
-                <Lightbulb className="w-4 h-4 shrink-0" />
-                <span>Ideas</span>
-                <ChevronDown className={`ml-auto w-3.5 h-3.5 shrink-0 transition-transform ${ideasOpen ? "" : "-rotate-90"}`} />
+                <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/40 group-hover/ideas:text-muted-foreground/70 transition-colors">
+                  Ideas
+                </span>
+                <ChevronDown
+                  className={`ml-auto w-3 h-3 text-muted-foreground/40 transition-transform duration-200 ${ideasOpen ? "" : "-rotate-90"}`}
+                />
               </button>
               {ideasOpen && (
-                <div className="space-y-0.5 ml-3 pl-3 border-l border-border/20">
+                <div className="space-y-0.5">
                   {ideasLinks.map(({ href, label, icon }) => (
                     <NavLink key={href} href={href} label={label} icon={icon} isActive={pathname === href} />
                   ))}
                 </div>
               )}
             </div>
-
-            {/* Settings link */}
-            <NavLink href={settingsLink.href} label={settingsLink.label} icon={settingsLink.icon} isActive={pathname === settingsLink.href} />
           </>
         )}
 
         {/* ──── Admin section (only for admins) ──── */}
         {user?.isAdmin && (
           <>
-            <div className="flex items-center gap-3 mt-4 mb-1 px-3">
-              <Shield className="w-3 h-3 text-orange/50" />
-              <span className="text-[10px] font-mono text-orange/40 tracking-widest uppercase">Admin</span>
-              <span className="flex-1 h-px bg-border/20" />
+            <ScopedLabel icon={Shield}>Admin</ScopedLabel>
+            <div className="space-y-0.5">
+              {adminLinks.map(({ href, label, icon: Icon }) => {
+                const isActive = pathname === href;
+                return (
+                  <Link key={href} href={href} className={navItemClass(isActive)}>
+                    <Icon className="w-4 h-4 shrink-0" />
+                    <span>{label}</span>
+                    {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
+                  </Link>
+                );
+              })}
             </div>
-            {adminLinks.map(({ href, label, icon: Icon }) => {
-              const isActive = pathname === href;
-              return (
-                <Link
-                  key={href}
-                  href={href}
-                  className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-                    isActive
-                      ? "bg-orange/10 text-orange"
-                      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-                  }`}
-                >
-                  <Icon className="w-4 h-4 shrink-0" />
-                  <span>{label}</span>
-                  {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}
-                </Link>
-              );
-            })}
           </>
         )}
       </nav>
 
       <div className="border-t border-border/30">
         {!user?.isAdmin && (
-          <div className="p-3">
+          <div className="p-3 pt-2 space-y-0.5">
+            <NavLink
+              href={settingsLink.href}
+              label={settingsLink.label}
+              icon={settingsLink.icon}
+              isActive={pathname === settingsLink.href}
+            />
             <UserMenu />
           </div>
         )}
@@ -289,16 +305,36 @@ function SignOutButton() {
   );
 }
 
+function navItemClass(isActive: boolean) {
+  return `flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all duration-200 ${
+    isActive
+      ? "bg-gradient-to-r from-orange/[0.12] to-orange/[0.02] text-orange"
+      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+  }`;
+}
+
+function SectionLabel({ children }: { children: ReactNode }) {
+  return (
+    <div className="flex items-center gap-2 px-3 pt-3.5 pb-1.5">
+      <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/40">{children}</span>
+      <span className="flex-1 h-px bg-border/15" />
+    </div>
+  );
+}
+
+function ScopedLabel({ icon: Icon, children }: { icon: typeof LayoutDashboard; children: ReactNode }) {
+  return (
+    <div className="flex items-center gap-2 mt-1.5 px-3 pt-3.5 pb-1.5">
+      <Icon className="w-3 h-3 text-orange/50" />
+      <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange/50">{children}</span>
+      <span className="flex-1 h-px bg-orange/10" />
+    </div>
+  );
+}
+
 function NavLink({ href, label, icon: Icon, isActive }: { href: string; label: string; icon: typeof LayoutDashboard; isActive: boolean }) {
   return (
-    <Link
-      href={href}
-      className={`flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all ${
-        isActive
-          ? "bg-orange/10 text-orange"
-          : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
-      }`}
-    >
+    <Link href={href} className={navItemClass(isActive)}>
       <Icon className="w-4 h-4 shrink-0" />
       <span>{label}</span>
       {isActive && <span className="ml-auto w-1 h-1 rounded-full bg-orange" />}

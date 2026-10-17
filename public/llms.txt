@@ -1,0 +1,13 @@
+# GoScript
+
+> GoScript analyzes YouTube channels, extracts the script methodology behind their best videos, and writes new scripts built on the patterns that actually work.
+
+## Links
+
+- [Home](https://www.goscript.app/)
+- [Blog](https://www.goscript.app/blog)
+- [Pricing](https://www.goscript.app/pricing)
+
+## About
+
+GoScript is a web app for YouTube creators and scriptwriters. It deconstructs a channel's highest-performing videos into reusable patterns — hooks, retention curves, structure, and pacing — then generates new video scripts that follow those patterns.

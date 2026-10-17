@@ -65,6 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="ai-catalog" href="/.well-known/ai-catalog.json" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -82,9 +83,9 @@ export default function RootLayout({
         />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-VP8MRRX6EM"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

@@ -7,6 +7,12 @@
       "skillPath": "ads-copywriter/SKILL.md",
       "computedHash": "143d60166187d611c5ef943ccb440252934306e0ea5e9615ce2a064e5ea4b7f8"
     },
+    "ai-image-generation": {
+      "source": "prime-skills/runcomfy-agent-skills",
+      "sourceType": "github",
+      "skillPath": "ai-image-generation/SKILL.md",
+      "computedHash": "765f5ce859b1943e948d4f747b768389d7a9f0c563d4e93f2a3231bc1a617944"
+    },
     "composio": {
       "source": "composiohq/skills",
       "sourceType": "github",
@@ -42,12 +48,6 @@
       "sourceType": "github",
       "skillPath": "plugins/droid-evolved/skills/human-writing/SKILL.md",
       "computedHash": "a5c8f7e609a3cd321437e0f745778b23cacd2a0dfb48aa46ab07cdde22ad146e"
-    },
-    "image": {
-      "source": "coreyhaines31/marketingskills",
-      "sourceType": "github",
-      "skillPath": "skills/image/SKILL.md",
-      "computedHash": "e4b5511566d08a79f6f5fd26319eaaac0e18e1e238848c5a3fb2e9839e306ebe"
     },
     "landing-page-copywriter": {
       "source": "onewave-ai/claude-skills",

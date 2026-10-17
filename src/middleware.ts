@@ -10,6 +10,11 @@ export async function middleware(request: NextRequest) {
   // Allow public routes, auth API, /admin (admin page handles auth itself), and the blog
   if (
     publicRoutes.has(pathname) ||
+    pathname === "/robots.txt" ||
+    pathname === "/sitemap.xml" ||
+    pathname === "/llms.txt" ||
+    pathname === "/ai-catalog.json" ||
+    pathname.startsWith("/.well-known/") ||
     pathname === "/blog" ||
     pathname.startsWith("/blog/") ||
     pathname.startsWith(authApiPrefix) ||
@@ -69,6 +74,6 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|\\.well-known/|robots\\.txt|sitemap\\.xml|llms\\.txt|ai-catalog\\.json|manifest\\.webmanifest|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

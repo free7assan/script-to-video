@@ -11,11 +11,11 @@ import { useAuth } from "@/components/AuthProvider";
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
 
 const links = [
-  { href: "/#pipeline", label: "Pipeline" },
-  { href: "/#capabilities", label: "Capabilities" },
-  { href: "/#workflow", label: "Workflow" },
-  { href: "/blog", label: "Blog" },
-  { href: "/#pricing", label: "Pricing" },
+  { href: "/#pipeline", label: "Pipeline", id: "pipeline" },
+  { href: "/#capabilities", label: "Capabilities", id: "capabilities" },
+  { href: "/#workflow", label: "Workflow", id: "workflow" },
+  { href: "/#pricing", label: "Pricing", id: "pricing" },
+  { href: "/blog", label: "Blog", id: null },
 ];
 
 export function LandingNav() {
@@ -26,10 +26,35 @@ export function LandingNav() {
   const pathname = usePathname();
   const [signingOut, setSigningOut] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState<string | null>(null);
 
   // Close the mobile menu on navigation
   useEffect(() => {
     setMobileOpen(false);
+  }, [pathname]);
+
+  // Scroll-spy: highlight the section currently in view (landing page only)
+  useEffect(() => {
+    if (pathname !== "/") {
+      setActiveSection(null);
+      return;
+    }
+    const els = ["pipeline", "capabilities", "workflow", "pricing"]
+      .map((id) => document.getElementById(id))
+      .filter((el): el is HTMLElement => Boolean(el));
+    if (els.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible[0]) setActiveSection(visible[0].target.id);
+      },
+      { rootMargin: "-40% 0px -55% 0px", threshold: [0, 0.25, 0.5, 1] }
+    );
+    els.forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
   }, [pathname]);
 
   const closeMobile = () => setMobileOpen(false);
@@ -50,16 +75,23 @@ export function LandingNav() {
         <div className="container mx-auto flex h-14 items-center justify-between px-4 sm:px-6 lg:px-8">
           <Logo />
           <div className="flex items-center gap-1">
-            <nav className="hidden md:flex items-center gap-1 mr-3">
-              {links.map(({ href, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="h-8 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04] transition-all inline-flex items-center"
-                >
-                  {label}
-                </Link>
-              ))}
+            <nav className="hidden md:flex items-center gap-0.5 mr-3 rounded-full border border-border/20 bg-foreground/[0.02] p-0.5">
+              {links.map(({ href, label, id }) => {
+                const isActive = id !== null && activeSection === id;
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={`h-7 px-3 rounded-full text-xs font-medium inline-flex items-center transition-all ${
+                      isActive
+                        ? "bg-orange/10 text-orange"
+                        : "text-muted-foreground hover:text-foreground hover:bg-foreground/[0.04]"
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
             </nav>
 
             {loading ? (
@@ -132,16 +164,23 @@ export function LandingNav() {
           />
           <div className="md:hidden fixed top-14 inset-x-0 z-40 border-b border-border/30 bg-background/95 backdrop-blur-xl">
             <nav className="px-4 py-3 flex flex-col gap-0.5">
-              {links.map(({ href, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  onClick={closeMobile}
-                  className="h-11 px-3 rounded-lg flex items-center text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04] transition-all"
-                >
-                  {label}
-                </Link>
-              ))}
+              {links.map(({ href, label, id }) => {
+                const isActive = id !== null && activeSection === id;
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={closeMobile}
+                    className={`h-11 px-3 rounded-lg flex items-center text-sm font-medium transition-all ${
+                      isActive
+                        ? "bg-orange/[0.07] text-orange"
+                        : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
 
               <div className="mt-2 pt-3 border-t border-border/20 flex flex-col gap-2">
                 {loading ? (

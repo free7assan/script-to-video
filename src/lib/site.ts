@@ -1,8 +1,17 @@
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined) ??
-  process.env.APP_URL ??
-  "http://localhost:3000";
+const PRODUCTION_URL = "https://www.goscript.app";
+
+function resolveSiteUrl(): string {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
+  if (explicit) return explicit.replace(/\/$/, "");
+
+  // On Vercel, always advertise the stable production domain in canonical/OG URLs
+  // rather than the per-deployment VERCEL_URL (which would leak preview URLs).
+  if (process.env.VERCEL) return PRODUCTION_URL;
+
+  return (process.env.APP_URL ?? PRODUCTION_URL).replace(/\/$/, "");
+}
+
+export const SITE_URL = resolveSiteUrl();
 
 export const SITE_NAME = "GoScript";
 
