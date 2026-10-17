@@ -19,6 +19,24 @@
       "skillPath": "seo-geo/implement/content-writer/SKILL.md",
       "computedHash": "fc0ba0ae5029182b1292d8f655ca86018dee6a81b72a48bbbd425963c5966f21"
     },
+    "design-motion-principles": {
+      "source": "kylezantos/design-motion-principles",
+      "sourceType": "github",
+      "skillPath": "skills/design-motion-principles/SKILL.md",
+      "computedHash": "6410c1844f511249f11f38d30d217cfecf7f595f45a868d74284b6380bab47d7"
+    },
+    "figma-use": {
+      "source": "figma/mcp-server-guide",
+      "sourceType": "github",
+      "skillPath": "skills/figma-use/SKILL.md",
+      "computedHash": "d713787b498f2358872b4e45143f9173c562551295cc9653fa12799b31893612"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "89496d5dd00f4810205f351759594fc2742bf8eea85a2f2b2d1de59f4bd91576"
+    },
     "human-writing": {
       "source": "factory-ai/factory-plugins",
       "sourceType": "github",
@@ -55,11 +73,23 @@
       "skillPath": "SKILL.md",
       "computedHash": "9c64396422f9fa6ee95d6ea1dc27e61cb7a99417fd96ff34bd248be45c8ee6be"
     },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+      "computedHash": "4e5bfe5af9b5da504752432dc45ed605af350cf1489a58419afad4123a514f89"
+    },
     "vercel-react-best-practices": {
       "source": "akillness/oh-my-skills",
       "sourceType": "github",
       "skillPath": ".agent-skills/vercel-react-best-practices/SKILL.md",
       "computedHash": "51d5a5838b09a7de0602aa5af225731e9924b8b89dc094fa3327dd226f7009ea"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
     }
   }
 }
