@@ -4,6 +4,7 @@ import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
 import { GoogleAnalyticsPageviews } from "@/components/GoogleAnalyticsPageviews";
+import { GoogleAnalyticsEvents } from "@/components/GoogleAnalyticsEvents";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/components/AuthProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -117,6 +118,7 @@ export default function RootLayout({
           </ThemeProvider>
         </AuthProvider>
         <GoogleAnalyticsPageviews />
+        <GoogleAnalyticsEvents />
       </body>
     </html>
   );
