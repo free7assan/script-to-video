@@ -11,7 +11,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/components/AuthProvider";
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
-import { Sidebar } from "@/components/Sidebar";
 
 interface Preset {
   value: string;
@@ -238,11 +237,7 @@ export default function AdminPage() {
   const totalServices = status ? Object.keys(status.services).length : 0;
 
   return (
-    <div className="flex">
-      <Sidebar />
-      <main className="flex-1 lg:ml-56 pt-14 lg:pt-0 relative z-10">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="space-y-8 animate-in">
+    <div className="space-y-8 animate-in">
       {/* ──── Header ──── */}
       <div className="rounded-xl border border-border/50 bg-card/50">
         <div className="p-4 border-b border-border/30">
@@ -425,9 +420,6 @@ export default function AdminPage() {
         </div>
       </div>
     </div>
-        </div>
-          </main>
-            </div>
   );
 }
 

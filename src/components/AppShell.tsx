@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { LandingNav } from "@/components/LandingNav";
 import { Sidebar } from "@/components/Sidebar";
 
-const authRoutes = new Set(["/login", "/signup", "/admin"]);
+const authRoutes = new Set(["/login", "/signup"]);
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

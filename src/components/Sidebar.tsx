@@ -79,7 +79,7 @@ export function Sidebar() {
   return (
     <>
       {/* ──── Mobile top bar ──── */}
-      <div className="lg:hidden fixed top-0 inset-x-0 z-30 h-14 flex items-center gap-2 px-3 border-b border-border/40 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40">
+      <div className="lg:hidden fixed top-0 inset-x-0 z-30 h-14 flex items-center gap-2 px-3 border-b border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
         <button
           onClick={() => setMobileOpen(true)}
           className="w-9 h-9 -ml-1 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
@@ -100,7 +100,7 @@ export function Sidebar() {
       )}
 
       <aside
-        className={`fixed left-0 top-0 bottom-0 z-50 w-56 border-r border-border/40 bg-background/95 lg:bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/40 flex flex-col transition-transform duration-200 ease-out lg:translate-x-0 ${
+        className={`fixed left-0 top-0 bottom-0 z-50 w-56 border-r border-border/40 bg-background lg:bg-transparent flex flex-col transition-transform duration-200 ease-out lg:translate-x-0 ${
           mobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
