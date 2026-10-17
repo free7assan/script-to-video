@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
+import { GoogleAnalyticsPageviews } from "@/components/GoogleAnalyticsPageviews";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/components/AuthProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
@@ -115,6 +116,7 @@ export default function RootLayout({
             <AppShell>{children}</AppShell>
           </ThemeProvider>
         </AuthProvider>
+        <GoogleAnalyticsPageviews />
       </body>
     </html>
   );
