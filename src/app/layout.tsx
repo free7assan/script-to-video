@@ -66,6 +66,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="ai-catalog" href="/.well-known/ai-catalog.json" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -78,9 +78,9 @@ export default function HomePage() {
     <div className="relative overflow-hidden">
       {/* ──── Ambient background ──── */}
       <div className="fixed inset-0 pointer-events-none select-none z-0">
-        <div className="absolute top-[15%] left-[20%] w-[560px] h-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-radial from-orange/8 via-orange/4 to-transparent blur-[130px] animate-morph-diamond" />
-        <div className="absolute bottom-[10%] right-[15%] w-[480px] h-[480px] translate-x-1/2 translate-y-1/2 rounded-full bg-gradient-radial from-orange/6 via-orange/3 to-transparent blur-[110px] animate-shimmer-rotate" />
-        <div className="absolute top-[45%] left-[65%] w-[360px] h-[360px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-radial from-orange/4 to-transparent blur-[90px] animate-aurora" />
+        <div className="absolute top-[15%] left-[20%] w-[340px] h-[340px] sm:w-[560px] sm:h-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-radial from-orange/8 via-orange/4 to-transparent blur-[70px] sm:blur-[130px] animate-morph-diamond" />
+        <div className="hidden sm:block absolute bottom-[10%] right-[15%] w-[480px] h-[480px] translate-x-1/2 translate-y-1/2 rounded-full bg-gradient-radial from-orange/6 via-orange/3 to-transparent blur-[110px] animate-shimmer-rotate" />
+        <div className="hidden sm:block absolute top-[45%] left-[65%] w-[360px] h-[360px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-radial from-orange/4 to-transparent blur-[90px] animate-aurora" />
         <svg className="absolute inset-0 w-full h-full opacity-[0.015]" aria-hidden="true">
           <defs>
             <pattern id="grid" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse">
@@ -102,85 +102,75 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-12 gap-12 lg:gap-10 items-center">
               {/* Left — text */}
               <div className="lg:col-span-7">
-                <Reveal>
-                  <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-orange/20 bg-orange/[0.04] text-orange text-[11px] font-mono tracking-[0.15em] uppercase group hover:bg-orange/[0.08] transition-colors">
-                    <span className="relative flex w-1.5 h-1.5">
-                      <span className="absolute inset-0 rounded-full bg-orange animate-pulse-ring" />
-                      <span className="relative rounded-full bg-orange w-full h-full" />
+                <div className="animate-fade-up inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border border-orange/20 bg-orange/[0.04] text-orange text-[11px] font-mono tracking-[0.15em] uppercase group hover:bg-orange/[0.08] transition-colors">
+                  <span className="relative flex w-1.5 h-1.5">
+                    <span className="absolute inset-0 rounded-full bg-orange animate-pulse-ring" />
+                    <span className="relative rounded-full bg-orange w-full h-full" />
+                  </span>
+                  Pattern-based script intelligence
+                </div>
+
+                <h1 className="mt-6 font-display font-bold tracking-[-0.03em] leading-[0.94] text-[2.75rem] sm:text-6xl lg:text-7xl xl:text-[5rem]">
+                  Reverse-engineer
+                  <br />
+                  the videos that
+                  <br />
+                  <span className="relative inline-block">
+                    <span
+                      aria-hidden
+                      className="absolute inset-x-[-0.12em] bottom-[0.08em] h-[0.3em] -skew-x-12 bg-orange/25"
+                    />
+                    <span className="relative">actually work</span>
+                  </span>
+                  <span className="text-orange">.</span>
+                </h1>
+
+                <p className="animate-fade-up-d1 mt-7 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
+                  Feed GoScript a YouTube channel. It reads every transcript and
+                  reverse-engineers the structural DNA behind the videos that perform.
+                  You get blueprints and full scripts built on patterns, not vibes.
+                </p>
+
+                <div className="animate-fade-up-d2 mt-9 flex flex-wrap items-center gap-3">
+                  <Link
+                    href="/channels/new"
+                    className="group relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
+                  >
+                    <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <span className="relative flex items-center gap-2.5">
+                      <Target className="w-4 h-4" />
+                      Analyze a channel
                     </span>
-                    Pattern-based script intelligence
-                  </div>
-                </Reveal>
-
-                <Reveal delay={80}>
-                  <h1 className="mt-6 font-display font-bold tracking-[-0.03em] leading-[0.94] text-[2.75rem] sm:text-6xl lg:text-7xl xl:text-[5rem]">
-                    Reverse-engineer
-                    <br />
-                    the videos that
-                    <br />
-                    <span className="relative inline-block">
-                      <span
-                        aria-hidden
-                        className="absolute inset-x-[-0.12em] bottom-[0.08em] h-[0.3em] -skew-x-12 bg-orange/25"
-                      />
-                      <span className="relative">actually work</span>
-                    </span>
-                    <span className="text-orange">.</span>
-                  </h1>
-                </Reveal>
-
-                <Reveal delay={160}>
-                  <p className="mt-7 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
-                    Feed GoScript a YouTube channel. It reads every transcript and
-                    reverse-engineers the structural DNA behind the videos that perform.
-                    You get blueprints and full scripts built on patterns, not vibes.
-                  </p>
-                </Reveal>
-
-                <Reveal delay={240}>
-                  <div className="mt-9 flex flex-wrap items-center gap-3">
-                    <Link
-                      href="/channels/new"
-                      className="group relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
-                    >
-                      <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                      <span className="relative flex items-center gap-2.5">
-                        <Target className="w-4 h-4" />
-                        Analyze a channel
-                      </span>
-                    </Link>
-                    <Link
-                      href="#pipeline"
-                      className="inline-flex items-center gap-2 h-12 px-6 rounded-xl border border-border/40 bg-foreground/[0.02] backdrop-blur-sm text-foreground text-sm font-medium hover:border-orange/30 hover:bg-orange/5 transition-all duration-200 group"
-                    >
-                      See how it works
-                      <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                    </Link>
-                  </div>
-                </Reveal>
+                  </Link>
+                  <Link
+                    href="#pipeline"
+                    className="inline-flex items-center gap-2 h-12 px-6 rounded-xl border border-border/40 bg-foreground/[0.02] backdrop-blur-sm text-foreground text-sm font-medium hover:border-orange/30 hover:bg-orange/5 transition-all duration-200 group"
+                  >
+                    See how it works
+                    <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                  </Link>
+                </div>
 
                 {/* Spec strip */}
-                <Reveal delay={320}>
-                  <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 divide-x divide-border/20 border border-border/20 rounded-xl overflow-hidden bg-card/20 backdrop-blur-sm">
-                    {[
-                      { k: "Input", v: "Channel URL" },
-                      { k: "Reads", v: "Full catalog" },
-                      { k: "Output", v: "Scripts" },
-                      { k: "Basis", v: "Patterns" },
-                    ].map((s) => (
-                      <div key={s.k} className="px-4 py-3.5">
-                        <p className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/50">
-                          {s.k}
-                        </p>
-                        <p className="mt-1 text-sm font-display font-medium">{s.v}</p>
-                      </div>
-                    ))}
-                  </div>
-                </Reveal>
+                <div className="animate-fade-up-d3 mt-12 grid grid-cols-2 sm:grid-cols-4 divide-x divide-border/20 border border-border/20 rounded-xl overflow-hidden bg-card/20 backdrop-blur-sm">
+                  {[
+                    { k: "Input", v: "Channel URL" },
+                    { k: "Reads", v: "Full catalog" },
+                    { k: "Output", v: "Scripts" },
+                    { k: "Basis", v: "Patterns" },
+                  ].map((s) => (
+                    <div key={s.k} className="px-4 py-3.5">
+                      <p className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/50">
+                        {s.k}
+                      </p>
+                      <p className="mt-1 text-sm font-display font-medium">{s.v}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Right — instrument panel */}
-              <Reveal variant="scale" delay={200} className="lg:col-span-5 lg:col-start-9">
+              <div className="animate-fade-up-d2 lg:col-span-5 lg:col-start-9">
                 <div className="relative">
                   <div className="absolute -inset-6 bg-gradient-to-r from-orange/15 via-orange/5 to-transparent rounded-[40px] blur-3xl opacity-70" />
                   <div className="relative rounded-2xl overflow-hidden border border-orange/10 bg-gradient-to-br from-orange/[0.06] to-card/40 backdrop-blur-sm">
@@ -195,7 +185,7 @@ export default function HomePage() {
                     <HeroVisual />
                   </div>
                 </div>
-              </Reveal>
+              </div>
             </div>
           </div>
 
