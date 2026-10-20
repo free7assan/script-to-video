@@ -88,7 +88,7 @@ export function BlogList({
         <section className="relative pb-12 sm:pb-14">
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-4">
-              <h2 className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+              <h2 className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
                 Latest dispatch
               </h2>
               <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -104,10 +104,10 @@ export function BlogList({
       <section className="relative pb-20 sm:pb-24">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-6">
-            <h2 className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+            <h2 className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
               All posts
             </h2>
-            <span className="text-[10px] font-mono text-orange/50 tracking-[0.25em] uppercase">
+            <span className="text-[10px] font-mono text-orange tracking-[0.25em] uppercase">
               {Math.min(gridPosts.length, total)} / {total}
             </span>
             <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />

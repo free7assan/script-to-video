@@ -66,7 +66,7 @@ export default async function BlogTagPage({
           <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 h-9 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04] transition-all"
+              className="inline-flex items-center gap-2 h-9 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] transition-all"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               Back to Blog
@@ -76,7 +76,7 @@ export default async function BlogTagPage({
                 <TagIcon className="w-5 h-5" />
               </div>
               <div>
-                <span className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+                <span className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
                   Topic
                 </span>
                 <h1 className="text-3xl sm:text-4xl font-display font-bold tracking-tight">
@@ -86,7 +86,7 @@ export default async function BlogTagPage({
             </div>
             <p className="text-sm text-muted-foreground mt-4">
               {tagPosts.length} {tagPosts.length === 1 ? "article" : "articles"} filed under{" "}
-              <span className="text-orange/70 font-mono">{decoded}</span>.
+              <span className="text-orange font-mono">{decoded}</span>.
             </p>
           </div>
         </section>
@@ -100,7 +100,7 @@ export default async function BlogTagPage({
             />
 
             <div className="mt-14 pt-8 border-t border-border/10">
-              <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+              <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
                 <Hash className="w-3 h-3" />
                 Other topics
               </div>
@@ -112,7 +112,7 @@ export default async function BlogTagPage({
                     <Link
                       key={t}
                       href={`/blog/tag/${encodeURIComponent(t)}`}
-                      className="inline-flex items-center gap-1.5 h-8 px-3 rounded-full border border-orange/15 bg-orange/[0.03] text-[10px] font-mono tracking-wider uppercase text-orange/70 hover:border-orange/40 hover:text-orange transition-all"
+                      className="inline-flex items-center gap-1.5 h-8 px-3 rounded-full border border-orange/15 bg-orange/[0.03] text-[10px] font-mono tracking-wider uppercase text-orange hover:border-orange/40 hover:text-orange transition-all"
                     >
                       {t}
                     </Link>
@@ -123,7 +123,7 @@ export default async function BlogTagPage({
             <div className="flex justify-center mt-14">
               <Link
                 href="/blog"
-                className="group inline-flex items-center gap-2.5 h-12 px-8 rounded-xl border border-orange/30 bg-orange/[0.04] text-sm font-semibold text-orange hover:bg-orange hover:text-black transition-all duration-300"
+                className="group inline-flex items-center gap-2.5 h-12 px-8 rounded-xl border border-orange/30 bg-orange/[0.04] text-sm font-semibold text-orange hover:bg-orange hover:text-accent-foreground transition-all duration-300"
               >
                 All articles
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

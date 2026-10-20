@@ -82,7 +82,7 @@ export function ChannelActions({ channel }: { channel: Channel }) {
       className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${
         opts?.destructive
           ? "text-red-400 border border-red-500/20 hover:bg-red-500/10 hover:border-red-500/30"
-          : "text-muted-foreground border border-border/50 hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 hover:border-border"
+          : "text-muted-foreground border border-border/50 hover:text-foreground hover:bg-black/5 hover:border-border"
       } disabled:opacity-50 disabled:cursor-not-allowed`}
     >
       {busy === action ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : icon}

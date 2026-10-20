@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LayoutDashboard, Library, Wand2, FileText, Settings } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
 
 const links = [
@@ -38,9 +37,6 @@ export function Navbar() {
               </Link>
             );
           })}
-          <div className="ml-1 pl-1 border-l border-border/30">
-            <ThemeToggle />
-          </div>
         </nav>
       </div>
     </header>

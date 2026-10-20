@@ -101,7 +101,7 @@ export default async function DashboardPage() {
                 <span>Channels</span>
                 <span>{usage.channels} / {usage.channelsLimit}</span>
               </div>
-              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+              <div className="h-1.5 rounded-full bg-black/10 overflow-hidden">
                 <div
                   className="h-full rounded-full bg-orange transition-all"
                   style={{ width: `${Math.min((usage.channels / usage.channelsLimit) * 100, 100)}%` }}
@@ -113,7 +113,7 @@ export default async function DashboardPage() {
                 <span>Videos</span>
                 <span>{usage.videos} / {usage.videosLimit}</span>
               </div>
-              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+              <div className="h-1.5 rounded-full bg-black/10 overflow-hidden">
                 <div
                   className="h-full rounded-full bg-sky-500 transition-all"
                   style={{ width: `${Math.min((usage.videos / usage.videosLimit) * 100, 100)}%` }}
@@ -125,7 +125,7 @@ export default async function DashboardPage() {
                 <span>Scripts</span>
                 <span>{usage.scripts} / {usage.scriptsLimit}</span>
               </div>
-              <div className="h-1.5 rounded-full bg-black/10 dark:bg-white/[0.06] overflow-hidden">
+              <div className="h-1.5 rounded-full bg-black/10 overflow-hidden">
                 <div
                   className="h-full rounded-full bg-emerald-500 transition-all"
                   style={{ width: `${Math.min((usage.scripts / usage.scriptsLimit) * 100, 100)}%` }}
@@ -163,7 +163,7 @@ export default async function DashboardPage() {
                   <Link
                     key={s.id}
                     href={`/scripts/new?edit=${s.id}`}
-                    className="flex items-center gap-3 p-2 rounded-lg hover:bg-black/5 dark:hover:bg-white/[0.02] transition-colors group"
+                    className="flex items-center gap-3 p-2 rounded-lg hover:bg-black/5 transition-colors group"
                   >
                     <div className="w-7 h-7 rounded-lg bg-orange/10 flex items-center justify-center shrink-0">
                       <FileText className="w-3.5 h-3.5 text-orange" />

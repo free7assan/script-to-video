@@ -267,8 +267,8 @@ export default function SavedScriptsPage() {
                         className="input-base h-9 font-semibold"
                         placeholder="Script title"
                       />
-                      <div className="flex border border-black/5 dark:border-white/[0.06] rounded-lg overflow-hidden bg-background">
-                        <div className="select-none text-right px-2 py-2 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-black/10 dark:border-white/[0.06] bg-black/[0.02] dark:bg-white/[0.02] min-w-[2.5rem]">
+                      <div className="flex border border-black/5 rounded-lg overflow-hidden bg-background">
+                        <div className="select-none text-right px-2 py-2 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-black/10 bg-black/[0.02] min-w-[2.5rem]">
                           {Array.from({ length: editBody.split("\n").length }, (_, i) => (
                             <div key={i}>{i + 1}</div>
                           ))}
@@ -287,7 +287,7 @@ export default function SavedScriptsPage() {
                         </div>
                       )}
                       <div className="flex gap-2">
-                        <button onClick={saveEdit} className="inline-flex items-center justify-center gap-2 px-4 h-8 rounded-lg bg-orange text-black text-xs font-semibold hover:bg-orange/90 transition-all">
+                        <button onClick={saveEdit} className="inline-flex items-center justify-center gap-2 px-4 h-8 rounded-lg bg-orange text-accent-foreground text-xs font-semibold hover:bg-orange/90 transition-all">
                           <Check className="w-3.5 h-3.5" />
                           Save
                         </button>
@@ -297,8 +297,8 @@ export default function SavedScriptsPage() {
                       </div>
                     </div>
                   ) : (
-                      <div className="flex border border-black/5 dark:border-white/[0.06] rounded-lg overflow-hidden bg-black/5 dark:bg-white/[0.02]">
-                        <div className="select-none text-right px-2 py-4 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-black/10 dark:border-white/[0.06] min-w-[2.5rem]">
+                      <div className="flex border border-black/5 rounded-lg overflow-hidden bg-black/5 ">
+                        <div className="select-none text-right px-2 py-4 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-black/10 min-w-[2.5rem]">
                           {Array.from({ length: buildScriptText(entry.script_content).split("\n").length }, (_, i) => (
                             <div key={i}>{i + 1}</div>
                           ))}

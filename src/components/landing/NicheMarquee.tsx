@@ -32,7 +32,7 @@ export function NicheMarquee() {
             aria-hidden={i >= NICHES.length}
           >
             <span className="w-1.5 h-1.5 rounded-full bg-orange/50 shrink-0" />
-            <span className="text-sm sm:text-base font-display font-medium text-muted-foreground/70 whitespace-nowrap tracking-tight">
+            <span className="text-sm sm:text-base font-display font-medium text-muted-foreground whitespace-nowrap tracking-tight">
               {niche}
             </span>
             <span className="w-px h-4 bg-border/40" />

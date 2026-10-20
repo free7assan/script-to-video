@@ -110,20 +110,37 @@ export default function HomePage() {
                   Pattern-based script intelligence
                 </div>
 
-                <h1 className="mt-6 font-display font-bold tracking-[-0.03em] leading-[0.94] text-[2.75rem] sm:text-6xl lg:text-7xl xl:text-[5rem]">
-                  Reverse-engineer
-                  <br />
-                  the videos that
-                  <br />
-                  <span className="relative inline-block">
-                    <span
-                      aria-hidden
-                      className="absolute inset-x-[-0.12em] bottom-[0.08em] h-[0.3em] -skew-x-12 bg-orange/25"
-                    />
-                    <span className="relative">actually work</span>
-                  </span>
-                  <span className="text-orange">.</span>
-                </h1>
+                <div className="relative isolate mt-6">
+                  <div
+                    aria-hidden
+                    className="pointer-events-none select-none absolute inset-0 font-display font-bold tracking-[-0.03em] leading-[0.94] text-[2.75rem] sm:text-6xl lg:text-7xl xl:text-[5rem] text-primary/25 blur-3xl"
+                  >
+                    Reverse-engineer
+                    <br />
+                    the videos that
+                    <br />
+                    actually work.
+                  </div>
+                  <h1 className="relative font-display font-bold tracking-[-0.03em] leading-[0.94] text-[2.75rem] sm:text-6xl lg:text-7xl xl:text-[5rem]">
+                    Reverse-engineer
+                    <br />
+                    the videos that
+                    <br />
+                    <span className="relative inline-block">
+                      <span
+                        aria-hidden
+                        className="absolute inset-x-[-0.12em] bottom-[0.08em] h-[0.3em] -skew-x-12 bg-orange/25"
+                      />
+                      <span className="relative">actually work</span>
+                    </span>
+                    <span className="text-orange">.</span>
+                  </h1>
+                </div>
+
+                <div
+                  aria-hidden
+                  className="mt-5 h-1 w-24 rounded-full bg-gradient-to-r from-primary via-violet-500 to-fuchsia-500"
+                />
 
                 <p className="animate-fade-up-d1 mt-7 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
                   Feed GoScript a YouTube channel. It reads every transcript and
@@ -134,7 +151,7 @@ export default function HomePage() {
                 <div className="animate-fade-up-d2 mt-9 flex flex-wrap items-center gap-3">
                   <Link
                     href="/channels/new"
-                    className="group relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
+                    className="group relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-gradient-to-r from-primary to-primary-600 text-white text-sm font-semibold shadow-2xl shadow-primary/30 hover:shadow-primary/50 hover:to-indigo-600 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200"
                   >
                     <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <span className="relative flex items-center gap-2.5">
@@ -160,7 +177,7 @@ export default function HomePage() {
                     { k: "Basis", v: "Patterns" },
                   ].map((s) => (
                     <div key={s.k} className="px-4 py-3.5">
-                      <p className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/50">
+                      <p className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground">
                         {s.k}
                       </p>
                       <p className="mt-1 text-sm font-display font-medium">{s.v}</p>
@@ -178,7 +195,7 @@ export default function HomePage() {
                       <span className="w-2 h-2 rounded-full bg-orange/50" />
                       <span className="w-2 h-2 rounded-full bg-muted-foreground/20" />
                       <span className="w-2 h-2 rounded-full bg-muted-foreground/20" />
-                      <span className="ml-3 font-mono text-[10px] tracking-[0.18em] uppercase text-muted-foreground/50">
+                      <span className="ml-3 font-mono text-[10px] tracking-[0.18em] uppercase text-muted-foreground">
                         goscript / pipeline
                       </span>
                     </div>
@@ -191,7 +208,7 @@ export default function HomePage() {
 
           <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2.5">
             <div className="w-px h-10 bg-gradient-to-b from-orange/30 to-transparent animate-progress-pulse" />
-            <span className="text-[9px] font-mono text-orange/40 tracking-[0.3em] uppercase">
+            <span className="text-[9px] font-mono text-orange tracking-[0.3em] uppercase">
               Scroll
             </span>
           </div>
@@ -204,7 +221,7 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <Reveal>
               <div className="flex items-center gap-4 mb-12">
-                <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange/70">
+                <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange">
                   00 / Signal
                 </span>
                 <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -218,7 +235,7 @@ export default function HomePage() {
                     <p className="font-display font-bold tracking-tight text-4xl sm:text-5xl lg:text-6xl text-foreground">
                       <CountUp to={stat.value} suffix={stat.suffix} />
                     </p>
-                    <p className="mt-2 text-xs font-mono tracking-[0.14em] uppercase text-muted-foreground/60">
+                    <p className="mt-2 text-xs font-mono tracking-[0.14em] uppercase text-muted-foreground">
                       {stat.label}
                     </p>
                   </div>
@@ -228,7 +245,7 @@ export default function HomePage() {
 
             <Reveal delay={120}>
               <div className="mt-16 pt-10 border-t border-border/15">
-                <p className="text-center text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground/50 mb-7">
+                <p className="text-center text-xs font-mono tracking-[0.2em] uppercase text-muted-foreground mb-7">
                   Built for creators working across
                 </p>
                 <NicheMarquee />
@@ -245,7 +262,7 @@ export default function HomePage() {
             <Reveal>
               <div className="max-w-2xl mb-14">
                 <div className="flex items-center gap-4 mb-5">
-                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange/70">
+                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange">
                     01 / Pipeline
                   </span>
                   <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -275,7 +292,7 @@ export default function HomePage() {
             <Reveal>
               <div className="max-w-2xl mb-14">
                 <div className="flex items-center gap-4 mb-5">
-                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange/70">
+                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange">
                     02 / Capabilities
                   </span>
                   <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -306,7 +323,7 @@ export default function HomePage() {
                       <>
                         <div className="absolute -top-24 -right-24 w-56 h-56 rounded-full bg-gradient-radial from-orange/15 to-transparent blur-3xl pointer-events-none" />
                         <div className="absolute top-0 left-0 px-3 py-1.5 rounded-br-2xl bg-gradient-to-br from-orange/20 to-orange/5 border-b border-r border-orange/20">
-                          <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange/80">
+                          <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange">
                             Core engine
                           </span>
                         </div>
@@ -323,10 +340,10 @@ export default function HomePage() {
                           </h3>
                         </div>
                         <div className="text-right shrink-0">
-                          <p className="text-3xl font-display font-bold text-orange/40 leading-none">
+                          <p className="text-3xl font-display font-bold text-orange leading-none">
                             {f.metric}
                           </p>
-                          <p className="mt-1 text-[9px] font-mono tracking-[0.16em] uppercase text-muted-foreground/50">
+                          <p className="mt-1 text-[9px] font-mono tracking-[0.16em] uppercase text-muted-foreground">
                             {f.metricLabel}
                           </p>
                         </div>
@@ -348,7 +365,7 @@ export default function HomePage() {
                 {CAPABILITY_TAGS.map((tag) => (
                   <span
                     key={tag}
-                    className="text-[11px] px-3 py-1.5 rounded-full border border-border/25 bg-foreground/[0.02] text-muted-foreground/70 font-mono tracking-wide"
+                    className="text-[11px] px-3 py-1.5 rounded-full border border-border/25 bg-foreground/[0.02] text-muted-foreground font-mono tracking-wide"
                   >
                     {tag}
                   </span>
@@ -366,7 +383,7 @@ export default function HomePage() {
             <Reveal>
               <div className="max-w-2xl mb-14">
                 <div className="flex items-center gap-4 mb-5">
-                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange/70">
+                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange">
                     03 / Workflow
                   </span>
                   <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -414,7 +431,7 @@ export default function HomePage() {
                 <Reveal key={col.phase} delay={i * 140}>
                   <div className="group relative h-full rounded-2xl border border-border/30 bg-card/40 backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-orange/25 hover:shadow-lg hover:shadow-orange/5">
                     <div className="absolute top-0 right-0 px-3 py-1.5 rounded-bl-2xl bg-gradient-to-bl from-orange/15 to-orange/5 border-b border-l border-orange/20">
-                      <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange/60">
+                      <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange">
                         {col.phase}
                       </span>
                     </div>
@@ -488,7 +505,7 @@ export default function HomePage() {
             <Reveal>
               <div className="max-w-2xl mb-14">
                 <div className="flex items-center gap-4 mb-5">
-                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange/70">
+                  <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-orange">
                     04 / Pricing
                   </span>
                   <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -527,7 +544,7 @@ export default function HomePage() {
                     </ul>
                     <Link
                       href="/channels/new"
-                      className="mt-auto inline-flex items-center justify-center gap-2 w-full h-11 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
+                      className="mt-auto inline-flex items-center justify-center gap-2 w-full h-11 rounded-xl bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
                     >
                       <Plus className="w-3.5 h-3.5" />
                       Get started
@@ -540,7 +557,7 @@ export default function HomePage() {
               <Reveal delay={160}>
                 <div className="group relative h-full rounded-2xl border border-border/30 bg-card/40 backdrop-blur-sm overflow-hidden opacity-70">
                   <div className="absolute top-0 right-0 px-3 py-1.5 rounded-bl-2xl bg-gradient-to-bl from-orange/15 to-orange/5 border-b border-l border-orange/20">
-                    <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange/60">
+                    <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-orange">
                       Coming soon
                     </span>
                   </div>
@@ -551,7 +568,7 @@ export default function HomePage() {
                         <p className="text-sm text-muted-foreground">For power users</p>
                       </div>
                       <div className="text-right">
-                        <span className="text-4xl font-display font-bold text-foreground/40">&mdash;</span>
+                        <span className="text-4xl font-display font-bold text-foreground/75">&mdash;</span>
                       </div>
                     </div>
                     <ul className="space-y-2.5 text-sm text-muted-foreground mb-7">
@@ -562,7 +579,7 @@ export default function HomePage() {
                         </li>
                       ))}
                     </ul>
-                    <div className="mt-auto inline-flex items-center justify-center gap-2 w-full h-11 rounded-xl bg-foreground/5 text-muted-foreground/40 text-sm font-medium cursor-default">
+                    <div className="mt-auto inline-flex items-center justify-center gap-2 w-full h-11 rounded-xl bg-foreground/5 text-muted-foreground text-sm font-medium cursor-default">
                       Coming soon
                     </div>
                   </div>
@@ -603,7 +620,7 @@ export default function HomePage() {
                   <div className="flex flex-wrap items-center justify-center gap-3">
                     <Link
                       href="/channels/new"
-                      className="group/btn relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
+                      className="group/btn relative inline-flex items-center gap-2.5 h-12 px-7 rounded-xl bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] active:scale-[0.99] transition-all duration-200 shadow-lg shadow-orange/20"
                     >
                       <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/25 to-transparent opacity-0 group-hover/btn:opacity-100 transition-opacity duration-500" />
                       <span className="relative flex items-center gap-2.5">
@@ -634,49 +651,49 @@ export default function HomePage() {
                   <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-orange/20 to-orange/5 border border-orange/10 flex items-center justify-center">
                     <span className="text-[10px] font-bold text-orange">G</span>
                   </div>
-                  <span className="text-xs font-mono text-orange/60 tracking-[0.2em] uppercase">
+                  <span className="text-xs font-mono text-orange tracking-[0.2em] uppercase">
                     GoScript
                   </span>
                 </div>
-                <p className="text-xs text-muted-foreground/60 leading-relaxed">
+                <p className="text-xs text-muted-foreground leading-relaxed">
                   Pattern-based script intelligence for YouTube. Deconstruct, remix, perform.
                 </p>
               </div>
 
               <nav className="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-12 text-sm">
                 <div className="flex flex-col gap-2.5">
-                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/40">
+                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground">
                     Product
                   </span>
-                  <Link href="/channels/new" className="text-muted-foreground hover:text-orange/80 transition-colors">Channel Analyzer</Link>
-                  <Link href="/video/analyze" className="text-muted-foreground hover:text-orange/80 transition-colors">Video Analyzer</Link>
-                  <Link href="/blueprints" className="text-muted-foreground hover:text-orange/80 transition-colors">Blueprints</Link>
-                  <Link href="/scripts/new" className="text-muted-foreground hover:text-orange/80 transition-colors">Generator</Link>
+                  <Link href="/channels/new" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Channel Analyzer</Link>
+                  <Link href="/video/analyze" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Video Analyzer</Link>
+                  <Link href="/blueprints" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Blueprints</Link>
+                  <Link href="/scripts/new" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Generator</Link>
                 </div>
                 <div className="flex flex-col gap-2.5">
-                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/40">
+                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground">
                     Explore
                   </span>
-                  <Link href="#pipeline" className="text-muted-foreground hover:text-orange/80 transition-colors">How it works</Link>
-                  <Link href="#capabilities" className="text-muted-foreground hover:text-orange/80 transition-colors">Capabilities</Link>
-                  <Link href="#pricing" className="text-muted-foreground hover:text-orange/80 transition-colors">Pricing</Link>
-                  <Link href="/blog" className="text-muted-foreground hover:text-orange/80 transition-colors">Blog</Link>
+                  <Link href="#pipeline" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">How it works</Link>
+                  <Link href="#capabilities" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Capabilities</Link>
+                  <Link href="#pricing" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Pricing</Link>
+                  <Link href="/blog" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Blog</Link>
                 </div>
                 <div className="flex flex-col gap-2.5 col-span-2 sm:col-span-1">
-                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground/40">
+                  <span className="text-[10px] font-mono tracking-[0.18em] uppercase text-muted-foreground">
                     Get started
                   </span>
-                  <Link href="/signup" className="text-muted-foreground hover:text-orange/80 transition-colors">Create account</Link>
-                  <Link href="/login" className="text-muted-foreground hover:text-orange/80 transition-colors">Sign in</Link>
+                  <Link href="/signup" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Create account</Link>
+                  <Link href="/login" className="inline-block py-1 text-muted-foreground hover:text-orange transition-colors">Sign in</Link>
                 </div>
               </nav>
             </div>
 
             <div className="mt-12 pt-6 border-t border-border/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <span className="text-[11px] font-mono text-muted-foreground/40 tracking-wider">
+              <span className="text-[11px] font-mono text-muted-foreground tracking-wider">
                 &copy; {new Date().getFullYear()} GoScript
               </span>
-              <span className="text-[11px] font-mono text-muted-foreground/40 tracking-[0.16em] uppercase">
+              <span className="text-[11px] font-mono text-muted-foreground tracking-[0.16em] uppercase">
                 Deconstruct &middot; Remix &middot; Perform
               </span>
             </div>

@@ -5,7 +5,6 @@ import "./globals.css";
 import { AppShell } from "@/components/AppShell";
 import { GoogleAnalyticsPageviews } from "@/components/GoogleAnalyticsPageviews";
 import { GoogleAnalyticsEvents } from "@/components/GoogleAnalyticsEvents";
-import { ThemeProvider } from "@/components/theme-provider";
 import { AuthProvider } from "@/components/AuthProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -65,27 +64,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         <link rel="ai-catalog" href="/.well-known/ai-catalog.json" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.clarity.ms" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var t = localStorage.getItem("goscript-theme");
-                  if (!t) {
-                    t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-                  }
-                  if (t === "dark") document.documentElement.classList.add("dark");
-                } catch(e) {}
-              })();
-            `,
-          }}
-        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-VP8MRRX6EM"
           strategy="lazyOnload"
@@ -113,9 +97,7 @@ export default function RootLayout({
       >
         <div className="bg-noise fixed inset-0 pointer-events-none z-0" />
         <AuthProvider>
-          <ThemeProvider>
-            <AppShell>{children}</AppShell>
-          </ThemeProvider>
+          <AppShell>{children}</AppShell>
         </AuthProvider>
         <GoogleAnalyticsPageviews />
         <GoogleAnalyticsEvents />

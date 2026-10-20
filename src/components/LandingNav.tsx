@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Plus, LogIn, LogOut, LayoutDashboard, Loader2, Menu, X } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
 import { SignInModal } from "@/components/SignInModal";
 import { useAuth } from "@/components/AuthProvider";
@@ -123,14 +122,14 @@ export function LandingNav() {
               <div className="hidden md:flex items-center gap-1.5">
                 <button
                   onClick={() => { setModalMode("login"); setShowModal(true); }}
-                  className="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-foreground/5 transition-all"
+                  className="inline-flex items-center gap-1.5 h-8 px-3.5 rounded-lg border border-border/60 bg-background text-xs font-medium text-foreground hover:bg-secondary hover:border-border transition-all"
                 >
                   <LogIn className="w-3.5 h-3.5" />
                   Sign in
                 </button>
                 <button
                   onClick={() => { setModalMode("signup"); setShowModal(true); }}
-                  className="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg bg-orange text-black text-xs font-semibold hover:bg-orange/90 transition-all"
+                  className="inline-flex items-center gap-1.5 h-8 px-3.5 rounded-lg bg-gradient-to-r from-primary to-primary-600 text-white text-xs font-semibold shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40 hover:to-indigo-600 transition-all"
                 >
                   <Plus className="w-3.5 h-3.5" />
                   Get Started
@@ -138,13 +137,9 @@ export function LandingNav() {
               </div>
             )}
 
-            <div className="ml-2 pl-2 border-l border-border/20">
-              <ThemeToggle />
-            </div>
-
             <button
               onClick={() => setMobileOpen((v) => !v)}
-              className="md:hidden ml-1 w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
+              className="md:hidden ml-1 w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] transition-colors"
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
               aria-expanded={mobileOpen}
             >
@@ -174,7 +169,7 @@ export function LandingNav() {
                     className={`h-11 px-3 rounded-lg flex items-center text-sm font-medium transition-all ${
                       isActive
                         ? "bg-orange/[0.07] text-orange"
-                        : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+                        : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] "
                     }`}
                   >
                     {label}
@@ -214,14 +209,14 @@ export function LandingNav() {
                   <>
                     <button
                       onClick={() => { closeMobile(); setModalMode("login"); setShowModal(true); }}
-                      className="h-11 px-3 rounded-lg flex items-center justify-center gap-2 border border-border/40 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-foreground/5 transition-all"
+                      className="h-11 px-3 rounded-lg flex items-center justify-center gap-2 border border-border/60 bg-background text-sm font-medium text-foreground hover:bg-secondary hover:border-border transition-all"
                     >
                       <LogIn className="w-4 h-4" />
                       Sign in
                     </button>
                     <button
                       onClick={() => { closeMobile(); setModalMode("signup"); setShowModal(true); }}
-                      className="h-11 px-3 rounded-lg flex items-center justify-center gap-2 bg-orange text-black text-sm font-semibold hover:bg-orange/90 transition-all"
+                      className="h-11 px-3 rounded-lg flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary-600 text-white text-sm font-semibold shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40 hover:to-indigo-600 transition-all"
                     >
                       <Plus className="w-4 h-4" />
                       Get Started

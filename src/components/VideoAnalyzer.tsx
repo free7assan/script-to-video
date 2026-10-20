@@ -235,7 +235,7 @@ export function VideoAnalyzer() {
             <button
               onClick={analyze}
               disabled={!url.trim()}
-              className="inline-flex items-center gap-2 h-10 px-4 rounded-lg bg-orange text-black text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
+              className="inline-flex items-center gap-2 h-10 px-4 rounded-lg bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
             >
               <Play className="w-4 h-4" />
               Analyze
@@ -247,7 +247,7 @@ export function VideoAnalyzer() {
       {/* ──── Progress phase ──── */}
       {phase === "progress" && (
         <div className="p-6 space-y-4">
-          <div className="h-2 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+          <div className="h-2 rounded-full bg-black/5 overflow-hidden">
             <div
               className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-700 ease-out"
               style={{ width: `${progress}%` }}
@@ -266,7 +266,7 @@ export function VideoAnalyzer() {
             {isRunning && (
               <button
                 onClick={cancel}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
               >
                 <XCircle className="w-3.5 h-3.5" />
                 Cancel
@@ -275,7 +275,7 @@ export function VideoAnalyzer() {
             {status === "error" && (
               <button
                 onClick={analyze}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
                 Retry
@@ -300,17 +300,17 @@ export function VideoAnalyzer() {
             </div>
 
             <div className="grid grid-cols-2 gap-2">
-              <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+              <div className="rounded-lg bg-black/5 p-3 border border-border/20">
                 <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Hook Style</span>
                 <p className="text-sm mt-1">{result.hook_style}</p>
               </div>
-              <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+              <div className="rounded-lg bg-black/5 p-3 border border-border/20">
                 <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Tone</span>
                 <p className="text-sm mt-1">{result.tone}</p>
               </div>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Structure</span>
               <div className="flex flex-wrap gap-1 mt-2">
                 {result.structure.map((s, i) => (
@@ -321,7 +321,7 @@ export function VideoAnalyzer() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Key Techniques</span>
               <div className="flex flex-wrap gap-1 mt-2">
                 {result.key_techniques.map((t, i) => (
@@ -332,12 +332,12 @@ export function VideoAnalyzer() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">CTA Style</span>
               <p className="text-sm mt-1">{result.cta_style}</p>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">Summary</span>
               <p className="text-sm mt-1 text-muted-foreground leading-relaxed">{result.summary}</p>
             </div>
@@ -350,7 +350,7 @@ export function VideoAnalyzer() {
               <div className="flex gap-2">
                 <button
                   onClick={reset}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                 >
                   <ArrowLeft className="w-3.5 h-3.5" />
                   Analyze Another
@@ -377,7 +377,7 @@ export function VideoAnalyzer() {
               return (
                 <div
                   key={ch.id}
-                  className="p-3 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-border/20 space-y-2"
+                  className="p-3 rounded-lg bg-black/5 border border-border/20 space-y-2"
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0">
@@ -386,7 +386,7 @@ export function VideoAnalyzer() {
                     </div>
                     <span className={`shrink-0 text-[10px] font-medium px-2 py-0.5 rounded-full border ${
                       ch.status === "error" ? "text-red-400 border-red-500/30 bg-red-500/10" :
-                      ch.status === "paused" ? "text-muted-foreground border-border/50 bg-black/5 dark:bg-white/5" :
+                      ch.status === "paused" ? "text-muted-foreground border-border/50 bg-black/5 " :
                       "badge-primary"
                     }`}>
                       {ch.status}
@@ -395,7 +395,7 @@ export function VideoAnalyzer() {
 
                   {job && isRunning && (
                     <>
-                      <div className="h-1.5 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+                      <div className="h-1.5 rounded-full bg-black/5 overflow-hidden">
                         <div
                           className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-500 ease-out"
                           style={{ width: `${job.progress}%` }}
@@ -423,7 +423,7 @@ export function VideoAnalyzer() {
                       <>
                         <button
                           onClick={() => channelAction(ch.id, "pause")}
-                          className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/[0.04] transition-all"
+                          className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                         >
                           <Pause className="w-3 h-3" />
                           Pause
@@ -474,7 +474,7 @@ export function VideoAnalyzer() {
             {savedAnalyses.slice(0, 5).map((a) => (
               <div
                 key={a.id}
-                className="flex items-start gap-3 p-2.5 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-border/20"
+                className="flex items-start gap-3 p-2.5 rounded-lg bg-black/5 border border-border/20"
               >
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-foreground truncate">
@@ -485,7 +485,7 @@ export function VideoAnalyzer() {
                   </p>
                   <div className="flex flex-wrap gap-1 mt-1">
                     {a.analysis_data?.key_techniques?.slice(0, 2).map((t, i) => (
-                      <span key={i} className="text-[10px] px-1.5 py-0.5 rounded-full bg-black/5 dark:bg-white/[0.04] border border-border/30">
+                      <span key={i} className="text-[10px] px-1.5 py-0.5 rounded-full bg-black/5 border border-border/30">
                         {t}
                       </span>
                     ))}
@@ -496,7 +496,7 @@ export function VideoAnalyzer() {
                     href={a.youtube_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="h-7 w-7 rounded-lg flex items-center justify-center text-muted-foreground/60 hover:text-foreground hover:bg-black/5 dark:hover:bg-white/[0.04] transition-colors"
+                    className="h-7 w-7 rounded-lg flex items-center justify-center text-muted-foreground/60 hover:text-foreground hover:bg-black/5 transition-colors"
                     title="Open video"
                   >
                     <ExternalLink className="w-3.5 h-3.5" />

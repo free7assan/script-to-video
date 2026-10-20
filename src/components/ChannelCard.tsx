@@ -45,7 +45,7 @@ function LiveChannelProgress({ channelId }: { channelId: string }) {
   return (
     <div className="mt-3 space-y-1.5">
       {isRunning && (
-        <div className="h-1 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+        <div className="h-1 rounded-full bg-black/5 overflow-hidden">
           <div
             className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-500 ease-out"
             style={{ width: `${job.progress}%` }}

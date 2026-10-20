@@ -24,7 +24,6 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Logo } from "@/components/Logo";
 import { useAuth } from "@/components/AuthProvider";
 import { createSupabaseBrowserClient } from "@/lib/supabase/browser";
@@ -69,7 +68,7 @@ const adminLinks = [
 
 export function Sidebar() {
   const pathname = usePathname();
-  const { user } = useAuth();
+  const { user, loading } = useAuth();
   const [ideasOpen, setIdeasOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -92,13 +91,16 @@ export function Sidebar() {
     };
   }, [mobileOpen]);
 
+  // No sidebar for signed-out visitors (e.g. /admin renders its own login form).
+  if (loading || !user) return null;
+
   return (
     <>
       {/* ──── Mobile top bar ──── */}
       <div className="lg:hidden fixed top-0 inset-x-0 z-30 h-14 flex items-center gap-2 px-3 border-b border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70">
         <button
           onClick={() => setMobileOpen(true)}
-          className="w-9 h-9 -ml-1 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
+          className="w-9 h-9 -ml-1 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] transition-colors"
           aria-label="Open menu"
         >
           <Menu className="w-5 h-5" />
@@ -124,7 +126,7 @@ export function Sidebar() {
           <Logo />
           <button
             onClick={() => setMobileOpen(false)}
-            className="lg:hidden ml-auto -mr-1 w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] dark:hover:bg-white/[0.06] transition-colors"
+            className="lg:hidden ml-auto -mr-1 w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-black/[0.04] transition-colors"
             aria-label="Close menu"
           >
             <X className="w-5 h-5" />
@@ -203,12 +205,8 @@ export function Sidebar() {
           </div>
         )}
         <div className="px-3 pb-3 pt-3">
-          <div className="flex items-center justify-between px-3 h-9">
-            <span className="text-xs text-muted-foreground">Theme</span>
-            <div className="flex items-center gap-1">
-              {user?.isAdmin && <SignOutButton />}
-              <ThemeToggle />
-            </div>
+          <div className="flex items-center justify-end px-3 h-9">
+            {user?.isAdmin && <SignOutButton />}
           </div>
         </div>
       </div>
@@ -246,7 +244,7 @@ function UserMenu() {
   if (!user) return null;
 
   return (
-    <div className="flex items-center gap-2.5 px-3 py-2 rounded-lg hover:bg-black/[0.03] dark:hover:bg-white/[0.04] transition-colors group">
+    <div className="flex items-center gap-2.5 px-3 py-2 rounded-lg hover:bg-black/[0.03] transition-colors group">
       <div className="w-7 h-7 rounded-lg bg-orange/10 flex items-center justify-center shrink-0">
         <User className="w-3.5 h-3.5 text-orange" />
       </div>
@@ -259,7 +257,7 @@ function UserMenu() {
       <button
         onClick={handleLogout}
         disabled={signingOut}
-        className="shrink-0 w-7 h-7 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 hover:bg-red-500/10 hover:text-red-400 transition-all"
+        className="shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-muted-foreground/50 hover:text-red-400 hover:bg-red-500/10 transition-all"
         title="Sign out"
       >
         {signingOut ? (
@@ -309,7 +307,7 @@ function navItemClass(isActive: boolean) {
   return `flex items-center gap-3 h-9 px-3 rounded-lg text-sm font-medium transition-all duration-200 ${
     isActive
       ? "bg-gradient-to-r from-orange/[0.12] to-orange/[0.02] text-orange"
-      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04]"
+      : "text-muted-foreground hover:text-foreground hover:bg-black/[0.03] "
   }`;
 }
 

@@ -234,7 +234,7 @@ export function AnalysisProgress({ channelId }: { channelId: string }) {
               {videos.filter((v) => v.analysis).map((v) => (
                 <div
                   key={v.id}
-                  className="flex items-start gap-3 p-3 rounded-lg bg-black/5 dark:bg-white/5"
+                  className="flex items-start gap-3 p-3 rounded-lg bg-black/5 "
                 >
                   <CheckCircle2 className="w-4 h-4 text-green-500 shrink-0 mt-0.5" />
                   <div className="min-w-0">
@@ -262,7 +262,7 @@ export function AnalysisProgress({ channelId }: { channelId: string }) {
               {videos.filter((v) => !v.analysis).slice(0, 20).map((v) => (
                 <div
                   key={v.id}
-                  className="flex items-start gap-3 p-3 rounded-lg bg-black/5 dark:bg-white/5"
+                  className="flex items-start gap-3 p-3 rounded-lg bg-black/5 "
                 >
                   <Loader2 className="w-4 h-4 animate-spin text-orange shrink-0 mt-0.5" />
                   <div className="min-w-0">

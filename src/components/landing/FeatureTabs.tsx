@@ -100,7 +100,7 @@ export function FeatureTabs() {
               <div className="flex items-start gap-4">
                 <span
                   className={`font-mono text-[11px] tracking-widest pt-1 transition-colors ${
-                    selected ? "text-orange" : "text-muted-foreground/50"
+                    selected ? "text-orange" : "text-muted-foreground"
                   }`}
                 >
                   {t.index}
@@ -109,7 +109,7 @@ export function FeatureTabs() {
                   <div className="flex items-center gap-2.5 mb-1.5">
                     <t.icon
                       className={`w-4 h-4 shrink-0 transition-colors ${
-                        selected ? "text-orange" : "text-muted-foreground/60"
+                        selected ? "text-orange" : "text-muted-foreground"
                       }`}
                     />
                     <h3 className="font-display font-semibold text-base tracking-tight">
@@ -120,7 +120,7 @@ export function FeatureTabs() {
                     className={`text-sm leading-relaxed transition-colors ${
                       selected
                         ? "text-foreground/80"
-                        : "text-muted-foreground/70"
+                        : "text-muted-foreground"
                     }`}
                   >
                     {t.headline}
@@ -149,7 +149,7 @@ export function FeatureTabs() {
             <div className="flex items-center justify-between gap-4 mb-6">
               <div className="flex items-center gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-orange animate-pulse" />
-                <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-orange/70">
+                <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-orange">
                   Step {tab.index}
                 </span>
               </div>
@@ -157,7 +157,7 @@ export function FeatureTabs() {
                 {tab.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="text-[10px] px-2.5 py-1 rounded-full border border-border/25 bg-black/[0.03] dark:bg-white/[0.03] text-muted-foreground/60 font-mono tracking-wide"
+                    className="text-[10px] px-2.5 py-1 rounded-full border border-border/25 bg-black/[0.03] text-muted-foreground font-mono tracking-wide"
                   >
                     {tag}
                   </span>

@@ -121,7 +121,7 @@ export default async function BlogArticlePage({
             {/* Back link */}
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 h-9 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] dark:hover:bg-white/[0.04] transition-all animate-fade-up"
+              className="inline-flex items-center gap-2 h-9 px-3 rounded-lg text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-black/[0.03] transition-all animate-fade-up"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               Back to Blog
@@ -132,7 +132,7 @@ export default async function BlogArticlePage({
                 <div className="w-10 h-10 rounded-xl bg-orange/10 text-orange border border-orange/10 flex items-center justify-center shrink-0">
                   <Icon className="w-5 h-5" />
                 </div>
-                <span className="text-xs font-mono text-orange/70 tracking-[0.2em] uppercase">
+                <span className="text-xs font-mono text-orange tracking-[0.2em] uppercase">
                   GoScript Journal
                 </span>
               </div>
@@ -141,13 +141,13 @@ export default async function BlogArticlePage({
                 {post.title}
               </h1>
 
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11px] font-mono text-muted-foreground/60 tracking-wider uppercase animate-fade-up-d2">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[11px] font-mono text-muted-foreground tracking-wider uppercase animate-fade-up-d2">
                 <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-                <span className="text-orange/40">&middot;</span>
+                <span className="text-orange">&middot;</span>
                 <span>{post.readTime}</span>
-                <span className="text-muted-foreground/30">&middot;</span>
+                <span className="text-muted-foreground">&middot;</span>
                 <span>
-                  {post.author.name} <span className="text-muted-foreground/40">/{post.author.role}</span>
+                  {post.author.name} <span className="text-muted-foreground">/{post.author.role}</span>
                 </span>
               </div>
 
@@ -156,7 +156,7 @@ export default async function BlogArticlePage({
                   <Link
                     key={tag}
                     href={`/blog/tag/${encodeURIComponent(tag)}`}
-                    className="text-[10px] px-2.5 py-1 rounded-full border border-orange/15 bg-orange/[0.03] text-orange/70 font-mono tracking-wider uppercase hover:border-orange/40 hover:text-orange transition-colors"
+                    className="text-[10px] px-2.5 py-1 rounded-full border border-orange/15 bg-orange/[0.03] text-orange font-mono tracking-wider uppercase hover:border-orange/40 hover:text-orange transition-colors"
                   >
                     {tag}
                   </Link>
@@ -211,7 +211,7 @@ export default async function BlogArticlePage({
           <section className="relative py-12 sm:py-16">
             <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+                <span className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
                   Keep reading
                 </span>
                 <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -255,7 +255,7 @@ export default async function BlogArticlePage({
                 </p>
                 <Link
                   href="/channels/new"
-                  className="group/cta relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] transition-all shadow-lg shadow-orange/20 animate-glow-ring"
+                  className="group/cta relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] transition-all shadow-lg shadow-orange/20 animate-glow-ring"
                 >
                   <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover/cta:opacity-100 transition-opacity duration-500" />
                   <span className="relative flex items-center gap-2.5">
@@ -278,18 +278,18 @@ export default async function BlogArticlePage({
                   <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-orange/20 to-orange/5 border border-orange/10 flex items-center justify-center">
                     <span className="text-[10px] font-bold text-orange">G</span>
                   </div>
-                  <span className="text-xs font-mono text-orange/40 tracking-wider uppercase">GoScript</span>
+                  <span className="text-xs font-mono text-orange tracking-wider uppercase">GoScript</span>
                 </div>
-                <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground/40 tracking-wider uppercase">
-                  <Link href="/blog" className="hover:text-orange/60 transition-colors">
+                <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground tracking-wider uppercase">
+                  <Link href="/blog" className="hover:text-orange transition-colors">
                     Journal
                   </Link>
                   <span className="w-px h-3 bg-muted-foreground/10" />
-                  <Link href="/channels/new" className="hover:text-orange/60 transition-colors">
+                  <Link href="/channels/new" className="hover:text-orange transition-colors">
                     Analyze a Channel
                   </Link>
                   <span className="w-px h-3 bg-muted-foreground/10" />
-                  <span className="hover:text-orange/60 transition-colors">{new Date().getFullYear()}</span>
+                  <span className="hover:text-orange transition-colors">{new Date().getFullYear()}</span>
                 </div>
               </div>
             </div>

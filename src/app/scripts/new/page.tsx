@@ -363,7 +363,7 @@ function NewScriptForm() {
             )}
 
             {/* Script Type Toggle */}
-            <div className="flex gap-1.5 mb-4 p-1 rounded-xl bg-black/5 dark:bg-white/[0.04]">
+            <div className="flex gap-1.5 mb-4 p-1 rounded-xl bg-black/5 ">
               <button
                 type="button"
                 onClick={() => setScriptType("blueprint")}
@@ -426,24 +426,24 @@ function NewScriptForm() {
                     )}
                   </select>
                   {selectedBlueprint && (
-                    <div className="text-xs text-muted-foreground space-y-1 p-2.5 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-black/5 dark:border-white/[0.06] mt-2">
+                    <div className="text-xs text-muted-foreground space-y-1 p-2.5 rounded-lg bg-black/5 border border-black/5 mt-2">
                       <p><span className="font-medium text-foreground/70">Niche:</span> {selectedBlueprint.channel_summary?.niche}</p>
                       <p><span className="font-medium text-foreground/70">Style:</span> {selectedBlueprint.channel_summary?.channel_style}</p>
                       <div className="flex flex-wrap gap-1 mt-1.5">
                         {(selectedBlueprint.channel_summary?.content_pillars || []).slice(0, 3).map((p, i) => (
-                          <span key={i} className="text-[10px] px-2 py-0.5 rounded-full bg-black/5 dark:bg-white/[0.04] border border-black/5 dark:border-white/[0.06]">{p}</span>
+                          <span key={i} className="text-[10px] px-2 py-0.5 rounded-full bg-black/5 border border-black/5 ">{p}</span>
                         ))}
                       </div>
                     </div>
                   )}
                   {selectedAnalysis && (
-                    <div className="text-xs text-muted-foreground space-y-1 p-2.5 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-black/5 dark:border-white/[0.06] mt-2">
+                    <div className="text-xs text-muted-foreground space-y-1 p-2.5 rounded-lg bg-black/5 border border-black/5 mt-2">
                       <p><span className="font-medium text-foreground/70">Hook Style:</span> {selectedAnalysis.analysis_data?.hook_style}</p>
                       <p><span className="font-medium text-foreground/70">Tone:</span> {selectedAnalysis.analysis_data?.tone}</p>
                       <p><span className="font-medium text-foreground/70">Summary:</span> {selectedAnalysis.analysis_data?.summary}</p>
                       <div className="flex flex-wrap gap-1 mt-1.5">
                         {(selectedAnalysis.analysis_data?.key_techniques || []).slice(0, 3).map((t, i) => (
-                          <span key={i} className="text-[10px] px-2 py-0.5 rounded-full bg-black/5 dark:bg-white/[0.04] border border-black/5 dark:border-white/[0.06]">{t}</span>
+                          <span key={i} className="text-[10px] px-2 py-0.5 rounded-full bg-black/5 border border-black/5 ">{t}</span>
                         ))}
                       </div>
                     </div>
@@ -453,7 +453,7 @@ function NewScriptForm() {
 
               <div className="space-y-1.5">
                 <label className="text-xs font-medium text-muted-foreground">Target Duration</label>
-                <div className="flex gap-1.5 p-1 rounded-xl bg-black/5 dark:bg-white/[0.04]">
+                <div className="flex gap-1.5 p-1 rounded-xl bg-black/5 ">
                   {[5, 10, 15, 20].map((m) => (
                     <button
                       key={m}
@@ -472,7 +472,7 @@ function NewScriptForm() {
               </div>
 
               {/* Visual Descriptions Toggle */}
-              <div className="flex items-center justify-between p-3 rounded-xl border border-border/30 bg-black/5 dark:bg-white/[0.02] group hover:border-border/50 transition-colors">
+              <div className="flex items-center justify-between p-3 rounded-xl border border-border/30 bg-black/5 group hover:border-border/50 transition-colors">
                 <div className="space-y-0.5">
                   <label className="text-xs font-medium text-foreground/80">Visual Descriptions</label>
                   <p className="text-[11px] text-muted-foreground/60">Include scene-by-scene visual cues in the script body</p>
@@ -485,7 +485,7 @@ function NewScriptForm() {
                   className={`relative h-6 w-11 rounded-full transition-all shrink-0 ring-1 ring-inset ${
                     includeVisuals
                       ? "bg-orange ring-orange/30"
-                      : "bg-black/10 dark:bg-white/[0.08] ring-black/10 dark:ring-white/[0.08]"
+                      : "bg-black/10 ring-black/10 "
                   }`}
                 >
                   <span className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white shadow-sm transition-all ${
@@ -551,7 +551,7 @@ function NewScriptForm() {
                   (scriptType === "standard" && !description.trim()) ||
                   generatingHeadings
                 }
-                className="inline-flex items-center justify-center gap-2 w-full h-11 px-5 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shadow-sm shadow-orange/20 active:scale-[0.98]"
+                className="inline-flex items-center justify-center gap-2 w-full h-11 px-5 rounded-xl bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shadow-sm shadow-orange/20 active:scale-[0.98]"
               >
                 {generatingHeadings ? (
                   <Loader2 className="w-4 h-4 animate-spin" />
@@ -595,7 +595,7 @@ function NewScriptForm() {
                 <>
                 <div className="space-y-2">
                   {headings.map((h, i) => (
-                    <div key={i} className="flex items-center gap-2 p-2 rounded-xl border border-border/30 bg-black/5 dark:bg-white/[0.02] group hover:border-border/50 transition-colors">
+                    <div key={i} className="flex items-center gap-2 p-2 rounded-xl border border-border/30 bg-black/5 group hover:border-border/50 transition-colors">
                       <div className="flex flex-col gap-0.5">
                         <button
                           onClick={() => moveHeading(i, -1)}
@@ -657,7 +657,7 @@ function NewScriptForm() {
                   <button
                     onClick={generateFullScript}
                     disabled={headings.length === 0 || generatingScript}
-                    className="flex-1 h-9 rounded-xl bg-orange text-black text-xs font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5 shadow-sm shadow-orange/20 active:scale-[0.98]"
+                    className="flex-1 h-9 rounded-xl bg-orange text-accent-foreground text-xs font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5 shadow-sm shadow-orange/20 active:scale-[0.98]"
                   >
                     {generatingScript ? (
                       <Loader2 className="w-4 h-4 animate-spin" />
@@ -727,7 +727,7 @@ function NewScriptForm() {
                     <span className="font-normal ml-2">(use ## headings for sections, Hook, and CTA)</span>
                   </label>
                   <div className="flex border border-border/50 rounded-lg overflow-hidden bg-background">
-                    <div className="select-none text-right px-2 py-2 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-border/20 bg-black/[0.02] dark:bg-white/[0.02] min-w-[2.5rem]">
+                    <div className="select-none text-right px-2 py-2 text-xs leading-relaxed text-muted-foreground/30 font-mono border-r border-border/20 bg-black/[0.02] min-w-[2.5rem]">
                       {Array.from({ length: bodyText.split("\n").length }, (_, i) => (
                         <div key={i}>{i + 1}</div>
                       ))}
@@ -799,11 +799,11 @@ function NewScriptForm() {
                 <div className="h-px bg-border/30 my-2" />
 
                 <div className="flex gap-2">
-                  <button onClick={save} disabled={saved} className="flex-1 h-9 rounded-xl bg-orange text-black text-xs font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5 shadow-sm shadow-orange/20 active:scale-[0.98]">
+                  <button onClick={save} disabled={saved} className="flex-1 h-9 rounded-xl bg-orange text-accent-foreground text-xs font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-1.5 shadow-sm shadow-orange/20 active:scale-[0.98]">
                     {saved ? <Check className="w-3.5 h-3.5" /> : <Save className="w-3.5 h-3.5" />}
                     {saved ? "Saved" : "Save"}
                   </button>
-                  <button onClick={copyAll} className="flex-1 h-9 rounded-xl border border-border/40 text-xs font-medium text-muted-foreground hover:text-foreground hover:border-border hover:bg-black/5 dark:hover:bg-white/[0.04] transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]">
+                  <button onClick={copyAll} className="flex-1 h-9 rounded-xl border border-border/40 text-xs font-medium text-muted-foreground hover:text-foreground hover:border-border hover:bg-black/5 transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]">
                     {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                     {copied ? "Copied" : "Copy"}
                   </button>

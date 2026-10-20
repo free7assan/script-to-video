@@ -126,7 +126,7 @@ export function LiveProgress({ channelId }: { channelId: string }) {
         {/* Progress bar (never completed) */}
         {job.status !== "completed" && (
           <div className="space-y-2">
-            <div className="h-2 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+            <div className="h-2 rounded-full bg-black/5 overflow-hidden">
               <div
                 className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-500 ease-out"
                 style={{ width: `${job.progress}%` }}
@@ -207,7 +207,7 @@ export function LiveProgress({ channelId }: { channelId: string }) {
               {analyzedVideos.map((v) => (
                 <div
                   key={v.id}
-                  className="flex items-start gap-2 text-xs p-2 rounded-lg bg-black/5 dark:bg-white/5"
+                  className="flex items-start gap-2 text-xs p-2 rounded-lg bg-black/5 "
                 >
                   <CheckCircle2 className="w-3 h-3 text-green-500 shrink-0 mt-0.5" />
                   <span className="text-muted-foreground line-clamp-2">{v.title || v.youtube_video_id}</span>
@@ -228,7 +228,7 @@ export function LiveProgress({ channelId }: { channelId: string }) {
               {videos.filter((v) => !v.analysis).slice(0, 10).map((v) => (
                 <div
                   key={v.id}
-                  className="flex items-start gap-2 text-xs p-2 rounded-lg bg-black/5 dark:bg-white/5"
+                  className="flex items-start gap-2 text-xs p-2 rounded-lg bg-black/5 "
                 >
                   <Loader2 className="w-3 h-3 animate-spin text-orange shrink-0 mt-0.5" />
                   <span className="text-muted-foreground line-clamp-1">{v.title || v.youtube_video_id}</span>

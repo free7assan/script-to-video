@@ -408,7 +408,7 @@ export default function AdminPage() {
                     <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${
                       ok
                         ? "text-emerald-500 border-emerald-500/20 bg-emerald-500/5"
-                        : "text-muted-foreground/40 border-border/20 bg-black/[0.02] dark:bg-white/[0.02]"
+                        : "text-muted-foreground/40 border-border/20 bg-black/[0.02] "
                     }`}>
                       {ok ? "Configured" : "Missing"}
                     </span>

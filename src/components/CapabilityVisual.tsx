@@ -3,7 +3,7 @@
 export function CapabilityVisual({ type }: { type: "transcript" | "patterns" | "phases" | "blueprint" }) {
   if (type === "transcript") {
     return (
-      <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         {/* Globe icon */}
         <circle cx="32" cy="30" r="14" className="stroke-orange/25 fill-orange/5" strokeWidth="1" />
         <ellipse cx="32" cy="30" rx="7" ry="14" className="stroke-orange/15" strokeWidth="0.5" />
@@ -55,7 +55,7 @@ export function CapabilityVisual({ type }: { type: "transcript" | "patterns" | "
 
   if (type === "patterns") {
     return (
-      <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         {/* Radar chart */}
         <polygon points="120,18 160,48 148,88 92,88 80,48" className="stroke-orange/20 fill-orange/5" strokeWidth="0.8" />
         <polygon points="120,32 145,52 138,75 102,75 95,52" className="stroke-orange/15 fill-orange/[0.03]" strokeWidth="0.5" />
@@ -98,7 +98,7 @@ export function CapabilityVisual({ type }: { type: "transcript" | "patterns" | "
 
   if (type === "phases") {
     return (
-      <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         {/* Phase 1 badge */}
         <rect x="10" y="14" width="28" height="12" rx="6" className="fill-orange/15 stroke-orange/25" strokeWidth="0.5" />
         <text x="24" y="22" textAnchor="middle" className="fill-orange/40" fontSize="5" fontFamily="monospace" fontWeight="600">P1</text>
@@ -109,10 +109,10 @@ export function CapabilityVisual({ type }: { type: "transcript" | "patterns" | "
         <rect x="18" y="48" width="28" height="2" rx="1" className="fill-orange/18" />
         <rect x="18" y="54" width="18" height="2" rx="1" className="fill-orange/10" />
         {/* Arrow */}
-        <path d="M105 46H120" stroke="#F97316" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
+        <path d="M105 46H120" stroke="#8B5CF6" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
           <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1.5s" repeatCount="indefinite" />
         </path>
-        <path d="M117 42L125 46L117 50" stroke="#F97316" strokeWidth="1.2" opacity="0.5" />
+        <path d="M117 42L125 46L117 50" stroke="#8B5CF6" strokeWidth="1.2" opacity="0.5" />
         {/* Phase 2 badge */}
         <rect x="134" y="14" width="28" height="12" rx="6" className="fill-orange/15 stroke-orange/25" strokeWidth="0.5" />
         <text x="148" y="22" textAnchor="middle" className="fill-orange/40" fontSize="5" fontFamily="monospace" fontWeight="600">P2</text>
@@ -132,14 +132,14 @@ export function CapabilityVisual({ type }: { type: "transcript" | "patterns" | "
         {/* Connecting dashed line */}
         <line x1="55" y1="72" x2="180" y2="72" className="stroke-orange/10" strokeWidth="0.5" strokeDasharray="2 3" />
         {/* Checkmark */}
-        <path d="M120 88 L124 92 L132 84" stroke="#F97316" strokeWidth="1.2" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M120 88 L124 92 L132 84" stroke="#8B5CF6" strokeWidth="1.2" opacity="0.3" strokeLinecap="round" strokeLinejoin="round" />
         <text x="138" y="90" className="fill-orange/20" fontSize="5" fontFamily="monospace">2 PHASES</text>
       </svg>
     );
   }
 
   return (
-    <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Bookshelf */}
       <line x1="10" y1="22" x2="230" y2="22" className="stroke-orange/20" strokeWidth="1" />
       <line x1="10" y1="58" x2="230" y2="58" className="stroke-orange/20" strokeWidth="1" />

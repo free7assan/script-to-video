@@ -3,7 +3,7 @@
 export function WorkflowVisual({ phase }: { phase: "outline" | "script" }) {
   if (phase === "outline") {
     return (
-      <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         {/* Header */}
         <rect x="10" y="10" width="220" height="20" rx="4" className="stroke-orange/20 fill-orange/[0.03]" strokeWidth="0.8" />
         <rect x="18" y="16" width="50" height="8" rx="4" className="fill-orange/20" />
@@ -48,7 +48,7 @@ export function WorkflowVisual({ phase }: { phase: "outline" | "script" }) {
   }
 
   return (
-    <svg viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 240 130" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Toolbar */}
       <rect x="10" y="10" width="220" height="22" rx="4" className="stroke-orange/20 fill-orange/[0.03]" strokeWidth="0.8" />
       <rect x="18" y="15" width="60" height="12" rx="4" className="fill-orange/20" />

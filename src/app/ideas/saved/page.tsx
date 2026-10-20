@@ -88,7 +88,7 @@ export default function SavedIdeasPage() {
           </p>
           <Link
             href="/ideas"
-            className="inline-flex items-center gap-2 h-9 px-4 rounded-lg bg-orange text-black text-sm font-semibold hover:bg-orange/90 transition-all"
+            className="inline-flex items-center gap-2 h-9 px-4 rounded-lg bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 transition-all"
           >
             <Lightbulb className="w-4 h-4" />
             Browse Ideas

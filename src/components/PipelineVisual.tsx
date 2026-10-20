@@ -3,21 +3,21 @@
 export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generate" }) {
   if (step === "ingest") {
     return (
-      <svg viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="g-orange" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#F97316" />
-            <stop offset="100%" stopColor="#EA580C" />
+            <stop offset="0%" stopColor="#8B5CF6" />
+            <stop offset="100%" stopColor="#7C3AED" />
           </linearGradient>
         </defs>
         {/* YouTube icon */}
         <rect x="12" y="35" width="40" height="28" rx="6" className="stroke-orange/30 fill-orange/5" strokeWidth="1.2" />
         <polygon points="28,42 28,56 40,49" className="fill-orange/40" />
         {/* Arrow */}
-        <path d="M55 49H75" stroke="#F97316" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
+        <path d="M55 49H75" stroke="#8B5CF6" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
           <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1.5s" repeatCount="indefinite" />
         </path>
-        <path d="M72 44L80 49L72 54" stroke="#F97316" strokeWidth="1.2" opacity="0.5" />
+        <path d="M72 44L80 49L72 54" stroke="#8B5CF6" strokeWidth="1.2" opacity="0.5" />
         {/* Document stack */}
         {[0, 1, 2].map((i) => (
           <rect
@@ -36,10 +36,10 @@ export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generat
         <rect x="93" y="47" width="14" height="1.5" rx="0.75" className="fill-orange/15" />
         <rect x="93" y="51" width="17" height="1.5" rx="0.75" className="fill-orange/10" />
         {/* Data flow arrow */}
-        <path d="M125 49H145" stroke="#F97316" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
+        <path d="M125 49H145" stroke="#8B5CF6" strokeWidth="1.5" strokeDasharray="3 2" opacity="0.4">
           <animate attributeName="stroke-dashoffset" from="0" to="-10" dur="1.5s" repeatCount="indefinite" />
         </path>
-        <path d="M142 44L150 49L142 54" stroke="#F97316" strokeWidth="1.2" opacity="0.5" />
+        <path d="M142 44L150 49L142 54" stroke="#8B5CF6" strokeWidth="1.2" opacity="0.5" />
         {/* Database cylinder */}
         <ellipse cx="180" cy="42" rx="22" ry="6" className="fill-orange/10 stroke-orange/25" strokeWidth="1" />
         <path d="M158 42V58C158 61.3 167.8 64 180 64C192.2 64 202 61.3 202 58V42" className="stroke-orange/25 fill-orange/[0.03]" strokeWidth="1" />
@@ -64,11 +64,11 @@ export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generat
 
   if (step === "analyze") {
     return (
-      <svg viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg aria-hidden="true" viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="g-orng" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#F97316" />
-            <stop offset="100%" stopColor="#EA580C" />
+            <stop offset="0%" stopColor="#8B5CF6" />
+            <stop offset="100%" stopColor="#7C3AED" />
           </linearGradient>
         </defs>
         {/* Source video */}
@@ -110,7 +110,7 @@ export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generat
         <rect x="115" y="98" width="35" height="3" rx="1.5" className="fill-orange/15" />
         <rect x="115" y="104" width="42" height="3" rx="1.5" className="fill-orange/20" />
         {/* Animated wave */}
-        <path d="M170 43 Q177 37 184 43 Q191 49 198 43" stroke="#F97316" strokeWidth="1" opacity="0.2" fill="none">
+        <path d="M170 43 Q177 37 184 43 Q191 49 198 43" stroke="#8B5CF6" strokeWidth="1" opacity="0.2" fill="none">
           <animate attributeName="d" values="M170 43 Q177 37 184 43 Q191 49 198 43;M170 43 Q177 49 184 43 Q191 37 198 43;M170 43 Q177 37 184 43 Q191 49 198 43" dur="4s" repeatCount="indefinite" />
         </path>
       </svg>
@@ -118,11 +118,11 @@ export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generat
   }
 
   return (
-    <svg viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 240 140" className="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="g-orn" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#F97316" />
-          <stop offset="100%" stopColor="#EA580C" />
+          <stop offset="0%" stopColor="#8B5CF6" />
+          <stop offset="100%" stopColor="#7C3AED" />
         </linearGradient>
       </defs>
       {/* Left: outline panels */}
@@ -133,10 +133,10 @@ export function PipelineVisual({ step }: { step: "ingest" | "analyze" | "generat
       <rect x="16" y="27" width="22" height="2" rx="1" className="fill-orange/20" />
       <rect x="16" y="32" width="25" height="2" rx="1" className="fill-orange/15" />
       {/* Arrow between panels */}
-      <path d="M78 30H88" stroke="#F97316" strokeWidth="1.2" strokeDasharray="2 2" opacity="0.4">
+      <path d="M78 30H88" stroke="#8B5CF6" strokeWidth="1.2" strokeDasharray="2 2" opacity="0.4">
         <animate attributeName="stroke-dashoffset" from="0" to="-8" dur="1.5s" repeatCount="indefinite" />
       </path>
-      <path d="M86 26L92 30L86 34" stroke="#F97316" strokeWidth="1" opacity="0.5" />
+      <path d="M86 26L92 30L86 34" stroke="#8B5CF6" strokeWidth="1" opacity="0.5" />
       {/* Right: full script */}
       <rect x="96" y="14" width="80" height="42" rx="4" className="stroke-orange/30 fill-orange/5" strokeWidth="1" />
       {/* Script lines */}

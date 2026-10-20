@@ -281,7 +281,7 @@ export function ChannelAnalyzer() {
             <button
               onClick={startAnalysis}
               disabled={!url.trim()}
-              className="inline-flex items-center gap-2 h-10 px-4 rounded-lg bg-orange text-black text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
+              className="inline-flex items-center gap-2 h-10 px-4 rounded-lg bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed shrink-0"
             >
               <Play className="w-4 h-4" />
               Analyze
@@ -293,7 +293,7 @@ export function ChannelAnalyzer() {
       {/* ──── Progress phase ──── */}
       {phase === "progress" && (
         <div className="p-6 space-y-4">
-          <div className="h-2 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+          <div className="h-2 rounded-full bg-black/5 overflow-hidden">
             <div
               className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-700 ease-out"
               style={{ width: `${progress}%` }}
@@ -318,7 +318,7 @@ export function ChannelAnalyzer() {
                 <button
                   onClick={() => handleAction("pause")}
                   disabled={busy !== null}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                 >
                   {busy === "pause" ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Pause className="w-3.5 h-3.5" />}
                   Pause
@@ -326,7 +326,7 @@ export function ChannelAnalyzer() {
                 <button
                   onClick={() => handleAction("cancel")}
                   disabled={busy !== null}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                 >
                   {busy === "cancel" ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <StopCircle className="w-3.5 h-3.5" />}
                   Cancel
@@ -337,7 +337,7 @@ export function ChannelAnalyzer() {
               <button
                 onClick={() => handleAction("resume")}
                 disabled={busy !== null}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 {busy === "resume" ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Play className="w-3.5 h-3.5" />}
                 Resume
@@ -346,7 +346,7 @@ export function ChannelAnalyzer() {
             {status === "error" && (
               <button
                 onClick={startAnalysis}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
                 Retry
@@ -356,7 +356,7 @@ export function ChannelAnalyzer() {
               <button
                 onClick={() => handleAction("resume")}
                 disabled={busy !== null}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 {busy === "resume" ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Play className="w-3.5 h-3.5" />}
                 Resume
@@ -376,7 +376,7 @@ export function ChannelAnalyzer() {
             </div>
 
             {/* Channel info */}
-            <div className="flex items-center gap-3 rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="flex items-center gap-3 rounded-lg bg-black/5 p-3 border border-border/20">
               {channel.thumbnail_url ? (
                 <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-orange/20 shrink-0">
                   <img
@@ -404,7 +404,7 @@ export function ChannelAnalyzer() {
             </div>
 
             {/* Blueprint sections */}
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
                 Channel Summary
               </span>
@@ -421,7 +421,7 @@ export function ChannelAnalyzer() {
               )}
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
                 Video Structure
               </span>
@@ -440,7 +440,7 @@ export function ChannelAnalyzer() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
                 Script Methodology
               </span>
@@ -459,7 +459,7 @@ export function ChannelAnalyzer() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-black/5 dark:bg-white/[0.03] p-3 border border-border/20">
+            <div className="rounded-lg bg-black/5 p-3 border border-border/20">
               <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wider">
                 Content Themes
               </span>
@@ -490,7 +490,7 @@ export function ChannelAnalyzer() {
                 </Link>
                 <button
                   onClick={reset}
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                 >
                   <ArrowLeft className="w-3.5 h-3.5" />
                   Analyze Another
@@ -513,7 +513,7 @@ export function ChannelAnalyzer() {
             {status === "error" && (
               <button
                 onClick={startAnalysis}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 <RefreshCw className="w-3.5 h-3.5" />
                 Retry
@@ -523,7 +523,7 @@ export function ChannelAnalyzer() {
               <button
                 onClick={() => handleAction("resume")}
                 disabled={busy !== null}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-black hover:bg-orange/90 transition-all"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-orange text-accent-foreground hover:bg-orange/90 transition-all"
               >
                 {busy === "resume" ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Play className="w-3.5 h-3.5" />}
                 Resume
@@ -531,7 +531,7 @@ export function ChannelAnalyzer() {
             )}
             <button
               onClick={reset}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/5 transition-all"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
             >
               Start Over
             </button>
@@ -555,7 +555,7 @@ export function ChannelAnalyzer() {
               return (
                 <div
                   key={ch.id}
-                  className="p-3 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-border/20 space-y-2"
+                  className="p-3 rounded-lg bg-black/5 border border-border/20 space-y-2"
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0">
@@ -564,7 +564,7 @@ export function ChannelAnalyzer() {
                     </div>
                     <span className={`shrink-0 text-[10px] font-medium px-2 py-0.5 rounded-full border ${
                       ch.status === "error" ? "text-red-400 border-red-500/30 bg-red-500/10" :
-                      ch.status === "paused" ? "text-muted-foreground border-border/50 bg-black/5 dark:bg-white/5" :
+                      ch.status === "paused" ? "text-muted-foreground border-border/50 bg-black/5 " :
                       "badge-primary"
                     }`}>
                       {ch.status}
@@ -573,7 +573,7 @@ export function ChannelAnalyzer() {
 
                   {job && isRunning && (
                     <>
-                      <div className="h-1.5 rounded-full bg-black/5 dark:bg-white/5 overflow-hidden">
+                      <div className="h-1.5 rounded-full bg-black/5 overflow-hidden">
                         <div
                           className="h-full rounded-full bg-gradient-to-r from-orange to-prussian-blue transition-all duration-500 ease-out"
                           style={{ width: `${job.progress}%` }}
@@ -601,7 +601,7 @@ export function ChannelAnalyzer() {
                       <>
                         <button
                           onClick={() => channelAction(ch.id, "pause")}
-                          className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/[0.04] transition-all"
+                          className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[11px] font-medium border border-border/50 text-muted-foreground hover:text-foreground hover:bg-black/5 transition-all"
                         >
                           <Pause className="w-3 h-3" />
                           Pause
@@ -653,7 +653,7 @@ export function ChannelAnalyzer() {
               <Link
                 key={ch.id}
                 href={`/channels/${ch.id}`}
-                className="flex items-start gap-3 p-2.5 rounded-lg bg-black/5 dark:bg-white/[0.03] border border-border/20 hover:border-border/50 transition-all group"
+                className="flex items-start gap-3 p-2.5 rounded-lg bg-black/5 border border-border/20 hover:border-border/50 transition-all group"
               >
                 {ch.thumbnail_url ? (
                   <div className="w-8 h-8 rounded-full overflow-hidden ring-1 ring-orange/10 shrink-0">
@@ -670,7 +670,7 @@ export function ChannelAnalyzer() {
                   {ch.blueprint?.channel_summary && (
                     <div className="flex flex-wrap gap-1 mt-1">
                       {(ch.blueprint.channel_summary.content_pillars || []).slice(0, 2).map((p, i) => (
-                        <span key={i} className="text-[10px] px-1.5 py-0.5 rounded-full bg-black/5 dark:bg-white/[0.04] border border-border/30">
+                        <span key={i} className="text-[10px] px-1.5 py-0.5 rounded-full bg-black/5 border border-border/30">
                           {p}
                         </span>
                       ))}

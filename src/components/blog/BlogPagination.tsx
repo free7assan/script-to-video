@@ -75,7 +75,7 @@ interface LoadMoreProps {
 export function LoadMore({ remaining, loading, error, onLoadMore }: LoadMoreProps) {
   if (remaining === 0) {
     return (
-      <span className="text-[10px] font-mono text-muted-foreground/40 tracking-[0.25em] uppercase">
+      <span className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
         End of the journal
       </span>
     );
@@ -88,7 +88,7 @@ export function LoadMore({ remaining, loading, error, onLoadMore }: LoadMoreProp
         onClick={onLoadMore}
         disabled={loading}
         aria-busy={loading}
-        className="group relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl border border-orange/30 bg-orange/[0.04] text-sm font-semibold text-orange hover:bg-orange hover:text-black hover:scale-[1.02] disabled:opacity-60 disabled:hover:scale-100 transition-all duration-300"
+        className="group relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl border border-orange/30 bg-orange/[0.04] text-sm font-semibold text-orange hover:bg-orange hover:text-accent-foreground hover:scale-[1.02] disabled:opacity-60 disabled:hover:scale-100 transition-all duration-300"
       >
         {loading ? (
           <Loader2 className="w-4 h-4 animate-spin" aria-hidden />
@@ -102,7 +102,7 @@ export function LoadMore({ remaining, loading, error, onLoadMore }: LoadMoreProp
           Couldn&apos;t load more — try again
         </span>
       ) : (
-        <span className="text-[10px] font-mono text-muted-foreground/40 tracking-[0.2em] uppercase">
+        <span className="text-[10px] font-mono text-muted-foreground tracking-[0.2em] uppercase">
           {remaining} more to load
         </span>
       )}

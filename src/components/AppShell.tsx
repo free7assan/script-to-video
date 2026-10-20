@@ -3,11 +3,13 @@
 import { usePathname } from "next/navigation";
 import { LandingNav } from "@/components/LandingNav";
 import { Sidebar } from "@/components/Sidebar";
+import { useAuth } from "@/components/AuthProvider";
 
 const authRoutes = new Set(["/login", "/signup"]);
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const { user, loading } = useAuth();
   const isHome = pathname === "/";
   const isBlog = pathname === "/blog" || pathname.startsWith("/blog/");
   const isAuth = authRoutes.has(pathname);
@@ -32,6 +34,20 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           {children}
         </main>
       </>
+    );
+  }
+
+  // App pages — sidebar only for signed-in users. Signed-out visitors (e.g. /admin
+  // renders its own login form) get the plain centered layout with no sidebar gutter.
+  const showSidebar = !loading && !!user;
+
+  if (!showSidebar) {
+    return (
+      <main className="relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {children}
+        </div>
+      </main>
     );
   }
 

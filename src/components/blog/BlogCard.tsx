@@ -34,7 +34,7 @@ export function BlogCard({ post, featured = false, className = "" }: BlogCardPro
           >
             <Icon className={featured ? "w-6 h-6" : "w-5 h-5"} />
           </div>
-          <span className="text-[10px] font-mono tracking-[0.2em] uppercase text-orange/50 inline-flex items-center gap-1.5 pt-1 shrink-0">
+          <span className="text-[10px] font-mono tracking-[0.2em] uppercase text-orange inline-flex items-center gap-1.5 pt-1 shrink-0">
             {featured && (
               <>
                 <span className="w-1.5 h-1.5 rounded-full bg-orange animate-pulse-glow inline-block" />
@@ -42,7 +42,7 @@ export function BlogCard({ post, featured = false, className = "" }: BlogCardPro
               </>
             )}
             <ArrowUpRight
-              className={`text-muted-foreground/40 group-hover:text-orange group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300 ${
+              className={`text-muted-foreground group-hover:text-orange group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300 ${
                 featured ? "w-5 h-5" : "w-4 h-4"
               }`}
             />
@@ -53,7 +53,7 @@ export function BlogCard({ post, featured = false, className = "" }: BlogCardPro
           {post.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="text-[10px] px-2.5 py-1 rounded-full border border-orange/15 bg-orange/[0.03] text-orange/70 font-mono tracking-wider uppercase"
+              className="text-[10px] px-2.5 py-1 rounded-full border border-orange/15 bg-orange/[0.03] text-orange font-mono tracking-wider uppercase"
             >
               {tag}
             </span>
@@ -76,11 +76,11 @@ export function BlogCard({ post, featured = false, className = "" }: BlogCardPro
           {post.excerpt}
         </p>
 
-        <div className="relative flex items-center gap-2 mt-auto text-[10px] font-mono text-muted-foreground/60 tracking-wider uppercase">
+        <div className="relative flex items-center gap-2 mt-auto text-[10px] font-mono text-muted-foreground tracking-wider uppercase">
           <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-          <span className="text-orange/40">&middot;</span>
+          <span className="text-orange">&middot;</span>
           <span>{post.readTime}</span>
-          <span className="text-muted-foreground/30">&middot;</span>
+          <span className="text-muted-foreground">&middot;</span>
           <span className="truncate">
             {post.author.name} / {post.author.role}
           </span>

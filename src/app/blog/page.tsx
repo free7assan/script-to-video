@@ -52,7 +52,7 @@ export default function BlogPage() {
             <div className="max-w-2xl">
               <div className="flex items-center gap-4 mb-5 animate-fade-up">
                 <span className="w-8 h-px bg-orange/30" />
-                <span className="text-xs sm:text-sm font-mono text-orange/70 tracking-[0.2em] uppercase">
+                <span className="text-xs sm:text-sm font-mono text-orange tracking-[0.2em] uppercase">
                   Journal
                 </span>
               </div>
@@ -78,7 +78,7 @@ export default function BlogPage() {
           <section className="relative pb-12 sm:pb-14">
             <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-[10px] font-mono text-muted-foreground/50 tracking-[0.25em] uppercase">
+                <span className="text-[10px] font-mono text-muted-foreground tracking-[0.25em] uppercase">
                   Browse by topic
                 </span>
                 <span className="flex-1 h-px bg-gradient-to-r from-orange/20 to-transparent" />
@@ -88,10 +88,10 @@ export default function BlogPage() {
                   <Link
                     key={tag}
                     href={`/blog/tag/${encodeURIComponent(tag)}`}
-                    className="group inline-flex items-center gap-2 h-9 px-3.5 rounded-full border border-orange/15 bg-orange/[0.03] text-xs font-mono tracking-wider uppercase text-orange/70 hover:border-orange/40 hover:bg-orange/[0.08] hover:text-orange transition-all"
+                    className="group inline-flex items-center gap-2 h-9 px-3.5 rounded-full border border-orange/15 bg-orange/[0.03] text-xs font-mono tracking-wider uppercase text-orange hover:border-orange/40 hover:bg-orange/[0.08] hover:text-orange transition-all"
                   >
                     {tag}
-                    <span className="text-[10px] text-muted-foreground/40 group-hover:text-orange/60">
+                    <span className="text-[10px] text-muted-foreground group-hover:text-orange">
                       {count}
                     </span>
                   </Link>
@@ -130,7 +130,7 @@ export default function BlogPage() {
                 </p>
                 <Link
                   href="/channels/new"
-                  className="group/cta relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl bg-orange text-black text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] transition-all shadow-lg shadow-orange/20 animate-glow-ring"
+                  className="group/cta relative inline-flex items-center gap-2.5 h-12 px-8 rounded-xl bg-orange text-accent-foreground text-sm font-semibold hover:bg-orange/90 hover:scale-[1.02] transition-all shadow-lg shadow-orange/20 animate-glow-ring"
                 >
                   <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover/cta:opacity-100 transition-opacity duration-500" />
                   <span className="relative flex items-center gap-2.5">
@@ -152,12 +152,12 @@ export default function BlogPage() {
                   <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-orange/20 to-orange/5 border border-orange/10 flex items-center justify-center">
                     <span className="text-[10px] font-bold text-orange">G</span>
                   </div>
-                  <span className="text-xs font-mono text-orange/40 tracking-wider uppercase">GoScript</span>
+                  <span className="text-xs font-mono text-orange tracking-wider uppercase">GoScript</span>
                 </div>
-                <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground/40 tracking-wider uppercase">
-                  <span className="hover:text-orange/60 transition-colors">Pattern-Based Script Intelligence</span>
+                <div className="flex items-center gap-4 text-xs font-mono text-muted-foreground tracking-wider uppercase">
+                  <span className="hover:text-orange transition-colors">Pattern-Based Script Intelligence</span>
                   <span className="w-px h-3 bg-muted-foreground/10" />
-                  <span className="hover:text-orange/60 transition-colors">{new Date().getFullYear()}</span>
+                  <span className="hover:text-orange transition-colors">{new Date().getFullYear()}</span>
                 </div>
               </div>
             </div>
