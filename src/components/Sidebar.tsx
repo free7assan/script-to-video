@@ -16,6 +16,7 @@ import {
   Shield,
   Users,
   Activity,
+  BarChart3,
   Cog,
   TrendingUp,
   Lightbulb,
@@ -64,6 +65,7 @@ const adminLinks = [
   { href: "/admin", label: "Admin Dashboard", icon: Settings },
   { href: "/admin/users", label: "Users", icon: Users },
   { href: "/admin/health", label: "Health", icon: Activity },
+  { href: "/admin/analytics", label: "Analytics", icon: BarChart3 },
 ];
 
 export function Sidebar() {

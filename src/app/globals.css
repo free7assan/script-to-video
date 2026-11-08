@@ -26,6 +26,9 @@
     --input: 220 13% 91%;
     --ring: 260 72% 55%;
     --radius: 0.75rem;
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
   }
 }
 
@@ -94,22 +97,22 @@
     border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
   }
 
-  .btn-primary {
+    .btn-primary {
     @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
-           bg-orange text-accent-foreground
-           hover:bg-orange/90 active:bg-orange/80
-           transition-all duration-150
-           disabled:opacity-40 disabled:cursor-not-allowed
-           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange/40;
+            bg-primary text-accent-foreground
+            hover:bg-primary/90 active:bg-primary/80 active:scale-[0.97]
+            transition-all duration-150
+            disabled:opacity-40 disabled:cursor-not-allowed
+            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40;
   }
 
   .btn-secondary {
     @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-sm font-medium
-           bg-orange text-accent-foreground
-           hover:bg-orange/80 active:bg-orange/70
+           bg-primary text-accent-foreground
+           hover:bg-primary/80 active:bg-primary/70 active:scale-[0.97]
            transition-all duration-150
            disabled:opacity-40 disabled:cursor-not-allowed
-           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange/40;
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40;
   }
 
   .btn-ghost {
@@ -119,7 +122,7 @@
            active:bg-black/[0.05] 
            transition-all duration-150
            disabled:opacity-40 disabled:cursor-not-allowed
-           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange/30;
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30;
   }
 
   .btn-icon {
@@ -130,7 +133,7 @@
            border border-transparent hover:border-border/50
            transition-all duration-150
            disabled:opacity-40 disabled:cursor-not-allowed
-           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange/30;
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30;
   }
 
   .btn-icon-destructive {
@@ -146,7 +149,7 @@
   }
 
   .badge-secondary {
-    @apply badge text-foreground border-border/50 bg-foreground/[0.04];
+    @apply badge text-muted-foreground border-border/50 bg-foreground/[0.04];
   }
 
   .badge-muted {
